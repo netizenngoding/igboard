@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0836" view_id="@id/key_pos_shift" />
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b205e" view_id="@id/key_pos_move_cursor" />
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0e10" view_id="@id/key_pos_del" />
+    </key_mapping>
+    <key_mapping state="SHIFT,CAPS">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b241f" view_id="@id/key_pos_move_cursor" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0cc2" view_id="@id/key_pos_move_cursor" />
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0e11" view_id="@id/key_pos_del" />
+    </key_mapping>
+    <key_mapping state="SHIFT_LOCK,CAPS_LOCK">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0837" view_id="@id/key_pos_shift" />
+    </key_mapping>
+</framework>

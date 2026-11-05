@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector android:height="@dimen/APKTOOL_DUMMYVAL_0x7f0707f7" android:width="@dimen/APKTOOL_DUMMYVAL_0x7f0707f7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_pressed="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b073c" android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080680" />
+    <item android:state_checked="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0180" android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f08067d" />
+    <item android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2a69" android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f08067d" app:APKTOOL_DUMMYVAL_0x7f0409f6="true" />
+    <item android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29f0" android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080683" />
+    <transition android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080681" android:toId="@id/APKTOOL_DUMMYVAL_0x7f0b0180" android:fromId="@id/APKTOOL_DUMMYVAL_0x7f0b073c" />
+    <transition android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080681" android:toId="@id/APKTOOL_DUMMYVAL_0x7f0b2a69" android:fromId="@id/APKTOOL_DUMMYVAL_0x7f0b073c" />
+    <transition android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080682" android:toId="@id/APKTOOL_DUMMYVAL_0x7f0b29f0" android:fromId="@id/APKTOOL_DUMMYVAL_0x7f0b073c" />
+    <transition android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f08067e" android:toId="@id/APKTOOL_DUMMYVAL_0x7f0b073c" android:fromId="@id/APKTOOL_DUMMYVAL_0x7f0b0180" />
+    <transition android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f08067f" android:toId="@id/APKTOOL_DUMMYVAL_0x7f0b29f0" android:fromId="@id/APKTOOL_DUMMYVAL_0x7f0b0180" />
+    <transition android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f08067e" android:toId="@id/APKTOOL_DUMMYVAL_0x7f0b073c" android:fromId="@id/APKTOOL_DUMMYVAL_0x7f0b2a69" />
+    <transition android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080685" android:toId="@id/APKTOOL_DUMMYVAL_0x7f0b073c" android:fromId="@id/APKTOOL_DUMMYVAL_0x7f0b29f0" />
+    <transition android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080684" android:toId="@id/APKTOOL_DUMMYVAL_0x7f0b0180" android:fromId="@id/APKTOOL_DUMMYVAL_0x7f0b29f0" />
+</animated-selector>

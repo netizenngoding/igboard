@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="SHIFT">
+        <if language="as-Latn-IN|hi-Latn-IN|mr-Latn-IN|or-Latn-IN|sa-Latn-IN|trp-Latn-IN" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B09" />
+        </if>
+        <else_if language="anp-IN|as-IN|awa-IN|bfy-IN|bfz-IN|bgc-IN|bgq-IN|bhb-Deva|bho-IN|bjj-IN|bn-IN|bns-IN|brx-Beng|brx-Deva|ctg-BD|dhd-IN|doi-Deva|dty-NP|gbm-IN|gdx-IN|gju-Deva|gno-IN|grt-Beng|gvr-NP|hi-IN|hlb-IN|hlb-Orya|hne-IN|hoj-IN|kfq-IN|kfy-IN|kru-IN|ks-Deva|lif-Deva|lmn-Deva|mag-IN|mag-NP|mai-IN|mjl-IN|mni-Beng|mtr-IN|mup-IN|ne-NP|noe-IN|or-IN|pa-Guru|rkt-IN|rwr-IN|sa-IN|sat-Beng|sat-Deva|sck-IN|sd-Deva|sgj-IN|sjp-IN|swv-IN|taj-NP|trp-IN|unr-Beng|unr-IN|vas-IN|wbr-IN|wry-IN|xnr-IN" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c3" view_id="@id/B09" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="ahr-IN|gno-Telu|knn-IN|mr-IN|vah" variant="qwerty" />
+                <cond language="ta-IN" variant="tamil" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112d" view_id="@id/B09" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="adx-CN" variant="amdo_tibetan" />
+                <cond language="khg-CN" variant="khams_tibetan" />
+                <cond language="lep-Tibt" variant="lepcha" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112a" view_id="@id/B12" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="ahr-IN" variant="ahirani" />
+                <cond language="gno-Telu" variant="gondi_telugu" />
+                <cond language="kn-IN" variant="kannada_india" />
+                <cond language="knn-IN" variant="konkani_devanagari" />
+                <cond language="mr-IN" variant="marathi_india" />
+                <cond language="ta-IN" variant="tamil_phonetic" />
+                <cond language="te-IN" variant="telugu_india" />
+                <cond language="vah" variant="varhadi" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112d" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="aii" variant="assyrian" />
+                <cond language="cld-IQ" variant="chaldean_neo_aramaic" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1128" view_id="@id/B11" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="am" variant="amharic" />
+                <cond language="gez" variant="geez_dynamic" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1114" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="an-ES" variant="aragonese|azerty|colemak|pcqwerty|qwerty|qwertz" />
+                <cond language="ast-ES" variant="asturian|azerty|colemak|pcqwerty|qwerty|qwertz" />
+                <cond language="ay-BO|ay-PE" variant="aymara|azerty|colemak|pcqwerty|qwerty|qwertz" />
+                <cond language="quc" variant="azerty|colemak|kiche|pcqwerty|qwerty|qwertz" />
+                <cond language="qu-PE|quz-PE" variant="azerty|colemak|pcqwerty|quechua|qwerty|qwertz" />
+                <cond language="kek-GT|yua-MX" variant="azerty|colemak|pcqwerty|qwerty|qwerty_with_apostrophe|qwertz" />
+                <cond language="quy-PE" variant="azerty|colemak|pcqwerty|qwerty|qwerty_with_n_with_tilde|qwertz" />
+                <cond language="guc-CO|nah|pua-MX|qug-EC|quh-BO" variant="azerty|colemak|pcqwerty|qwerty|qwertz" />
+                <cond language="arn-CL|es-419|es-AR|es-ES|es-MX|es-US|gn" variant="azerty|colemak|pcqwerty|qwerty|qwertz|spanish" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1126" view_id="@id/B09" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="an-ES|arn-CL|ast-ES|es-419|es-AR|es-ES|es-MX|es-US|quy-PE" variant="dvorak|dvorak_spanish" />
+                <cond language="ay-BO|ay-PE|gn|guc-CO|kek-GT|nah|pua-MX|qu-PE|quc|qug-EC|quh-BO|quz-PE|yua-MX" variant="dvorak" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1126" view_id="@id/B01" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="anp-IN" variant="angika" />
+                <cond language="as-IN" variant="assamese" />
+                <cond language="awa-IN" variant="awadhi_dynamic" />
+                <cond language="bfy-IN" variant="bagheli" />
+                <cond language="bgq-IN" variant="bagri" />
+                <cond language="bn-BD" variant="bengali_bangladesh" />
+                <cond language="bn-IN" variant="bengali_india" />
+                <cond language="bhb-Deva" variant="bhili" />
+                <cond language="bho-IN" variant="bhojpuri" />
+                <cond language="brx-Beng" variant="bodo_bengali_dynamic" />
+                <cond language="brx-Deva" variant="bodo_devanagari_dynamic" />
+                <cond language="bns-IN" variant="bundeli_dynamic" />
+                <cond language="hne-IN" variant="chhattisgarhi_dynamic" />
+                <cond language="ctg-BD" variant="chittagonian" />
+                <cond language="dhd-IN" variant="dhundhari_dynamic" />
+                <cond language="doi-Deva" variant="dogri" />
+                <cond language="dty-NP" variant="dotyali" />
+                <cond language="hif-Deva" variant="fiji_hindi_devanagari_dynamic" />
+                <cond language="gbm-IN" variant="garhwali" />
+                <cond language="grt-Beng" variant="garo" />
+                <cond language="gdx-IN" variant="godwari" />
+                <cond language="gno-IN" variant="gondi" />
+                <cond language="gju-Deva" variant="gujari" />
+                <cond language="hlb-IN|hlb-Orya" variant="halbi" />
+                <cond language="hoj-IN" variant="harauti" />
+                <cond language="bgc-IN" variant="haryanvi" />
+                <cond language="hi-IN" variant="hindi" />
+                <cond language="xnr-IN" variant="kangri_dynamic" />
+                <cond language="bjj-IN" variant="kannauji" />
+                <cond language="ks-Deva" variant="kashmiri_devanagari" />
+                <cond language="kok-Deva" variant="konkani_devanagari" />
+                <cond language="kfq-IN" variant="korku" />
+                <cond language="kxu-IN" variant="kui" />
+                <cond language="kfy-IN" variant="kumaoni_dynamic" />
+                <cond language="kru-IN" variant="kurukh" />
+                <cond language="kxv-Orya-IN" variant="kuvi" />
+                <cond language="lmn-Deva" variant="lambadi_devanagari" />
+                <cond language="lif-Deva" variant="limbu" />
+                <cond language="mag-IN|mag-NP" variant="magahi" />
+                <cond language="bfz-IN" variant="mahasu_pahari" />
+                <cond language="mai-IN" variant="maithili" />
+                <cond language="mup-IN" variant="malvi" />
+                <cond language="mjl-IN" variant="mandeali_dynamic" />
+                <cond language="mni-Beng" variant="manipuri_bengali" />
+                <cond language="rwr-IN" variant="marwari" />
+                <cond language="wry-IN" variant="merwari" />
+                <cond language="mtr-IN" variant="mewari" />
+                <cond language="unr-IN|unr-Orya" variant="mundari" />
+                <cond language="unr-Beng" variant="mundari_bengali" />
+                <cond language="ne-IN" variant="nepali_devanagari_dynamic" />
+                <cond language="ne-NP" variant="nepali_nepal_dynamic|nepali_nepal_romanized" />
+                <cond language="new-NP" variant="newari" />
+                <cond language="noe-IN" variant="nimadi" />
+                <cond language="or-IN" variant="odia" />
+                <cond language="pa-Guru" variant="punjabi_gurmukhi" />
+                <cond language="rkt-Beng|rkt-IN" variant="rangpuri" />
+                <cond language="sck-IN" variant="sadri_dynamic" />
+                <cond language="swv-IN" variant="shekhawati" />
+                <cond language="xsr-NP" variant="sherpa_dynamic" />
+                <cond language="sjp-IN" variant="surjapuri" />
+                <cond language="vas-IN" variant="vasavi" />
+                <cond language="wbr-IN" variant="wagdi" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c3" view_id="@id/B10" />
+        </else_if>
+        <else_if language="ar" variant="arabic">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B11" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1107" view_id="@id/B12" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="lrl-IR" variant="achomi" />
+                <cond language="ar" variant="arabic_two" />
+                <cond language="fay-IR" variant="kuhmareyi" />
+                <cond language="gdq-YE" variant="mehri" />
+                <cond language="fa" variant="persian" />
+                <cond language="qxq-IR" variant="qashqai" />
+                <cond language="tks-IR" variant="tati" />
+                <cond language="ug" variant="uyghur" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B10" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1107" view_id="@id/B11" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="ar" variant="arabic_qwerty" />
+                <cond language="dcc-IN|doi-Arab|ks-Arab|pa-PK|sd-Arab|ur-IN|ur-PK" variant="qwerty" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B08" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B09" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="az-IR" variant="azerbaijani_iran" />
+                <cond language="doi-Arab" variant="dogri_arabic" />
+                <cond language="glk-IR" variant="gilaki" />
+                <cond language="gjk-PK" variant="kachi_koli" />
+                <cond language="pa-PK" variant="punjabi_pakistan" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1107" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="bal-PK|bcc-PK|bgn-PK|bgp-Arab" variant="balochi" />
+                <cond language="bft-PK" variant="balti" />
+                <cond language="brh-Arab" variant="brahui" />
+                <cond language="dcc-IN" variant="dakhini" />
+                <cond language="mki-PK" variant="dhatki" />
+                <cond language="gju-PK" variant="gujari" />
+                <cond language="hnd-PK|hno-PK" variant="hindko" />
+                <cond language="khw" variant="khowar" />
+                <cond language="phr-PK" variant="pahari_pothwari" />
+                <cond language="skr-x-urdu" variant="saraiki" />
+                <cond language="ur-IN" variant="urdu_in" />
+                <cond language="ur-PK" variant="urdu_pakistan" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112b" view_id="@id/B10" />
+        </else_if>
+        <else_if language="bal-PK|bcc-PK|bft-PK|bgn-PK|bgp-Arab|brh-Arab|fa|gju-PK|hnd-PK|hno-PK|khw|mve-PK|phr-PK|ps|scl-PK|skr" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B08" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1108" view_id="@id/B09" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="ban-Bali" variant="balinese" />
+                <cond language="sas-Bali" variant="sasak" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1109" view_id="@id/B10" />
+        </else_if>
+        <else_if language="bax-CM" variant="bamum">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110a" view_id="@id/B12" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="bcq-Ethi" variant="bench" />
+                <cond language="hdy-ET" variant="hadiyya" />
+                <cond language="ktb-Ethi" variant="kambaata" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1113" view_id="@id/B10" />
+        </else_if>
+        <else_if language="bgq-PK" variant="bagri_arabic">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112b" view_id="@id/B10" />
+        </else_if>
+        <else_if language="bgq-PK" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1108" view_id="@id/B09" />
+        </else_if>
+        <else_if language="bhb-Gujr" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1116" view_id="@id/B09" />
+        </else_if>
+        <else_if language="blt-VN" variant="tai_dam">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1129" view_id="@id/B09" />
+        </else_if>
+        <else_if language="bm-Nkoo" variant="bambara_nko_dynamic">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1121" view_id="@id/B11" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="bqi-IR" variant="bakhtiari" />
+                <cond language="lki-IR" variant="laki" />
+                <cond language="lrc-IR" variant="northern_luri" />
+                <cond language="luz-IR" variant="southern_luri" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B10" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b111e" view_id="@id/B11" />
+        </else_if>
+        <else_if language="bts-Batk" variant="batak_simalungun">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110b" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="grt-Latn" variant="azerty|colemak|pcqwerty|qwerty|qwertz" />
+                <cond language="ca" variant="azerty|colemak|pcqwerty|qwerty|qwertz|spanish" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110d" view_id="@id/B09" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="ca" variant="dvorak|dvorak_spanish" />
+                <cond language="grt-Latn" variant="dvorak" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110d" view_id="@id/B01" />
+        </else_if>
+        <else_if language="ccp-BD" variant="chakma|chakma_compact">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c4" view_id="@id/B10" />
+        </else_if>
+        <else_if language="ccp-BD" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c4" view_id="@id/B09" />
+        </else_if>
+        <else_if language="cja-KH" variant="western_cham">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110e" view_id="@id/B12" />
+        </else_if>
+        <else_if language="cjm-VN" variant="eastern_cham">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110e" view_id="@id/B11" />
+        </else_if>
+        <else_if language="cop-EG" variant="coptic">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1111" view_id="@id/B11" />
+        </else_if>
+        <else_if language="cr-Cans-CA" variant="cree_syllabics">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110c" view_id="@id/B10" />
+        </else_if>
+        <else_if language="cu-RU" variant="church_slavonic|russian_jcuken">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1110" view_id="@id/B11" />
+        </else_if>
+        <else_if language="dv-MV" variant="dhivehi">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="fr-CA" variant="azerty|colemak|pcqwerty|qwerty|qwertz" />
+                <cond language="fr-CH" variant="azerty|colemak|pcqwerty|qwerty|qwertz|swiss" />
+                <cond language="fr-002|fr-BE|fr-FR" variant="azerty|colemak|qwerty|qwertz" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1115" view_id="@id/B09" />
+        </else_if>
+        <else_if language="fr-002|fr-BE|fr-CA|fr-CH|fr-FR" variant="dvorak">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1115" view_id="@id/B01" />
+        </else_if>
+        <else_if language="gwc-PK" variant="kalam_kohistani">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b111b" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="hac-IR" variant="gorani" />
+                <cond language="kmz-Arab" variant="khorasani_turkic_arabic" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="haz-AF" variant="hazaragi" />
+                <cond language="ks-Arab" variant="kashmiri_arabic" />
+                <cond language="mve-PK" variant="marwari_arabic" />
+                <cond language="kvx-PK" variant="parkari_koli" />
+                <cond language="psh-AF|psi-AF" variant="pashayi" />
+                <cond language="ps" variant="pashto" />
+                <cond language="wne-PK" variant="wanetsi" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B09" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="hi-IN" variant="hindi_compact" />
+                <cond language="kxv-Deva-IN" variant="kuvi_devanagari" />
+                <cond language="ne-NP" variant="nepali_nepal_traditional" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c3" view_id="@id/B11" />
+        </else_if>
+        <else_if language="hni-CN" variant="azerty|colemak|pcqwerty|qwerty|qwertz">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1117" view_id="@id/B09" />
+        </else_if>
+        <else_if language="hni-CN" variant="dvorak">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1117" view_id="@id/B01" />
+        </else_if>
+        <else_if language="hwc-US" variant="azerty|colemak|pcqwerty|qwerty|qwertz">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112e" view_id="@id/B09" />
+        </else_if>
+        <else_if language="hwc-US" variant="dvorak">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112e" view_id="@id/B01" />
+        </else_if>
+        <else_if language="ii" variant="yi_dynamic">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110f" view_id="@id/B12" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="zh-CN|zh-HK|zh-TW" variant="cangjie|quick|qwerty|qwerty-cantonese|qwerty-yale|wubi" />
+                <cond language="ii" variant="qwerty" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b110f" view_id="@id/B09" />
+        </else_if>
+        <else_if language="iw" variant="hebrew">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1118" view_id="@id/B10" />
+        </else_if>
+        <else_if language="iw" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1118" view_id="@id/B09" />
+        </else_if>
+        <else_if language="ji" variant="yiddish">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b107b" view_id="@id/A06" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1118" view_id="@id/B10" />
+        </else_if>
+        <else_if language="ji" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b107a" view_id="@id/A06" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1118" view_id="@id/B09" />
+        </else_if>
+        <else_if language="jv-Java" variant="javanese">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e2" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="prs-AF" variant="dari_afghanistan" />
+                <cond language="ku-IQ|ku-IR" variant="kurdish" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1107" view_id="@id/B11" />
+        </else_if>
+        <else_if language="kxv-Latn-IN" variant="kuvi_latin">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B08" />
+        </else_if>
+        <else_if language="kxv-Telu-IN" variant="kuvi_telugu">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112d" view_id="@id/B08" />
+        </else_if>
+        <else_if language="kyu-MM" variant="kayah_li">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e7" view_id="@id/B10" />
+        </else_if>
+        <else_if language="lep-IN" variant="lepcha">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b4" view_id="@id/A06" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B11" />
+        </else_if>
+        <else_if language="lif-Limb" variant="limbu">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ca" view_id="@id/B12" />
+        </else_if>
+        <else_if language="ml-IN" variant="malayalam_india">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112d" view_id="@id/B11" />
+        </else_if>
+        <else_if language="mul-x-ipa" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1078" view_id="@id/A06" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b111a" view_id="@id/B09" />
+        </else_if>
+        <else_if language="mvy-PK" variant="indus_kohistani">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1119" view_id="@id/B10" />
+        </else_if>
+        <else_if language="plk-PK|scl-PK" variant="shina">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1125" view_id="@id/B10" />
+        </else_if>
+        <else_if language="syc-IQ" variant="classical_syriac">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c0" view_id="@id/B07" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1128" view_id="@id/B08" />
+        </else_if>
+        <else_if language="syl-Sylo" variant="qwerty">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c6" view_id="@id/B09" />
+        </else_if>
+        <else_if language="vai-LR" variant="vai">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b112c" view_id="@id/B10" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond language="gu-IN" variant="gujarati" />
+                <cond language="bo-CN" variant="tibetan_alphabetical" />
+                <cond language="dz|hy-AM" />
+            </any_of>
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond variant="qwerty|qwertz|azerty|colemak|pcqwerty|aragonese|arabic_qwerty|spanish|asturian|aymara|bahamian_creole|bavarian|tamazight_tifinagh_amazigh|valencian|chavacano|portuguese|qwerty_with_c_with_cedilla|welsh|qwerty_with_apostrophe|nordic|german|swiss|greek|estonian|friulian|manx|hausa|hungarian|ilocano|lojban|georgian_qwerty|kolsch|ladino|ligurian|madurese|minangkabau|low_saxon|kapampangan|qwerty_with_n_with_tilde|palatine_german|pontic|alsatian|quechua|kiche|romanian|rundi|kinyarwanda|somali|albanian|upper_saxon|tausug|veps|east_franconian_german|japanese_qwerty|tai_dam|cree_latin|fon|rejang|tamil" />
+                <cond language="bcq-ET|kaa-UZ" variant="bench|karakalpak" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B09" />
+        </else_if>
+        <else_if variant="dvorak|dvorak_spanish|svorak">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B01" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond variant="abkhaz|adyghe|assyrian|ajagbe|arabic_two|avar|querty|azerbaijani|bashkir|ghomala|belarusian_belarus|belarusian_belarus_with_apostrophe|tamazight|tamazight_tifinagh|bulgarian_bds|turkish_q|bambara_nko_dynamic|bakhtiari|serbian_qwertz|bulu_bene|buryat_mongolia|buryat_russia|eastern_min|chechen|chaldean_neo_aramaic|coptic|crimean_tatar|church_slavonic|russian_jcuken|chuvash|dargwa|dungan|ewe|persian|kuhmareyi|gagauz|mehri|gor|hindi_compact|croatian|ingush|georgian_georgia|georgian_khutsuri|kabardian|kazakh|kazakh_latin|komi_permyak|karachay_balkar|kurdish_latin|kurdish|kumyk|komi|kyrgyz|lama|lak|lezgian|limburgish|laki|northern_luri|achomi|southern_luri|moksha|meadow_mari|macedonian|mongolian|northern_min|hill_mari|erzya|nepali_nepal_traditional|dari_afghanistan|romani|russian|russian_student|russian_yawert|russian_yazhert|siberian_tatar|tabasaran|tati|talysh|talysh_azeri|tatar|udmurt|uyghur|urum|uzbek|voro|kalmyk_oirat|mingrelian_latn_dynamic|nenets|ossetian|eastern_cham|khmu|malayalam_india|kazakh_pc|ojibwe" />
+                <cond language="kaa-Cyrl" variant="karakalpak" />
+                <cond language="lep-IN" variant="kurukh|lepcha" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B11" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond variant="amdo_tibetan|arabic|bamum|tibetan_alphabetical|dzongkha|khams_tibetan|ukrainian|ipa_chart|western_cham|yi_dynamic|khmer_cambodia|khmer_surin|lao|thai" />
+                <cond language="lep-Tibt" variant="lepcha" />
+                <cond language="lif-Limb" variant="limbu" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B12" />
+        </else_if>
+        <else_if>
+            <any_of>
+                <cond variant="ahirani|amharic|angika|assamese|awadhi_dynamic|bagheli|mahasu_pahari|haryanvi|bagri|bhojpuri|kannauji|bundeli_dynamic|bishnupriya_manipuri|bodo_bengali_dynamic|bodo_devanagari_dynamic|chakma|cree_syllabics|chittagonian|dhundhari_dynamic|dogri|dotyali|garhwali|godwari|geez_dynamic|gondi|gondi_telugu|garo|hadiyya|hindi|fiji_hindi_devanagari_dynamic|chhattisgarhi_dynamic|harauti|javanese|korku|kumaoni_dynamic|kannada_india|konkani_devanagari|kashmiri_devanagari|kambaata|kui|lambadi_devanagari|lambadi_kannada|lambadi_telugu|magahi|maithili|mandeali_dynamic|manipuri_bengali|marathi_india|mewari|malvi|nepali_nepal_dynamic|nepali_devanagari_dynamic|newari|nimadi|punjabi_gurmukhi|rangpuri|marwari|sadri_dynamic|surjapuri|shekhawati|telugu_india|mundari_bengali|varhadi|vai|wagdi|merwari|kangri_dynamic|sherpa_dynamic|santali_devanagari|azerbaijani_iran|balochi|balinese|balti|bagri_arabic|pao_karen|bengali_india|bengali_bangladesh|tibetan|brahui|dakhini|dogri_arabic|dhivehi|kachi_koli|gilaki|kalam_kohistani|hindko|kutchi|khowar|dhatki|manipuri_meitei|mon|indus_kohistani|punjabi_pakistan|pahari_pothwari|shina|sasak|saraiki|urdu_pakistan|urdu_in|bulgarian|bulgarian_phonetic|turkish_f|bosnian|batak_simalungun|buginese|chakma_compact|serbian|dagbani|de_neo2|dinka|jula|faroese|hakka|igala|inuktitut_dynamic|hebrew|yiddish|eastern_pwo|kayah_li|laz_latn_dynamic|makassarese|maasai|nepali_nepal_romanized|rohingya|arakanese|kaitag" />
+                <cond language="bhb-Deva|gju-Deva|hlb-IN|kru-IN|lif-Deva|sa-IN|unr-IN|unr-Orya|vas-IN" variant="bhili|gujari|halbi|kurukh|limbu|mundari|sanskrit|vasavi" />
+                <cond language="bcq-Ethi|bhb-Gujr|gju-PK|hlb-Orya|my|vas-Gujr" variant="bench|bhili|burmese|gujari|halbi|vasavi" />
+                <cond language="unr-Latn" variant="mundari" />
+            </any_of>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B10" />
+        </else_if>
+        <else_if variant="buhid|baybayin|hanunuo|korean_single_vowel">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B07" />
+        </else_if>
+        <else_if variant="cherokee|classical_syriac">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B08" />
+        </else_if>
+        <else_if variant="khmer_cambodia_native">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/D11" />
+        </else_if>
+        <else>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1105" view_id="@id/B09" />
+        </else>
+    </merge_key_mapping>
+</framework>

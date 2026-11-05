@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02f6" value="QWERTY_KANA" />
+    <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02e3" value="HARDWARE_QWERTY_KANA" />
+    <item id="@id/APKTOOL_DUMMYVAL_0x7f0b0301" value="true" />
+    <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02ea" res="@array/APKTOOL_DUMMYVAL_0x7f0300c1" />
+</framework>

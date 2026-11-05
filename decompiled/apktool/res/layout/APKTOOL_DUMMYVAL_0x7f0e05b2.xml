@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0633" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:theme="?APKTOOL_DUMMYVAL_0x7f040361" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b063a" android:background="?APKTOOL_DUMMYVAL_0x7f0404cc" android:layout_width="match_parent" android:layout_height="wrap_content" android:touchscreenBlocksFocus="false" />
+    <ScrollView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0634" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <TextView android:typeface="monospace" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0635" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07040a" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07040b" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f07040a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07040b" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07040a" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07040a" />
+    </ScrollView>
+</LinearLayout>

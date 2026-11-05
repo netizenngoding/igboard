@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10ab">
+            <action keycode="LAUNCH_PREFERENCE_ACTIVITY" popup_icon="@drawable/APKTOOL_DUMMYVAL_0x7f0805c9" popup_layout="@attr/APKTOOL_DUMMYVAL_0x7f040271" type="LONG_PRESS" />
+        </softkey>
+        <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10ad">
+            <action keycode="LAUNCH_PREFERENCE_ACTIVITY" popup_icon="@drawable/APKTOOL_DUMMYVAL_0x7f0805c9" popup_layout="@attr/APKTOOL_DUMMYVAL_0x7f04027f" type="LONG_PRESS" />
+        </softkey>
+        <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10ac">
+            <action keycode="LAUNCH_PREFERENCE_ACTIVITY" popup_icon="@drawable/APKTOOL_DUMMYVAL_0x7f0805c9" popup_layout="@attr/APKTOOL_DUMMYVAL_0x7f040281" type="LONG_PRESS" />
+        </softkey>
+    </softkeys>
+</framework>

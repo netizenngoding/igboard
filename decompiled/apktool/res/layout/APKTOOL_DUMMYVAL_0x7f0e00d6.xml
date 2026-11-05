@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0dp" android:gravity="center_vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b026f" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="7.0dp" android:paddingEnd="7.0dp" style="?APKTOOL_DUMMYVAL_0x7f0400f3"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

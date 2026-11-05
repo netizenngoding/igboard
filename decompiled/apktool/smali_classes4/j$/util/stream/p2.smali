@@ -1,0 +1,100 @@
+.class public final synthetic Lj$/util/stream/p2;
+.super Ljava/lang/Object;
+.source "r8-map-id-b5fa1e893ded01c32c1db6f29cf63250814b3f0ad9c599c825464de59bcca95a"
+
+# interfaces
+.implements Ljava/util/function/LongConsumer;
+
+
+# instance fields
+.field public final synthetic a:B
+
+
+# direct methods
+.method public synthetic constructor <init>(B)V
+    .locals 0
+
+    .line 1
+    iput-byte p1, p0, Lj$/util/stream/p2;->a:B
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method private final accept$j$$util$stream$Node$OfLong$0(J)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method private final accept$j$$util$stream$StreamSpliterators$SliceSpliterator$OfLong$0(J)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(J)V
+    .locals 0
+
+    .line 1
+    iget-byte p0, p0, Lj$/util/stream/p2;->a:B
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public final synthetic andThen(Ljava/util/function/LongConsumer;)Ljava/util/function/LongConsumer;
+    .locals 1
+
+    .line 1
+    iget-byte v0, p0, Lj$/util/stream/p2;->a:B
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {p0, p1}, Lj$/util/function/c;->b(Ljava/util/function/LongConsumer;Ljava/util/function/LongConsumer;)Lj$/util/function/i;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p0
+
+    .line 10
+    return-object p0
+
+    .line 11
+    :pswitch_0
+    invoke-static {p0, p1}, Lj$/util/function/c;->b(Ljava/util/function/LongConsumer;Ljava/util/function/LongConsumer;)Lj$/util/function/i;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p0
+
+    .line 15
+    return-object p0
+
+    .line 16
+    nop
+
+    .line 17
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

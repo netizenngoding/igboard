@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag=".popup-item.for-keytop-popup" android:background="?APKTOOL_DUMMYVAL_0x7f040055" android:layout_width="wrap_content" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040287" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f08069b" android:minWidth="?APKTOOL_DUMMYVAL_0x7f040288"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0722" style="@style/APKTOOL_DUMMYVAL_0x7f1501db" />
+</FrameLayout>

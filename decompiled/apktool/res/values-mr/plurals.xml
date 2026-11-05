@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d तास</item>
+        <item quantity="other">%1$d तास</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d मिनिट</item>
+        <item quantity="other">%1$d मिनिटे</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">तुम्ही %1$d मिनिटाची मर्यादा गाठत आहात</item>
+        <item quantity="other">तुम्ही %1$d मिनिटांची मर्यादा गाठत आहात</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">%1$d सेकंदामध्ये बंद होत आहे…</item>
+        <item quantity="other">%1$d सेकंदांमध्ये बंद होत आहे…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d नियुक्त केलेली की</item>
+        <item quantity="other">%d नियुक्त केलेल्या की</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s ही भाषा आता इंस्टॉल केली आहे.</item>
+        <item quantity="other">%s या भाषा आता इंस्टॉल केल्या आहेत.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d तास</item>
+        <item quantity="other">%d तास</item>
+    </plurals>
+</resources>

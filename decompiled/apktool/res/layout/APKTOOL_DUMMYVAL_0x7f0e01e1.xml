@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05ca" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05cd" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05cf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:splitMotionEvents="false" style="@style/APKTOOL_DUMMYVAL_0x7f150375">
+        <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d8" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0701b0" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f0701b1" android:layout_marginRight="@dimen/APKTOOL_DUMMYVAL_0x7f0701b0" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0701af" android:scaleType="fitCenter" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="left|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d1" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14039b" style="@style/APKTOOL_DUMMYVAL_0x7f1502e1" />
+        <ImageView android:layout_gravity="left|bottom" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d0" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140399" android:rotation="270.0" style="@style/APKTOOL_DUMMYVAL_0x7f1502e1" />
+        <ImageView android:layout_gravity="right|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d3" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14039e" android:rotation="90.0" style="@style/APKTOOL_DUMMYVAL_0x7f1502e1" />
+        <ImageView android:layout_gravity="right|bottom" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d2" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14039c" android:rotation="180.0" style="@style/APKTOOL_DUMMYVAL_0x7f1502e1" />
+    </FrameLayout>
+</FrameLayout>

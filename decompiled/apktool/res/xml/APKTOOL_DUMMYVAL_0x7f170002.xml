@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework force_show_number_row="false" support_a11y_keyboard="false">
+    <if>
+        <all_of>
+            <cond true="{support_a11y_keyboard}" />
+            <cond enable_pk_simulator="true" />
+            <cond enable_pk_simulator_setting="true" />
+        </all_of>
+        <attrs layout_theme="@style/APKTOOL_DUMMYVAL_0x7f15038f" />
+    </if>
+    <else_if>
+        <any_of>
+            <cond true="{force_show_number_row}" />
+            <cond enable_number_row="true" />
+        </any_of>
+        <attrs layout_theme="@style/APKTOOL_DUMMYVAL_0x7f150392" />
+    </else_if>
+</framework>

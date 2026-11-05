@@ -1,0 +1,53 @@
+package p000;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+public final class trg extends aaln implements aams {
+
+    /* JADX INFO: renamed from: a */
+    public static final trg f65618a;
+
+    /* JADX INFO: renamed from: b */
+    public int f65619b;
+
+    /* JADX INFO: renamed from: c */
+    public trd f65620c;
+
+    /* JADX INFO: renamed from: d */
+    private byte f65621d = 2;
+
+    static {
+        trg trgVar = new trg();
+        f65618a = trgVar;
+        aaln.m1341L(trg.class, trgVar);
+    }
+
+    private trg() {
+    }
+
+    @Override // p000.aaln
+    /* JADX INFO: renamed from: a */
+    protected final Object mo825a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return Byte.valueOf(this.f65621d);
+        }
+        if (i2 == 2) {
+            return new aanb(f65618a, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0001\u0002ᐉ\u0001", new Object[]{"b", "c"});
+        }
+        if (i2 == 3) {
+            return new trg();
+        }
+        if (i2 == 4) {
+            return new aali(f65618a);
+        }
+        if (i2 == 5) {
+            return f65618a;
+        }
+        if (i2 == 6) {
+            return aaln.m1340H(trg.class);
+        }
+        this.f65621d = obj == null ? (byte) 0 : (byte) 1;
+        return null;
+    }
+}

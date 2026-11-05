@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.sharing.GboardSharingSetupDonePage style="@style/APKTOOL_DUMMYVAL_0x7f1502cc"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0120" />
+            <TextView android:text="@string/APKTOOL_DUMMYVAL_0x7f140cc9" style="@style/APKTOOL_DUMMYVAL_0x7f1502d6" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b032e" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0708bb" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f0708bb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b032f" android:layout_marginBottom="14.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f1403da" style="@style/APKTOOL_DUMMYVAL_0x7f1502d0" />
+                <ImageView android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f150641" />
+                <android.support.v7.widget.RecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0330" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+                <ImageView android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f150641" />
+            </LinearLayout>
+            <com.google.android.libraries.inputmethod.widgets.text.LinkableTextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b032b" android:text="@string/APKTOOL_DUMMYVAL_0x7f1403d4" style="@style/APKTOOL_DUMMYVAL_0x7f1502d0" />
+            <Button android:id="@id/APKTOOL_DUMMYVAL_0x7f0b032a" android:text="@string/APKTOOL_DUMMYVAL_0x7f1404fa" android:textAllCaps="true" style="@style/APKTOOL_DUMMYVAL_0x7f1502cd" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.google.android.apps.inputmethod.libs.sharing.GboardSharingSetupDonePage>

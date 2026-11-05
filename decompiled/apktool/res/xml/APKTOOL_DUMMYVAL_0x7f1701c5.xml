@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" indicator_label="हि" inline_composing="true" keyevent_interpreter="com.google.android.libraries.inputmethod.keyevent.interpreters.HindiKeyEventInterpreter" language="hi" string_id="ime_hi_10key_b" use_ascii_password_keyboard="true">
+        <include dynamic_layout="hindi_10key_b" href="@xml/APKTOOL_DUMMYVAL_0x7f1706c0" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170588" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1706d2" pk_language_tag="hi-Deva-IN" pk_layout_type="extended" supports_split_mode="false" variant="hindi_10key_b" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414dc" variant_name_mandatory="true" />
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02d7" value="। " />
+        </extra_values>
+    </ime>
+</framework>

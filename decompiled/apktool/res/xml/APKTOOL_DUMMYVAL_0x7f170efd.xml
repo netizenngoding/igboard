@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ef1" />
+    <softkeys>
+        <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1073" />
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1074" long_press_data=", . ? ! ॥ # ) ( / ' @ : ; - &quot; +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1075" long_press_data=", . 𑅃 ! 𑅂 𑅀 ) ( &quot; ' @ : ; - / +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1076" long_press_data=", . ? ! ꣏ # ) ( / ' @ : ; - &quot; +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1077" long_press_data=", . ? ! ॥ # / ( ) ' @ : ; - &quot; + &amp; ꠨ ꠩ ꠪ ꠫" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1079" long_press_data=", . ᥅ ᥄ ? ! &quot; ᤹ ᥀ ᤺ ᤻ # ) ( / ' @ : ; - +" long_press_label=", . ᥅ ᥄ ? ! &quot; ◌᤹ ᥀ ◌᤺ ◌᤻ # ) ( / ' @ : ; - +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b107b" long_press_data="ֶ ָ ֵ ֿ ִ ּ ֱ ֳ ְ ֲ ֹ ֻ" long_press_label="◌ֶ ◌ָ ◌ֵ ◌ֿ ◌ִ ◌ּ ◌ֱ ◌ֳ ◌ְ ◌ֲ ◌ֹ ◌ֻ" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b107a" long_press_data="״ ־ ׃ ׀" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128d">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b107e" long_press_data="! ? ꧍ ꧌ ꧇ - / @ ꧊ ꧋ ) ( ' &quot; , ." long_press_label="! ? ꧍ ꧌ ꧇ - / @ ꧊ ꧋ ) ( ' &quot; , ." />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b107f" long_press_data=", . ? ! ꤮ # ) ( / ' @ : ; - &quot; +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10b4" long_press_data="᰼ ᰽ ᰾ ᰿" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1080" long_press_data="@string/APKTOOL_DUMMYVAL_0x7f14066b" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1081" long_press_data="⹁ U+1E95F ؟ U+1E95E ! ' # ( ) / ⁏ @ : - &quot; + % &amp;" long_press_label="⹁ U+1E95F ؟ U+1E95E ! ' # ) ( / ⁏ @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="ً◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b1082" long_press_data="؟,!,ً,ّ,ٌ,ٍ,ْ,ٔ,ٕ,َ,ـ,ُ,ِ,ٓ,ٰ,ٖ" long_press_label="؟,!,ً◌,ّ◌,ٌ◌,ٍ◌,ْ◌,ٔ◌,ٕ◌,َ◌,ــ,ُ◌,ِ◌,ٓ◌,ٰ◌,ٖ◌" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="؟" id="@id/APKTOOL_DUMMYVAL_0x7f0b1083" long_press_data="، ؟ ! # ) ( / ؛ ' @ : - &quot; + ٪ &amp;" long_press_label="، ؟ ! # ( ) / ؛ ' @ : - &quot; + ٪ &amp;" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey hint_label="᭝" id="@id/APKTOOL_DUMMYVAL_0x7f0b1084" long_press_data="᭝,᭟,᭞,᭟᭜᭟,᭚,!,?,;" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1085" long_press_data="꛵ ꛷ ꛲ ) ( # ꛴ ꛶ @ / ' - &quot; + ! : ; ," />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1086" long_press_data=", ? ! # ) ( / ; ' @ : - &quot; + % &amp; ᯲ ᯼ ᯽ ᯾ ᯿" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1087" long_press_data=", ? ! . ᐀ # ) ( / ; ' @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1088" long_press_data=", ? ! · # ) ( / ' @ : ; - &quot; + &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1089" long_press_data="꩝ ꩟ ꩜ , ? ! . ( ) # / ; : @" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108a" long_press_data="…… ？ ！ 、 ： ； _ % $ ^ &amp; :P :D :( :) ^_^" long_press_intention="COMMIT" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108b" long_press_data=", ? ! ) ( # ' &quot; : ჻ · • ʼ ⸴ ; ⁞ ⁝ ⁖ ⸫ ⸪ ⁘ ⸬ ⁙ ⸭ ⁓ ∼ ∽ ∻ ≁ ※ ⁜ †" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0741" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108c" long_press_data=", ? ! ; # ) ( / ⸳ · ⳾ : ⁖ ⁘ ⁙ † ' &quot; ⸗ ~ — - + &amp; ⳼ ⸴ ⳻ ⳿ ⳺ ⳹ @ %" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0741" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108e" long_press_data="፥ ፦ ፤ ፡ , ? ! ) # ( / ; ' @ : - &quot; + % &amp; *" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0741" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108f" long_press_data="፤ ፥ ፦ ፧ ፨ ፠ , ? ! # ) ( / ; ' @ : - &quot; + % &amp;" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0741" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1090" long_press_data=", ? ! # ) ( ' @ : - / ; &quot; _ · + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1091" long_press_data=", ! ? । ઽ ૐ લ ' # ) ( / ; @ : - &quot; + % &amp; *" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0741" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1092" long_press_data=", ? ! # ) ( / ; ` @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1093" long_press_data=", ? ! # ( ) / ; ' @ : - &quot; + % &amp;" long_press_label=", ? ! # ) ( / ; ' @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1078" long_press_data="̰ ͡ ̥ ͜ ̪ ʲ ˁ ̃ ˞ ̤ ̬ ̊ ͆ ˠ" long_press_label="◌̰ ◌͡◌ ◌̥ ◌͜◌ ◌̪ ◌ʲ ◌ˁ ◌̃ ◌˞ ◌̤ ◌̬ ◌̊ ◌͆ ◌ˠ" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1095" long_press_data="/ ˌ ] [ } { ː ˈ ˑ ̆ ⸩ ⸨ | ‖ ⟩ ⟨ ) (" long_press_label="/ ˌ ] [ } { ː ˈ ˑ ◌̆ ⸩ ⸨ | ‖ ⟩ ⟨ ) (" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="ِ◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b1097" long_press_data="؟,!,ِ,ّ,ُ,ٔ,ٓ,َ,ً,ٰ,ْ,ـ,ٞ,ٛ" long_press_label="؟,!,ِ◌,ّ◌,ُ◌,ٔ◌,ٓ◌,َ◌,ً◌,ٰ◌,ْ◌,ــ,ٞ◌,ٛ◌" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="ُ◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b1098" long_press_data="؟,!,ُ,ٗ,ِ,ٕ,ٔ,ٛ,ٚ,ٰ,ٖ,َ,ٓ,ْ,ً,ـ" long_press_label="؟,!,ُ◌,ٗ◌,ِ◌,ٕ◌,ٔ◌,ٛ◌,ٚ◌,ٰ◌,ٖ◌,َ◌,ٓ◌,ْ◌,ً◌,ــ" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="ُ◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b1099" long_press_data="؟,!,َ,ُ,ِ,ْ,ٚ,ٓ,ٕ,ٔ,ٰ,ٖ,ً,ـ" long_press_label="؟,!,َ◌,ُ◌,ِ◌,ْ◌,ٚ◌,ٓ◌,ٕ◌,ٔ◌,ٰ◌,ٖ◌,ً◌,ــ" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="ُ◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b109a" long_press_data="؟,!,ٙ,ٛ,َ,ُ,ِ,ْ,ً,ٌ,ٍ,ٔ,ّ,ٰ,ٓ,ـ" long_press_label="؟,!,ٙ◌,ٛ◌,َ◌,ُ◌,ِ◌,ْ◌,ً◌,ٌ◌,ٍ◌,ٔ◌,ّ◌,ٰ◌,ٓ◌,ــ" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="ً◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b109b" long_press_data="؟,!,ً,ّ,ٌ,ٍ,ْ,ٔ,ٕ,َ,ـ,ُ,ِ,ٓ,ٰ,ٖ,ٚ,ٛ" long_press_label="؟,!,ً◌,ّ◌,ٌ◌,ٍ◌,ْ◌,ٔ◌,ٕ◌,َ◌,ــ,ُ◌,ِ◌,ٓ◌,ٰ◌,ٖ◌,ٚ◌,ٛ◌" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b109c" long_press_data="၊ , . ? ! ႟ # / ( ) ' &quot; : ; - @" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="؟" id="@id/APKTOOL_DUMMYVAL_0x7f0b109d" long_press_data="؟,߹,߸,ߑ,ߺ,ߴ,߯,߫,߲,߳,߭,߱,߮,ߵ,߰,߬" long_press_label="؟,߹,߸,ߑ,ߺ,ߴ,߯,߫,߲,߳,߭,߱,߮,ߵ,߰,߬" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10a0" long_press_data="!,?,;,:,',&quot;,@,+,ᱹ,ᱻ,ᱸ,ᱺ,᱾,᱿,ᱽ,ᱼ" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="َ◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b109e" long_press_data="؟,!,َ,ُ,ْ,ِ,ّ,ً,ٍ,ٌ,ٰ,ٔ,ٕ,ٙ,ـ,ٓ" long_press_label="؟,!,َ◌,ُ◌,ْ◌,ِ◌,ّ◌,ً◌,ٍ◌,ٌ◌,ٰ◌,ٔ◌,ٕ◌,ٙ◌,ــ,ٓ◌" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b109f" long_press_data=", ? ! # ) ( / ; ' @ : - &quot; % &amp; ꥟" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="َ◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b10a1" long_press_data="؟,!,،,َ,ُ,ٗ,ْ,ِ,ّ,ً,ٍ,ٌ,ٔ,ٕ,ٛ,ٚ,ٰ,ٓ,ۡ,٘,ـ" long_press_label="؟,!,،,َ◌,ُ◌,ٗ◌,ْ◌,ِ◌,ّ◌,ً◌,ٍ◌,ٌ◌,ٔ◌,ٕ◌,ٛ◌,ٚ◌,ٰ◌,ٓ◌,ۡ◌,٘◌,ـ" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10a2" long_press_data=", ? ! # ) ( / ; ' ¿ ¡ - &quot; @ &amp; :" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10a3" long_press_data=", ? ! # ) ( / ; ' @ : - &quot; + % &amp; ᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10a4" long_press_data="؟,!,܀,܁,܂,܃,܄,܅,܆,܇,܈,܉,܊,܋,܌,܍,݃,݄,݉,݊,ـ" long_press_label="؟,!,܀,܁,܂,܃,܄,܅,܆,܇,܈,܉,܊,܋,܌,܍,݃◌,݄◌,݉◌,݊◌,ـ" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10a5" long_press_data=", ? ! # ) ( / ; ' @ : - &quot; + % &amp; ꫞ ꫟" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10a6" long_press_data="༄,༈,༔,ཿ,༴,༻,༺,༼,༽,༐,༑,༅,༆,ྃ,྆,༸,ཾ,༚,༜,࿓,࿔" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="ِ◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b10a7" long_press_data="؟,!,ِ,ّ,ُ,ٗ,ٔ,ٓ,َ,ً,ٰ,ٖ,ْ,ـ,٘,ٕ,ٌ,ٍ" long_press_label="؟,!,ِ◌,ّ◌,ُ◌,ٗ◌,ٔ◌,ٓ◌,َ◌,ً◌,ٰ◌,ٖ◌,ْ◌,ــ,٘◌,ٕ◌,ٌ◌,ٍ◌" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128b">
+            <softkey hint_label="ِ◌" id="@id/APKTOOL_DUMMYVAL_0x7f0b1094" long_press_data="؟,!,ِ,ّ,ُ,ٗ,ٔ,ٓ,َ,ً,ٰ,ٖ,ْ,ـ,٘,ٕ,ٌ,ٍ,ۡ" long_press_label="؟,!,ِ◌,ّ◌,ُ◌,ٗ◌,ٔ◌,ٓ◌,َ◌,ً◌,ٰ◌,ٖ◌,ْ◌,ــ,٘◌,ٕ◌,ٌ◌,ٍ◌,ۡ◌" param_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0743" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10a8" long_press_data=", ? ! ꘍ ꘎ ꘏ ) # ( / ' @ : ; - &quot; + &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10a9" long_press_data=", ? ! । # ) ( / ' @ : ॥ - &quot; + &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b10aa" long_press_data=", ? ! ʻ # ) ( / ' @ : * - &quot; + &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128f">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1096" long_press_data=", ? ! # ) / ( ; - : &quot; ' + @ % &amp;" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b128e">
+            <if language="zh-CN">
+                <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108d" long_press_data="@string/APKTOOL_DUMMYVAL_0x7f140676" long_press_intention="COMMIT" />
+            </if>
+            <else_if language="zh-HK">
+                <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108d" long_press_data="@string/APKTOOL_DUMMYVAL_0x7f140677" long_press_intention="COMMIT" />
+            </else_if>
+            <else_if language="zh-TW">
+                <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108d" long_press_data="@string/APKTOOL_DUMMYVAL_0x7f140678" long_press_intention="COMMIT" />
+            </else_if>
+            <else_if language="ko">
+                <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108d" long_press_data="@string/APKTOOL_DUMMYVAL_0x7f140675" long_press_intention="COMMIT" />
+            </else_if>
+            <else_if language="ja">
+                <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108d" long_press_data="@string/APKTOOL_DUMMYVAL_0x7f140674" long_press_intention="COMMIT" />
+            </else_if>
+            <else>
+                <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b108d" long_press_data="@string/APKTOOL_DUMMYVAL_0x7f140673" />
+            </else>
+        </softkey_list>
+    </softkeys>
+</framework>

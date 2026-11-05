@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d ಗಂಟೆಗಳು</item>
+        <item quantity="other">%1$d ಗಂಟೆಗಳು</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d ನಿಮಿಷಗಳು</item>
+        <item quantity="other">%1$d ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">ನೀವು %1$d-ನಿಮಿಷದ ಮಿತಿಯನ್ನು ಸಮೀಪಿಸುತ್ತಿದ್ದೀರಿ</item>
+        <item quantity="other">ನೀವು %1$d ನಿಮಿಷಗಳ ಮಿತಿಯನ್ನು ಸಮೀಪಿಸುತ್ತಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">%1$d ಸೆಕೆಂಡ್‌ಗಳಲ್ಲಿ ಮುಚ್ಚಲಾಗುವುದು…</item>
+        <item quantity="other">%1$d ಸೆಕೆಂಡ್‌ಗಳಲ್ಲಿ ಮುಚ್ಚಲಾಗುವುದು…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d ಕೀಗಳನ್ನು ನಿಯೋಜಿಸಲಾಗಿದೆ</item>
+        <item quantity="other">%d ಕೀಗಳನ್ನು ನಿಯೋಜಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s ಗಳನ್ನು ಇದೀಗ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="other">%s ಗಳನ್ನು ಇದೀಗ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d ಗಂಟೆಗಳು</item>
+        <item quantity="other">%d ಗಂಟೆಗಳು</item>
+    </plurals>
+</resources>

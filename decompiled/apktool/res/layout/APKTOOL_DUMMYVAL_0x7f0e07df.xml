@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29e0" android:tag=".translate.queryholder.panel.v2" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080346" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f0709a2" android:textColor="@android:color/black" android:textColorHint="@color/APKTOOL_DUMMYVAL_0x7f0609f8" android:gravity="top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29e1" android:tag=".translate-query.non-linear-scale" android:background="#00000000" android:paddingTop="16.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040312" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080253" android:hint="@string/APKTOOL_DUMMYVAL_0x7f1411c1" android:inputType="textMultiLine" android:imeOptions="actionDone" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" app:APKTOOL_DUMMYVAL_0x7f040665="?APKTOOL_DUMMYVAL_0x7f04015e">
+        <tag android:value="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0214" />
+    </com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard>
+    <com.google.android.libraries.material.progress.MaterialProgressBar android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29df" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150d73" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29e4" android:tag=".translate-keyboard-network-card.panel.v2" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080346" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040312">
+        <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29e2" android:tag=".icon.translate-keyboard-network-card" android:background="@android:color/transparent" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0806b4" android:tint="@color/APKTOOL_DUMMYVAL_0x7f0608c6" android:layout_marginStart="10.0dp" style="@style/APKTOOL_DUMMYVAL_0x7f150cd3" />
+        <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29e3" android:tag=".icon.translate-keyboard-network-card" android:background="@android:color/transparent" style="@style/APKTOOL_DUMMYVAL_0x7f150cd9" />
+    </LinearLayout>
+</FrameLayout>

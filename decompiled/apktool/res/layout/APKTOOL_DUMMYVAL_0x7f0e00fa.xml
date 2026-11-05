@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.expression.expandableheader.ExpandableHeaderView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b029c" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02a2" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginStart="0.0dp" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070166" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/expandable_header_selected_category_container" app:APKTOOL_DUMMYVAL_0x7f040737="0.0" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e010a" style="@style/APKTOOL_DUMMYVAL_0x7f1502b0" />
+        <com.google.android.apps.inputmethod.libs.expression.expandableheader.StandaloneCategoryView android:id="@id/expandable_header_selected_category_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040740="@id/APKTOOL_DUMMYVAL_0x7f0b02a2" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f1502b1" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b029d" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040740="@id/APKTOOL_DUMMYVAL_0x7f0b02a2" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f1502b0">
+            <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02a1" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f150540">
+                <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f15053d" />
+            </FrameLayout>
+            <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b029e" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070163" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070163" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070162" android:paddingEnd="0.0dp" />
+            <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02a0" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f15053f">
+                <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f15053c" />
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02a4" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <include android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02a3" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e010a" style="@style/APKTOOL_DUMMYVAL_0x7f1502b0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b029f" android:padding="?APKTOOL_DUMMYVAL_0x7f040134" android:visibility="gone" android:layout_width="?APKTOOL_DUMMYVAL_0x7f040132" android:layout_height="match_parent" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0804a5" android:scaleType="centerInside" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140b25" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070164" style="@style/APKTOOL_DUMMYVAL_0x7f1502b0" />
+    </LinearLayout>
+    <ViewStub android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0778" android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00fb" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginHorizontal="0.0dp" />
+</com.google.android.apps.inputmethod.libs.expression.expandableheader.ExpandableHeaderView>

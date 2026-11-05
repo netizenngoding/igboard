@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if android_software_xr_api_spatial="false" free_cursor="true">
+        <motion_event_handler class=".freecursor.TriggerFreeCursorMotionEventHandler" preference_key="@string/APKTOOL_DUMMYVAL_0x7f14096b" reverse_preference="false" />
+    </if>
+</framework>

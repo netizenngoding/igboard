@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView style="@style/APKTOOL_DUMMYVAL_0x7f150546"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150541">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e054e" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e054b" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

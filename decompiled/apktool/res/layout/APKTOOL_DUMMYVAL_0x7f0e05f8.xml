@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:padding="?APKTOOL_DUMMYVAL_0x7f04057b" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080464" style="@style/APKTOOL_DUMMYVAL_0x7f150cde" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f14085c" style="@style/APKTOOL_DUMMYVAL_0x7f150ce4" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f14085b" style="@style/APKTOOL_DUMMYVAL_0x7f150ce2" />
+    </LinearLayout>
+</ScrollView>

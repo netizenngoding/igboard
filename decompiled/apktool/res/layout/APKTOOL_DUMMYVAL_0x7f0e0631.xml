@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" style="@style/APKTOOL_DUMMYVAL_0x7f150236">
+        <com.google.android.libraries.inputmethod.widgets.CopyImageSourceView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01e9" android:layout_width="2.0dp" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709e4" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2a57" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f151130" />
+        <com.google.android.libraries.inputmethod.companionwidget.WidgetAccessPointsPanel android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2a52" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040740="@id/APKTOOL_DUMMYVAL_0x7f0b2a57" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f151134" />
+        <com.google.android.libraries.inputmethod.companionwidget.WidgetAccessPointsPanel android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2a50" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/APKTOOL_DUMMYVAL_0x7f0b2a67" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f151134" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2a67" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f151130" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e080e" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

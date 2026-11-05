@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="false" android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2e" />
+    <item android:state_enabled="false" android:state_checked="true" android:color="@color/APKTOOL_DUMMYVAL_0x7f060b18" android:alpha="0.12" />
+    <item android:state_checked="true" android:color="@color/APKTOOL_DUMMYVAL_0x7f060b21" />
+    <item android:state_checked="false" android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2e" android:state_hovered="true" />
+    <item android:state_focused="true" android:state_checked="false" android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2e" />
+    <item android:state_checked="false" android:state_pressed="true" android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2e" />
+    <item android:state_checked="false" android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2e" />
+</selector>

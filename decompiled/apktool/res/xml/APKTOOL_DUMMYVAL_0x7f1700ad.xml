@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="ber-XG" string_id="ime_tamazight_tifinagh">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f17049c" variant="tamazight_tifinagh" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141615" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f17049b" variant="tamazight_tifinagh_amazigh" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141616" />
+    </ime>
+</framework>

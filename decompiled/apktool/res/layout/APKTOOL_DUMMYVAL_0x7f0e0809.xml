@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2a4c" android:tag=".nav_back_key.item-ripple.on-surface" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080298" android:duplicateParentState="true" android:layout_width="?APKTOOL_DUMMYVAL_0x7f0400a4" android:layout_height="?APKTOOL_DUMMYVAL_0x7f0400a4" android:importantForAccessibility="no" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070930" android:layout_marginEnd="?APKTOOL_DUMMYVAL_0x7f0402dc"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0804ac" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140822" style="@style/APKTOOL_DUMMYVAL_0x7f150240" />
+</FrameLayout>

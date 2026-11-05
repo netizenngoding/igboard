@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150365"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0156" style="@style/APKTOOL_DUMMYVAL_0x7f150754" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView android:textSize="?APKTOOL_DUMMYVAL_0x7f0400c6" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405cb="false" app:APKTOOL_DUMMYVAL_0x7f040665="?APKTOOL_DUMMYVAL_0x7f040160" app:APKTOOL_DUMMYVAL_0x7f040892="?APKTOOL_DUMMYVAL_0x7f0400c5" app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0797" style="@style/APKTOOL_DUMMYVAL_0x7f1503ae" />
+        <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView android:textSize="?APKTOOL_DUMMYVAL_0x7f0400c4" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05f7" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0405cb="false" app:APKTOOL_DUMMYVAL_0x7f040892="?APKTOOL_DUMMYVAL_0x7f0400c5" app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0797" style="@style/APKTOOL_DUMMYVAL_0x7f1503ae" />
+    </LinearLayout>
+</FrameLayout>

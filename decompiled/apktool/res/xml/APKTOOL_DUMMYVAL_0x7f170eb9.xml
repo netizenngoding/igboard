@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_checkable="true" android:state_checked="true" app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f04077f" />
+    <item android:state_pressed="true" app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f040785" />
+    <item android:state_focused="true" app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f040781" />
+    <item android:state_hovered="true" app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f040782" />
+    <item android:state_single="true" app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f040786" />
+    <item android:state_first="true" app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f040780" />
+    <item android:state_last="true" app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f040783" />
+    <item android:state_middle="true" app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f040784" />
+    <item app:APKTOOL_DUMMYVAL_0x7f04098a="?APKTOOL_DUMMYVAL_0x7f040784" />
+</selector>

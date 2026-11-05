@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="SHIFT">
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea9" view_id="@id/E00" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eb0" view_id="@id/E06" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea3" view_id="@id/E07" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eaf" view_id="@id/E08" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eb3" view_id="@id/E10" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eb4" view_id="@id/E11" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e9d" view_id="@id/D01" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e9c" view_id="@id/D02" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e9b" view_id="@id/D03" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea2" view_id="@id/D04" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eb2" view_id="@id/D05" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea6" view_id="@id/D07" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e9e" view_id="@id/D10" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eaa" view_id="@id/C01" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea0" view_id="@id/C02" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e9a" view_id="@id/C03" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea1" view_id="@id/C04" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eb1" view_id="@id/C05" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eab" view_id="@id/C07" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e9f" view_id="@id/B01" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea7" view_id="@id/B03" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea8" view_id="@id/B04" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea5" view_id="@id/B05" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ea4" view_id="@id/B06" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ead" view_id="@id/B07" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eae" view_id="@id/B08" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1eac" view_id="@id/B09" />
+    </merge_key_mapping>
+</framework>

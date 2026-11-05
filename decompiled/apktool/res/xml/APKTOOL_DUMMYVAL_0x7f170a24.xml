@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_number_row="false">
+        <key_mapping state="SHIFT,CAPS">
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a5" view_id="@id/D01" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a9" view_id="@id/D02" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a8" view_id="@id/D03" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a3" view_id="@id/D04" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a2" view_id="@id/D05" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a7" view_id="@id/D06" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a6" view_id="@id/D07" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a1" view_id="@id/D08" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08a4" view_id="@id/D09" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b08aa" view_id="@id/D10" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0922" view_id="@id/D11" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b091c" view_id="@id/D12" />
+        </key_mapping>
+    </if>
+</framework>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b07da" android:tag=".divider.vertical.for-fast-access-bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080551" android:scaleType="center" android:contentDescription="@null" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070189" />
+</FrameLayout>

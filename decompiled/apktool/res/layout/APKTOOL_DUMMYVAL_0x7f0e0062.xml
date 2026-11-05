@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.RectangleWithRoundedArrowDrawableFrameLayout android:layout_marginStart="?APKTOOL_DUMMYVAL_0x7f040077" android:layout_marginEnd="?APKTOOL_DUMMYVAL_0x7f040077" android:elevation="2.0dp" style="@style/APKTOOL_DUMMYVAL_0x7f150216"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" style="@style/APKTOOL_DUMMYVAL_0x7f150218">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0063" />
+        <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01ac" android:scrollbars="vertical" android:text="@string/APKTOOL_DUMMYVAL_0x7f140192" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f15021e" />
+        <com.google.android.material.button.MaterialButton android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01ab" style="@style/APKTOOL_DUMMYVAL_0x7f15021a" />
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.RectangleWithRoundedArrowDrawableFrameLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if language="zz-NEVER">
+        <if language="abr-GH|ada-GH|ak-GH|ak-x-akuapem|ak-x-asante|dag-GH|dga-GH|ee|gpe-GH|gur-GH|ha-GH|xon-GH">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1173" view_id="@id/C03" />
+            </merge_key_mapping>
+        </if>
+        <else_if language="act-NL|an-ES|ast-ES|bar-AT|br-FR|ca|cnr-Cyrl-ME|cnr-Latn-ME|co|de-AT|de-BE|de-DE|de-LU|drt-NL|dsb-DE|egl-IT|el|es-ES|et-EE|eu-ES|ext-ES|fi|fr-BE|fr-FR|fur-IT|fy|ga|gcf-GP|gcr-GF|gl-ES|gos-NL|hsb-DE|it|ksh-DE|la|lb|li-NL|lij-IT|liv-LV|lld-IT|lmo-IT|lt|ltg-LV|lv|mt|nap-IT|nds-DE|nl|nrf-x-gallo|oc-FR|pcd-BE|pfl-DE|pms-IT|pnt-GR|pt-PT|qaa-x-alsatian|rcf-RE|sc-IT|scn-IT|sdc-IT|sgs-LT|sk|sl|sv-FI|sxu-DE|twd-NL|vec-IT|vel-NL|vls-BE|vmf-de|vro-EE|wa-BE|zea-NL">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11e1" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ady-RU|av-RU|az-RU|bxr-RU|ce-RU|cu-RU|cv-RU|dar-RU|inh-RU|kbd-RU|koi-RU|krc-RU|krl-RU|kum-RU|kv-RU|lbe-RU|lez-RU|mdf-RU|mhr-RU|mrj-RU|myv-RU|olo-RU|os-RU|ru-RU|sty-RU|tab-RU|tly-RU|tyv-RU|udm-RU|vep-RU|xal-RU|xdq-RU|yrk-RU">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126b" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ahr-IN|anp-IN|as-Latn|bfz-IN|bhb-Deva|bhb-Gujr|bjj-IN|bn-Latn|bpy-IN|brx-Latn|dcc-IN|doi-Latn|en-IN|gdx-IN|gju-Deva|gno|grt|gu-Latn|hi|hlb-IN|hlb-Orya|kfq-IN|kha-IN|kn-IN|kn-Latn|knn-IN|kok-Latn|kru-IN|ks-Latn|lus-IN|mai-Latn|ml-Latn|mni-Latn|mr-Latn|ne-IN|ne-Latn|or-Latn|pa-Latn|rkt-IN|sa|sat-Beng|sat-Latn|sd-Latn|sgj-IN|sjp-IN|swv-IN|ta-Latn|te-Latn|trp|unr|ur-Latn|vah|wbr-IN|wry-IN">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1206" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="anw-NG|bin-NG|bom-NG|efi-NG|en-NG|fuv-NG|ha-NG|ibb-NG|ig|igb-NG|igl-NG|ijc-NG|iso-NG|kr-NG|nup-NG|pcm-NG|tiv-NG|yo">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1245" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="as-IN|awa-IN|bfy-IN|bgc-IN|bgq-IN|bho-IN|bn-BD|bn-IN|bns-IN|brx-Beng|brx-Deva|dhd-IN|doi-Arab|doi-Deva|gbm-IN|gu-IN|hne-IN|hoj-IN|kfy-IN|kok-Deva|kok-Knda|ks-Arab|ks-Deva|lmn-Deva|lmn-Knda|lmn-Telu|mag-IN|mai-IN|mjl-IN|ml-IN|mni-Beng|mr-IN|mtr-IN|mup-IN|noe-IN|or-IN|pa-Guru|pa-PK|rwr-IN|sat-Deva|sat-Olck|sck-IN|sd-Arab|sd-Deva|ta-IN|tcy-IN|te-IN|vas-IN|xnr-IN" variant="qwerty">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1206" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="az-IR|bqi-IR|fa|fay-IR|gdq-YE|glk-IR|hac-IR|kmz-Arab|kmz-Latn|ku-IR|lki-IR|lrc-IR|lrl-IR|luz-IR|mzn-IR|qxq-IR|sdh-IR|tks-IR|tly-IR">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1266" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="bcl-PH|bpr-PH|bto-PH|cbk-PH|ceb|cps-PH|cyo-PH|en-PH|hil-PH|ilo-PH|itv-PH|kne-PH|mdh-PH|mrw-PH|pag-PH|pam-PH|tl|tsg-PH|war">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b125e" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="bgx-TR|diq-TR|kiu-TR|tr">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127c" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="blt-Latn|cjm|mtq-VN|nut-VN|tyz-VN|vi">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11df" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="bxm-MN|mn-MN">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127b" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ccp-BD|ctg-BD">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1172" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="cdo-CN|hak-CN|hea-CN|hmn|hni-CN|ium-CN|ja-JP|lhu-CN|mmr-CN|mnp-CN|mww-CN|tdd-CN|zyb-CN|zyj-CN">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127f" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="cja-Latn">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b121b" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="cy|en-GB|gd-GB|gv|kw-GB|sco-GB">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1182" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="dty-NP|gvr-NP|lif-Deva|mag-NP" variant="qwerty">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1246" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="gn">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11f8" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="hy-AM">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1155" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="iw|lad-IL|ydd-IL">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1247" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="kk">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126f" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="km-KH" variant="qwerty">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b121b" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ko">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127e" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="lo-LA">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b121c" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="mfa-TH|th">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1157" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ne-NP|taj-NP">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1246" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="pap-AW">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11ed" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="prs-AF|ps|psh-AF|psi-AF">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b113a" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ru-BY|ru-KG">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11de" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="rue-UA|uk">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1203" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="si-LK" variant="qwerty">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126e" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="syl" variant="qwerty">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1172" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ta-LK|ta-SG" variant="qwerty">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11de" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="tly-AZ">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b122e" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ur-IN" variant="urdu_in|handwriting">
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1206" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else_if>
+        <else>
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11de" view_id="@id/C03" />
+            </merge_key_mapping>
+        </else>
+    </if>
+</framework>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/APKTOOL_DUMMYVAL_0x7f1407bb" disable_lift_to_tap="true" id="@id/APKTOOL_DUMMYVAL_0x7f0b23b3" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0715">
+            <action keycode="TOGGLE_SHOW_MORE_CANDIDATES" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401b1" />
+        </softkey>
+        <softkey content_description="@string/APKTOOL_DUMMYVAL_0x7f14048a" disable_lift_to_tap="true" id="@id/APKTOOL_DUMMYVAL_0x7f0b14e1" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0715">
+            <action keycode="TOGGLE_SHOW_MORE_CANDIDATES" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401b0" />
+        </softkey>
+    </softkeys>
+</framework>

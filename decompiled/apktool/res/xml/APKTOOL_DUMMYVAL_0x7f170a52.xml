@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@id/APKTOOL_DUMMYVAL_0x7f0b14e4">
+        <key key_id="@id/APKTOOL_DUMMYVAL_0x7f0b22fa" />
+        <key key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2031" />
+        <key key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2426" />
+        <key key_id="@id/APKTOOL_DUMMYVAL_0x7f0b240e" />
+        <key key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1a2f" />
+        <key key_id="@id/APKTOOL_DUMMYVAL_0x7f0b234b" />
+    </keygroup_mapping>
+</framework>

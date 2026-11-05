@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">‫%1$d ساعت</item>
+        <item quantity="other">‫%1$d ساعت</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">‫%1$d دقیقه</item>
+        <item quantity="other">‫%1$d دقیقه</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">درحال نزدیک شدن به حد %1$d دقیقه هستید</item>
+        <item quantity="other">درحال نزدیک شدن به حد %1$d دقیقه هستید</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">‫%1$d ثانیه دیگر بسته می‌شود…</item>
+        <item quantity="other">‫%1$d ثانیه دیگر بسته می‌شود…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d کلید اختصاص داده شده است</item>
+        <item quantity="other">%d کلید اختصاص داده شده است</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s اکنون نصب شده است.</item>
+        <item quantity="other">%s اکنون نصب شده‌اند.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">‫%d ساعت</item>
+        <item quantity="other">‫%d ساعت</item>
+    </plurals>
+</resources>

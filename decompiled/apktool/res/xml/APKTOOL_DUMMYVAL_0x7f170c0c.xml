@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c13" />
+    </if>
+    <else>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c11" />
+    </else>
+    <if language="zz-NEVER">
+        <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127a" view_id="@id/B00" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b114b" view_id="@id/B01" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1153" view_id="@id/B02" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1148" view_id="@id/B03" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1150" view_id="@id/B04" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127d" view_id="@id/B07" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b117f" view_id="@id/B08" />
+            <if language="az-IR|doi-Arab|dv-MV|khw|ks-Arab|ps|sd-Arab|trw|pa-PK">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b122b" view_id="@id/B05" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b122f" view_id="@id/B06" />
+            </if>
+            <else>
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b114a" view_id="@id/B05" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1152" view_id="@id/B06" />
+            </else>
+        </merge_key_mapping>
+    </if>
+</framework>

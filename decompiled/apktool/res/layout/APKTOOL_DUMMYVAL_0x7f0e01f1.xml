@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05de" android:visibility="?APKTOOL_DUMMYVAL_0x7f040118" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="start" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05dd" android:maxWidth="?APKTOOL_DUMMYVAL_0x7f040119" style="@style/APKTOOL_DUMMYVAL_0x7f1503ba" />
+</FrameLayout>

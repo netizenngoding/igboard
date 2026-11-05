@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/APKTOOL_DUMMYVAL_0x7f14015e" id="@id/APKTOOL_DUMMYVAL_0x7f0b157a" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0752">
+            <action keycode="MUHENKAN" type="PRESS" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" value="無変換" />
+        </softkey>
+        <softkey content_description="@string/APKTOOL_DUMMYVAL_0x7f14015b" id="@id/APKTOOL_DUMMYVAL_0x7f0b1577" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0752">
+            <action keycode="HENKAN" type="PRESS" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" value="変換" />
+        </softkey>
+        <softkey content_description="@string/APKTOOL_DUMMYVAL_0x7f140166" id="@id/APKTOOL_DUMMYVAL_0x7f0b15b0" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0735">
+            <action keycode="ZENKAKU_HANKAKU" type="PRESS" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b0602" value="かな" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f6" value="英数" />
+        </softkey>
+    </softkeys>
+</framework>

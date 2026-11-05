@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="SHOW_EMOJI_SWITCH_KEY">
+        <if expressions="policy_transparency">
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2473" view_id="@id/key_pos_12key_switch_to_next_language" />
+        </if>
+        <else_if expressions="hidden" />
+        <else>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b246f" view_id="@id/key_pos_12key_switch_to_next_language" />
+        </else>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b247d" view_id="@id/key_pos_12key_switch_to_next_language" />
+    </key_mapping>
+    <if expressions="policy_transparency|hidden" />
+    <else>
+        <merge_key_mapping exclude_state="INPUT_TYPE_EMAIL_ADDRESS,INPUT_TYPE_URI,SHOW_EMOJI_SWITCH_KEY">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ae" view_id="@id/key_pos_left_panel_symbol_2" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b107c" view_id="@id/key_pos_left_panel_symbol_2" />
+        </merge_key_mapping>
+        <merge_key_mapping exclude_state="INPUT_TYPE_EMAIL_ADDRESS,INPUT_TYPE_URI" state="SHOW_EMOJI_SWITCH_KEY+SHOW_LANGUAGE_SWITCH_KEY">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ae" view_id="@id/key_pos_left_panel_symbol_2" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ab" view_id="@id/key_pos_left_panel_symbol_2" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b107c" view_id="@id/key_pos_left_panel_symbol_2" />
+        </merge_key_mapping>
+    </else>
+    <merge_key_mapping>
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ab" view_id="@id/key_pos_left_panel_symbol_2" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1130" view_id="@id/key_pos_left_panel_symbol_2" />
+    </merge_key_mapping>
+</framework>

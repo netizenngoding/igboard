@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="56.0dp" android:paddingHorizontal="20.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03c9" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="32.0dp" android:layout_marginEnd="16.0dp">
+        <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" settings:APKTOOL_DUMMYVAL_0x7f040804="@dimen/APKTOOL_DUMMYVAL_0x7f070875" settings:APKTOOL_DUMMYVAL_0x7f04080c="@dimen/APKTOOL_DUMMYVAL_0x7f070875" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2934" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0117" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewEnd" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b07d0" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06c8" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06c7" />
+    </FrameLayout>
+</LinearLayout>

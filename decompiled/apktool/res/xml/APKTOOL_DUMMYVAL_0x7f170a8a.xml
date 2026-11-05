@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a8b" />
+    <merge_key_mapping exclude_state="INPUT_TYPE_EMAIL_ADDRESS,INPUT_TYPE_URI,SHOW_EMOJI_SWITCH_KEY" state="EMOJI_AVAILABLE">
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b107c" view_id="@id/A02" />
+    </merge_key_mapping>
+</framework>

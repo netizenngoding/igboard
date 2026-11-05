@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinDigitsKeyboard" initial_states="LOCK_KEYBOARD">
+        <ifnot keyboard_mode="floating_panel">
+            <view direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e052a" scalable="false" type="header" />
+        </ifnot>
+        <view type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebf" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170fac" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f05" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f09" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17122a" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171221" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17110e" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef5" />
+        </view>
+        <if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e058e" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e058f" type="body" />
+            </else>
+            <view type="body">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17122d" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17122f" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ca7" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170caa" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a2f" />
+            </view>
+        </if>
+        <else>
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e058d" type="body">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17122e" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17122f" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a52" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a53" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ca5" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ca9" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a2f" />
+            </view>
+        </else>
+    </keyboard>
+</framework>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b246e" view_id="@id/key_pos_switch_hiragana_alphabet" />
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b241a" view_id="@id/key_pos_space" />
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1564" view_id="@id/A02" />
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1565" view_id="@id/A08" />
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b158e" view_id="@id/key_pos_qwerty_globe" />
+    </key_mapping>
+    <key_mapping state="SHOW_EMOJI_SWITCH_KEY">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b158e" view_id="@id/key_pos_qwerty_globe" />
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b159e" view_id="@id/key_pos_qwerty_globe" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b158e" view_id="@id/key_pos_qwerty_globe" />
+    </key_mapping>
+</framework>

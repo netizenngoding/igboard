@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="0.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="?android:textColorSecondary" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0148" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dp" />
+    <ListView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0147" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

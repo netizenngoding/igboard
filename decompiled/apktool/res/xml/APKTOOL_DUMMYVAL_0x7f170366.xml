@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="rmn-BG" string_id="ime_balkan_romani">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f17089e" pk_language_tag="bg" support_a11y_keyboard="true" variant="bulgarian" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141458" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f17089f" pk_language_tag="bg" support_a11y_keyboard="true" variant="bulgarian_bds" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141459" />
+    </ime>
+</framework>

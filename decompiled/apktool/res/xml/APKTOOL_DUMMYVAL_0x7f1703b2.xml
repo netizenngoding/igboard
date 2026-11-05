@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="sr-XB" string_id="ime_montenegrin_cyrillic">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708c2" pk_language_tag="cnr-Cyrl-ME" pk_layout_type="extended" support_a11y_keyboard="true" variant="serbian" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141580" />
+    </ime>
+</framework>

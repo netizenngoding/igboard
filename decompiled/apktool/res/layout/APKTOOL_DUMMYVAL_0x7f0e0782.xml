@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag=".background.text-editing-selected-key" android:background="?APKTOOL_DUMMYVAL_0x7f040061" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0781" />
+</FrameLayout>

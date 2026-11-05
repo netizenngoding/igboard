@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Writing Tools PI Model Override"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.ColoredBackgroundSwitchPreference android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140cb3" android:key="@string/APKTOOL_DUMMYVAL_0x7f140ac0" />
+    <androidx.preference.PreferenceCategory android:title="PI Override Options">
+        <com.google.android.libraries.inputmethod.preferencewidgets.list.MultiSelectListPreference android:persistent="true" android:entries="@array/APKTOOL_DUMMYVAL_0x7f030043" android:title="@string/APKTOOL_DUMMYVAL_0x7f140cb4" android:key="@string/APKTOOL_DUMMYVAL_0x7f140ac4" android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f030059" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d ժամ</item>
+        <item quantity="other">%1$d ժամ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d րոպե</item>
+        <item quantity="other">%1$d րոպե</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Դուք մոտենում եք %1$d րոպեի սահմանաչափին</item>
+        <item quantity="other">Դուք մոտենում եք %1$d րոպեի սահմանաչափին</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Կփակվի %1$d վայրկյանից…</item>
+        <item quantity="other">Կփակվի %1$d վայրկյանից…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d նշանակված ստեղն</item>
+        <item quantity="other">%d նշանակված ստեղն</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s լեզուն այժմ տեղադրված է։</item>
+        <item quantity="other">%s լեզուներն այժմ տեղադրված են։</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d ժամ</item>
+        <item quantity="other">%d ժամ</item>
+    </plurals>
+</resources>

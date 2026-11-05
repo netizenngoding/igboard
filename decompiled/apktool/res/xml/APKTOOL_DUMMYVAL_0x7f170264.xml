@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="kxm-TH" string_id="ime_khmer_surin">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bf" main_def="@xml/APKTOOL_DUMMYVAL_0x7f170723" variant="khmer_surin" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141513" />
+    </ime>
+</framework>

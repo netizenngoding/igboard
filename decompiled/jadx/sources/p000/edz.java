@@ -1,0 +1,46 @@
+package p000;
+
+import android.content.res.AssetFileDescriptor;
+import android.media.MediaExtractor;
+import android.media.MediaMetadataRetriever;
+import android.os.ParcelFileDescriptor;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public final class edz implements eea {
+    private final /* synthetic */ int $cid;
+
+    public edz(int i) {
+        this.$cid = i;
+    }
+
+    @Override // p000.eea
+    /* JADX INFO: renamed from: a */
+    public final /* synthetic */ void mo13430a(MediaExtractor mediaExtractor, Object obj) throws IOException {
+        int i = this.$cid;
+        if (i == 0) {
+            mediaExtractor.setDataSource(new edy(this, (ByteBuffer) obj));
+        } else if (i != 1) {
+            mediaExtractor.setDataSource(((ParcelFileDescriptor) obj).getFileDescriptor());
+        } else {
+            AssetFileDescriptor assetFileDescriptor = (AssetFileDescriptor) obj;
+            mediaExtractor.setDataSource(assetFileDescriptor.getFileDescriptor(), assetFileDescriptor.getStartOffset(), assetFileDescriptor.getLength());
+        }
+    }
+
+    @Override // p000.eea
+    /* JADX INFO: renamed from: b */
+    public final /* synthetic */ void mo13431b(MediaMetadataRetriever mediaMetadataRetriever, Object obj) {
+        int i = this.$cid;
+        if (i == 0) {
+            mediaMetadataRetriever.setDataSource(new edy(this, (ByteBuffer) obj));
+        } else if (i != 1) {
+            mediaMetadataRetriever.setDataSource(((ParcelFileDescriptor) obj).getFileDescriptor());
+        } else {
+            AssetFileDescriptor assetFileDescriptor = (AssetFileDescriptor) obj;
+            mediaMetadataRetriever.setDataSource(assetFileDescriptor.getFileDescriptor(), assetFileDescriptor.getStartOffset(), assetFileDescriptor.getLength());
+        }
+    }
+}

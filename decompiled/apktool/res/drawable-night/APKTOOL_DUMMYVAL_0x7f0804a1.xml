@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="?APKTOOL_DUMMYVAL_0x7f04049c" android:height="25.0dp" android:width="25.0dp" android:viewportWidth="26.92" android:viewportHeight="26.92"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:pivotX="13.46" android:pivotY="13.46" android:scaleX="0.8" android:scaleY="0.8">
+        <path android:fillColor="@android:color/white" android:pathData="M13.46 0A13.46 13.46 0 1 1 13.46 26.92A13.46 13.46 0 1 1 13.46 0ZM17.35 12.28C18.18 12.28 18.92 11.53 18.92 10.47C18.92 9.41 18.18 8.65 17.35 8.65C16.52 8.65 15.79 9.41 15.79 10.47C15.79 11.53 16.52 12.28 17.35 12.28ZM9.53 12.28C10.37 12.28 11.11 11.53 11.11 10.47C11.11 9.41 10.37 8.65 9.53 8.65C8.69 8.65 7.99 9.41 7.99 10.47C7.99 11.53 8.7 12.28 9.53 12.28ZM13.45 22.46C17.97 22.46 21.6 19.14 22.1 15.2C22.21 14.41 21.69 14.05 20.99 14.25C18.45 15 16.07 15.42 13.45 15.42C10.83 15.42 8.47 15 5.92 14.25C5.22 14.05 4.71 14.41 4.81 15.2C5.3 19.14 8.92 22.46 13.45 22.46Z" android:fillType="evenOdd" />
+        <path android:fillColor="@android:color/white" android:pathData="M13.45 18.2C11.34 18.2 9.1 17.95 7.2 17.45C6.85 16.95 6.6 16.4 6.45 15.95C8.6 16.5 10.95 16.85 13.46 16.85C15.97 16.85 18.32 16.5 20.47 15.95C20.32 16.4 20.07 16.95 19.72 17.45C17.82 17.95 15.58 18.2 13.46 18.2H13.45Z" />
+    </group>
+</vector>

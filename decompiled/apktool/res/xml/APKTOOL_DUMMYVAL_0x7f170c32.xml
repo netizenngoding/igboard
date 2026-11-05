@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0feb" view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c3a" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c39" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c37" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c38" />
+</framework>

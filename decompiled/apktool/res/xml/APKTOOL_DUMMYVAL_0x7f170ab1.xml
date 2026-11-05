@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if language="de-CH|fr-002|fr-CA">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0fce" view_id="@id/C03" />
+        </key_mapping>
+    </if>
+    <else_if language="abr-GH|ada-GH|ak-GH|ak-x-akuapem|ak-x-asante|dag-GH|dga-GH|ee|gpe-GH|gur-GH|ha-GH|xon-GH">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0baf" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ur-IN" variant="qwerty">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0fcb" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ta-IN" variant="qwerty">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1505" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="bn-BD" variant="bengali_bangladesh|handwriting">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0aac" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="bn-BD" variant="qwerty">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1503" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="doi-Latn|doi-Deva|doi-Arab">
+        <if variant="dogri_arabic" />
+        <else>
+            <key_mapping>
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1503" view_id="@id/C03" />
+            </key_mapping>
+        </else>
+    </else_if>
+    <else_if language="ks-Latn|ks-Deva|ks-Arab">
+        <if variant="kashmiri_arabic" />
+        <else>
+            <key_mapping>
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1503" view_id="@id/C03" />
+            </key_mapping>
+        </else>
+    </else_if>
+    <else_if language="pa-PK|pa-Guru|pa-Latn">
+        <if variant="punjabi_pakistan" />
+        <else>
+            <key_mapping>
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1503" view_id="@id/C03" />
+            </key_mapping>
+        </else>
+    </else_if>
+    <else_if language="sd">
+        <if variant="sindhi_arabic" />
+        <else>
+            <key_mapping>
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1503" view_id="@id/C03" />
+            </key_mapping>
+        </else>
+    </else_if>
+    <else_if language="ab-GE|uum-GE">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0fcd" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="anw-NG|bin-NG|bom-NG|efi-NG|en-NG|fuv-NG|ha|ibb-NG|ig|igb-NG|igl-NG|ijc-NG|iso-NG|kr-NG|nup-NG|pcm-NG|tiv-NG|yo">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2101" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="act-NL|an-ES|ast-ES|bar-AT|br-FR|ca|cnr-Cyrl-ME|cnr-Latn-ME|co|de|de-AT|de-BE|de-LU|drt-NL|dsb-DE|egl-IT|el|el-CY|es-ES|et-EE|eu-ES|ext-ES|fi|fr|fr-BE|fur-IT|fy|ga|gcf-GP|gcr-GF|gl-ES|gos-NL|hsb-DE|it|ksh-DE|la|lb|li-NL|lij-IT|liv-LV|lld-IT|lmo-IT|lt|ltg-LV|lv|mt|nap-IT|nds-DE|nl|nl-BE|nrf|nrf-x-gallo|oc-FR|pcd-BE|pfl-DE|pms-IT|pnt-GR|pt-PT|qaa-x-alsatian|rcf-RE|sc-IT|scn-IT|sdc-IT|sgs-LT|sk|sl|sv-FI|sxu-DE|twd-NL|vec-IT|vel-NL|vls-BE|vmf-DE|vro-EE|wa-BE|zea-NL">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1037" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="adx-CN|cdo-CN|hak-CN|hea-CN|hmn|hni-CN|ium-CN|ja-JP|khg-CN|lhu-CN|mmr-CN|mnp-CN|mww-CN|tdd-CN|zyb-CN|zyj-CN">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2887" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ady-RU|av-RU|az-RU|ba|bxr-RU|ce-RU|cu-RU|cv-RU|dar-RU|inh-RU|kbd-RU|koi-RU|krc-RU|krl-RU|kum-RU|kv-RU|lbe-RU|lez-RU|mdf-RU|mhr-RU|mrj-RU|myv-RU|olo-RU|os-RU|ru-RU|sah-RU|sty-RU|tab-RU|tly-RU|tyv-RU|udm-RU|vep-RU|xal-RU|xdq-RU|yrk-RU">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2359" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ahr-IN|anp-IN|as|awa-IN|bfy-IN|bfz-IN|bgc-IN|bgq-IN|bhb-Deva|bhb-Gujr|bho-IN|bjj-IN|bn-IN|bn-Latn|bns-IN|bpy-IN|brx-Beng|brx-Deva|brx-Latn|dcc-IN|dhd-IN|en-IN|gbm-IN|gdx-IN|gju-Deva|gno|grt|gu|gu-Latn|hi|hi-Latn|hlb-IN|hlb-Orya|hne-IN|hoj-IN|kfq-IN|kfr-IN|kfy-IN|kha-IN|kn-IN|kn-Latn|knn-IN|kok-Deva|kok-Knda|kok-Latn|kru|kxu-IN|kxv-Deva-IN|kxv-Latn-IN|kxv-Orya-IN|kxv-Telu-IN|lep|lmn-Deva|lmn-Knda|lmn-Telu|lus-IN|mag-IN|mai|mai-Latn|mjl-IN|ml-IN|ml-Latn|mni-Beng|mni-Latn|mni-Mtei|mr-IN|mr-Latn|mtr-IN|mup-IN|ne-IN|ne-Latn|noe-IN|or|or-Latn|rkt-IN|rwr-IN|sa|sa-Latn|sat-Beng|sat-Deva|sat-Latn|sat-Olck|saz-IN|sck-IN|sgj-IN|sjp-IN|swv-IN|tcy-IN|te-IN|te-Latn|trp|unr|ur-IN|ur-Latn|vah|vas|wbr-IN|wry-IN|xnr-IN">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1503" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ar-SA">
+        <if renderable_saudi_riyal="true">
+            <key_mapping>
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b235b" view_id="@id/C03" />
+            </key_mapping>
+        </if>
+        <else>
+            <key_mapping>
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2332" view_id="@id/C03" />
+            </key_mapping>
+        </else>
+    </else_if>
+    <else_if language="ar-OM|ar-YE|az-IR|bqi-IR|fa|fay-IR|gdq-YE|glk-IR|hac-IR|kmz-Arab|kmz-Latn|ku-IR|lki-IR|lrc-IR|lrl-IR|luz-IR|mzn-IR|qxq-IR|sdh-IR|tks-IR|tly-IR">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2332" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="az-AZ|lez-AZ|tly-AZ">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ff8" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="bal-PK|bcc-PK|bft-PK|bgn-PK|bgp-Arab|bgq-PK|gjk-PK|gju-PK|gwc-PK|hnd-PK|hno-PK|khw|kvx-PK|mki-PK|mve-PK|mvy-PK|phr-PK|plk-PK|scl-PK|skr|trw|ur-PK|wne-PK">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0fcb" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="bcl-PH|bku-PH|bpr-PH|bto-PH|cbk-PH|ceb|cps-PH|cyo-PH|en-PH|fil-Tglg|hil-PH|hnn-PH|ilo-PH|itv-PH|kne-PH|krj-PH|mdh-PH|mrw-PH|pag-PH|pam-PH|tbw-PH|tl|tsg-PH|war">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b22df" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="be-BY|ji|ru-BY|ru-KG">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0fcc" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="bgx-TR|diq-TR|kiu-TR|tr|tr-CY">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2841" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="blt|cjm|mtq-VN|nut-VN|tyz-VN|vi">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0fcf" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="bxm-MN|mn-MN">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b283f" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ccp-BD|ctg-BD|rkt-Beng|syl-Beng|syl-Latn|syl-Sylo">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0aac" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="cja|km-KH">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1702" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="cy|en-GB|gd-GB|gv|kw-GB|sco-GB">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0d40" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="dty-NP|gvr-NP|lif|mag-NP|ne-NP|new-NP|taj-NP|xsr-NP">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2102" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ff-Adlm|ff-Latn">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0fca" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="gn">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1365" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="haz-AF|prs-AF|ps|psh-AF|psi-AF">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b088d" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="hy-AM">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0951" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="iw|lad-IL|ydd-IL">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2103" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ka|xmf-GE">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b17f6" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="kjg-LA|lo-LA">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b17a0" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="kk">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b26a3" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ko">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2886" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="kxm-TH|mfa-TH|nod-Thai|sou-TH|th|tts-TH">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0992" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="pap-AW">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b105e" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="rue-UA|uk">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b14ed" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="si-LK">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2425" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+    <else_if language="ta-IN|ta-Latn">
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1505" view_id="@id/C03" />
+        </key_mapping>
+    </else_if>
+</framework>

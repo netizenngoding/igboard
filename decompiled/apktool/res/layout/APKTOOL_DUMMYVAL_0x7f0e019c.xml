@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2" android:tag=".jarvis-prompt-notice-popup-dim" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="44.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:tag=".jarvis-prompt-notice-popup" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f0802ac" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040720="true" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040734="220.0dp" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+                <LinearLayout android:orientation="vertical" android:paddingTop="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center|top" android:tag=".icon.jarvis-prompt-notice-popup" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="16.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0804af" android:importantForAccessibility="no" />
+                    <TextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a6b" android:tag=".label.jarvis-prompt-notice-popup" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f14055f" />
+                </LinearLayout>
+            </ScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="88.0dp">
+            <com.google.android.material.button.MaterialButton android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a69" android:layout_gravity="end|center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0397" android:tag=".jarvis-prompt-notice-popup-button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1404fc" style="@style/APKTOOL_DUMMYVAL_0x7f150e2c" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

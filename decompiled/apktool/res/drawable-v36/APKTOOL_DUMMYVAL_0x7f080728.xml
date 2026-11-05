@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/APKTOOL_DUMMYVAL_0x7f060b45"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@android:id/background">
+        <com.google.android.material.focus.FocusRingDrawable app:APKTOOL_DUMMYVAL_0x7f040661="@dimen/APKTOOL_DUMMYVAL_0x7f070883">
+            <layer-list android:paddingStart="0.0dp" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0708a8" android:paddingMode="stack">
+                <item>
+                    <shape>
+                        <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f070883" />
+                        <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060afc" />
+                        <size android:height="@dimen/APKTOOL_DUMMYVAL_0x7f0708a1" />
+                    </shape>
+                </item>
+                <item android:gravity="end|center" android:height="@dimen/APKTOOL_DUMMYVAL_0x7f0708a8" android:width="@dimen/APKTOOL_DUMMYVAL_0x7f0708a8" android:end="@dimen/APKTOOL_DUMMYVAL_0x7f0708a5">
+                    <vector android:tint="@color/APKTOOL_DUMMYVAL_0x7f060afd" android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0">
+                        <path android:fillColor="@android:color/white" android:pathData="M16.59,8.59L12,13.17 7.41,8.59 6,10l6,6 6,-6 -1.41,-1.41z" />
+                    </vector>
+                </item>
+            </layer-list>
+        </com.google.android.material.focus.FocusRingDrawable>
+    </item>
+</ripple>

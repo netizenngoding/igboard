@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150350"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0187" />
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150354">
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150353">
+            <com.google.android.apps.inputmethod.libs.onboardingflow.KeyboardPreviewItemView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0325" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" keyboard_type="prime" language_tag="ja-JP" layout_name="@string/APKTOOL_DUMMYVAL_0x7f1414f3" variant="japanese_12keys_toggleflick" />
+            <com.google.android.apps.inputmethod.libs.onboardingflow.KeyboardPreviewItemView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b07c6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" keyboard_type="prime" language_tag="ja-JP" layout_name="@string/APKTOOL_DUMMYVAL_0x7f1414f5" variant="japanese_qwerty" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

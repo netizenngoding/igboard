@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if language="zz-NEVER">
+        <if language="kxm-TH|nod-Thai|sou-TH|tts-TH">
+            <merge_key_mapping exclude_state="SHIFT,ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11b5" view_id="@id/E01" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11d5" view_id="@id/E02" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11cd" view_id="@id/E03" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11a5" view_id="@id/E04" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b119d" view_id="@id/E05" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11c5" view_id="@id/E08" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11bd" view_id="@id/E09" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1195" view_id="@id/E10" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11ad" view_id="@id/E11" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11dd" view_id="@id/E12" />
+            </merge_key_mapping>
+        </if>
+        <else_if language="th" variant="thai">
+            <merge_key_mapping exclude_state="SHIFT,ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11b5" view_id="@id/E01" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11d5" view_id="@id/E02" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11cd" view_id="@id/E03" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11a5" view_id="@id/E04" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b119d" view_id="@id/E05" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11c5" view_id="@id/E08" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11bd" view_id="@id/E09" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1195" view_id="@id/E10" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11ad" view_id="@id/E11" />
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11dd" view_id="@id/E12" />
+            </merge_key_mapping>
+        </else_if>
+    </if>
+</framework>

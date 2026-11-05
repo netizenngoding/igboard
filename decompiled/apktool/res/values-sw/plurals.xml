@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">saa %1$d</item>
+        <item quantity="other">saa %1$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">dakika %1$d</item>
+        <item quantity="other">dakika %1$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Unakaribia kikomo cha dakika %1$d</item>
+        <item quantity="other">Unakaribia kikomo cha dakika %1$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Kinafungwa ndani ya sekunde %1$d…</item>
+        <item quantity="other">Kinafungwa ndani ya sekunde %1$d…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">Kitufe %d kimepewa majukumu</item>
+        <item quantity="other">Vitufe %d vimepewa majukumu</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">Sasa %s imesakinishwa.</item>
+        <item quantity="other">Sasa %s zimesakinishwa.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">Saa %d</item>
+        <item quantity="other">Saa %d</item>
+    </plurals>
+</resources>

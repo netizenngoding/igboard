@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="ff-XF" string_id="ime_fula_adlam">
+        <include dynamic_layout="fula_adlam" href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1704f9" variant="fula_adlam" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414aa" />
+    </ime>
+</framework>

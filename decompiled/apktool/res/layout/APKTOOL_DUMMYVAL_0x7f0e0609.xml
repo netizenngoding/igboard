@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.MaterialRectangularPopupView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b070e" app:APKTOOL_DUMMYVAL_0x7f0400a9="?APKTOOL_DUMMYVAL_0x7f04027d" app:APKTOOL_DUMMYVAL_0x7f040286="?APKTOOL_DUMMYVAL_0x7f040244" app:APKTOOL_DUMMYVAL_0x7f0402d6="?APKTOOL_DUMMYVAL_0x7f040287" app:APKTOOL_DUMMYVAL_0x7f0402d7="?APKTOOL_DUMMYVAL_0x7f040288" balanced_placement="false" first_key_as_default="false" max_item_per_row="6" style="@style/APKTOOL_DUMMYVAL_0x7f150492" text_view="@layout/APKTOOL_DUMMYVAL_0x7f0e063b"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b071f" style="@style/APKTOOL_DUMMYVAL_0x7f150495" />
+    <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b071d" style="@style/APKTOOL_DUMMYVAL_0x7f150494">
+        <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b071c" style="@style/APKTOOL_DUMMYVAL_0x7f150493" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.MaterialRectangularPopupView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01dd" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01e7" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29cd" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no" />
+        <FrameLayout android:layout_gravity="center|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b021b" android:layout_width="match_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04071d="@string/APKTOOL_DUMMYVAL_0x7f140126" style="?APKTOOL_DUMMYVAL_0x7f040406" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <androidx.core.view.insets.ProtectionLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0753" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d valanda</item>
+        <item quantity="few">%1$d valandos</item>
+        <item quantity="many">%1$d valandų</item>
+        <item quantity="other">%1$d valandos</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d minutė</item>
+        <item quantity="few">%1$d minutės</item>
+        <item quantity="many">%1$d minučių</item>
+        <item quantity="other">%1$d minutės</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Beveik pasiekėte %1$d min. apribojimą</item>
+        <item quantity="few">Beveik pasiekėte %1$d min. apribojimą</item>
+        <item quantity="many">Beveik pasiekėte %1$d min. apribojimą</item>
+        <item quantity="other">Beveik pasiekėte %1$d min. apribojimą</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Bus uždaryta po %1$d sekundės…</item>
+        <item quantity="few">Bus uždaryta po %1$d sekundžių…</item>
+        <item quantity="many">Bus uždaryta po %1$d sekundės…</item>
+        <item quantity="other">Bus uždaryta po %1$d sekundžių…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">Priskirtas %d klavišas</item>
+        <item quantity="few">Priskirti %d klavišai</item>
+        <item quantity="many">Priskirta %d klavišo</item>
+        <item quantity="other">Priskirta %d klavišų</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">Dabar %s k. įdiegtos.</item>
+        <item quantity="few">Dabar %s k. įdiegtos.</item>
+        <item quantity="many">Dabar %s k. įdiegtos.</item>
+        <item quantity="other">Dabar %s k. įdiegtos.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d val.</item>
+        <item quantity="few">%d val.</item>
+        <item quantity="many">%d val.</item>
+        <item quantity="other">%d val.</item>
+    </plurals>
+</resources>

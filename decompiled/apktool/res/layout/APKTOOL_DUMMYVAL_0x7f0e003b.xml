@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.FocusRingFrameLayout android:layout_gravity="top" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f08032c">
+        <com.google.android.material.card.MaterialCardView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b07ae" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content" card_view:APKTOOL_DUMMYVAL_0x7f04042d="?APKTOOL_DUMMYVAL_0x7f0404e9" card_view:APKTOOL_DUMMYVAL_0x7f04042e="28.0dp" card_view:APKTOOL_DUMMYVAL_0x7f04042f="0.0dp" card_view:APKTOOL_DUMMYVAL_0x7f0409fd="0.0dp">
+            <android.support.v7.widget.Toolbar android:id="@id/APKTOOL_DUMMYVAL_0x7f0b07ac" android:addStatesFromChildren="true" android:layout_width="match_parent" android:layout_height="52.0dp" android:layout_marginEnd="32.0dp" card_view:APKTOOL_DUMMYVAL_0x7f04052d="0.0dp" card_view:APKTOOL_DUMMYVAL_0x7f04052e="0.0dp">
+                <ImageView android:layout_gravity="center_vertical" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?APKTOOL_DUMMYVAL_0x7f0401ab" android:importantForAccessibility="no" android:paddingStart="16.0dp" android:paddingEnd="8.0dp" />
+                <EditText android:textSize="20.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404c1" android:ellipsize="end" android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b07ab" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/APKTOOL_DUMMYVAL_0x7f140b1e" android:singleLine="true" android:inputType="text" android:paddingStart="4.0dp" android:paddingEnd="4.0dp" android:importantForAutofill="no" />
+            </android.support.v7.widget.Toolbar>
+            <FrameLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dp">
+                <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b018b" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080295" android:padding="6.0dp" android:visibility="gone" android:layout_width="36.0dp" android:layout_height="36.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0806b3" android:tint="?APKTOOL_DUMMYVAL_0x7f0404c1" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14017b" />
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </com.google.android.libraries.inputmethod.widgets.FocusRingFrameLayout>
+    <FrameLayout android:id="@android:id/list_container" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

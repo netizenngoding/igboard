@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.focus.FocusRingDrawable app:APKTOOL_DUMMYVAL_0x7f040661="28.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <selector>
+        <item android:state_activated="true">
+            <shape android:shape="rectangle">
+                <corners android:radius="28.0dp" />
+                <solid android:color="#ffffffff" />
+            </shape>
+        </item>
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:radius="28.0dp" />
+                <solid android:color="#00ffffff" />
+            </shape>
+        </item>
+    </selector>
+</com.google.android.material.focus.FocusRingDrawable>

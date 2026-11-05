@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080298" android:layout_width="?APKTOOL_DUMMYVAL_0x7f04005f" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04005f" android:minWidth="?APKTOOL_DUMMYVAL_0x7f04005f" android:minHeight="?APKTOOL_DUMMYVAL_0x7f04005f" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1404f5" style="@style/APKTOOL_DUMMYVAL_0x7f150781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0806b3" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1404f5" style="@style/APKTOOL_DUMMYVAL_0x7f150240" />
+</FrameLayout>

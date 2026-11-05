@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f0806cc" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0672" android:title="@string/APKTOOL_DUMMYVAL_0x7f14002c" app:APKTOOL_DUMMYVAL_0x7f0409a5="APKTOOL_DUMMYVAL_0x7f0b0699" />
+    <item android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f0806c8" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0673" android:title="@string/APKTOOL_DUMMYVAL_0x7f14002e" app:APKTOOL_DUMMYVAL_0x7f0409a5="APKTOOL_DUMMYVAL_0x7f0b0699" />
+    <item android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f0806c7" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0670" android:title="@string/APKTOOL_DUMMYVAL_0x7f14002a" app:APKTOOL_DUMMYVAL_0x7f0409a5="APKTOOL_DUMMYVAL_0x7f0b0699" />
+    <item android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f0806b6" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0771" android:title="@string/APKTOOL_DUMMYVAL_0x7f140c09" app:APKTOOL_DUMMYVAL_0x7f0409a5="APKTOOL_DUMMYVAL_0x7f0b0699" />
+</menu>

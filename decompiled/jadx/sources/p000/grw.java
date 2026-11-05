@@ -1,0 +1,18 @@
+package p000;
+
+import android.content.Context;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+final class grw {
+
+    /* JADX INFO: renamed from: a */
+    public static final wvx f30125a = wvx.m34787i("com/google/android/apps/inputmethod/libs/expression/image/ShareIntentHelper");
+
+    /* JADX INFO: renamed from: b */
+    public final Context f30126b;
+
+    public grw(Context context) {
+        this.f30126b = context;
+    }
+}

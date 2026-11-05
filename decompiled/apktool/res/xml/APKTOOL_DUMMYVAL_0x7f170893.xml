@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170493" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170668" />
+    <keyboard>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17082e" />
+        <view type="body">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17121c" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170fd0" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171226" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171220" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1710cd" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170fee" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f00" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171225" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170aab" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ac1" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170cd8" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170df6" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ca" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c04" />
+        </view>
+    </keyboard>
+</framework>

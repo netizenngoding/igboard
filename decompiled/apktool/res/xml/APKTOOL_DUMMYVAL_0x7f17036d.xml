@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="ru" string_id="ime_russian" supports_inline_suggestion="true">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708a1" support_a11y_keyboard="true" variant="russian" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1415cd" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708a8" support_a11y_keyboard="true" variant="russian_student" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1415cf" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708a9" support_a11y_keyboard="true" variant="russian_yawert" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1415d0" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708aa" support_a11y_keyboard="true" variant="russian_yazhert" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1415d1" />
+    </ime>
+</framework>

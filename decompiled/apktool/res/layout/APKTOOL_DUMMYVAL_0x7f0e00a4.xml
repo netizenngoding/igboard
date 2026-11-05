@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="?android:dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0338" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502da" />
+    <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0340" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f1502d9" />
+    <Spinner android:id="@id/APKTOOL_DUMMYVAL_0x7f0b033a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/APKTOOL_DUMMYVAL_0x7f0b013a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:textSize="20.0sp" android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b033e" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48.0dp" android:hint="@string/APKTOOL_DUMMYVAL_0x7f1402c4" android:inputType="text" android:importantForAutofill="no" />
+    </LinearLayout>
+    <Spinner android:id="@id/APKTOOL_DUMMYVAL_0x7f0b033f" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

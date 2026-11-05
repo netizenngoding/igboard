@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170494" />
+    <if>
+        <any_of>
+            <cond device="tablet" device_size="large" keyboard_mode="normal" />
+            <cond enable_pk_simulator="true" enable_pk_simulator_setting="true" />
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1707f0" />
+    </if>
+    <else>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1707ed" />
+    </else>
+    <ifnot enable_pk_simulator="true" enable_pk_simulator_setting="true">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17078b" />
+        <if enable_number_row="true">
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170761" />
+        </if>
+    </ifnot>
+</framework>

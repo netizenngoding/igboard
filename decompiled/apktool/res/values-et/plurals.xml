@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d tund</item>
+        <item quantity="other">%1$d tundi</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="other">%1$d minutit</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">%1$d minuti piirang on peaaegu täis</item>
+        <item quantity="other">%1$d minuti piirang on peaaegu täis</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Suletakse %1$d sekundi pärast…</item>
+        <item quantity="other">Suletakse %1$d sekundi pärast…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d klahv on määratud</item>
+        <item quantity="other">%d klahvi on määratud</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s on nüüd installitud.</item>
+        <item quantity="other">%s on nüüd installitud.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d tund</item>
+        <item quantity="other">%d tundi</item>
+    </plurals>
+</resources>

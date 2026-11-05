@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d3" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14039e" android:rotation="90.0" style="@style/APKTOOL_DUMMYVAL_0x7f15037e" />
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14039c" android:rotation="180.0" style="@style/APKTOOL_DUMMYVAL_0x7f15037e" />
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14039b" style="@style/APKTOOL_DUMMYVAL_0x7f15037e" />
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d0" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140399" android:rotation="270.0" style="@style/APKTOOL_DUMMYVAL_0x7f15037e" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/APKTOOL_DUMMYVAL_0x7f140bf3" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a73"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.latin.preference.OverrideFlagPreference android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f080493" android:persistent="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f140b83" android:key="enable_user_contact_biasing=false" android:summary="@string/APKTOOL_DUMMYVAL_0x7f140b82">
+        <extra android:name="hide_if_flag_is_false" android:value="show_personal_dict_biasing_settings_toggle=false" />
+    </com.google.android.apps.inputmethod.latin.preference.OverrideFlagPreference>
+    <Preference android:icon="?APKTOOL_DUMMYVAL_0x7f04018a" android:persistent="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f140c53" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a61" android:summary="@string/APKTOOL_DUMMYVAL_0x7f140c54" android:fragment="com.google.android.libraries.inputmethod.personaldictionary.preference.PersonalDictionaryWordsFragment">
+        <extra android:name="hide_if_flag_is_false" android:value="show_rambler_dict_settings=false" />
+        <extra android:name="show_rambler_only" android:value="true" />
+    </Preference>
+    <Preference android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f080432" android:persistent="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f140b64" android:key="@string/APKTOOL_DUMMYVAL_0x7f140910" android:summary="@string/APKTOOL_DUMMYVAL_0x7f140b63">
+        <extra android:name="hide_if_flag_is_false" android:value="show_clear_all_corrected_words_settings=false" />
+    </Preference>
+    <androidx.preference.PreferenceCategory>
+        <Preference android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f080469" android:title="@string/APKTOOL_DUMMYVAL_0x7f140bd9" android:key="@string/APKTOOL_DUMMYVAL_0x7f1409b5" android:summary="@string/APKTOOL_DUMMYVAL_0x7f14057c" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

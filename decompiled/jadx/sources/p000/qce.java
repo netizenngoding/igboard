@@ -1,0 +1,101 @@
+package p000;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class qce implements acgn {
+    @Override // p000.acgn
+    /* JADX INFO: renamed from: a */
+    public final Object mo1537a() {
+        wvx wvxVar = qcg.f56111a;
+        qaz.m27973aq("NORMAL", 0L);
+        qaz.m27973aq("SHIFT", 1L);
+        qaz.m27973aq("SHIFT_LOCK_MASK", 2L);
+        qaz.m27973aq("SHIFT_LOCK", 3L);
+        qaz.m27973aq("ALT", 4L);
+        qaz.m27973aq("CTRL", 8L);
+        qaz.m27973aq("META", 16L);
+        qaz.m27973aq("META_KEY_COMBO_MASK", 32L);
+        qaz.m27973aq("SHIFT_COMBO", 33L);
+        qaz.m27973aq("CTRL_COMBO", 40L);
+        qaz.m27973aq("ALT_COMBO", 36L);
+        qaz.m27973aq("ALTGR_COMBO", 17592186044448L);
+        qaz.m27973aq("META_COMBO", 48L);
+        qaz.m27973aq("MANUAL_SHIFT_MASK", 64L);
+        qaz.m27973aq("MANUAL_SHIFT", 65L);
+        qaz.m27973aq("LOCK_KEYBOARD", 128L);
+        qaz.m27973aq("COMPOSING", 256L);
+        qaz.m27973aq("MORE_CANDIDATES_SHOWN", 512L);
+        qaz.m27973aq("SHOW_LANGUAGE_SWITCH_KEY", 1024L);
+        qaz.m27973aq("FIRST_PAGE", 2048L);
+        qaz.m27973aq("LAST_PAGE", 4096L);
+        qaz.m27973aq("DISABLED_MICROPHONE", 8192L);
+        qaz.m27973aq("EMPTY_MICROPHONE", 16384L);
+        qaz.m27973aq("NO_MICROPHONE", 24576L);
+        qaz.m27973aq("MULTI_LINE", 32768L);
+        qaz.m27973aq("IME_FLAG_NAVIGATE_PREVIOUS", 65536L);
+        qaz.m27973aq("IME_FLAG_NAVIGATE_NEXT", 131072L);
+        qaz.m27973aq("INPUT_TYPE_URI", qcg.f56116f);
+        qaz.m27973aq("INPUT_TYPE_EMAIL_ADDRESS", qcg.f56117g);
+        qaz.m27973aq("INPUT_TYPE_DATE", qcg.f56118h);
+        qaz.m27973aq("INPUT_TYPE_TIME", qcg.f56119i);
+        qaz.m27973aq("INPUT_TYPE_SHORT_MESSAGE", qcg.f56120j);
+        qaz.m27973aq("IME_ACTION_NONE", qcg.f56121k);
+        qaz.m27973aq("IME_ACTION_GO", qcg.f56122l);
+        qaz.m27973aq("IME_ACTION_SEARCH", qcg.f56123m);
+        qaz.m27973aq("IME_ACTION_SEND", qcg.f56124n);
+        qaz.m27973aq("IME_ACTION_NEXT", qcg.f56125o);
+        qaz.m27973aq("IME_ACTION_DONE", qcg.f56126p);
+        qaz.m27973aq("IME_ACTION_PREVIOUS", qcg.f56127q);
+        qaz.m27973aq("ALL_SUB_CATEGORY", qcg.f56129s);
+        qaz.m27973aq("SUB_CATEGORY_1", qcg.f56130t);
+        qaz.m27973aq("SUB_CATEGORY_2", qcg.f56131u);
+        qaz.m27973aq("SUB_CATEGORY_3", qcg.f56132v);
+        qaz.m27973aq("SUB_CATEGORY_4", qcg.f56133w);
+        qaz.m27973aq("SUB_CATEGORY_5", qcg.f56134x);
+        qaz.m27973aq("SUB_CATEGORY_6", qcg.f56135y);
+        qaz.m27973aq("SUB_CATEGORY_7", qcg.f56136z);
+        qaz.m27973aq("SUB_CATEGORY_8", qcg.f56093A);
+        qaz.m27973aq("SUB_CATEGORY_9", qcg.f56094B);
+        qaz.m27973aq("SUB_CATEGORY_10", qcg.f56095C);
+        qaz.m27973aq("SUB_CATEGORY_11", qcg.f56096D);
+        qaz.m27973aq("SUB_CATEGORY_12", qcg.f56097E);
+        qaz.m27973aq("SUB_CATEGORY_13", qcg.f56098F);
+        qaz.m27973aq("SUB_CATEGORY_14", qcg.f56099G);
+        qaz.m27973aq("SUB_CATEGORY_15", qcg.f56100H);
+        qaz.m27973aq("SUB_CATEGORY_16", qcg.f56101I);
+        qaz.m27973aq("SUB_CATEGORY_17", qcg.f56102J);
+        qaz.m27973aq("SUB_CATEGORY_18", qcg.f56103K);
+        qaz.m27973aq("SUB_CATEGORY_19", qcg.f56104L);
+        qaz.m27973aq("SUB_CATEGORY_20", qcg.f56105M);
+        qaz.m27973aq("EMOJI_AVAILABLE", 8589934592L);
+        qaz.m27973aq("NO_SETTINGS_KEY", 17179869184L);
+        qaz.m27973aq("SHOW_ONE_HANDED_MODE_SWITCH", 34359738368L);
+        qaz.m27973aq("SHOW_EMOJI_SWITCH_KEY", 68719476736L);
+        qaz.m27973aq("EDITOR_EMPTY", 137438953472L);
+        qaz.m27973aq("EMOTICON_AVAILABLE", 274877906944L);
+        qaz.m27973aq("SMART_DICTATION_AVAILABLE", 549755813888L);
+        qaz.m27973aq("NO_IME_PICKER", 1099511627776L);
+        qaz.m27973aq("CAPS", 2199023255552L);
+        qaz.m27973aq("CAPS_LOCK_MASK", 4398046511104L);
+        qaz.m27973aq("CAPS_LOCK", 6597069766656L);
+        qaz.m27973aq("SECONDARY_ACTION_SEND", 8796093022208L);
+        qaz.m27973aq("ALTGR", 17592186044416L);
+        qaz.m27973aq("CTRL_LOCK_MASK", 35184372088832L);
+        qaz.m27973aq("CTRL_LOCK", 35184372088840L);
+        qaz.m27973aq("ALT_LOCK_MASK", 70368744177664L);
+        qaz.m27973aq("ALT_LOCK", 70368744177668L);
+        qaz.m27973aq("ALTGR_LOCK_MASK", 140737488355328L);
+        qaz.m27973aq("ALTGR_LOCK", 158329674399744L);
+        qaz.m27973aq("META_LOCK_MASK", 281474976710656L);
+        qaz.m27973aq("META_LOCK", 281474976710672L);
+        qaz.m27973aq("FUNCTION", 562949953421312L);
+        qaz.m27973aq("NUMBER_ROW_VISIBLE", 1125899906842624L);
+        qaz.m27973aq("IME_ACTION_HIGHLIGHTED", 2251799813685248L);
+        qaz.m27973aq("UNDO_AVAILABLE", 4503599627370496L);
+        qaz.m27973aq("SHUANGPIN_MS_ZIGUANG", 9007199254740992L);
+        qaz.m27973aq("SINGLE_CHARACTER_CANDIDATE", 18014398509481984L);
+        qaz.m27973aq("FIRST_TONE_ON", 36028797018963968L);
+        qaz.m27973aq("SHOW_SWITCH_TO_HANDWRITING_BUTTON", 72057594037927936L);
+        return Boolean.TRUE;
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="am" string_id="ime_amharic_dynamic" use_ascii_password_keyboard="true">
+        <include dynamic_layout="amharic" href="@xml/APKTOOL_DUMMYVAL_0x7f1706bc" main_def="@xml/APKTOOL_DUMMYVAL_0x7f170469" variant="amharic" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141413" />
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02d8" value="true" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02d7" value="። " />
+        </extra_values>
+    </ime>
+</framework>

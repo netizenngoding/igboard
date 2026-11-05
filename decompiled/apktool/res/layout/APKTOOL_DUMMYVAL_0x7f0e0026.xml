@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0086" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointCustomizeHintView style="@style/APKTOOL_DUMMYVAL_0x7f150251">
+        <TextView style="@style/APKTOOL_DUMMYVAL_0x7f150250" />
+    </com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointCustomizeHintView>
+    <com.google.android.libraries.inputmethod.widgets.ScrollViewInSoftKeyboard android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsPanelEditPage android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0085" android:tag=".access-point-customized-state-indicator" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08024b" android:padding="?APKTOOL_DUMMYVAL_0x7f040013" android:layout_marginHorizontal="?APKTOOL_DUMMYVAL_0x7f040012" style="@style/APKTOOL_DUMMYVAL_0x7f15000b" />
+    </com.google.android.libraries.inputmethod.widgets.ScrollViewInSoftKeyboard>
+</LinearLayout>

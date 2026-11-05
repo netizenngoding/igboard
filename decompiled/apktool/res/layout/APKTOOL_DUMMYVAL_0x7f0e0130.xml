@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b034b" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05c5" android:tag=".keyboard-base-area" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f0802ec" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:elevation="@dimen/APKTOOL_DUMMYVAL_0x7f0701b3">
+        <com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView android:layoutDirection="ltr" style="@style/APKTOOL_DUMMYVAL_0x7f15036c" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.libraries.inputmethod.widgets.KeyboardHolder android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyboard_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05f4" android:visibility="visible" android:importantForAccessibility="no" android:layoutDirection="ltr" style="@style/APKTOOL_DUMMYVAL_0x7f1503a3" />
+                <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder android:layoutDirection="ltr" style="@style/APKTOOL_DUMMYVAL_0x7f1502c6" />
+                <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder android:layoutDirection="ltr" style="@style/APKTOOL_DUMMYVAL_0x7f150381" />
+                <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder android:layoutDirection="ltr" style="@style/APKTOOL_DUMMYVAL_0x7f15036e" />
+            </com.google.android.libraries.inputmethod.widgets.KeyboardHolder>
+            <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05c9" android:clickable="true" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0701a7" android:layoutDirection="ltr" style="@style/APKTOOL_DUMMYVAL_0x7f15036f" />
+        </LinearLayout>
+        <com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+            <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f1503a4" />
+        </com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView>
+    </FrameLayout>
+</FrameLayout>

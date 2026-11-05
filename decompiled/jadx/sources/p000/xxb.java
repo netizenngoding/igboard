@@ -1,0 +1,228 @@
+package p000;
+
+import java.security.GeneralSecurityException;
+import java.util.HashMap;
+import java.util.Set;
+import p008j$.util.DesugarCollections;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+public final class xxb {
+    static {
+        ydi ydiVar = ydi.f77350a;
+        try {
+            m35478a();
+        } catch (GeneralSecurityException e) {
+            throw new ExceptionInInitializerError(e);
+        }
+    }
+
+    /* JADX INFO: renamed from: a */
+    public static void m35478a() throws GeneralSecurityException {
+        xzh xzhVar = xzh.f77011a;
+        xzhVar.m35565b(xxd.f76888a);
+        xzhVar.m35564a(xxd.f76889b);
+        xzhVar.m35565b(xxe.f76890a);
+        xzhVar.m35564a(xxe.f76891b);
+        xst.m35375a();
+        xvw.m35456a();
+        if (xvq.m35438a()) {
+            return;
+        }
+        xzq xzqVar = xwd.f76811a;
+        if (!tlx.m31227u(1)) {
+            throw new GeneralSecurityException("Registering ECIES Hybrid Encryption is not supported in FIPS mode");
+        }
+        xzm xzmVar = xxn.f76897a;
+        xzi xziVar = xzi.f77013a;
+        xziVar.m35566a(xxn.f76897a);
+        xziVar.m35567b(xxn.f76898b);
+        xziVar.m35568c(xxn.f76899c);
+        xziVar.m35573h(xxn.f76901e);
+        xziVar.m35568c(xxn.f76900d);
+        xziVar.m35573h(xxn.f76902f);
+        xzg xzgVar = xzg.f77009a;
+        HashMap map = new HashMap();
+        Set set = xwi.f76835a;
+        zzq zzqVar = new zzq(null);
+        xwe xweVar = xwe.f76816a;
+        zzqVar.f82414c = xweVar;
+        xwf xwfVar = xwf.f76823c;
+        zzqVar.f82412a = xwfVar;
+        xwg xwgVar = xwg.f76828b;
+        zzqVar.f82416e = xwgVar;
+        xwh xwhVar = xwh.f76831a;
+        zzqVar.f82417f = xwhVar;
+        yas yasVar = new yas((byte[]) null);
+        yasVar.m35598e();
+        yasVar.m35599f(16);
+        yasVar.m35600g();
+        xtk xtkVar = xtk.f76627c;
+        yasVar.f77078a = xtkVar;
+        zzqVar.m36295b(yasVar.m35597d());
+        map.put("ECIES_P256_HKDF_HMAC_SHA256_AES128_GCM", zzqVar.m36294a());
+        zzq zzqVar2 = new zzq(null);
+        zzqVar2.f82414c = xweVar;
+        zzqVar2.f82412a = xwfVar;
+        zzqVar2.f82416e = xwgVar;
+        xwh xwhVar2 = xwh.f76833c;
+        zzqVar2.f82417f = xwhVar2;
+        yas yasVar2 = new yas((byte[]) null);
+        yasVar2.m35598e();
+        yasVar2.m35599f(16);
+        yasVar2.m35600g();
+        yasVar2.f77078a = xtkVar;
+        zzqVar2.m36295b(yasVar2.m35597d());
+        map.put("ECIES_P256_HKDF_HMAC_SHA256_AES128_GCM_RAW", zzqVar2.m36294a());
+        zzq zzqVar3 = new zzq(null);
+        zzqVar3.f82414c = xweVar;
+        zzqVar3.f82412a = xwfVar;
+        xwg xwgVar2 = xwg.f76827a;
+        zzqVar3.f82416e = xwgVar2;
+        zzqVar3.f82417f = xwhVar;
+        yas yasVar3 = new yas((byte[]) null);
+        yasVar3.m35598e();
+        yasVar3.m35599f(16);
+        yasVar3.m35600g();
+        yasVar3.f77078a = xtkVar;
+        zzqVar3.m36295b(yasVar3.m35597d());
+        map.put("ECIES_P256_COMPRESSED_HKDF_HMAC_SHA256_AES128_GCM", zzqVar3.m36294a());
+        zzq zzqVar4 = new zzq(null);
+        zzqVar4.f82414c = xweVar;
+        zzqVar4.f82412a = xwfVar;
+        zzqVar4.f82416e = xwgVar2;
+        zzqVar4.f82417f = xwhVar2;
+        yas yasVar4 = new yas((byte[]) null);
+        yasVar4.m35598e();
+        yasVar4.m35599f(16);
+        yasVar4.m35600g();
+        yasVar4.f77078a = xtkVar;
+        zzqVar4.m36295b(yasVar4.m35597d());
+        map.put("ECIES_P256_COMPRESSED_HKDF_HMAC_SHA256_AES128_GCM_RAW", zzqVar4.m36294a());
+        zzq zzqVar5 = new zzq(null);
+        zzqVar5.f82414c = xweVar;
+        zzqVar5.f82412a = xwfVar;
+        zzqVar5.f82416e = xwgVar2;
+        zzqVar5.f82417f = xwhVar2;
+        yas yasVar5 = new yas((byte[]) null);
+        yasVar5.m35598e();
+        yasVar5.m35599f(16);
+        yasVar5.m35600g();
+        yasVar5.f77078a = xtkVar;
+        zzqVar5.m36295b(yasVar5.m35597d());
+        map.put("ECIES_P256_HKDF_HMAC_SHA256_AES128_GCM_COMPRESSED_WITHOUT_PREFIX", zzqVar5.m36294a());
+        zzq zzqVar6 = new zzq(null);
+        zzqVar6.f82414c = xweVar;
+        zzqVar6.f82412a = xwfVar;
+        zzqVar6.f82416e = xwgVar;
+        zzqVar6.f82417f = xwhVar;
+        zzq zzqVar7 = new zzq(null, null);
+        zzqVar7.m36297d(16);
+        zzqVar7.m36298e(32);
+        zzqVar7.m36300g(16);
+        zzqVar7.m36299f(16);
+        xsz xszVar = xsz.f76586c;
+        zzqVar7.f82415d = xszVar;
+        xta xtaVar = xta.f76593c;
+        zzqVar7.f82414c = xtaVar;
+        zzqVar6.m36295b(zzqVar7.m36296c());
+        map.put("ECIES_P256_HKDF_HMAC_SHA256_AES128_CTR_HMAC_SHA256", zzqVar6.m36294a());
+        zzq zzqVar8 = new zzq(null);
+        zzqVar8.f82414c = xweVar;
+        zzqVar8.f82412a = xwfVar;
+        zzqVar8.f82416e = xwgVar;
+        zzqVar8.f82417f = xwhVar2;
+        zzq zzqVar9 = new zzq(null, null);
+        zzqVar9.m36297d(16);
+        zzqVar9.m36298e(32);
+        zzqVar9.m36300g(16);
+        zzqVar9.m36299f(16);
+        zzqVar9.f82415d = xszVar;
+        zzqVar9.f82414c = xtaVar;
+        zzqVar8.m36295b(zzqVar9.m36296c());
+        map.put("ECIES_P256_HKDF_HMAC_SHA256_AES128_CTR_HMAC_SHA256_RAW", zzqVar8.m36294a());
+        zzq zzqVar10 = new zzq(null);
+        zzqVar10.f82414c = xweVar;
+        zzqVar10.f82412a = xwfVar;
+        zzqVar10.f82416e = xwgVar2;
+        zzqVar10.f82417f = xwhVar;
+        zzq zzqVar11 = new zzq(null, null);
+        zzqVar11.m36297d(16);
+        zzqVar11.m36298e(32);
+        zzqVar11.m36300g(16);
+        zzqVar11.m36299f(16);
+        zzqVar11.f82415d = xszVar;
+        zzqVar11.f82414c = xtaVar;
+        zzqVar10.m36295b(zzqVar11.m36296c());
+        map.put("ECIES_P256_COMPRESSED_HKDF_HMAC_SHA256_AES128_CTR_HMAC_SHA256", zzqVar10.m36294a());
+        zzq zzqVar12 = new zzq(null);
+        zzqVar12.f82414c = xweVar;
+        zzqVar12.f82412a = xwfVar;
+        zzqVar12.f82416e = xwgVar2;
+        zzqVar12.f82417f = xwhVar2;
+        zzq zzqVar13 = new zzq(null, null);
+        zzqVar13.m36297d(16);
+        zzqVar13.m36298e(32);
+        zzqVar13.m36300g(16);
+        zzqVar13.m36299f(16);
+        zzqVar13.f82415d = xszVar;
+        zzqVar13.f82414c = xtaVar;
+        zzqVar12.m36295b(zzqVar13.m36296c());
+        map.put("ECIES_P256_COMPRESSED_HKDF_HMAC_SHA256_AES128_CTR_HMAC_SHA256_RAW", zzqVar12.m36294a());
+        xzgVar.m35562b(DesugarCollections.unmodifiableMap(map));
+        xzhVar.m35564a(xwd.f76811a);
+        xzhVar.m35564a(xwd.f76812b);
+        xzc xzcVar = xzc.f77002a;
+        xzcVar.m35559b(xwd.f76814d, xwi.class);
+        xyt xytVar = xyt.f76990a;
+        xytVar.m35553c(xwd.f76815e, true);
+        xytVar.m35553c(xwd.f76813c, false);
+        xzq xzqVar2 = xxu.f76920a;
+        if (!tlx.m31227u(1)) {
+            throw new GeneralSecurityException("Registering HPKE Hybrid Encryption is not supported in FIPS mode");
+        }
+        xziVar.m35566a(xws.f76873a);
+        xziVar.m35567b(xws.f76874b);
+        xziVar.m35568c(xws.f76875c);
+        xziVar.m35573h(xws.f76877e);
+        xziVar.m35568c(xws.f76876d);
+        xziVar.m35573h(xws.f76878f);
+        HashMap map2 = new HashMap();
+        xwp xwpVar = xwp.f76863a;
+        xwo xwoVar = xwo.f76861f;
+        xwn xwnVar = xwn.f76855a;
+        xwl xwlVar = xwl.f76850a;
+        map2.put("DHKEM_X25519_HKDF_SHA256_HKDF_SHA256_AES_128_GCM", tlx.m31225s(xwoVar, xwnVar, xwlVar, xwpVar));
+        xwp xwpVar2 = xwp.f76865c;
+        map2.put("DHKEM_X25519_HKDF_SHA256_HKDF_SHA256_AES_128_GCM_RAW", tlx.m31225s(xwoVar, xwnVar, xwlVar, xwpVar2));
+        xwl xwlVar2 = xwl.f76851b;
+        map2.put("DHKEM_X25519_HKDF_SHA256_HKDF_SHA256_AES_256_GCM", tlx.m31225s(xwoVar, xwnVar, xwlVar2, xwpVar));
+        map2.put("DHKEM_X25519_HKDF_SHA256_HKDF_SHA256_AES_256_GCM_RAW", tlx.m31225s(xwoVar, xwnVar, xwlVar2, xwpVar2));
+        xwl xwlVar3 = xwl.f76852c;
+        map2.put("DHKEM_X25519_HKDF_SHA256_HKDF_SHA256_CHACHA20_POLY1305", tlx.m31225s(xwoVar, xwnVar, xwlVar3, xwpVar));
+        map2.put("DHKEM_X25519_HKDF_SHA256_HKDF_SHA256_CHACHA20_POLY1305_RAW", tlx.m31225s(xwoVar, xwnVar, xwlVar3, xwpVar2));
+        xwo xwoVar2 = xwo.f76858a;
+        map2.put("DHKEM_P256_HKDF_SHA256_HKDF_SHA256_AES_128_GCM", tlx.m31225s(xwoVar2, xwnVar, xwlVar, xwpVar));
+        map2.put("DHKEM_P256_HKDF_SHA256_HKDF_SHA256_AES_128_GCM_RAW", tlx.m31225s(xwoVar2, xwnVar, xwlVar, xwpVar2));
+        map2.put("DHKEM_P256_HKDF_SHA256_HKDF_SHA256_AES_256_GCM", tlx.m31225s(xwoVar2, xwnVar, xwlVar2, xwpVar));
+        map2.put("DHKEM_P256_HKDF_SHA256_HKDF_SHA256_AES_256_GCM_RAW", tlx.m31225s(xwoVar2, xwnVar, xwlVar2, xwpVar2));
+        xwo xwoVar3 = xwo.f76859b;
+        xwn xwnVar2 = xwn.f76856b;
+        map2.put("DHKEM_P384_HKDF_SHA384_HKDF_SHA384_AES_128_GCM", tlx.m31225s(xwoVar3, xwnVar2, xwlVar, xwpVar));
+        map2.put("DHKEM_P384_HKDF_SHA384_HKDF_SHA384_AES_128_GCM_RAW", tlx.m31225s(xwoVar3, xwnVar2, xwlVar, xwpVar2));
+        map2.put("DHKEM_P384_HKDF_SHA384_HKDF_SHA384_AES_256_GCM", tlx.m31225s(xwoVar3, xwnVar2, xwlVar2, xwpVar));
+        map2.put("DHKEM_P384_HKDF_SHA384_HKDF_SHA384_AES_256_GCM_RAW", tlx.m31225s(xwoVar3, xwnVar2, xwlVar2, xwpVar2));
+        xwo xwoVar4 = xwo.f76860c;
+        xwn xwnVar3 = xwn.f76857c;
+        map2.put("DHKEM_P521_HKDF_SHA512_HKDF_SHA512_AES_128_GCM", tlx.m31225s(xwoVar4, xwnVar3, xwlVar, xwpVar));
+        map2.put("DHKEM_P521_HKDF_SHA512_HKDF_SHA512_AES_128_GCM_RAW", tlx.m31225s(xwoVar4, xwnVar3, xwlVar, xwpVar2));
+        map2.put("DHKEM_P521_HKDF_SHA512_HKDF_SHA512_AES_256_GCM", tlx.m31225s(xwoVar4, xwnVar3, xwlVar2, xwpVar));
+        map2.put("DHKEM_P521_HKDF_SHA512_HKDF_SHA512_AES_256_GCM_RAW", tlx.m31225s(xwoVar4, xwnVar3, xwlVar2, xwpVar2));
+        xzgVar.m35562b(DesugarCollections.unmodifiableMap(map2));
+        xzhVar.m35564a(xxu.f76920a);
+        xzhVar.m35564a(xxu.f76921b);
+        xzcVar.m35559b(xxu.f76923d, xwq.class);
+        xytVar.m35553c(xxu.f76924e, true);
+        xytVar.m35553c(xxu.f76922c, false);
+    }
+}

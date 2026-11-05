@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170495" />
+    <keyboard>
+        <if enable_pk_simulator="true" enable_pk_simulator_setting="true">
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04ed" type="body" />
+        </if>
+        <else_if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e041e" type="body" />
+        </else_if>
+        <else_if zhuyin_use_staggered_layout="true">
+            <if keyboard_mode="split">
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03cb" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03ca" type="body" />
+            </else>
+        </else_if>
+        <else_if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e027a" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e027b" type="body" />
+            </else>
+        </else_if>
+        <else>
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0279" type="body" />
+        </else>
+        <view override="motion_event_handler" type="body">
+            <motion_event_handler class=".motioneventhandler.SpatialModelMotionEventHandler" />
+            <motion_event_handler class="com.google.android.apps.inputmethod.libs.zhuyin.ZhuyinGestureHandler" preference_key="@string/APKTOOL_DUMMYVAL_0x7f14094e" reverse_preference="false" />
+            <motion_event_handler class="com.google.android.apps.inputmethod.libs.zhuyin.ZhuyinKeyboardLayoutHandler" preference_key="@string/APKTOOL_DUMMYVAL_0x7f14094e" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebe" />
+            <if enable_pk_simulator="true" enable_pk_simulator_setting="true">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171220" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17121c" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170fd0" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171201" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171204" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1710cd" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170fee" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171225" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170aab" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170df6" />
+            </if>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170eb5" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a8c" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c2e" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c48" />
+            <if>
+                <any_of>
+                    <cond device="tablet" device_size="large" keyboard_mode="normal" />
+                    <cond enable_pk_simulator="true" enable_pk_simulator_setting="true" />
+                </any_of>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a85" />
+            </if>
+            <else_if zhuyin_use_staggered_layout="true">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c05" />
+            </else_if>
+            <else>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a89" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c00" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170bfe" />
+            </else>
+        </view>
+    </keyboard>
+</framework>

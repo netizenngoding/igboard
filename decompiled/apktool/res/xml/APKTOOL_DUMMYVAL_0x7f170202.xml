@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.mozc.ime.handwriting.JapaneseHandwritingIme" display_app_completions="true" language="@string/APKTOOL_DUMMYVAL_0x7f14052c" language_specific_settings="@xml/setting_japanese_language_specific" string_id="ime_ja_handwriting" use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty|12key">
+            <attrs language_specific_settings="@xml/setting_japanese_language_specific_with_pk" />
+        </if>
+        <if japanese_pk_kana_input="true">
+            <attrs keyevent_interpreter="com.google.android.apps.inputmethod.libs.mozc.ime.JapaneseKanaKeyEventInterpreter" />
+        </if>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c1" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1706ce" resource_id="@xml/APKTOOL_DUMMYVAL_0x7f171245" supports_one_handed_mode="false" />
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02e4" value="true" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02fe" value="false" />
+        </extra_values>
+        <if writing_helper_enable_by_word_revert="true">
+            <attrs class="com.google.android.apps.inputmethod.libs.edittracker.EditTrackingImeWrapper" />
+        </if>
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02e8" value="com.google.android.apps.inputmethod.libs.mozc.ime.handwriting.JapaneseHandwritingIme" />
+        </extra_values>
+    </ime>
+</framework>

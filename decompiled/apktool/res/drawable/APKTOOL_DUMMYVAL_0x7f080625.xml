@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_single="true">
+        <ripple android:color="?android:colorControlHighlight">
+            <item android:start="?android:listPreferredItemPaddingStart" android:end="?android:listPreferredItemPaddingEnd">
+                <com.google.android.material.focus.FocusRingDrawable>
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2b" />
+                        <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f070885" />
+                    </shape>
+                </com.google.android.material.focus.FocusRingDrawable>
+            </item>
+        </ripple>
+    </item>
+    <item android:state_first="true">
+        <ripple android:color="?android:colorControlHighlight">
+            <item android:start="?android:listPreferredItemPaddingStart" android:end="?android:listPreferredItemPaddingEnd">
+                <com.google.android.material.focus.FocusRingDrawable>
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2b" />
+                        <corners android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070885" android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070885" android:bottomLeftRadius="4.0dp" android:bottomRightRadius="4.0dp" />
+                    </shape>
+                </com.google.android.material.focus.FocusRingDrawable>
+            </item>
+        </ripple>
+    </item>
+    <item android:state_last="true">
+        <ripple android:color="?android:colorControlHighlight">
+            <item android:start="?android:listPreferredItemPaddingStart" android:end="?android:listPreferredItemPaddingEnd">
+                <com.google.android.material.focus.FocusRingDrawable>
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2b" />
+                        <corners android:topLeftRadius="4.0dp" android:topRightRadius="4.0dp" android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070885" android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070885" />
+                    </shape>
+                </com.google.android.material.focus.FocusRingDrawable>
+            </item>
+        </ripple>
+    </item>
+    <item android:state_middle="true">
+        <ripple android:color="?android:colorControlHighlight">
+            <item android:start="?android:listPreferredItemPaddingStart" android:end="?android:listPreferredItemPaddingEnd">
+                <com.google.android.material.focus.FocusRingDrawable>
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2b" />
+                        <corners android:radius="4.0dp" />
+                    </shape>
+                </com.google.android.material.focus.FocusRingDrawable>
+            </item>
+        </ripple>
+    </item>
+</selector>

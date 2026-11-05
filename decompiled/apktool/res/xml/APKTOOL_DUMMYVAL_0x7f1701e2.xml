@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" ascii_capable="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="hvn-ID" string_id="ime_hawu">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170590" main_def="@xml/APKTOOL_DUMMYVAL_0x7f170802" pk_language_tag="hvn-Latn-ID" variant="hawu" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414d4" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c4" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170590" pk_language_tag="hvn-Latn-ID" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c7" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170590" pk_language_tag="hvn-Latn-ID" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706b9" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170590" pk_language_tag="hvn-Latn-ID" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bb" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170590" pk_language_tag="hvn-Latn-ID" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706ba" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170590" pk_language_tag="hvn-Latn-ID" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c3" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170590" pk_language_tag="hvn-Latn-ID" />
+    </ime>
+</framework>

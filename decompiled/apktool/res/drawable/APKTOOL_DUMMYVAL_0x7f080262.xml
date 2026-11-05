@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:paddingTop="?APKTOOL_DUMMYVAL_0x7f0400a8" android:paddingBottom="?APKTOOL_DUMMYVAL_0x7f0400a8" android:color="?android:colorControlHighlight" android:paddingStart="?APKTOOL_DUMMYVAL_0x7f0400a8" android:paddingEnd="?APKTOOL_DUMMYVAL_0x7f0400a8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:top="?APKTOOL_DUMMYVAL_0x7f0400a8" android:bottom="?APKTOOL_DUMMYVAL_0x7f0400a8" android:start="?APKTOOL_DUMMYVAL_0x7f0400a8" android:end="?APKTOOL_DUMMYVAL_0x7f0400a8">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f0605c8" />
+            <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f0700f2" />
+        </shape>
+    </item>
+    <item android:id="@android:id/background" android:top="?APKTOOL_DUMMYVAL_0x7f0400a8" android:bottom="?APKTOOL_DUMMYVAL_0x7f0400a8" android:start="?APKTOOL_DUMMYVAL_0x7f0400a8" android:end="?APKTOOL_DUMMYVAL_0x7f0400a8">
+        <selector>
+            <item android:state_selected="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f0605c8" />
+                    <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f0700f2" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

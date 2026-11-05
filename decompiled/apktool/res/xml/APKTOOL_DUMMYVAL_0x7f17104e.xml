@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$data$" enable_slide_actions_in_a11y_mode="true" id="@id/APKTOOL_DUMMYVAL_0x7f0b2647" multi_touch="false" popup_timing="ON_TOUCH" slide_sensitivity="NORMAL">
+            <if japanese_12keys_toggle_only="true">
+                <attrs layout="@layout/softkey_ja_12keys_hiragana_nosupport" />
+            </if>
+            <else>
+                <attrs layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0738" />
+            </else>
+            <action content_description="$data$" data="$data$" icon_background_level="@integer/APKTOOL_DUMMYVAL_0x7f0c0078" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" type="PRESS">
+                <if japanese_12keys_toggle_only="true">
+                    <attrs popup_layout="@null" />
+                </if>
+                <else_if enable_popup_on_keypress="false">
+                    <attrs always_show_popup="true" popup_label="$press_label$" popup_layout="$press_layout=@layout/popup_bubble_ja_support_longpress_delay$" />
+                </else_if>
+                <else>
+                    <attrs popup_label="$press_label$" popup_layout="@layout/popup_bubble_ja_support" />
+                </else>
+            </action>
+            <if japanese_12keys_toggle_only="false">
+                <action content_description="$left_data$" data="$left_data$" icon_background_level="@integer/APKTOOL_DUMMYVAL_0x7f0c007a" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$left_data$" popup_layout="@layout/popup_bubble_ja_label_large" type="SLIDE_LEFT" />
+                <action content_description="$up_data$" data="$up_data$" icon_background_level="@integer/APKTOOL_DUMMYVAL_0x7f0c007c" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$up_data$" popup_layout="@layout/popup_bubble_ja_label_large_slideup" type="SLIDE_UP" />
+                <action content_description="$right_data$" data="$right_data$" icon_background_level="@integer/APKTOOL_DUMMYVAL_0x7f0c007b" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$right_data$" popup_layout="@layout/popup_bubble_ja_label_large" type="SLIDE_RIGHT" />
+                <action data="" icon_background_level="@integer/APKTOOL_DUMMYVAL_0x7f0c0078" intention="DECODE" keycode="0" type="SLIDE_DOWN" />
+                <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f6" value="$key_label_bottom$" />
+            </if>
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" value="$key_label$" />
+        </softkey_template>
+        <softkey_list template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2647">
+            <softkey data="1" id="@id/APKTOOL_DUMMYVAL_0x7f0b15a5" key_label="1" key_label_bottom="☆♪→" left_data="☆" press_label="1 ☆ ♪ →" right_data="→" up_data="♪" />
+            <softkey data="2" id="@id/APKTOOL_DUMMYVAL_0x7f0b15a6" key_label="2" key_label_bottom="¥$€" left_data="¥" press_label="2 ¥ $ €" right_data="€" up_data="$" />
+            <softkey data="3" id="@id/APKTOOL_DUMMYVAL_0x7f0b15a7" key_label="3" key_label_bottom="%ﾟ#" left_data="%" press_label="3 % ゜ #" right_data="#" up_data="゜" />
+            <softkey data="4" id="@id/APKTOOL_DUMMYVAL_0x7f0b15a8" key_label="4" key_label_bottom="○*・" left_data="○" press_label="4 ○ * ・" right_data="・" up_data="*" />
+            <softkey data="5" id="@id/APKTOOL_DUMMYVAL_0x7f0b15a9" key_label="5" key_label_bottom="+×÷" left_data="+" press_label="5 + × ÷" right_data="÷" up_data="×" />
+            <softkey data="6" id="@id/APKTOOL_DUMMYVAL_0x7f0b15aa" key_label="6" key_label_bottom="&lt;=>" left_data="&lt;" press_label="6 &lt; = >" right_data=">" up_data="=" />
+            <softkey data="7" id="@id/APKTOOL_DUMMYVAL_0x7f0b15ab" key_label="7" key_label_bottom="｢｣:" left_data="「" press_label="7 ｢ ｣ :" right_data=":" up_data="」" />
+            <softkey data="8" id="@id/APKTOOL_DUMMYVAL_0x7f0b15ac" key_label="8" key_label_bottom="〒々〆" left_data="〒" press_label="8 〒 々 〆" right_data="〆" up_data="々" />
+            <softkey data="9" id="@id/APKTOOL_DUMMYVAL_0x7f0b15ad" key_label="9" key_label_bottom="@string/APKTOOL_DUMMYVAL_0x7f140d4d" left_data="^" press_label="@string/APKTOOL_DUMMYVAL_0x7f140d4e" right_data="@string/APKTOOL_DUMMYVAL_0x7f1413e9" up_data="|" />
+            <if japanese_12keys_toggle_only="false">
+                <softkey data="(" id="@id/APKTOOL_DUMMYVAL_0x7f0b15ae" key_label="()[]" left_data=")" press_label="( ) [ ]" right_data="]" up_data="[" />
+                <softkey data="." id="@id/APKTOOL_DUMMYVAL_0x7f0b15af" key_label=".,-/" left_data="," press_label=". , - /" right_data="/" up_data="-" />
+            </if>
+            <else>
+                <softkey data="," id="@id/APKTOOL_DUMMYVAL_0x7f0b15ae" key_label="," press_label="," />
+                <softkey data="." id="@id/APKTOOL_DUMMYVAL_0x7f0b15af" key_label="." press_label="." />
+            </else>
+            <softkey data="0" id="@id/APKTOOL_DUMMYVAL_0x7f0b15a4" key_label="0" key_label_bottom="〜…@" left_data="〜" press_label="0 〜 … @" right_data="@" up_data="…" />
+        </softkey_list>
+    </softkeys>
+</framework>

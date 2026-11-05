@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.hmmhandwriting.HmmHandwritingIme" display_app_completions="true" indicator_label="寫" language="zh-TW" language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f171247" string_id="ime_zh_tw_handwriting" use_ascii_password_keyboard="true">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c1" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1706ce" resource_id="@xml/APKTOOL_DUMMYVAL_0x7f171245" supports_one_handed_mode="false" />
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02e4" value="true" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02fc" value="@string/APKTOOL_DUMMYVAL_0x7f140686" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02f5" value="。" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02da" value="@string/APKTOOL_DUMMYVAL_0x7f14093e" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02f4" value="hmm" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02fe" value="false" />
+        </extra_values>
+    </ime>
+</framework>

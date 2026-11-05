@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d 時間</item>
+        <item quantity="other">%1$d 時間</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d 分</item>
+        <item quantity="other">%1$d 分</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">上限（%1$d 分）に近づいています</item>
+        <item quantity="other">上限（%1$d 分）に近づいています</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">%1$d 秒後に終了します…</item>
+        <item quantity="other">%1$d 秒後に終了します…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d 個のキーが割り当てられています</item>
+        <item quantity="other">%d 個のキーが割り当てられています</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%sがインストールされました。</item>
+        <item quantity="other">%sがインストールされました。</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d 時間</item>
+        <item quantity="other">%d 時間</item>
+    </plurals>
+</resources>

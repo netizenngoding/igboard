@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0087" android:tag=".keyboard-body-area.keyboard-outline-bottom.clip-to-outline-for-old-android" android:background="?APKTOOL_DUMMYVAL_0x7f040050" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="?APKTOOL_DUMMYVAL_0x7f0401fd" android:paddingEnd="?APKTOOL_DUMMYVAL_0x7f0401fc" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b008e" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="?APKTOOL_DUMMYVAL_0x7f0401f1">
+        <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b020a" style="@style/APKTOOL_DUMMYVAL_0x7f15024f" />
+        <com.google.android.libraries.inputmethod.widgets.ScrollViewInSoftKeyboard android:scrollbarStyle="insideInset" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?APKTOOL_DUMMYVAL_0x7f04000e" android:fadeScrollbars="false">
+            <com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsPanel android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0091" style="@style/APKTOOL_DUMMYVAL_0x7f15000a" />
+        </com.google.android.libraries.inputmethod.widgets.ScrollViewInSoftKeyboard>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

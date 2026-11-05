@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.jarvis.miscs.MinHeightScrollView android:focusable="false" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f070a06" android:fillViewport="true" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f15115c"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0828" />
+        <android.support.v7.widget.RecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b043a" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07038a" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070a15" android:layout_alignParentBottom="true">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01a1" />
+        </FrameLayout>
+    </RelativeLayout>
+</com.google.android.apps.inputmethod.libs.jarvis.miscs.MinHeightScrollView>

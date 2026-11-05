@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/APKTOOL_DUMMYVAL_0x7f140b5a">
+        <ListPreference android:persistent="true" android:entries="@array/APKTOOL_DUMMYVAL_0x7f0300bc" android:title="@string/APKTOOL_DUMMYVAL_0x7f140b5b" android:key="@string/APKTOOL_DUMMYVAL_0x7f140907" android:summary="%s" android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f03004a" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="SHIFT">
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1c0a" view_id="@id/E01" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e63" view_id="@id/E02" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e28" view_id="@id/E03" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e71" view_id="@id/E04" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e5e" view_id="@id/E05" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b8a" view_id="@id/E06" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e62" view_id="@id/E07" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b2d" view_id="@id/E08" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1d79" view_id="@id/E09" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e69" view_id="@id/E10" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1d95" view_id="@id/B10" />
+    </merge_key_mapping>
+    <merge_key_mapping exclude_state="SHIFT,CAPS">
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e93" view_id="@id/D13" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e93" view_id="@id/B00" />
+    </merge_key_mapping>
+</framework>

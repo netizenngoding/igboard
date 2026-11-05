@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ScrollView android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a8" style="@style/APKTOOL_DUMMYVAL_0x7f150303" />
+        </ScrollView>
+        <Space android:layout_width="0.0dp" android:layout_height="48.0dp" />
+    </LinearLayout>
+    <com.google.android.apps.inputmethod.libs.handwriting.keyboard.HandwritingOverlayView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a6" android:tag=".track.for-handwriting" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14046c" animation_mode="FADE_OUT" animation_time="@integer/APKTOOL_DUMMYVAL_0x7f0c005a" max_stroke_width="@dimen/APKTOOL_DUMMYVAL_0x7f07032d" min_stroke_width="@dimen/APKTOOL_DUMMYVAL_0x7f07032e" stroke_color="@color/APKTOOL_DUMMYVAL_0x7f060004" style="@style/APKTOOL_DUMMYVAL_0x7f150304" />
+</FrameLayout>

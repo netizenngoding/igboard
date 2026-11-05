@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2" style="@style/APKTOOL_DUMMYVAL_0x7f1502e9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0156" android:contentDescription="@null" style="@style/APKTOOL_DUMMYVAL_0x7f1502ea" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dp">
+            <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01ad" android:tint="?APKTOOL_DUMMYVAL_0x7f0404c1" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140524" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f15077d" />
+            <com.google.android.libraries.inputmethod.widgets.text.TransformationTextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01b0" style="@style/APKTOOL_DUMMYVAL_0x7f150780" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

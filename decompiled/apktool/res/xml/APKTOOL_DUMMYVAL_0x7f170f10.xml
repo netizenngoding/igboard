@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd7" id="@id/APKTOOL_DUMMYVAL_0x7f0b23a6" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071a" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action action_on_down="true" keycode="SHIFT_LEFT" type="PRESS" />
+            <action action_on_down="true" keycode="CAPS_LOCK" type="LONG_PRESS" />
+            <action action_on_down="true" keycode="CAPS_LOCK" type="DOUBLE_TAP" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401ae" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd7" id="@id/APKTOOL_DUMMYVAL_0x7f0b23ab" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071a" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action action_on_down="true" keycode="SHIFT_LEFT" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401ae" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd7" id="@id/APKTOOL_DUMMYVAL_0x7f0b23ac" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071a" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action action_on_down="true" keycode="SHIFT_LEFT" type="PRESS" />
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="LONG_PRESS" />
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="DOUBLE_TAP" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401ae" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd6" id="@id/APKTOOL_DUMMYVAL_0x7f0b23a7" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06fd" multi_touch="true">
+            <action action_on_down="true" keycode="CAPS_LOCK" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@drawable/APKTOOL_DUMMYVAL_0x7f0805db" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cda" id="@id/APKTOOL_DUMMYVAL_0x7f0b23a9" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06fd" multi_touch="true">
+            <action action_on_down="true" keycode="CAPS_LOCK" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@drawable/APKTOOL_DUMMYVAL_0x7f0805dc" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd6" id="@id/APKTOOL_DUMMYVAL_0x7f0b24c4" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06fd" multi_touch="true">
+            <action action_on_down="true" data="SUB_CATEGORY_1" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@drawable/APKTOOL_DUMMYVAL_0x7f0805db" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cda" id="@id/APKTOOL_DUMMYVAL_0x7f0b2053" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06fd" multi_touch="true">
+            <action action_on_down="true" data="NORMAL" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@drawable/APKTOOL_DUMMYVAL_0x7f0805dc" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd4" id="@id/APKTOOL_DUMMYVAL_0x7f0b23ad" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071b" long_press_delay="1200" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="SHIFT_LEFT" type="PRESS" />
+            <action action_on_down="true" keycode="CAPS_LOCK" type="LONG_PRESS" />
+            <action action_on_down="true" keycode="CAPS_LOCK" type="DOUBLE_TAP" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401af" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd4" id="@id/APKTOOL_DUMMYVAL_0x7f0b23ae" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071b" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="SHIFT_LEFT" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401af" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd4" id="@id/APKTOOL_DUMMYVAL_0x7f0b23af" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071b" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="SHIFT_LEFT" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401af" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd4" id="@id/APKTOOL_DUMMYVAL_0x7f0b23b1" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071c" long_press_delay="1200" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="SHIFT_LEFT" type="PRESS" />
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="LONG_PRESS" />
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="DOUBLE_TAP" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401af" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd4" id="@id/APKTOOL_DUMMYVAL_0x7f0b23b0" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071c" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="SHIFT_LEFT" type="PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401af" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd9" id="@id/APKTOOL_DUMMYVAL_0x7f0b23a8" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071b" long_press_delay="1200" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="CAPS_LOCK" type="PRESS" />
+            <action action_on_down="true" keycode="CAPS_LOCK" type="LONG_PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401ad" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f140cd9" id="@id/APKTOOL_DUMMYVAL_0x7f0b23aa" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e071c" long_press_delay="1200" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="UNLOCK_SHIFT" type="PRESS" />
+            <action action_on_down="true" keycode="UNLOCK_SHIFT" type="LONG_PRESS" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@attr/APKTOOL_DUMMYVAL_0x7f0401ad" />
+        </softkey>
+    </softkeys>
+</framework>

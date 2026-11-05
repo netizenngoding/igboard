@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f15001e" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00ff" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tag android:value="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06a8" />
+    <com.google.android.libraries.inputmethod.widgets.SizeLimitedFrameLayout android:layout_gravity="center|bottom" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06c5" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080302" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/APKTOOL_DUMMYVAL_0x7f070075" app:APKTOOL_DUMMYVAL_0x7f04080c="640.0dp">
+        <tag android:value="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06a8" />
+        <ScrollView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06c6" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06c4" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e003f" />
+                <Button android:textColor="?APKTOOL_DUMMYVAL_0x7f0404aa" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b290c" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f14005a" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f0404cc" app:APKTOOL_DUMMYVAL_0x7f040545="24.0dp" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040744="@id/APKTOOL_DUMMYVAL_0x7f0b03f9">
+                    <tag android:value="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0214" />
+                </Button>
+                <TextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a69" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404cc" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b076e" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginBottom="32.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f140059" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040744="@id/APKTOOL_DUMMYVAL_0x7f0b290c" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </com.google.android.libraries.inputmethod.widgets.SizeLimitedFrameLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0684" android:layout_width="wrap_content" android:layout_height="36.0dp" android:layout_marginBottom="17.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0685" android:tag=".nav_back_key.tablet" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080752" android:focusable="true" android:clickable="true" android:layout_width="36.0dp" android:layout_height="36.0dp" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:tag=".label" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0803f9" android:scaleType="centerInside" />
+    </FrameLayout>
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView android:textSize="20.0dp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609f8" android:ellipsize="end" android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0686" android:tag=".label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="14.0dp" app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798" />
+</LinearLayout>

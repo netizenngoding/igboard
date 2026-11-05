@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard_group>
+        <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f1708cd" type="prime" />
+    </keyboard_group>
+</framework>

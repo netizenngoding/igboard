@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d საათში</item>
+        <item quantity="other">%1$d საათში</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d წუთში</item>
+        <item quantity="other">%1$d წუთში</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">%1$d-წუთიანი ლიმიტი იწურება</item>
+        <item quantity="other">%1$d-წუთიანი ლიმიტი იწურება</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">დაიხურება %1$d წამში…</item>
+        <item quantity="other">დაიხურება %1$d წამში…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d კლავიშს მინიჭებული აქვს ფუნქცია</item>
+        <item quantity="other">%d კლავიშს მინიჭებული აქვს ფუნქცია</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s უკვე დაინსტალირდა.</item>
+        <item quantity="other">%s უკვე დაინსტალირდა.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d საათით</item>
+        <item quantity="other">%d საათით</item>
+    </plurals>
+</resources>

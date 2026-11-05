@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/APKTOOL_DUMMYVAL_0x7f0b266b" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0761" multi_touch="false" popup_timing="@string/APKTOOL_DUMMYVAL_0x7f140ae8" slide_sensitivity="NORMAL">
+            <action data="$long_press_data$" intention="$long_press_intention=COMMIT$" keycode="PLAIN_TEXT" popup_label="$long_press_data$" popup_layout="@attr/APKTOOL_DUMMYVAL_0x7f040280" type="LONG_PRESS" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05fc" value="$hint_label$" />
+        </softkey_template>
+        <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1103" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0761" />
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b266b">
+            <softkey hint_label="߁" id="@id/APKTOOL_DUMMYVAL_0x7f0b11ae" long_press_data="߁,1" />
+            <softkey hint_label="߂" id="@id/APKTOOL_DUMMYVAL_0x7f0b11ce" long_press_data="߂,2" />
+            <softkey hint_label="߃" id="@id/APKTOOL_DUMMYVAL_0x7f0b11c6" long_press_data="߃,3" />
+            <softkey hint_label="߄" id="@id/APKTOOL_DUMMYVAL_0x7f0b119e" long_press_data="߄,4" />
+            <softkey hint_label="߅" id="@id/APKTOOL_DUMMYVAL_0x7f0b1196" long_press_data="߅,5" />
+            <softkey hint_label="߆" id="@id/APKTOOL_DUMMYVAL_0x7f0b11be" long_press_data="߆,6" />
+            <softkey hint_label="߇" id="@id/APKTOOL_DUMMYVAL_0x7f0b11b6" long_press_data="߇,7" />
+            <softkey hint_label="߈" id="@id/APKTOOL_DUMMYVAL_0x7f0b118e" long_press_data="߈,8" />
+            <softkey hint_label="߉" id="@id/APKTOOL_DUMMYVAL_0x7f0b11a6" long_press_data="߉,9" />
+            <softkey hint_label="߀" id="@id/APKTOOL_DUMMYVAL_0x7f0b11d6" long_press_data="߀,0" />
+        </softkey_list>
+    </softkeys>
+</framework>

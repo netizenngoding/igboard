@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b036c" style="@style/APKTOOL_DUMMYVAL_0x7f1501e4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag=".bg.expression-keyboard-background" android:background="?APKTOOL_DUMMYVAL_0x7f040108" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/APKTOOL_DUMMYVAL_0x7f1502b7">
+            <FrameLayout android:id="@id/animated_image_holder_view_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="?APKTOOL_DUMMYVAL_0x7f04010b" android:paddingHorizontal="12.0dp" app:APKTOOL_DUMMYVAL_0x7f04071d="@string/APKTOOL_DUMMYVAL_0x7f140af3">
+                <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0391" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e068c" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b010f" android:tag=".progress-bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+            </FrameLayout>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f9" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

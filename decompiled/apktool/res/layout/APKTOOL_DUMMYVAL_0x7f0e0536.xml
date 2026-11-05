@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070171" app:APKTOOL_DUMMYVAL_0x7f04074e="?APKTOOL_DUMMYVAL_0x7f0400c7" style="@style/APKTOOL_DUMMYVAL_0x7f1501e4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/APKTOOL_DUMMYVAL_0x7f1502b7">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" app:APKTOOL_DUMMYVAL_0x7f04071d="@string/APKTOOL_DUMMYVAL_0x7f140af3">
+            <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0174" android:layout_width="0.0dp" android:layout_height="0.0dp" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/APKTOOL_DUMMYVAL_0x7f0b03a4" app:APKTOOL_DUMMYVAL_0x7f040738="APKTOOL_DUMMYVAL_0x7f0b2901" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f15079f">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0058" />
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <android.support.v7.widget.RecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b016f" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+                    <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b025e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+                </FrameLayout>
+            </LinearLayout>
+            <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a4" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040731="@dimen/APKTOOL_DUMMYVAL_0x7f07093b" />
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b026e" android:layout_width="0.0dp" android:layout_height="0.0dp" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040740="@id/APKTOOL_DUMMYVAL_0x7f0b03a4" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+                <com.google.android.material.appbar.AppBarLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0116" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:stateListAnimator="@null" app:APKTOOL_DUMMYVAL_0x7f04076d="@android:color/transparent">
+                    <include android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e007d" />
+                </com.google.android.material.appbar.AppBarLayout>
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00dc" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="right" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b025f" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040740="@id/APKTOOL_DUMMYVAL_0x7f0b03a4" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+                <com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.CategoryViewPager android:id="@id/APKTOOL_DUMMYVAL_0x7f0b026b" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/APKTOOL_DUMMYVAL_0x7f15079d" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00b8" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f7" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

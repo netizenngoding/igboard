@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05ca" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05cd" style="@style/APKTOOL_DUMMYVAL_0x7f150374" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="left" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05cf" android:clipToPadding="false" android:splitMotionEvents="false" style="@style/APKTOOL_DUMMYVAL_0x7f150375">
+        <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05cb" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04073b="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f150378" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01dc" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

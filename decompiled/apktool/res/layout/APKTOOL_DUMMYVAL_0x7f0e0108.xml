@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04042d="@color/APKTOOL_DUMMYVAL_0x7f0605c7" app:APKTOOL_DUMMYVAL_0x7f04042e="16.0dp" app:APKTOOL_DUMMYVAL_0x7f04042f="0.0dp" app:APKTOOL_DUMMYVAL_0x7f040431="0.0dp" app:APKTOOL_DUMMYVAL_0x7f040432="false" app:APKTOOL_DUMMYVAL_0x7f040433="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.animatedview.AnimatedImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0111" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080294" android:scaleType="fitXY" app:APKTOOL_DUMMYVAL_0x7f04087c="APKTOOL_DUMMYVAL_0x7f0b2a03" app:APKTOOL_DUMMYVAL_0x7f040ae4="@android:color/transparent" app:APKTOOL_DUMMYVAL_0x7f040b09="true" />
+</androidx.cardview.widget.CardView>

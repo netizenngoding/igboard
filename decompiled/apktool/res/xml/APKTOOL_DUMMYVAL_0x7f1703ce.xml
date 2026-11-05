@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" keyevent_interpreter="com.google.android.libraries.inputmethod.keyevent.interpreters.TamilKeyEventInterpreter" language="ta-IN" string_id="ime_tamil_india_phonetic">
+        <include dynamic_layout="tamil_phonetic" href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708d3" pk_language_tag="ta-Taml-IN" pk_layout_type="extended" variant="tamil_phonetic" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141618" />
+    </ime>
+</framework>

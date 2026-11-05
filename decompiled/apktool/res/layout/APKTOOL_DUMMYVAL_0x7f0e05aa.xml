@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150352"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="?APKTOOL_DUMMYVAL_0x7f0401f9" android:layout_weight="1.0" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0697" />
+    <TextView style="@style/APKTOOL_DUMMYVAL_0x7f150351" />
+</LinearLayout>

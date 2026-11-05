@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="zero">%1$d stundu</item>
+        <item quantity="one">%1$d stunda</item>
+        <item quantity="other">%1$d stundas</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="zero">%1$d minūšu</item>
+        <item quantity="one">%1$d minūte</item>
+        <item quantity="other">%1$d minūtes</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="zero">Drīz tiks sasniegts %1$d minūšu ierobežojums</item>
+        <item quantity="one">Drīz tiks sasniegts %1$d minūtes ierobežojums</item>
+        <item quantity="other">Drīz tiks sasniegts %1$d minūšu ierobežojums</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="zero">Tiks aizvērts pēc %1$d sekundēm…</item>
+        <item quantity="one">Tiks aizvērts pēc %1$d sekundes…</item>
+        <item quantity="other">Tiks aizvērts pēc %1$d sekundēm…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="zero">%d taustiņi piešķirti</item>
+        <item quantity="one">%d taustiņš piešķirts</item>
+        <item quantity="other">%d taustiņi piešķirti</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="zero">Tagad ir instalētas šādas valodas: %s.</item>
+        <item quantity="one">Tagad ir instalētas šādas valodas: %s.</item>
+        <item quantity="other">Tagad ir instalētas šādas valodas: %s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="zero">%d stundu</item>
+        <item quantity="one">%d stunda</item>
+        <item quantity="other">%d stundas</item>
+    </plurals>
+</resources>

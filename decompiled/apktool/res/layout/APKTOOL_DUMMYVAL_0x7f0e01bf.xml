@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_weight="672.0" style="@style/APKTOOL_DUMMYVAL_0x7f1503a1">
+        <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f15039c" />
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15044f">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="750.0">
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_arrow_up" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f15070f" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_arrow_down" android:visibility="gone" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f15070f" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_2_0" android:visibility="gone" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f15070f" />
+            </LinearLayout>
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_3_0" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f15070f" />
+        </LinearLayout>
+    </FrameLayout>
+    <include android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2016.0" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01c3" />
+    <FrameLayout android:layout_weight="672.0" style="@style/APKTOOL_DUMMYVAL_0x7f1503a1">
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15044f">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_0_4" android:visibility="gone" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f150721" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_1_4" android:visibility="gone" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f150721" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_2_4" android:visibility="gone" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f150721" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_3_4" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f150721" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

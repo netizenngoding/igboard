@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d giờ</item>
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d phút</item>
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Bạn sắp đạt đến giới hạn %1$d phút</item>
+        <item quantity="other">Bạn sắp đạt đến giới hạn %1$d phút</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Sẽ đóng sau %1$d giây…</item>
+        <item quantity="other">Sẽ đóng sau %1$d giây…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">Đã chỉ định %d phím</item>
+        <item quantity="other">Đã chỉ định %d phím</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s hiện đã được cài đặt.</item>
+        <item quantity="other">%s hiện đã được cài đặt.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d giờ</item>
+        <item quantity="other">%d giờ</item>
+    </plurals>
+</resources>
