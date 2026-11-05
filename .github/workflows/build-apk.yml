@@ -35,13 +35,32 @@ jobs:
           distribution: temurin
           java-version: "21"
 
-      - uses: android-actions/setup-android@v3
-
-      - name: Install SDK packages
+      - name: Resolve Android SDK (android.jar, d8, zipalign, apksigner)
+        id: sdk
         run: |
-          yes | sdkmanager --licenses > /dev/null 2>&1 || true
-          sdkmanager "platforms;android-35" "build-tools;35.0.0"
-          ls "$ANDROID_HOME/platforms" "$ANDROID_HOME/build-tools"
+          set -euo pipefail
+          SDK="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-}}"
+          if [ -z "$SDK" ] || [ ! -d "$SDK/build-tools" ]; then
+            echo "no preinstalled SDK, fetching command line tools"
+            SDK="$HOME/android-sdk"
+            mkdir -p "$SDK/cmdline-tools"
+            curl -fsSL -o /tmp/cmdline.zip \
+              https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            unzip -q /tmp/cmdline.zip -d "$SDK/cmdline-tools"
+            mv "$SDK/cmdline-tools/cmdline-tools" "$SDK/cmdline-tools/latest"
+            yes | "$SDK/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$SDK" --licenses >/dev/null 2>&1 || true
+            "$SDK/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$SDK" \
+              "platforms;android-35" "build-tools;35.0.0"
+          fi
+          echo "SDK=$SDK"
+          ls "$SDK/platforms" || true
+          ls "$SDK/build-tools" || true
+          JAR=$(ls -d "$SDK"/platforms/android-*/android.jar 2>/dev/null | sort -V | tail -1)
+          BT=$(ls -d "$SDK"/build-tools/* 2>/dev/null | sort -V | tail -1)
+          [ -n "$JAR" ] && [ -n "$BT" ] || { echo "no android.jar/build-tools found" >&2; exit 1; }
+          "$BT/d8" --version
+          echo "ANDROID_JAR=$JAR" >> "$GITHUB_ENV"
+          echo "BUILD_TOOLS=$BT" >> "$GITHUB_ENV"
 
       - name: Install apktool
         run: bash scripts/install_tools.sh 2>&1 | tail -4
@@ -49,8 +68,7 @@ jobs:
       - name: Build Liquid Glass APK
         run: |
           set -o pipefail
-          ANDROID_JAR="$ANDROID_HOME/platforms/android-35/android.jar" \
-            bash mod/build.sh 2>&1 | tee mod/build.log
+          bash mod/build.sh 2>&1 | tee mod/build.log
 
       - name: Collect result
         if: always()
