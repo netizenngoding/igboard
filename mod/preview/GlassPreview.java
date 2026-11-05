@@ -39,7 +39,7 @@ public final class GlassPreview {
         }
         Files.createDirectories(outDir);
 
-        int w = 760, h = 620;
+        int w = 740, h = 560;
         render(Path.of(outDir.toString(), "preview-light.png"), w, h, false);
         render(Path.of(outDir.toString(), "preview-dark.png"), w, h, true);
         System.out.println("wrote preview-light.png and preview-dark.png to " + outDir);
@@ -64,21 +64,21 @@ public final class GlassPreview {
         g.fill(new RoundRectangle2D.Float(24, 24, w - 48, h - 48, 44, 44));
 
         g.setColor(label);
-        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.BOLD, Math.round(13f * SCALE)));
-        g.drawString("iBoard settings", 48, 78);
+        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.BOLD, Math.round(12f * SCALE)));
+        g.drawString("iBoard settings", 48, 76);
         g.setColor(sub);
-        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, Math.round(9f * SCALE)));
-        g.drawString("Liquid Glass controls \u2014 Kyant parameters", 48, 108);
+        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, Math.round(8.5f * SCALE)));
+        g.drawString("Liquid Glass controls \u2014 Kyant parameters", 48, 104);
 
-        float y = 140f;
+        float y = 132f;
         y = row(g, 48, y, w - 96, "Predictive Text", true, dark);
-        y = row(g, 48, y + 8, w - 96, "Show Predictions Inline", false, dark);
-        y = row(g, 48, y + 8, w - 96, "Check Spelling", true, dark);
-        y += 40;
+        y = row(g, 48, y, w - 96, "Show Predictions Inline", false, dark);
+        y = row(g, 48, y, w - 96, "Check Spelling", true, dark);
+        y += 30;
         g.setColor(sub);
-        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, Math.round(9f * SCALE)));
-        g.drawString("Keyboard height", 48, (int) y + 34);
-        slider(g, 48, y + 78, w - 96, 0.62f, dark);
+        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, Math.round(8.5f * SCALE)));
+        g.drawString("Keyboard height", 48, (int) y + 26);
+        slider(g, 48, y + 68, w - 96, 0.62f, dark);
 
         g.dispose();
         ImageIO.write(image, "png", new File(target.toString()));
@@ -86,14 +86,14 @@ public final class GlassPreview {
 
     private static float row(Graphics2D g, float x, float y, float width, String text,
                              boolean on, boolean dark) {
-        float rowH = 44f * SCALE / 2.6f * 1.06f;
+        float rowH = (TRACK_H + 20f) * SCALE;
         Color label = dark ? Color.WHITE : Color.BLACK;
         g.setColor(label);
         g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, Math.round(10.5f * SCALE)));
-        g.drawString(text, x, y + rowH * 0.62f);
+        g.drawString(text, x, y + rowH * 0.60f);
         g.setColor(dark ? new Color(0x38383A) : new Color(0xE5E5EA));
-        g.fillRect((int) x, (int) (y + rowH), (int) width - Math.round(90 * SCALE / 2.6f), 1);
-        toggle(g, x + width - TRACK_W * SCALE - 4, y + rowH * 0.5f - TRACK_H * SCALE * 0.5f,
+        g.fillRect((int) x, (int) (y + rowH), (int) width - Math.round(86 * SCALE / 2.6f), 1);
+        toggle(g, x + width - TRACK_W * SCALE - 2, y + rowH * 0.5f - TRACK_H * SCALE * 0.5f,
                 on, dark, 0f);
         return y + rowH;
     }
