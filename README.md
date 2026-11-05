@@ -54,6 +54,32 @@ to rebuild and re-sign it.
 
 ---
 
+## Liquid Glass build
+
+`build/iboard-liquidglass.apk` is the same repack, with the settings toggles and
+sliders replaced by Liquid Glass controls built from
+[Kyant0/AndroidLiquidGlass](https://github.com/Kyant0/AndroidLiquidGlass)
+parameters (Apache-2.0):
+
+* track 64x28dp capsule, thumb 40x24dp white capsule, travel 2dp..22dp
+* accent `#34C759` light / `#30D158` dark, neutral track `#787878 @20%` / `#787880 @36%`
+* 4dp shadow at 5% with a `radius/6` offset, 0.5dp specular rim, pressed lens band,
+  inner shading and 1.05 scale
+* slider: 6dp track, `#0088FF` / `#0091FF`, same 40x24dp glass knob
+
+It ships as an extra `classes8.dex` (16 KB) and is wired in by redirecting three
+smali call sites to `mk.TogHook` — no stock Gboard class was deleted. Sources are
+in `mod/src/mk`, the build is `mod/build.sh`, CI is
+`.github/workflows/build-apk.yml`, and the APK is published as the
+`liquid-glass-v1` release asset.
+
+Preview renders (desktop, same geometry constants, not device screenshots):
+[`preview-light.png`](mod/preview/preview-light.png) ·
+[`preview-dark.png`](mod/preview/preview-dark.png).
+Full write-up: [`analysis/10-liquid-glass.md`](analysis/10-liquid-glass.md).
+
+---
+
 ## Repository layout
 
 ```
@@ -61,6 +87,7 @@ build/iboard.apk          signed APK (Git LFS)
 decompiled/               full teardown generated from that APK, see decompiled/README.md
 analysis/                 generated reports over decompiled/, see analysis/README.md
 scripts/                  reproducible pipeline: install_tools.sh, decompile_apk.sh, apk_survey.py
+mod/                      the Liquid Glass control layer (Java -> classes8.dex) + build.sh + preview
 .claude/skills/           REA reverse-engineering skill (vendored, MIT)
 .github/workflows/        decompile.yml - rebuilds decompiled/ + analysis/ in CI
 ```

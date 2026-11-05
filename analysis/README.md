@@ -19,6 +19,7 @@ scripts/decompile_apk.sh build/iboard.apk
 | [`08-mod-internals.md`](08-mod-internals.md) | **the deep cut**: what iBoard actually is, the 17 injected classes, all 12 hook sites, added fonts and theme payloads, limits of the reading |
 | [`09-rebuild.md`](09-rebuild.md) | rebuilding and re-signing, and what the self-signed identity implies |
 | [`mod-map.md`](mod-map.md) / `mod-map.json` | generated map of every `mk/*` class and every stock class that calls into it |
+| [`10-liquid-glass.md`](10-liquid-glass.md) | the Liquid Glass control layer: `classes8.dex`, Kyant parameter mapping, hook rewiring, build and install notes |
 | `survey.json` | the same facts, machine-readable |
 | `evidence/` | REA (`rea inspect-apk-signature`, `rea inspect-android-package`) Evidence bundles |
 | `logs/` | CI logs for the run that produced the tree above |
