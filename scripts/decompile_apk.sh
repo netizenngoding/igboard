@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+# Strip an APK down to its bones:
+#   decompiled/raw        every zip entry exactly as shipped
+#   decompiled/apktool    AndroidManifest + resources + smali for every dex
+#   decompiled/jadx       Java sources recovered from the dex files
+#   decompiled/elf        readelf dumps for every native library
+#   analysis/*.md         generated reports (see scripts/apk_survey.py)
+#
+# Usage: scripts/decompile_apk.sh [path/to/app.apk]
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+APK="${1:-${APK:-$ROOT/build/iboard.apk}}"
+OUT="${OUT:-$ROOT/decompiled}"
+TOOLS="${TOOLS:-$ROOT/.tools}"
+JADX_HEAP="${JADX_HEAP:-12g}"
+JADX_THREADS="${JADX_THREADS:-8}"
+
+[ -f "$APK" ] || { echo "APK not found: $APK" >&2; exit 1; }
+[ -f "$TOOLS/apktool.jar" ] || { echo "run scripts/install_tools.sh first" >&2; exit 1; }
+mkdir -p "$OUT"
+
+echo "== 0. identity =="
+ls -l "$APK"
+sha256sum "$APK"
+
+echo "== 1. raw zip extraction =="
+rm -rf "$OUT/raw"
+mkdir -p "$OUT/raw"
+unzip -q -o "$APK" -d "$OUT/raw"
+
+echo "== 2. apktool (manifest + resources + smali + assets + lib) =="
+rm -rf "$OUT/apktool"
+java -Xmx4g -jar "$TOOLS/apktool.jar" d -f -o "$OUT/apktool" "$APK"
+
+echo "== 3. jadx (java sources + resources) =="
+rm -rf "$OUT/jadx"
+jadx_run() { java "-Xmx$JADX_HEAP" -cp "$TOOLS/jadx/lib/*" jadx.cli.JadxCLI "$@"; }
+if ! jadx_run -d "$OUT/jadx" --show-bad-code --deobf --threads-count "$JADX_THREADS" "$APK"; then
+  echo "!! full jadx run failed, retrying without resources" >&2
+  rm -rf "$OUT/jadx"
+  jadx_run -d "$OUT/jadx" --show-bad-code --deobf --no-res --threads-count "$JADX_THREADS" "$APK"
+fi
+
+echo "== 4. native library ELF dumps =="
+mkdir -p "$OUT/elf"
+find "$OUT/raw/lib" -name '*.so' -print0 2>/dev/null | while IFS= read -r -d '' so; do
+  rel="${so#"$OUT/raw/"}"
+  dst="$OUT/elf/$(echo "$rel" | tr '/' '_').txt"
+  { echo "### $rel"; file "$so"; echo; readelf -hWd "$so" 2>&1; } > "$dst" || true
+done
+
+echo "== 5. certificates =="
+mkdir -p "$OUT/certs"
+if ls "$OUT/raw"/META-INF/*.RSA "$OUT/raw"/META-INF/*.DSA "$OUT/raw"/META-INF/*.EC >/dev/null 2>&1; then
+  keytool -printcert -jarfile "$APK" > "$OUT/certs/keystore-v1.txt" 2>&1 || true
+fi
+
+echo "== 6. reports =="
+APK="$APK" OUT="$OUT" ANA="${ANA:-$ROOT/analysis}" python3 "$ROOT/scripts/apk_survey.py"
+
+echo "== done =="
+du -sh "$OUT"/* 2>/dev/null || true

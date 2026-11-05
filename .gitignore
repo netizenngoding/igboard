@@ -1,0 +1,5 @@
+# toolchain downloads (scripts/install_tools.sh)
+.tools/
+# local scratch output from scripts/decompile_apk.sh
+decompiled/**/tmp/
+*.log.tmp
