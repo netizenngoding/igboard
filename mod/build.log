@@ -1,43 +1,9 @@
 == 1. compile mod sources ==
+mod/src/mk/TogHook.java:165: error: cannot find symbol
+                    aSwitch.setThumbOffset(0);
+                           ^
+  symbol:   method setThumbOffset(int)
+  location: variable aSwitch of type Switch
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-8
-== 2. dex ==
--rw-r--r-- 1 runner runner 15832 Nov  5 16:57 /home/runner/work/igboard/igboard/mod/dex/classes8.dex
-== 3. redirect the smali call sites to mk.TogHook ==
-/home/runner/work/igboard/igboard/mod/work/smali/eux.smali:1
-/home/runner/work/igboard/igboard/mod/work/smali_classes2/android/support/v7/widget/SwitchCompat.smali:1
-/home/runner/work/igboard/igboard/mod/work/smali_classes2/com/google/android/material/materialswitch/MaterialSwitch.smali:1
-== 4. rebuild resources + smali ==
-I: Using Apktool 3.0.3 on iboard.apk with 4 threads
-I: Smaling smali_classes2 folder into classes2.dex...
-I: Smaling smali folder into classes.dex...
-I: Smaling smali_classes3 folder into classes3.dex...
-I: Building resources with aapt2...
-I: Smaling smali_classes4 folder into classes4.dex...
-I: Smaling smali_classes5 folder into classes5.dex...
-I: Smaling smali_classes6 folder into classes6.dex...
-I: Smaling smali_classes7 folder into classes7.dex...
-I: Building apk file...
-I: Importing assets...
-I: Importing lib...
-I: Importing unknown files...
-I: Built apk into: /home/runner/work/igboard/igboard/mod/dex/unsigned.apk
-== 5. inject classes8.dex ==
-    30328  2026-11-05 16:58   classes5.dex
-    11040  2026-11-05 16:58   classes6.dex
-  9439944  2026-11-05 16:58   classes.dex
- 10229200  2026-11-05 16:58   classes2.dex
-   770476  2026-11-05 16:58   classes4.dex
-  4319272  2026-11-05 16:58   classes3.dex
-    12040  2026-11-05 16:58   classes7.dex
-    15832  2026-11-05 16:58   classes8.dex
-== 6. align ==
-== 7. sign ==
-generated /home/runner/work/igboard/igboard/build/keys/iboard-test.jks
-V3.0 Signer: certificate DN: CN=iBoard Local Test
-V3.0 Signer: certificate SHA-256 digest: a73bf852b2fe421aa4671ddc0a4bf332210850865301e9f1dd35bfe9d4740fdc
-V3.0 Signer: certificate SHA-1 digest: 4f9423aa4f602e1cfac6e719fcb04c3a38260175
-V3.0 Signer: certificate MD5 digest: de54a430116bdecc4b5c0a86ac68d6f6
--rw-r--r-- 1 runner runner 110536065 Nov  5 16:58 /home/runner/work/igboard/igboard/build/iboard-liquidglass.apk
-10d1881ba404603b4765c94ef2af5cb598fe831c5f5937f45cbff4d79ecb756e  /home/runner/work/igboard/igboard/build/iboard-liquidglass.apk
+1 error
