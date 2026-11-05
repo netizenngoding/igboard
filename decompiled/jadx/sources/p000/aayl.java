@@ -83,7 +83,7 @@ public final /* synthetic */ class aayl implements Function {
             case 6:
                 return aaay.m431A(obj);
             case 7:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 8:
                 aazb aazbVar2 = (aazb) obj;
                 List list = aazbVar2.f2640c;
@@ -93,7 +93,7 @@ public final /* synthetic */ class aayl implements Function {
                 ((aazb) obj).f2642e;
                 return null;
             case 10:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 11:
                 return aaay.m436F(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:

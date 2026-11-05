@@ -259,7 +259,7 @@ public final class lse {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object m23144E(acgy acgyVar, acfd acfdVar) {
+    public final Object m23144E(acgy acgyVar, acfd acfdVar) throws Throwable {
         bth bthVar;
         Object obj;
         ?? r6;

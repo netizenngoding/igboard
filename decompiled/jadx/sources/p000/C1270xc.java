@@ -95,7 +95,7 @@ public final class C1270xc {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    public final Object m35102b(acfd acfdVar) {
+    public final Object m35102b(acfd acfdVar) throws Throwable {
         ahy ahyVar;
         Object obj;
         if (acfdVar instanceof ahy) {

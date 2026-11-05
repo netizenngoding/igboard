@@ -37,7 +37,7 @@ final class tlg extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acbw.m3007V(obj);
         try {
             xzu xzuVar = this.f65060d;

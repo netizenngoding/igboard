@@ -66,7 +66,7 @@ public final class syo implements syl {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.syl
     /* JADX INFO: renamed from: a */
-    public final Object mo30797a(Locale locale, eta etaVar, Map map, acfd acfdVar) {
+    public final Object mo30797a(Locale locale, eta etaVar, Map map, acfd acfdVar) throws Throwable {
         syn synVar;
         aali aaliVarM30810e;
         if (acfdVar instanceof syn) {
@@ -236,7 +236,7 @@ public final class syo implements syl {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0017  */
     /* JADX INFO: renamed from: c */
-    public final Object m30799c(Map map, acfd acfdVar) {
+    public final Object m30799c(Map map, acfd acfdVar) throws Throwable {
         sym symVar;
         Map map2;
         Object accsVar;

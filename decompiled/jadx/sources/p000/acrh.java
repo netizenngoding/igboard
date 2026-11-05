@@ -75,7 +75,7 @@ public final class acrh extends acfy implements achd {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         ?? r3;
         ?? r4;
         int i = this.$cid;

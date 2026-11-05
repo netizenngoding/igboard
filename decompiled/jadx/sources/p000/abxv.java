@@ -21,7 +21,7 @@ public final class abxv extends abxx {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo2846a(aahv aahvVar, aaek aaekVar, acfd acfdVar) {
+    public final Object mo2846a(aahv aahvVar, aaek aaekVar, acfd acfdVar) throws Throwable {
         abxu abxuVar;
         Object obj;
         if (acfdVar instanceof abxu) {

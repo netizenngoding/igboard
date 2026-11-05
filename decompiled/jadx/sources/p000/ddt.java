@@ -17,7 +17,7 @@ public final class ddt {
     /* JADX WARN: Code duplicated, block: B:7:0x0015  */
     /* JADX WARN: Type inference failed for: r0v5, types: [java.lang.Object, java.util.concurrent.Executor] */
     /* JADX INFO: renamed from: a */
-    public static final Object m12529a(Context context, dcm dcmVar, cxc cxcVar, cwv cwvVar, uym uymVar, acfd acfdVar) {
+    public static final Object m12529a(Context context, dcm dcmVar, cxc cxcVar, cwv cwvVar, uym uymVar, acfd acfdVar) throws Throwable {
         dds ddsVar;
         if (acfdVar instanceof dds) {
             ddsVar = (dds) acfdVar;

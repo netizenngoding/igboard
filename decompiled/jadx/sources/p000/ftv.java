@@ -6,7 +6,6 @@ import android.provider.ContactsContract;
 import android.util.LruCache;
 import com.google.android.inputmethod.latin.R;
 import java.io.Closeable;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -509,7 +508,7 @@ public final class ftv {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0017  */
     /* JADX INFO: renamed from: b */
-    public final Object m15409b(List list, acfd acfdVar) throws IOException {
+    public final Object m15409b(List list, acfd acfdVar) throws Throwable {
         ftt fttVar;
         if (acfdVar instanceof ftt) {
             fttVar = (ftt) acfdVar;
@@ -584,7 +583,7 @@ public final class ftv {
     /* JADX WARN: Type inference failed for: r8v4 */
     /* JADX WARN: Type inference failed for: r8v5 */
     /* JADX INFO: renamed from: c */
-    public final Object m15410c(kbg kbgVar, acfd acfdVar) throws IOException {
+    public final Object m15410c(kbg kbgVar, acfd acfdVar) throws Throwable {
         ftu ftuVar;
         ?? r8;
         if (acfdVar instanceof ftu) {

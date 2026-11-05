@@ -154,7 +154,7 @@ public final class aaz extends CameraDevice.StateCallback {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m1722a(acfd acfdVar) {
+    public final Object m1722a(acfd acfdVar) throws Throwable {
         aax aaxVar;
         if (acfdVar instanceof aax) {
             aaxVar = (aax) acfdVar;

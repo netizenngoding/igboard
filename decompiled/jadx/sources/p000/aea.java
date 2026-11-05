@@ -26,7 +26,7 @@ final class aea extends acfy implements acgy {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws InterruptedException {
+    public final Object mo1696b(Object obj) throws Throwable {
         if (this.$cid != 0) {
             acbw.m3007V(obj);
             ((acie) this.f8592a).f5299a = null;

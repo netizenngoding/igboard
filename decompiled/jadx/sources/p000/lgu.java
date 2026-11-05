@@ -207,10 +207,8 @@ public final class lgu {
                                 e2.getMessage();
                                 lgqVar = new lgq(false);
                             }
+                        } finally {
                             StrictMode.setThreadPolicy(threadPolicyAllowThreadDiskReads2);
-                        } catch (Throwable th) {
-                            StrictMode.setThreadPolicy(threadPolicyAllowThreadDiskReads2);
-                            throw th;
                         }
                     } else {
                         try {
@@ -227,9 +225,9 @@ public final class lgu {
                         } catch (PackageManager.NameNotFoundException unused) {
                         }
                     }
-                } catch (Throwable th2) {
+                } catch (Throwable th) {
                     StrictMode.setThreadPolicy(threadPolicyAllowThreadDiskReads);
-                    throw th2;
+                    throw th;
                 }
             } catch (RemoteException | lpr e3) {
                 Log.e("GoogleCertificates", "Failed to get Google certificates from remote", e3);

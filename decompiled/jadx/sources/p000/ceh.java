@@ -295,7 +295,7 @@ public class ceh {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: e */
-    public static Object m8955e(File file, acgy acgyVar, acfd acfdVar) throws IOException {
+    public static Object m8955e(File file, acgy acgyVar, acfd acfdVar) throws Throwable {
         bsx bsxVar;
         if (acfdVar instanceof bsx) {
             bsxVar = (bsx) acfdVar;

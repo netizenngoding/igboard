@@ -53,7 +53,7 @@ public final class C1114ri implements InterfaceC1152st {
     /* JADX WARN: Type inference failed for: r14v5, types: [aclu, java.lang.Object] */
     @Override // p000.InterfaceC1152st
     /* JADX INFO: renamed from: a */
-    public final Object mo29351a(List list, int i, apr aprVar, int i2, int i3, int i4, acfd acfdVar) {
+    public final Object mo29351a(List list, int i, apr aprVar, int i2, int i3, int i4, acfd acfdVar) throws Throwable {
         C1113rh c1113rh;
         boolean z;
         boolean z2;

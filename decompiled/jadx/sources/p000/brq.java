@@ -32,7 +32,7 @@ final class brq extends acfy implements acgy {
     /* JADX WARN: Type inference failed for: r1v1, types: [acfi, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         uym uymVar;
         bso bsoVar;
         col colVar;

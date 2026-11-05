@@ -38,7 +38,7 @@ final class sor extends acfy implements achc {
     /* JADX WARN: Code duplicated, block: B:57:0x01b8 A[RETURN] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         List list;
         Optional optionalM31010c;
         Optional optionalM19845of;

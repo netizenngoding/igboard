@@ -24,7 +24,7 @@ final class bab extends acfx implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acbw.m3007V(obj);
         return acde.f5115a;
     }

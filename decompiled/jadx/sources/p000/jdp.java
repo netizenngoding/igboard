@@ -46,7 +46,7 @@ public final class jdp implements acqn {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo2603a(Object obj, acfd acfdVar) {
+    public final Object mo2603a(Object obj, acfd acfdVar) throws Throwable {
         jdf jdfVar;
         int i;
         ArrayList arrayList;

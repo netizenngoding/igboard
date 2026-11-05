@@ -60,7 +60,7 @@ public final class sni implements acqn {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo2603a(Object obj, acfd acfdVar) {
+    public final Object mo2603a(Object obj, acfd acfdVar) throws Throwable {
         snh snhVar;
         ?? r0;
         Object next;

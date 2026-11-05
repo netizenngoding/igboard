@@ -14,7 +14,6 @@ import android.view.ViewGroup;
 import com.google.android.inputmethod.latin.R;
 import com.google.android.keyboard.client.delight5.ConceptPredictionApi;
 import java.io.Closeable;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.EnumMap;
 import java.util.Random;
@@ -182,7 +181,7 @@ public final class luz {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: h */
-    public final Object m23292h(long j, acfd acfdVar) throws IOException {
+    public final Object m23292h(long j, acfd acfdVar) throws Throwable {
         ftk ftkVar;
         if (acfdVar instanceof ftk) {
             ftkVar = (ftk) acfdVar;

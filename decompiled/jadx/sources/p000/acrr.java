@@ -36,7 +36,7 @@ public final class acrr implements acqn {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo2603a(Object obj, acfd acfdVar) {
+    public final Object mo2603a(Object obj, acfd acfdVar) throws Throwable {
         acrq acrqVar;
         ?? r6;
         acqy acqyVar;

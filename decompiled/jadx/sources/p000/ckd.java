@@ -58,7 +58,7 @@ public final class ckd extends acfy implements achc {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         ckt cktVar;
         int i = this.$cid;
         if (i == 0) {

@@ -61,7 +61,7 @@ public final class StylusConstraintLayout extends ConstraintLayout {
     }
 
     /* JADX INFO: renamed from: a */
-    public final Object m11427a(ouo ouoVar, acfd acfdVar) {
+    public final Object m11427a(ouo ouoVar, acfd acfdVar) throws Throwable {
         achc achcVarMo29302a;
         mpk mpkVar = new mpk(this.f18428a);
         rhk rhkVar = this.f18431d;

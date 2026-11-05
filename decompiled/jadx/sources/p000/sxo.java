@@ -88,7 +88,7 @@ public final class sxo {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m30723a(String str, syk sykVar, acfd acfdVar) {
+    public final Object m30723a(String str, syk sykVar, acfd acfdVar) throws Throwable {
         sxk sxkVar;
         if (acfdVar instanceof sxk) {
             sxkVar = (sxk) acfdVar;
@@ -128,7 +128,7 @@ public final class sxo {
     /* JADX WARN: Type inference failed for: r4v7 */
     /* JADX WARN: Type inference failed for: r4v8 */
     /* JADX INFO: renamed from: b */
-    public final Object m30724b(acfd acfdVar) {
+    public final Object m30724b(acfd acfdVar) throws Throwable {
         sxl sxlVar;
         ?? it;
         Object objM30538a;
@@ -187,7 +187,7 @@ public final class sxo {
     /* JADX WARN: Code duplicated, block: B:7:0x001b  */
     /* JADX WARN: Type inference failed for: r3v7, types: [java.lang.Object, qec] */
     /* JADX INFO: renamed from: c */
-    public final Object m30725c(String str, syk sykVar, boolean z, acfd acfdVar) {
+    public final Object m30725c(String str, syk sykVar, boolean z, acfd acfdVar) throws Throwable {
         sxm sxmVar;
         boolean z2;
         Object objM3024ah;
@@ -371,7 +371,7 @@ public final class sxo {
     /* JADX WARN: Code duplicated, block: B:7:0x0015  */
     /* JADX WARN: Type inference failed for: r0v7, types: [java.lang.Object, qec] */
     /* JADX INFO: renamed from: d */
-    public final Object m30726d(adtb adtbVar, String str, syk sykVar, boolean z, acfd acfdVar) {
+    public final Object m30726d(adtb adtbVar, String str, syk sykVar, boolean z, acfd acfdVar) throws Throwable {
         sxj sxjVar;
         if (acfdVar instanceof sxj) {
             sxjVar = (sxj) acfdVar;
@@ -424,7 +424,7 @@ public final class sxo {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object m30727e(adtb adtbVar, String str, syk sykVar, acfd acfdVar) {
+    public final Object m30727e(adtb adtbVar, String str, syk sykVar, acfd acfdVar) throws Throwable {
         sxn sxnVar;
         sxi sxiVar;
         String str2;

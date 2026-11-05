@@ -21,7 +21,7 @@ public abstract class gsg {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    static /* synthetic */ Object m16478e(gsg gsgVar, List list, acfd acfdVar) {
+    static /* synthetic */ Object m16478e(gsg gsgVar, List list, acfd acfdVar) throws Throwable {
         gse gseVar;
         ?? r10;
         if (acfdVar instanceof gse) {
@@ -94,7 +94,7 @@ public abstract class gsg {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    static /* synthetic */ Object m16479f(gsg gsgVar, gvg gvgVar, acfd acfdVar) {
+    static /* synthetic */ Object m16479f(gsg gsgVar, gvg gvgVar, acfd acfdVar) throws Throwable {
         gsf gsfVar;
         if (acfdVar instanceof gsf) {
             gsfVar = (gsf) acfdVar;

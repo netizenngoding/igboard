@@ -91,7 +91,7 @@ public final class srs {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m30538a(acfd acfdVar) {
+    public final Object m30538a(acfd acfdVar) throws Throwable {
         srq srqVar;
         if (acfdVar instanceof srq) {
             srqVar = (srq) acfdVar;
@@ -125,7 +125,7 @@ public final class srs {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    public final Object m30539b(acfd acfdVar) {
+    public final Object m30539b(acfd acfdVar) throws Throwable {
         srr srrVar;
         if (acfdVar instanceof srr) {
             srrVar = (srr) acfdVar;

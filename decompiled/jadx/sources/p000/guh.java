@@ -6,7 +6,6 @@ import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
@@ -64,7 +63,7 @@ public final class guh {
     /* JADX WARN: Type inference failed for: r0v3 */
     /* JADX WARN: Type inference failed for: r8v0, types: [guh] */
     /* JADX INFO: renamed from: a */
-    public final Object m16528a(Path path, acfd acfdVar) throws IOException {
+    public final Object m16528a(Path path, acfd acfdVar) throws Throwable {
         guf gufVar;
         gtv gtvVar;
         xcd xcdVar;
@@ -263,7 +262,7 @@ public final class guh {
     /* JADX WARN: Type inference failed for: r1v0, types: [xcd] */
     /* JADX WARN: Type inference failed for: r1v12, types: [java.lang.Iterable, java.util.ArrayList, java.util.Collection] */
     /* JADX INFO: renamed from: b */
-    public final Object m16529b(xcd xcdVar, Path path, acfd acfdVar) throws IOException {
+    public final Object m16529b(xcd xcdVar, Path path, acfd acfdVar) throws Throwable {
         gug gugVar;
         gue gueVar;
         char c;

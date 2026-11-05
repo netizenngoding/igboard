@@ -30,7 +30,7 @@ public final class btt extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r2v1, types: [blf, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         int i = this.$cid;
         Object obj2 = this.f13495a;
         if (i == 0) {

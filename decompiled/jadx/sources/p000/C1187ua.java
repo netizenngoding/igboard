@@ -73,7 +73,7 @@ public final class C1187ua extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r9v59, types: [java.lang.Object, rih] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         arl arlVar;
         arg argVar;
         Object objMo26663j;

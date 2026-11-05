@@ -36,7 +36,7 @@ public final class sjs extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         Object objM3024ah;
         acfl acflVar = acfl.f5236a;
         int i = this.f62079a;

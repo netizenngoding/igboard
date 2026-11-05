@@ -34,7 +34,7 @@ public final class aft extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r7v2, types: [acfi, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acfl acflVar = acfl.f5236a;
         int i = this.f8817a;
         acbw.m3007V(obj);

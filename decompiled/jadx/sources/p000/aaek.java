@@ -40,7 +40,7 @@ public final class aaek {
     /* JADX WARN: Type inference failed for: r5v2, types: [acgn, java.lang.Object] */
     /* JADX WARN: Type inference failed for: r5v6, types: [acpo, java.lang.Object] */
     /* JADX INFO: renamed from: b */
-    public final Object m663b(acfd acfdVar) {
+    public final Object m663b(acfd acfdVar) throws Throwable {
         abye abyeVar;
         if (acfdVar instanceof abye) {
             abyeVar = (abye) acfdVar;

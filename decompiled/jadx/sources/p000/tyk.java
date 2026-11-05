@@ -657,7 +657,7 @@ public final class tyk implements acbj {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: f */
-    public final Object m31695f(tya tyaVar, acfd acfdVar) {
+    public final Object m31695f(tya tyaVar, acfd acfdVar) throws Throwable {
         tyi tyiVar;
         if (acfdVar instanceof tyi) {
             tyiVar = (tyi) acfdVar;

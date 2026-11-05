@@ -48,7 +48,7 @@ public final class gup extends acfx implements achc {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acjt acjtVar;
         if (this.$cid != 0) {
             acjt acjtVar2 = (acjt) this.f30368c;

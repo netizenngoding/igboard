@@ -76,7 +76,7 @@ public final /* synthetic */ class aayn implements Function {
                 ((aazb) obj).f2642e;
                 return null;
             case 5:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 6:
                 aazb aazbVar = (aazb) obj;
                 return Double.valueOf(aazbVar.f2641d ? aayv.m1705Z(aazbVar.f2645h, 0.0d, 100.0d) : aayv.m1706aa(aazbVar.f2645h, 0.0d, 100.0d));
@@ -87,7 +87,7 @@ public final /* synthetic */ class aayn implements Function {
             case 9:
                 return aaay.m436F(obj);
             case 10:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 11:
                 return aaay.m434D(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
@@ -99,7 +99,7 @@ public final /* synthetic */ class aayn implements Function {
             case 15:
                 return aaay.m435E(obj);
             case 16:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 17:
                 aazb aazbVar2 = (aazb) obj;
                 return Double.valueOf(aazbVar2.f2641d ? aayv.m1705Z(aazbVar2.f2645h, 20.0d, 49.0d) : aayv.m1706aa(aazbVar2.f2645h, 61.0d, 90.0d));

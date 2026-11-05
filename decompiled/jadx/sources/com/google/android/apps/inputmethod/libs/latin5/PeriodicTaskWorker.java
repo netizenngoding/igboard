@@ -176,11 +176,14 @@ public final class PeriodicTaskWorker extends ImeListenableWorker implements Cal
                     cjqVarM10443m = m10443m(false, epochMilli);
                     break;
                 }
+                Trace.endSection();
                 return cjqVarM10443m;
             } finally {
+                Trace.endSection();
             }
-        } finally {
+        } catch (Throwable th) {
             Trace.endSection();
+            throw th;
         }
     }
 }

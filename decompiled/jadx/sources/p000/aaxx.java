@@ -125,7 +125,7 @@ public final /* synthetic */ class aaxx implements Function {
                 }
                 return Double.valueOf(dM1716a);
             case 18:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 19:
                 aaay.m447W((aazb) obj);
                 return Double.valueOf(30.0d);

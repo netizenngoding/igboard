@@ -43,7 +43,7 @@ final class bry extends acfy implements achc {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         Object obj2;
         btk btcVar;
         boolean z = this.f13303c;

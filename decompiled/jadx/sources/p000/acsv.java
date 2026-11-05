@@ -46,7 +46,7 @@ public final class acsv extends acfy implements achc {
      */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         if (this.$cid == 0) {
             acfl acflVar = acfl.f5236a;
             if (this.f5845a != 0) {

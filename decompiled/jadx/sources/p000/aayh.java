@@ -97,12 +97,12 @@ public final /* synthetic */ class aayh implements Function {
             case 7:
                 return aaay.m432B(obj);
             case 8:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 9:
                 aayw.m1714h((aazb) obj);
                 return null;
             case 10:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 11:
                 aazb aazbVar3 = (aazb) obj;
                 int i4 = aazbVar3.f2651n;
@@ -147,7 +147,7 @@ public final /* synthetic */ class aayh implements Function {
                 int i8 = aazbVar6.f2651n;
                 return aazbVar6.f2650m == 3 ? Double.valueOf(1.4d) : Double.valueOf(1.15d);
             default:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
         }
     }
 

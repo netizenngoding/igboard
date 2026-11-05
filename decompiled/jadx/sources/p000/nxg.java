@@ -67,7 +67,7 @@ public final class nxg extends acfy implements achd {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         ?? r1;
         Object obj2;
         ?? r2;

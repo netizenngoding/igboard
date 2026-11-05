@@ -6,7 +6,6 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.view.accessibility.AccessibilityManager;
 import com.google.android.inputmethod.latin.R;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -193,7 +192,7 @@ public final class ssx {
     /* JADX WARN: Type inference failed for: r9v17 */
     /* JADX WARN: Type inference failed for: r9v18 */
     /* JADX INFO: renamed from: b */
-    public final Object m30556b(eta etaVar, acfd acfdVar) {
+    public final Object m30556b(eta etaVar, acfd acfdVar) throws Throwable {
         ssm ssmVar;
         String str;
         String str2;
@@ -273,7 +272,7 @@ public final class ssx {
     /* JADX WARN: Type inference failed for: r0v8 */
     /* JADX WARN: Type inference failed for: r10v0, types: [ssx] */
     /* JADX INFO: renamed from: c */
-    public final Object m30557c(Locale locale, acfd acfdVar) throws IOException {
+    public final Object m30557c(Locale locale, acfd acfdVar) throws Throwable {
         ssn ssnVar;
         ?? r0;
         String str;
@@ -335,7 +334,7 @@ public final class ssx {
     /* JADX WARN: Type inference failed for: r1v2, types: [wvu] */
     /* JADX WARN: Type inference failed for: r1v6 */
     /* JADX INFO: renamed from: d */
-    public final Object m30558d(Locale locale, eta etaVar, acfd acfdVar) {
+    public final Object m30558d(Locale locale, eta etaVar, acfd acfdVar) throws Throwable {
         sso ssoVar;
         xqp xqpVarM3027ak;
         Locale locale2;
@@ -459,7 +458,7 @@ public final class ssx {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object m30559e(eta etaVar, Locale locale, kxa kxaVar, kzb kzbVar, acfd acfdVar) throws IOException {
+    public final Object m30559e(eta etaVar, Locale locale, kxa kxaVar, kzb kzbVar, acfd acfdVar) throws Throwable {
         ssp sspVar;
         eta etaVar2;
         Locale locale2;
@@ -712,7 +711,7 @@ public final class ssx {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: f */
-    public final Object m30560f(acfd acfdVar) {
+    public final Object m30560f(acfd acfdVar) throws Throwable {
         ssq ssqVar;
         if (acfdVar instanceof ssq) {
             ssqVar = (ssq) acfdVar;
@@ -762,7 +761,7 @@ public final class ssx {
     /* JADX WARN: Code duplicated, block: B:78:0x0190 A[SYNTHETIC] */
     /* JADX WARN: Code duplicated, block: B:7:0x0019  */
     /* JADX INFO: renamed from: g */
-    public final Object m30561g(eta etaVar, acfd acfdVar) {
+    public final Object m30561g(eta etaVar, acfd acfdVar) throws Throwable {
         ssr ssrVar;
         boolean z;
         eta etaVar2;
@@ -1020,7 +1019,7 @@ public final class ssx {
     /* JADX WARN: Code duplicated, block: B:60:0x017a  */
     /* JADX WARN: Code duplicated, block: B:7:0x0017  */
     /* JADX INFO: renamed from: i */
-    public final Object m30563i(eta etaVar, Locale locale, boolean z, kxa kxaVar, kzb kzbVar, acfd acfdVar) throws IOException {
+    public final Object m30563i(eta etaVar, Locale locale, boolean z, kxa kxaVar, kzb kzbVar, acfd acfdVar) throws Throwable {
         sst sstVar;
         boolean z2;
         eta etaVar2;
@@ -3560,7 +3559,7 @@ public final class ssx {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: k */
-    public final Object m30565k(acfd acfdVar) {
+    public final Object m30565k(acfd acfdVar) throws Throwable {
         ssv ssvVar;
         if (acfdVar instanceof ssv) {
             ssvVar = (ssv) acfdVar;
@@ -3602,7 +3601,7 @@ public final class ssx {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object m30566l(Locale locale, acfd acfdVar) {
+    public final Object m30566l(Locale locale, acfd acfdVar) throws Throwable {
         ssw sswVar;
         if (acfdVar instanceof ssw) {
             sswVar = (ssw) acfdVar;

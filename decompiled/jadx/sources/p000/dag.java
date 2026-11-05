@@ -36,7 +36,7 @@ final class dag extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         Object rdxVar;
         Object culVar;
         acpy acpyVar = (acpy) this.f20381d;

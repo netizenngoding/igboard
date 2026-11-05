@@ -19,7 +19,7 @@ final class brt implements acqn {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    public final Object m8247b(acfd acfdVar) {
+    public final Object m8247b(acfd acfdVar) throws Throwable {
         brs brsVar;
         if (acfdVar instanceof brs) {
             brsVar = (brs) acfdVar;

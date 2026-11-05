@@ -170,7 +170,7 @@ public final class bso implements brb {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: d */
-    public final Object m8296d(acfd acfdVar) {
+    public final Object m8296d(acfd acfdVar) throws Throwable {
         brn brnVar;
         acwv acwvVar;
         if (acfdVar instanceof brn) {
@@ -221,7 +221,7 @@ public final class bso implements brb {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: e */
-    public final Object m8297e(acfd acfdVar) {
+    public final Object m8297e(acfd acfdVar) throws Throwable {
         brr brrVar;
         acwv acwvVar;
         if (acfdVar instanceof brr) {
@@ -437,7 +437,7 @@ public final class bso implements brb {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: i */
-    public final Object m8301i(Object obj, boolean z, acfd acfdVar) {
+    public final Object m8301i(Object obj, boolean z, acfd acfdVar) throws Throwable {
         bsl bslVar;
         acic acicVar;
         if (acfdVar instanceof bsl) {
@@ -486,7 +486,7 @@ public final class bso implements brb {
     }
 
     /* JADX INFO: renamed from: l */
-    public final Object m8304l(acfd acfdVar) {
+    public final Object m8304l(acfd acfdVar) throws Throwable {
         Object objM7890h = bng.m7890h(new brv(this, null), acfdVar);
         return objM7890h == acfl.f5236a ? objM7890h : acde.f5115a;
     }
@@ -537,7 +537,7 @@ public final class bso implements brb {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: n */
-    public final Object m8306n(uym uymVar, acfd acfdVar) {
+    public final Object m8306n(uym uymVar, acfd acfdVar) throws Throwable {
         bro broVar;
         if (acfdVar instanceof bro) {
             broVar = (bro) acfdVar;

@@ -292,7 +292,7 @@ public final class C1254wn {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    public final Object m34485b(Map map, Map map2, Set set, aai aaiVar, Set set2, acfd acfdVar) {
+    public final Object m34485b(Map map, Map map2, Set set, aai aaiVar, Set set2, acfd acfdVar) throws Throwable {
         C1253wm c1253wm;
         acie acieVar;
         if (acfdVar instanceof C1253wm) {

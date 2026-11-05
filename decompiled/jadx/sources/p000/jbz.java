@@ -58,7 +58,7 @@ public final class jbz extends acfy implements achd {
     /* JADX WARN: Type inference failed for: r8v6, types: [android.content.SharedPreferences, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         int i = this.$cid;
         if (i == 0) {
             acbw.m3007V(obj);

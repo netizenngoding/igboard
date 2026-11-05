@@ -92,9 +92,9 @@ public final /* synthetic */ class aayk implements Function {
             case 8:
                 return ((aazb) obj).f2650m == 3 ? dValueOf : Double.valueOf(1.29d);
             case 9:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 10:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 11:
                 aazb aazbVar2 = (aazb) obj;
                 int i2 = aazbVar2.f2651n;
@@ -109,7 +109,7 @@ public final /* synthetic */ class aayk implements Function {
                 aayw.m1714h((aazb) obj);
                 return null;
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 15:
                 return aaay.m436F(obj);
             case 16:

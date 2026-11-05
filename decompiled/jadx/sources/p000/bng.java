@@ -710,7 +710,7 @@ public class bng {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX WARN: Multi-variable type inference failed */
     /* JADX INFO: renamed from: h */
-    public static Object m7890h(acgy acgyVar, acfd acfdVar) {
+    public static Object m7890h(acgy acgyVar, acfd acfdVar) throws Throwable {
         bsp bspVar;
         lse lseVar;
         if (acfdVar instanceof bsp) {

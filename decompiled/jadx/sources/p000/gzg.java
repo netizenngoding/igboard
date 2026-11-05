@@ -72,21 +72,25 @@ public final class gzg implements qgp, oke {
             xqs xqsVar = this.f30897c;
             nho nhoVar = (nho) obw.f50373c.m24490a(new mqt(context, 4));
             synchronized (nhoVar) {
-                HashMap map = nhoVar.f48389b;
-                for (Map.Entry entry : map.entrySet()) {
-                    String str = (String) entry.getKey();
-                    xqp xqpVar = (xqp) entry.getValue();
-                    if (!xqpVar.isDone() && !xqpVar.isCancelled()) {
-                        ((wvu) ((wvu) nho.f48388a.m34777c()).mo34836j("com/google/android/libraries/inputmethod/cache/FileCache", "clearAll", 268, "FileCache.java")).mo34809K("File: %s is under reading or writing: %s", str, xqpVar.isDone());
+                try {
+                    HashMap map = nhoVar.f48389b;
+                    for (Map.Entry entry : map.entrySet()) {
+                        String str = (String) entry.getKey();
+                        xqp xqpVar = (xqp) entry.getValue();
+                        if (!xqpVar.isDone() && !xqpVar.isCancelled()) {
+                            ((wvu) ((wvu) nho.f48388a.m34777c()).mo34836j("com/google/android/libraries/inputmethod/cache/FileCache", "clearAll", 268, "FileCache.java")).mo34809K("File: %s is under reading or writing: %s", str, xqpVar.isDone());
+                            xqpVarM34986q = wzl.m34986q(Boolean.FALSE);
+                        }
+                    }
+                    map.clear();
+                    try {
+                        xqpVarM34986q = wzl.m34987r(xqsVar.submit(new kil(nhoVar, 3)));
+                    } catch (RuntimeException e) {
+                        ((wvu) ((wvu) ((wvu) nho.f48388a.m34778d()).mo34835i(e)).mo34836j("com/google/android/libraries/inputmethod/cache/FileCache", "clearAll", 278, "FileCache.java")).mo34846t("Failed to submit clearAll task");
                         xqpVarM34986q = wzl.m34986q(Boolean.FALSE);
                     }
-                }
-                map.clear();
-                try {
-                    xqpVarM34986q = wzl.m34987r(xqsVar.submit(new kil(nhoVar, 3)));
-                } catch (RuntimeException e) {
-                    ((wvu) ((wvu) ((wvu) nho.f48388a.m34778d()).mo34835i(e)).mo34836j("com/google/android/libraries/inputmethod/cache/FileCache", "clearAll", 278, "FileCache.java")).mo34846t("Failed to submit clearAll task");
-                    xqpVarM34986q = wzl.m34986q(Boolean.FALSE);
+                } catch (Throwable th) {
+                    throw th;
                 }
             }
             xqi xqiVarM35309v = xqi.m35309v(xqpVarM34986q);

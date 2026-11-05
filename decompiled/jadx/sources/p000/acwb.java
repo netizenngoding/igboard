@@ -58,7 +58,7 @@ public final class acwb extends acku implements adrb {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: l */
-    public final Object m3924l(acfd acfdVar) {
+    public final Object m3924l(acfd acfdVar) throws Throwable {
         acwa acwaVar;
         aali aaliVarM1364l;
         if (acfdVar instanceof acwa) {

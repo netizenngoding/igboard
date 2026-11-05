@@ -26,7 +26,7 @@ final class acta implements acqn {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.acqn
     /* JADX INFO: renamed from: a */
-    public final Object mo2603a(Object obj, acfd acfdVar) {
+    public final Object mo2603a(Object obj, acfd acfdVar) throws Throwable {
         acsz acszVar;
         if (acfdVar instanceof acsz) {
             acszVar = (acsz) acfdVar;

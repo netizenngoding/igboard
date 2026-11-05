@@ -146,7 +146,7 @@ public final class hsx {
     }
 
     /* JADX INFO: renamed from: l */
-    private final void m17773l() throws Exception {
+    private final void m17773l() {
         View view;
         int i = this.f33039i;
         if (i > 0) {
@@ -184,7 +184,7 @@ public final class hsx {
     }
 
     /* JADX INFO: renamed from: c */
-    public final void m17776c(mtu mtuVar, View view) throws Exception {
+    public final void m17776c(mtu mtuVar, View view) {
         achu.m3301h(mtuVar, "holderPosition");
         achu.m3301h(view, "view");
         if (this.f33040j || Build.VERSION.SDK_INT < 35) {
@@ -559,7 +559,7 @@ public final class hsx {
     }
 
     /* JADX INFO: renamed from: i */
-    public final void m17782i(ohe oheVar) throws Exception {
+    public final void m17782i(ohe oheVar) {
         achu.m3301h(oheVar, "event");
         qbc qbcVarM25515g = oheVar.m25515g();
         if (qbcVarM25515g != null) {

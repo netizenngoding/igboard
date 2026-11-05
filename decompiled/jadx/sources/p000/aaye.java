@@ -77,7 +77,7 @@ public final /* synthetic */ class aaye implements Function {
                 aaay.m446V(aazbVar);
                 return Double.valueOf(true == aazbVar.f2641d ? 30.0d : 90.0d);
             case 4:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 5:
                 int i = ((aazb) obj).f2651n;
                 return null;
@@ -103,7 +103,7 @@ public final /* synthetic */ class aaye implements Function {
                 }
                 return aayw.m1708b(d);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 return aaay.m439I(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:

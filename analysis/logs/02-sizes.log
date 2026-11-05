@@ -1,6 +1,6 @@
 4.0K	decompiled/README.md
 381M	decompiled/apktool
-12K	decompiled/certs
+16K	decompiled/certs
 64K	decompiled/elf
 294M	decompiled/jadx
 158M	decompiled/raw
@@ -11,7 +11,11 @@
 4.0K	analysis/05-native.md
 4.0K	analysis/06-assets.md
 4.0K	analysis/07-mod-surface.md
+8.0K	analysis/08-mod-internals.md
+4.0K	analysis/09-rebuild.md
 4.0K	analysis/README.md
 20K	analysis/evidence
 28K	analysis/logs
+12K	analysis/mod-map.json
+4.0K	analysis/mod-map.md
 20K	analysis/survey.json

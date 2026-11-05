@@ -42,7 +42,7 @@ public final class abv extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r10v6, types: [acma, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         int i = this.$cid;
         if (i != 0) {
             if (i != 1) {

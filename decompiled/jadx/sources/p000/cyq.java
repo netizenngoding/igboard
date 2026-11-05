@@ -31,7 +31,7 @@ final class cyq extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         boolean z = this.f20246a;
         acbw.m3007V(obj);
         String str = ddl.f20541a;

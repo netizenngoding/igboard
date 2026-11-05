@@ -4,7 +4,6 @@ import android.os.SystemClock;
 import android.os.Trace;
 import android.util.Log;
 import android.view.Surface;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -287,7 +286,7 @@ public final class aed implements adh {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: i */
-    public final Object m5144i(acfd acfdVar) throws IOException {
+    public final Object m5144i(acfd acfdVar) throws Throwable {
         aec aecVar;
         acie acieVar;
         acie acieVar2;

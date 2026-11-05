@@ -5,7 +5,7 @@ package p000;
 public final class aaco {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public static final Object m574a(acqn acqnVar, Object obj, Object obj2, acfd acfdVar) {
+    public static final Object m574a(acqn acqnVar, Object obj, Object obj2, acfd acfdVar) throws Throwable {
         acrb acrbVar;
         if (acfdVar instanceof acrb) {
             acrbVar = (acrb) acfdVar;

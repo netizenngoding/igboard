@@ -5,7 +5,7 @@ package p000;
 public final class acfq extends acfw {
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    protected final Object mo1696b(Object obj) {
+    protected final Object mo1696b(Object obj) throws Throwable {
         acbw.m3007V(obj);
         return obj;
     }

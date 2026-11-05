@@ -282,7 +282,7 @@ public class acbw {
     }
 
     /* JADX INFO: renamed from: V */
-    public static void m3007V(Object obj) {
+    public static void m3007V(Object obj) throws Throwable {
         if (obj instanceof accs) {
             throw ((accs) obj).f5091a;
         }
@@ -491,7 +491,7 @@ public class acbw {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX WARN: Multi-variable type inference failed */
     /* JADX INFO: renamed from: aD */
-    public static Object m3014aD(acpy acpyVar, acgn acgnVar, acfd acfdVar) {
+    public static Object m3014aD(acpy acpyVar, acgn acgnVar, acfd acfdVar) throws Throwable {
         acpx acpxVar;
         if (acfdVar instanceof acpx) {
             acpxVar = (acpx) acfdVar;
@@ -649,7 +649,7 @@ public class acbw {
     }
 
     /* JADX INFO: renamed from: ah */
-    public static Object m3024ah(xqp xqpVar, acfd acfdVar) {
+    public static Object m3024ah(xqp xqpVar, acfd acfdVar) throws Throwable {
         try {
             if (xqpVar.isDone()) {
                 return C0000a.m17R(xqpVar);
@@ -756,7 +756,7 @@ public class acbw {
     /* JADX WARN: Code duplicated, block: B:33:0x0074  */
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: aq */
-    public static Object m3033aq(acqm acqmVar, acfd acfdVar) {
+    public static Object m3033aq(acqm acqmVar, acfd acfdVar) throws Throwable {
         acrk acrkVar;
         acie acieVar;
         acsq e;
@@ -824,7 +824,7 @@ public class acbw {
     /* JADX WARN: Code duplicated, block: B:33:0x0074  */
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: ar */
-    public static Object m3034ar(acqm acqmVar, achc achcVar, acfd acfdVar) {
+    public static Object m3034ar(acqm acqmVar, achc achcVar, acfd acfdVar) throws Throwable {
         acrl acrlVar;
         acie acieVar;
         acsq e;
@@ -890,7 +890,7 @@ public class acbw {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: as */
-    public static Object m3035as(acqm acqmVar, achc achcVar, acfd acfdVar) {
+    public static Object m3035as(acqm acqmVar, achc achcVar, acfd acfdVar) throws Throwable {
         acrn acrnVar;
         acie acieVar;
         acsq e;
@@ -947,7 +947,7 @@ public class acbw {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: at */
-    public static Object m3036at(acqm acqmVar, acfd acfdVar) {
+    public static Object m3036at(acqm acqmVar, acfd acfdVar) throws Throwable {
         acro acroVar;
         acie acieVar;
         if (acfdVar instanceof acro) {
@@ -1061,7 +1061,7 @@ public class acbw {
     /* JADX WARN: Type inference failed for: r6v5 */
     /* JADX WARN: Type inference failed for: r6v6 */
     /* JADX INFO: renamed from: av */
-    public static Object m3038av(acqn acqnVar, achd achdVar, Throwable th, acfd acfdVar) {
+    public static Object m3038av(acqn acqnVar, achd achdVar, Throwable th, acfd acfdVar) throws Throwable {
         acqs acqsVar;
         if (acfdVar instanceof acqs) {
             acqsVar = (acqs) acfdVar;

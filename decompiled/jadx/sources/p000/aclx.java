@@ -436,7 +436,7 @@ public final class aclx {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: i */
-    public static final Object m3623i(acfd acfdVar) {
+    public static final Object m3623i(acfd acfdVar) throws Throwable {
         acmd acmdVar;
         if (acfdVar instanceof acmd) {
             acmdVar = (acmd) acfdVar;

@@ -127,7 +127,7 @@ public final class add {
     /* JADX WARN: Type inference failed for: r9v4 */
     /* JADX WARN: Type inference failed for: r9v5 */
     /* JADX INFO: renamed from: b */
-    public final Object m4173b(String str, List list, acgy acgyVar, acma acmaVar, aclu acluVar, acfd acfdVar) {
+    public final Object m4173b(String str, List list, acgy acgyVar, acma acmaVar, aclu acluVar, acfd acfdVar) throws Throwable {
         acw acwVar;
         String str2;
         ?? r9;

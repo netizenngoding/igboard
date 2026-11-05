@@ -39,7 +39,7 @@ public final class omy {
     /* JADX WARN: Code duplicated, block: B:44:0x00dd  */
     /* JADX WARN: Code duplicated, block: B:7:0x0017  */
     /* JADX INFO: renamed from: b */
-    public static final Object m25856b(Context context, sap sapVar, xfe xfeVar, acfd acfdVar) {
+    public static final Object m25856b(Context context, sap sapVar, xfe xfeVar, acfd acfdVar) throws Throwable {
         omx omxVar;
         Instant instantMinus;
         Object obj;

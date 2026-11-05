@@ -111,7 +111,7 @@ public final class bte {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    protected final Object m8316b(acfd acfdVar) {
+    protected final Object m8316b(acfd acfdVar) throws Throwable {
         brd brdVar;
         if (acfdVar instanceof brd) {
             brdVar = (brd) acfdVar;

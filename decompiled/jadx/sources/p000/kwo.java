@@ -49,7 +49,7 @@ public final class kwo extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r14v16, types: [acne, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         int i = this.$cid;
         if (i == 0) {
             acbw.m3007V(obj);

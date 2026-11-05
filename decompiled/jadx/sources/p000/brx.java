@@ -38,7 +38,7 @@ final class brx extends acfy implements acgy {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         Object obj2;
         btk btcVar;
         acfl acflVar = acfl.f5236a;

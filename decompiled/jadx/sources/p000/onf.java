@@ -39,7 +39,7 @@ final class onf extends acfy implements achc {
     /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:15:0x005b -> B:16:0x005c). Please report as a decompilation issue!!! */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         aclu acluVar;
         long jM3483f;
         FreeCursorMotionEventHandler freeCursorMotionEventHandler;

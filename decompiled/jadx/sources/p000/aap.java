@@ -49,7 +49,7 @@ public final class aap {
     }
 
     /* JADX INFO: renamed from: b */
-    public final Object m1559b(acfd acfdVar) {
+    public final Object m1559b(acfd acfdVar) throws Throwable {
         Object objM1722a = this.f1451a.m1722a(acfdVar);
         return objM1722a == acfl.f5236a ? objM1722a : acde.f5115a;
     }

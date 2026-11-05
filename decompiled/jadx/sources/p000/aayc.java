@@ -82,7 +82,7 @@ public final /* synthetic */ class aayc implements Function {
             case 4:
                 return new aayx(3.0d, 4.5d);
             case 5:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 6:
                 aaay.m447W((aazb) obj);
                 return Double.valueOf(90.0d);
@@ -91,7 +91,7 @@ public final /* synthetic */ class aayc implements Function {
             case 8:
                 return aaay.m432B(obj);
             case 9:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 10:
                 aazb aazbVar2 = (aazb) obj;
                 aaay.m447W(aazbVar2);

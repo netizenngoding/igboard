@@ -56,7 +56,7 @@ public final class dnj {
     /* JADX WARN: Code duplicated, block: B:37:0x00df A[RETURN] */
     /* JADX WARN: Code duplicated, block: B:7:0x0019  */
     /* JADX INFO: renamed from: a */
-    public final Object m12949a(dmw dmwVar, acfd acfdVar) {
+    public final Object m12949a(dmw dmwVar, acfd acfdVar) throws Throwable {
         dna dnaVar;
         boolean z;
         if (acfdVar instanceof dna) {
@@ -136,7 +136,7 @@ public final class dnj {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0015  */
     /* JADX INFO: renamed from: b */
-    public final Object m12950b(Context context, dmw dmwVar, acgy acgyVar, acgy acgyVar2, achd achdVar, acfd acfdVar) {
+    public final Object m12950b(Context context, dmw dmwVar, acgy acgyVar, acgy acgyVar2, achd achdVar, acfd acfdVar) throws Throwable {
         dnf dnfVar;
         if (acfdVar instanceof dnf) {
             dnfVar = (dnf) acfdVar;

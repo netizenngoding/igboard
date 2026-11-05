@@ -493,7 +493,7 @@ public final class vna {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: l */
-    public final Object m33327l(acfd acfdVar) {
+    public final Object m33327l(acfd acfdVar) throws Throwable {
         jhl jhlVar;
         if (acfdVar instanceof jhl) {
             jhlVar = (jhl) acfdVar;

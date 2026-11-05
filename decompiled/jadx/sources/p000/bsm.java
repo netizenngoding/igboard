@@ -1,6 +1,5 @@
 package p000;
 
-import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /* JADX INFO: compiled from: PG */
@@ -53,7 +52,7 @@ final class bsm extends acfy implements acgy {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) throws IOException {
+    public final Object mo1696b(Object obj) throws Throwable {
         Object obj2;
         acfl acflVar = acfl.f5236a;
         int i = this.f13374b;

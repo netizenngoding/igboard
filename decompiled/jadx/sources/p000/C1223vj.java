@@ -81,7 +81,7 @@ public final class C1223vj extends acfy implements achc {
      */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         Object obj2;
         ?? r1;
         C1227vn c1227vn;

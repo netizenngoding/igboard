@@ -73,7 +73,7 @@ public abstract class rgu {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: g */
-    protected final Object m29321g(acfd acfdVar) {
+    protected final Object m29321g(acfd acfdVar) throws Throwable {
         rgt rgtVar;
         if (acfdVar instanceof rgt) {
             rgtVar = (rgt) acfdVar;

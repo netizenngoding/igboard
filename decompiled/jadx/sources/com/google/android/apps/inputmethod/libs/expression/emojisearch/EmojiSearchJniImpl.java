@@ -80,39 +80,35 @@ public final class EmojiSearchJniImpl {
     /* JADX WARN: Multi-variable type inference failed */
     /* JADX INFO: renamed from: a */
     public final synchronized void m9988a(jfk jfkVar, Context context, List list) {
-        try {
-            m9990c();
-            if (!this.f15600c) {
-                ((wvu) ((wvu) f15598a.m34778d()).mo34836j("com/google/android/apps/inputmethod/libs/expression/emojisearch/EmojiSearchJniImpl", "activate", 105, "EmojiSearchJniImpl.java")).mo34846t("activate() called before native library loaded.");
-                return;
-            }
-            ArrayList arrayList = new ArrayList();
-            wuj wujVarListIterator = ((wns) list).listIterator(0);
-            while (wujVarListIterator.hasNext()) {
-                Locale locale = (Locale) wujVarListIterator.next();
-                File fileM16102d = gkq.m16093b(context).m16102d(true, locale, gkr.f29379a);
-                if (fileM16102d == null) {
-                    ((wvu) ((wvu) f15598a.m34778d()).mo34836j("com/google/android/apps/inputmethod/libs/expression/emojisearch/EmojiSearchJniImpl", "activate", 117, "EmojiSearchJniImpl.java")).mo34849w("activate() called before emoji data file readied for locale %s", locale.toLanguageTag());
-                } else {
-                    ConcurrentHashMap concurrentHashMap = this.f15603f;
-                    String absolutePath = fileM16102d.getAbsolutePath();
-                    ((HashSet) ConcurrentMap.EL.computeIfAbsent(concurrentHashMap, absolutePath, new ghc(8))).add(jfkVar);
-                    if (!this.f15602e.contains(absolutePath)) {
-                        arrayList.add(fileM16102d.getAbsolutePath());
-                    }
+        m9990c();
+        if (!this.f15600c) {
+            ((wvu) ((wvu) f15598a.m34778d()).mo34836j("com/google/android/apps/inputmethod/libs/expression/emojisearch/EmojiSearchJniImpl", "activate", 105, "EmojiSearchJniImpl.java")).mo34846t("activate() called before native library loaded.");
+            return;
+        }
+        ArrayList arrayList = new ArrayList();
+        wuj wujVarListIterator = ((wns) list).listIterator(0);
+        while (wujVarListIterator.hasNext()) {
+            Locale locale = (Locale) wujVarListIterator.next();
+            File fileM16102d = gkq.m16093b(context).m16102d(true, locale, gkr.f29379a);
+            if (fileM16102d == null) {
+                ((wvu) ((wvu) f15598a.m34778d()).mo34836j("com/google/android/apps/inputmethod/libs/expression/emojisearch/EmojiSearchJniImpl", "activate", 117, "EmojiSearchJniImpl.java")).mo34849w("activate() called before emoji data file readied for locale %s", locale.toLanguageTag());
+            } else {
+                ConcurrentHashMap concurrentHashMap = this.f15603f;
+                String absolutePath = fileM16102d.getAbsolutePath();
+                ((HashSet) ConcurrentMap.EL.computeIfAbsent(concurrentHashMap, absolutePath, new ghc(8))).add(jfkVar);
+                if (!this.f15602e.contains(absolutePath)) {
+                    arrayList.add(fileM16102d.getAbsolutePath());
                 }
             }
-            if (arrayList.isEmpty()) {
-                return;
-            }
-            try {
-                nativeLoadData(arrayList.toArray(new Object[0]));
-                this.f15602e.addAll(arrayList);
-            } catch (RuntimeException e) {
-                ((wvu) ((wvu) ((wvu) f15598a.m34777c()).mo34835i(e)).mo34836j("com/google/android/apps/inputmethod/libs/expression/emojisearch/EmojiSearchJniImpl", "activate", (char) 139, "EmojiSearchJniImpl.java")).mo34849w("Unexpected exception while loading emoji data: %s", arrayList);
-            }
-        } catch (Throwable th) {
-            throw th;
+        }
+        if (arrayList.isEmpty()) {
+            return;
+        }
+        try {
+            nativeLoadData(arrayList.toArray(new Object[0]));
+            this.f15602e.addAll(arrayList);
+        } catch (RuntimeException e) {
+            ((wvu) ((wvu) ((wvu) f15598a.m34777c()).mo34835i(e)).mo34836j("com/google/android/apps/inputmethod/libs/expression/emojisearch/EmojiSearchJniImpl", "activate", (char) 139, "EmojiSearchJniImpl.java")).mo34849w("Unexpected exception while loading emoji data: %s", arrayList);
         }
     }
 

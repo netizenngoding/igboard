@@ -42,7 +42,7 @@ final class C1248wh extends acfy implements acgy {
     /* JADX WARN: Type inference failed for: r3v2, types: [java.lang.Object, java.util.concurrent.Executor] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acfl acflVar = acfl.f5236a;
         int i = this.f72779a;
         acbw.m3007V(obj);

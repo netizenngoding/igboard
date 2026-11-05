@@ -33,7 +33,7 @@ final class brz extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         int iIntValue;
         boolean z = this.f13307b;
         acfl acflVar = acfl.f5236a;

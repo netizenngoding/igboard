@@ -28,7 +28,7 @@ public final class hfn implements ohg {
     /* JADX WARN: Code duplicated, block: B:110:0x01be A[Catch: all -> 0x01ce, TryCatch #0 {all -> 0x01ce, blocks: (B:95:0x018f, B:100:0x01a0, B:108:0x01b7, B:110:0x01be, B:111:0x01c5), top: B:200:0x018f }] */
     @Override // p000.ohg
     /* JADX INFO: renamed from: m */
-    public final boolean mo9635m(ohe oheVar) throws Exception {
+    public final boolean mo9635m(ohe oheVar) {
         qbc qbcVarM25515g;
         int i;
         nus nusVar;

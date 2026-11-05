@@ -136,7 +136,7 @@ public final /* synthetic */ class upz implements Function {
             case 18:
                 return aaay.m432B(obj);
             case 19:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             default:
                 return Double.valueOf(10.0d);
         }

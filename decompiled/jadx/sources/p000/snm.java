@@ -27,7 +27,7 @@ public final class snm {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m30410a(acqm acqmVar, sna snaVar, acfd acfdVar) {
+    public final Object m30410a(acqm acqmVar, sna snaVar, acfd acfdVar) throws Throwable {
         snk snkVar;
         if (acfdVar instanceof snk) {
             snkVar = (snk) acfdVar;
@@ -70,7 +70,7 @@ public final class snm {
     /* JADX WARN: Type inference failed for: r1v13 */
     /* JADX WARN: Type inference failed for: r1v4, types: [java.util.List] */
     /* JADX INFO: renamed from: b */
-    public final Object m30411b(String str, sna snaVar, acfd acfdVar) {
+    public final Object m30411b(String str, sna snaVar, acfd acfdVar) throws Throwable {
         snl snlVar;
         String str2;
         Object obj;

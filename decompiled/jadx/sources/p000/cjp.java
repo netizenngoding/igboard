@@ -54,7 +54,7 @@ public final class cjp extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r5v7, types: [achc, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         switch (this.$cid) {
             case 0:
                 acfl acflVar = acfl.f5236a;

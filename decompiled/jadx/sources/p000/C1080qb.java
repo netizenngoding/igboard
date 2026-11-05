@@ -29,7 +29,7 @@ public final class C1080qb extends acfy implements achd {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         Object obj2 = this.f55954a;
         acbw.m3007V(obj);
         Throwable th = (Throwable) obj2;

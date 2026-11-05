@@ -116,46 +116,50 @@ public class ActivityC0062ch extends ActivityC0007ag {
                         AbstractC0064cj.f14702d = bkjVar2;
                         String strM7654f = bkjVar2.m7654f();
                         synchronized (bik.f12687a) {
-                            if (strM7654f.equals("")) {
-                                context.deleteFile("android.support.v7.app.AppCompatDelegate.application_locales_record_file");
-                            } else {
-                                try {
-                                    FileOutputStream fileOutputStreamOpenFileOutput = context.openFileOutput("android.support.v7.app.AppCompatDelegate.application_locales_record_file", 0);
-                                    XmlSerializer xmlSerializerNewSerializer = Xml.newSerializer();
+                            try {
+                                if (strM7654f.equals("")) {
+                                    context.deleteFile("android.support.v7.app.AppCompatDelegate.application_locales_record_file");
+                                } else {
                                     try {
+                                        FileOutputStream fileOutputStreamOpenFileOutput = context.openFileOutput("android.support.v7.app.AppCompatDelegate.application_locales_record_file", 0);
+                                        XmlSerializer xmlSerializerNewSerializer = Xml.newSerializer();
                                         try {
-                                            xmlSerializerNewSerializer.setOutput(fileOutputStreamOpenFileOutput, null);
-                                            xmlSerializerNewSerializer.startDocument("UTF-8", Boolean.TRUE);
-                                            xmlSerializerNewSerializer.startTag(null, "locales");
-                                            xmlSerializerNewSerializer.attribute(null, "application_locales", strM7654f);
-                                            xmlSerializerNewSerializer.endTag(null, "locales");
-                                            xmlSerializerNewSerializer.endDocument();
-                                            if (fileOutputStreamOpenFileOutput != null) {
-                                                try {
+                                            try {
+                                                xmlSerializerNewSerializer.setOutput(fileOutputStreamOpenFileOutput, null);
+                                                xmlSerializerNewSerializer.startDocument("UTF-8", Boolean.TRUE);
+                                                xmlSerializerNewSerializer.startTag(null, "locales");
+                                                xmlSerializerNewSerializer.attribute(null, "application_locales", strM7654f);
+                                                xmlSerializerNewSerializer.endTag(null, "locales");
+                                                xmlSerializerNewSerializer.endDocument();
+                                                if (fileOutputStreamOpenFileOutput != null) {
+                                                    try {
+                                                        fileOutputStreamOpenFileOutput.close();
+                                                    } catch (IOException unused) {
+                                                    }
+                                                }
+                                            } catch (Exception e) {
+                                                Log.w("AppLocalesStorageHelper", "Storing App Locales : Failed to persist app-locales in storage ", e);
+                                                if (fileOutputStreamOpenFileOutput != null) {
                                                     fileOutputStreamOpenFileOutput.close();
-                                                } catch (IOException unused) {
                                                 }
                                             }
-                                        } catch (Exception e) {
-                                            Log.w("AppLocalesStorageHelper", "Storing App Locales : Failed to persist app-locales in storage ", e);
-                                            if (fileOutputStreamOpenFileOutput != null) {
+                                        } catch (Throwable th) {
+                                            if (fileOutputStreamOpenFileOutput == null) {
+                                                throw th;
+                                            }
+                                            try {
                                                 fileOutputStreamOpenFileOutput.close();
+                                                throw th;
+                                            } catch (IOException unused2) {
+                                                throw th;
                                             }
                                         }
-                                    } catch (Throwable th) {
-                                        if (fileOutputStreamOpenFileOutput == null) {
-                                            throw th;
-                                        }
-                                        try {
-                                            fileOutputStreamOpenFileOutput.close();
-                                            throw th;
-                                        } catch (IOException unused2) {
-                                            throw th;
-                                        }
+                                    } catch (FileNotFoundException unused3) {
+                                        Log.w("AppLocalesStorageHelper", String.format("Storing App Locales : FileNotFoundException: Cannot open file %s for writing ", "android.support.v7.app.AppCompatDelegate.application_locales_record_file"));
                                     }
-                                } catch (FileNotFoundException unused3) {
-                                    Log.w("AppLocalesStorageHelper", String.format("Storing App Locales : FileNotFoundException: Cannot open file %s for writing ", "android.support.v7.app.AppCompatDelegate.application_locales_record_file"));
                                 }
+                            } catch (Throwable th2) {
+                                throw th2;
                             }
                         }
                     }

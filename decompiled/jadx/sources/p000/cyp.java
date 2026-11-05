@@ -21,7 +21,7 @@ public final class cyp extends acfy implements ache {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         Object obj2 = this.f20244b;
         long j = this.f20245c;
         acfl acflVar = acfl.f5236a;

@@ -19,7 +19,7 @@ public final class brj extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         btk btkVar = (btk) this.f13243a;
         acbw.m3007V(obj);
         return Boolean.valueOf(!(btkVar instanceof bsz));

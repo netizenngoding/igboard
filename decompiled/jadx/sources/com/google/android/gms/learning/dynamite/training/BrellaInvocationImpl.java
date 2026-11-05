@@ -156,14 +156,6 @@ public class BrellaInvocationImpl extends lwq {
     
         m10883e(1, null);
      */
-    /* JADX WARN: Code restructure failed: missing block: B:122:0x02c3, code lost:
-    
-        r0 = move-exception;
-     */
-    /* JADX WARN: Code restructure failed: missing block: B:124:0x02c5, code lost:
-    
-        throw r0;
-     */
     /* JADX WARN: Code restructure failed: missing block: B:125:0x02c6, code lost:
     
         r0 = move-exception;

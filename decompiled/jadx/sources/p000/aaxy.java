@@ -81,7 +81,7 @@ public final /* synthetic */ class aaxy implements Function {
             case 6:
                 return aaay.m442L(obj);
             case 7:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 8:
                 aaay.m447W((aazb) obj);
                 return dValueOf;
@@ -90,7 +90,7 @@ public final /* synthetic */ class aaxy implements Function {
             case 10:
                 return aaay.m438H(obj);
             case 11:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
                 aazb aazbVar = (aazb) obj;
                 aaay.m447W(aazbVar);
@@ -98,7 +98,7 @@ public final /* synthetic */ class aaxy implements Function {
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 return aaay.m443M(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 15:
                 aazb aazbVar2 = (aazb) obj;
                 aaay.m447W(aazbVar2);

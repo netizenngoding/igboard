@@ -52,7 +52,7 @@ public final class C1224vk extends acfy implements achc {
     /* JADX WARN: Code duplicated, block: B:25:0x0092  */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acib acibVar;
         C1227vn c1227vn;
         InterfaceC1238vy interfaceC1238vy;

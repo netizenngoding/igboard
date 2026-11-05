@@ -420,8 +420,7 @@ public class inv extends ohq implements imt {
         if (!iocVar.f35612l.f35425d) {
             return false;
         }
-        int i2 = 2;
-        int i3 = 1;
+        int i2 = 1;
         switch (i) {
             case -300006:
                 insVar.f35534h.mo18930h(kyj.MANUAL_RESTART_VOICE);
@@ -487,7 +486,7 @@ public class inv extends ohq implements imt {
                     Context context = insVar.f35532f;
                     oid oidVar = insVar.f35523C;
                     Objects.requireNonNull(oidVar);
-                    lhiVar.m22510b(context, new iiv(oidVar, i2), insVar.f35551y);
+                    lhiVar.m22510b(context, new iiv(oidVar, 2), insVar.f35551y);
                     z = true;
                 }
                 obj = qbcVar.f55970e;
@@ -534,7 +533,7 @@ public class inv extends ohq implements imt {
                 if (obj4 instanceof Boolean) {
                     boolean zBooleanValue = ((Boolean) obj4).booleanValue();
                     insVar.f35540n = zBooleanValue;
-                    ((iqh) insVar.f35534h).m18925c("sending undoability update", new kds(zBooleanValue, i3));
+                    ((iqh) insVar.f35534h).m18925c("sending undoability update", new kds(zBooleanValue, i2));
                     ngaInputManagerM18756a.f16346t = insVar.f35540n;
                 }
                 z = false;
@@ -638,11 +637,11 @@ public class inv extends ohq implements imt {
                 if (!ngaInputManagerM18756a.f16339m || ioz.m18838a().m26536m() || ioz.m18838a().m26527d() <= 0) {
                     z = false;
                 } else {
-                    int i4 = (int) jLongValue;
-                    if (i4 == 1) {
+                    int i3 = (int) jLongValue;
+                    if (i3 == 1) {
                         ngaInputManagerM18756a.m10481m(-10134);
                         ngaInputManagerM18756a.f16342p = true;
-                    } else if (i4 == 2 && ngaInputManagerM18756a.f16341o) {
+                    } else if (i3 == 2 && ngaInputManagerM18756a.f16341o) {
                         ngaInputManagerM18756a.f16342p = true;
                         ngaInputManagerM18756a.m10481m(-10134);
                     } else {
@@ -672,8 +671,8 @@ public class inv extends ohq implements imt {
         knm knmVar = insVar.f35522B.f35977a;
         if (knmVar.f41833b != null) {
             qbc qbcVarM25515g = oheVar.m25515g();
-            int i5 = qbcVarM25515g != null ? qbcVarM25515g.f55968c : 0;
-            if (oheVar.f50937w != 1 && (qaeVar = oheVar.f50915a) != qae.f55858h && qaeVar != qae.f55859i && qaeVar != qae.f55860j && !kik.m21479q(i5) && ((!((Boolean) shp.f61893ab.mo25729g()).booleanValue() || (i5 != -10197 && i5 != -10188 && i5 != -10022 && i5 != -10011 && i5 != -10000)) && (KeyEvent.normalizeMetaState(oheVar.f50922h) & 487667) == 0 && ((!((Boolean) shp.f61880P.mo25729g()).booleanValue() || i5 != -40007) && (knbVarM21675a = knmVar.m21675a(knm.m21674b())) != null))) {
+            int i4 = qbcVarM25515g != null ? qbcVarM25515g.f55968c : 0;
+            if (oheVar.f50937w != 1 && (qaeVar = oheVar.f50915a) != qae.f55858h && qaeVar != qae.f55859i && qaeVar != qae.f55860j && !kik.m21479q(i4) && ((!((Boolean) shp.f61893ab.mo25729g()).booleanValue() || (i4 != -10197 && i4 != -10188 && i4 != -10022 && i4 != -10011 && i4 != -10000)) && (KeyEvent.normalizeMetaState(oheVar.f50922h) & 487667) == 0 && ((!((Boolean) shp.f61880P.mo25729g()).booleanValue() || i4 != -40007) && (knbVarM21675a = knmVar.m21675a(knm.m21674b())) != null))) {
                 knbVarM21675a.mo21644v();
                 knbVarM21675a.mo21645w();
             }

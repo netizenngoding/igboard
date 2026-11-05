@@ -73,7 +73,7 @@ public final /* synthetic */ class aayp implements Function {
             case 1:
                 return aayw.m1710d((aazb) obj);
             case 2:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case 3:
                 ((aazb) obj).f2642e;
                 return null;
@@ -118,12 +118,12 @@ public final /* synthetic */ class aayp implements Function {
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 return aaay.m436F(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 15:
                 ((aazb) obj).f2642e;
                 return null;
             case 16:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 17:
                 return aaay.m435E(obj);
             case 18:

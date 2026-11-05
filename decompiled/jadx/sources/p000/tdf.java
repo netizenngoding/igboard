@@ -61,7 +61,7 @@ public final class tdf {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0015  */
     /* JADX INFO: renamed from: a */
-    public final Object m30989a(acfd acfdVar) {
+    public final Object m30989a(acfd acfdVar) throws Throwable {
         tde tdeVar;
         if (acfdVar instanceof tde) {
             tdeVar = (tde) acfdVar;

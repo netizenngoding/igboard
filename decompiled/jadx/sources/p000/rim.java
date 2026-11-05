@@ -52,7 +52,7 @@ final class rim extends acfy implements achc {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         ?? Mo3511jq;
         aclu acluVar;
         acfl acflVar = acfl.f5236a;

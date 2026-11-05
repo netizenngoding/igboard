@@ -123,7 +123,7 @@ public final class tch implements tcd {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0017  */
     /* JADX INFO: renamed from: b */
-    public final Object m30961b(Long l, acfd acfdVar) {
+    public final Object m30961b(Long l, acfd acfdVar) throws Throwable {
         tce tceVar;
         aasw aaswVarM2660h;
         aadn aadnVarM426a;

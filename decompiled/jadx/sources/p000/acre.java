@@ -25,7 +25,7 @@ final class acre implements acqn {
 
     @Override // p000.acqn
     /* JADX INFO: renamed from: a */
-    public final Object mo2603a(Object obj, acfd acfdVar) {
+    public final Object mo2603a(Object obj, acfd acfdVar) throws Throwable {
         acic acicVar = this.f5729a;
         int i = acicVar.f5297a + 1;
         acicVar.f5297a = i;

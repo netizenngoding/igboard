@@ -21,7 +21,7 @@ public final class jdn extends acfy implements achd {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acbw.m3007V(obj);
         wvx wvxVar = jdr.f38407a;
         this.f38395a.f38416i.m3853e(jdr.f38408b);

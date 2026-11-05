@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.service.personalcontext.embedded.InsightSurfaceClientUpdate;
 import android.service.personalcontext.embedded.InsightSurfaceSession;
 import android.util.Log;
-import java.io.IOException;
 import java.util.Objects;
 
 /* JADX INFO: compiled from: PG */
@@ -42,7 +41,7 @@ final class dnb extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws IOException {
+    public final Object mo1696b(Object obj) throws Throwable {
         acfl acflVar = acfl.f5236a;
         int i = this.f21554a;
         acbw.m3007V(obj);

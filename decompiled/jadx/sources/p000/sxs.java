@@ -70,7 +70,7 @@ public final class sxs {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m30729a(String str, syk sykVar, Instant instant, Consumer consumer, acfd acfdVar) {
+    public final Object m30729a(String str, syk sykVar, Instant instant, Consumer consumer, acfd acfdVar) throws Throwable {
         sxr sxrVar;
         String str2;
         if (acfdVar instanceof sxr) {

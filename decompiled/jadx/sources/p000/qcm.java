@@ -317,8 +317,8 @@ public final class qcm {
         wneVar.m34487e("LLM_PREDICTION_CLICKED", -900002);
         wneVar.m34487e("NAVIGATION_REFRESH_FOCUS_TO_DEFAULT", -10235);
         wneVar.m34487e("BOOST_CANDIDATE_PRIORITY", -10240);
-        wng wngVarMo34489n = wneVar.mo34489n();
-        achu.m3300g(wngVarMo34489n, "buildOrThrow(...)");
-        f56183b = wngVarMo34489n;
+        wng wngVarM34486b = wneVar.mo34489n();
+        achu.m3300g(wngVarM34486b, "buildOrThrow(...)");
+        f56183b = wngVarM34486b;
     }
 }

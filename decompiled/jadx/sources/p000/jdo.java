@@ -52,7 +52,7 @@ final class jdo extends acfy implements achc {
     /* JADX WARN: Instruction removed from duplicated block: B:26:0x0093, please report this as an issue */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acsl acslVar;
         Object objMo3828c;
         acsl acslVar2;

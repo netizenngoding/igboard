@@ -1,0 +1,480 @@
+{
+  "smali_files_scanned": 22879,
+  "mod_package": "mk",
+  "mod_classes": [
+    {
+      "class": "mk.MkBar",
+      "dex": "classes_classes5.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes5/mk/MkBar.smali",
+      "bytes": 22104,
+      "methods": 20
+    },
+    {
+      "class": "mk.MkGlass",
+      "dex": "classes_classes5.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes5/mk/MkGlass.smali",
+      "bytes": 6951,
+      "methods": 4
+    },
+    {
+      "class": "mk.MkIcon",
+      "dex": "classes_classes5.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes5/mk/MkIcon.smali",
+      "bytes": 56689,
+      "methods": 4
+    },
+    {
+      "class": "mk.Th",
+      "dex": "classes_classes6.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes6/mk/Th.smali",
+      "bytes": 34392,
+      "methods": 30
+    },
+    {
+      "class": "mk.Th$1",
+      "dex": "classes_classes6.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes6/mk/Th$1.smali",
+      "bytes": 923,
+      "methods": 2
+    },
+    {
+      "class": "mk.Th$2",
+      "dex": "classes_classes6.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes6/mk/Th$2.smali",
+      "bytes": 3093,
+      "methods": 2
+    },
+    {
+      "class": "mk.Th$3",
+      "dex": "classes_classes6.dex",
+      "super": "android/animation/AnimatorListenerAdapter",
+      "source": null,
+      "smali": "apktool/smali_classes6/mk/Th$3.smali",
+      "bytes": 1187,
+      "methods": 3
+    },
+    {
+      "class": "mk.Tog",
+      "dex": "classes_classes7.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes7/mk/Tog.smali",
+      "bytes": 16174,
+      "methods": 11
+    },
+    {
+      "class": "mk.Tog$1",
+      "dex": "classes_classes7.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes7/mk/Tog$1.smali",
+      "bytes": 1564,
+      "methods": 8
+    },
+    {
+      "class": "mk.Tog$2",
+      "dex": "classes_classes7.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes7/mk/Tog$2.smali",
+      "bytes": 1052,
+      "methods": 2
+    },
+    {
+      "class": "mk.Tog$Thumb",
+      "dex": "classes_classes7.dex",
+      "super": "android/graphics/drawable/Drawable",
+      "source": null,
+      "smali": "apktool/smali_classes7/mk/Tog$Thumb.smali",
+      "bytes": 19811,
+      "methods": 13
+    },
+    {
+      "class": "mk.Tog$Thumb$1",
+      "dex": "classes_classes7.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes7/mk/Tog$Thumb$1.smali",
+      "bytes": 1711,
+      "methods": 2
+    },
+    {
+      "class": "mk.Tog$Track",
+      "dex": "classes_classes7.dex",
+      "super": "android/graphics/drawable/Drawable",
+      "source": null,
+      "smali": "apktool/smali_classes7/mk/Tog$Track.smali",
+      "bytes": 5560,
+      "methods": 10
+    }
+  ],
+  "hook_count": 13,
+  "hooks": [
+    {
+      "class": "and",
+      "smali": "apktool/smali_classes5/mk/MkLand.smali",
+      "calls": [
+        "mk/MkBar->globe",
+        "mk/MkBar->mic",
+        "mk/MkGlass->kbTop",
+        "mk/MkIcon->globe",
+        "mk/MkIcon->mic",
+        "mk/MkLand$1-><init>",
+        "mk/MkLand$2-><init>",
+        "mk/MkLand->A",
+        "mk/MkLand->B",
+        "mk/MkLand->P",
+        "mk/MkLand->best",
+        "mk/MkLand->bestY",
+        "mk/MkLand->dp",
+        "mk/MkLand->emojiKey",
+        "mk/MkLand->ensure",
+        "mk/MkLand->fix",
+        "mk/MkLand->hit",
+        "mk/MkLand->label",
+        "mk/MkLand->lastL",
+        "mk/MkLand->lastR",
+        "mk/MkLand->lastS",
+        "mk/MkLand->on",
+        "mk/MkLand->pressed",
+        "mk/MkLand->rel",
+        "mk/MkLand->rowY",
+        "mk/MkLand->scan",
+        "mk/MkLand->side",
+        "mk/MkLand->tracking",
+        "mk/Th->bg",
+        "mk/Th->dark",
+        "mk/Th->nav"
+      ]
+    },
+    {
+      "class": "and$1",
+      "smali": "apktool/smali_classes5/mk/MkLand$1.smali",
+      "calls": [
+        "mk/MkLand$1->val$v",
+        "mk/MkLand->ensure"
+      ]
+    },
+    {
+      "class": "and$2",
+      "smali": "apktool/smali_classes5/mk/MkLand$2.smali",
+      "calls": [
+        "mk/MkLand$2->val$r",
+        "mk/MkLand$2->val$v",
+        "mk/MkLand->emoji"
+      ]
+    },
+    {
+      "class": "android.support.v7.widget.SwitchCompat",
+      "smali": "apktool/smali_classes2/android/support/v7/widget/SwitchCompat.smali",
+      "calls": [
+        "mk/Tog->sw"
+      ]
+    },
+    {
+      "class": "atinFixedCountCandidatesHolderView",
+      "smali": "apktool/smali/com/google/android/apps/inputmethod/latin/keyboard/widget/LatinFixedCountCandidatesHolderView.smali",
+      "calls": [
+        "mk/Th->sugg"
+      ]
+    },
+    {
+      "class": "com.google.android.libraries.inputmethod.inputview.InputView",
+      "smali": "apktool/smali/com/google/android/libraries/inputmethod/inputview/InputView.smali",
+      "calls": [
+        "mk/MkBar->draw",
+        "mk/MkBar->extra",
+        "mk/MkBar->touch",
+        "mk/MkGlass->post",
+        "mk/MkGlass->pre",
+        "mk/MkLand->fixL",
+        "mk/MkLand->fixR"
+      ]
+    },
+    {
+      "class": "com.google.android.libraries.inputmethod.popup.SilkPopupView",
+      "smali": "apktool/smali_classes2/com/google/android/libraries/inputmethod/popup/SilkPopupView.smali",
+      "calls": [
+        "mk/Th->pop2"
+      ]
+    },
+    {
+      "class": "com.google.android.libraries.inputmethod.widgets.FixedSizeCandidatesHolderView",
+      "smali": "apktool/smali_classes5/com/google/android/libraries/inputmethod/widgets/FixedSizeCandidatesHolderView.smali",
+      "calls": [
+        "mk/Th->sugg"
+      ]
+    },
+    {
+      "class": "com.google.android.material.materialswitch.MaterialSwitch",
+      "smali": "apktool/smali_classes2/com/google/android/material/materialswitch/MaterialSwitch.smali",
+      "calls": [
+        "mk/Tog->sw"
+      ]
+    },
+    {
+      "class": "eux",
+      "smali": "apktool/smali/eux.smali",
+      "calls": [
+        "mk/Tog->app"
+      ]
+    },
+    {
+      "class": "ewx",
+      "smali": "apktool/smali/ewx.smali",
+      "calls": [
+        "mk/Th->bg",
+        "mk/Th->hint"
+      ]
+    },
+    {
+      "class": "rqz",
+      "smali": "apktool/smali/rqz.smali",
+      "calls": [
+        "mk/Th->bg",
+        "mk/Th->hint",
+        "mk/Th->lt"
+      ]
+    },
+    {
+      "class": "rra",
+      "smali": "apktool/smali/rra.smali",
+      "calls": [
+        "mk/Th->bg"
+      ]
+    }
+  ],
+  "mod_assets": [
+    {
+      "path": "apktool/assets/theme/style_sheet_mk_ios26_light.binarypb",
+      "bytes": 8821
+    },
+    {
+      "path": "apktool/assets/theme/style_sheet_mk_ios26_dark.binarypb",
+      "bytes": 8821
+    },
+    {
+      "path": "apktool/res/font/sf_pro_text_medium.otf",
+      "bytes": 6159232
+    },
+    {
+      "path": "apktool/res/font/sf_pro_text_bold.otf",
+      "bytes": 4197836
+    },
+    {
+      "path": "apktool/res/font/sf_pro_text_regular.otf",
+      "bytes": 6057916
+    }
+  ],
+  "classes_per_dex": {
+    "smali_classes5": 3,
+    "smali_classes6": 4,
+    "smali_classes7": 6
+  },
+  "call_frequency": [
+    [
+      "mk/Th->bg",
+      4
+    ],
+    [
+      "mk/Th->hint",
+      2
+    ],
+    [
+      "mk/Th->sugg",
+      2
+    ],
+    [
+      "mk/Tog->sw",
+      2
+    ],
+    [
+      "mk/MkLand->ensure",
+      2
+    ],
+    [
+      "mk/Tog->app",
+      1
+    ],
+    [
+      "mk/Th->lt",
+      1
+    ],
+    [
+      "mk/MkBar->draw",
+      1
+    ],
+    [
+      "mk/MkBar->extra",
+      1
+    ],
+    [
+      "mk/MkBar->touch",
+      1
+    ],
+    [
+      "mk/MkGlass->post",
+      1
+    ],
+    [
+      "mk/MkGlass->pre",
+      1
+    ],
+    [
+      "mk/MkLand->fixL",
+      1
+    ],
+    [
+      "mk/MkLand->fixR",
+      1
+    ],
+    [
+      "mk/Th->pop2",
+      1
+    ],
+    [
+      "mk/MkLand$2->val$r",
+      1
+    ],
+    [
+      "mk/MkLand$2->val$v",
+      1
+    ],
+    [
+      "mk/MkLand->emoji",
+      1
+    ],
+    [
+      "mk/MkLand$1->val$v",
+      1
+    ],
+    [
+      "mk/MkBar->globe",
+      1
+    ],
+    [
+      "mk/MkBar->mic",
+      1
+    ],
+    [
+      "mk/MkGlass->kbTop",
+      1
+    ],
+    [
+      "mk/MkIcon->globe",
+      1
+    ],
+    [
+      "mk/MkIcon->mic",
+      1
+    ],
+    [
+      "mk/MkLand$1-><init>",
+      1
+    ],
+    [
+      "mk/MkLand$2-><init>",
+      1
+    ],
+    [
+      "mk/MkLand->A",
+      1
+    ],
+    [
+      "mk/MkLand->B",
+      1
+    ],
+    [
+      "mk/MkLand->P",
+      1
+    ],
+    [
+      "mk/MkLand->best",
+      1
+    ],
+    [
+      "mk/MkLand->bestY",
+      1
+    ],
+    [
+      "mk/MkLand->dp",
+      1
+    ],
+    [
+      "mk/MkLand->emojiKey",
+      1
+    ],
+    [
+      "mk/MkLand->fix",
+      1
+    ],
+    [
+      "mk/MkLand->hit",
+      1
+    ],
+    [
+      "mk/MkLand->label",
+      1
+    ],
+    [
+      "mk/MkLand->lastL",
+      1
+    ],
+    [
+      "mk/MkLand->lastR",
+      1
+    ],
+    [
+      "mk/MkLand->lastS",
+      1
+    ],
+    [
+      "mk/MkLand->on",
+      1
+    ],
+    [
+      "mk/MkLand->pressed",
+      1
+    ],
+    [
+      "mk/MkLand->rel",
+      1
+    ],
+    [
+      "mk/MkLand->rowY",
+      1
+    ],
+    [
+      "mk/MkLand->scan",
+      1
+    ],
+    [
+      "mk/MkLand->side",
+      1
+    ],
+    [
+      "mk/MkLand->tracking",
+      1
+    ],
+    [
+      "mk/Th->dark",
+      1
+    ],
+    [
+      "mk/Th->nav",
+      1
+    ]
+  ]
+}

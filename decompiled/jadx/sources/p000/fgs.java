@@ -1071,7 +1071,7 @@ public final class fgs {
     /* JADX WARN: Type inference failed for: r4v7 */
     /* JADX WARN: Type inference failed for: r6v0, types: [acgy] */
     /* JADX INFO: renamed from: aZ */
-    public static final Object m14627aZ(qec qecVar, qek qekVar, acgy acgyVar, acfd acfdVar) {
+    public static final Object m14627aZ(qec qecVar, qek qekVar, acgy acgyVar, acfd acfdVar) throws Throwable {
         jbh jbhVar;
         if (acfdVar instanceof jbh) {
             jbhVar = (jbh) acfdVar;

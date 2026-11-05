@@ -40,7 +40,7 @@ public final class C1188ub extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acbw.m3007V(obj);
         return this.f67241a.m32074a().mo32076c(this.f67242b, this.f67243c, this.f67244d, this.f67245e);
     }

@@ -14,7 +14,7 @@ public final class sao implements acqn {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.acqn
     /* JADX INFO: renamed from: b, reason: merged with bridge method [inline-methods] */
-    public final Object mo2603a(say sayVar, acfd acfdVar) {
+    public final Object mo2603a(say sayVar, acfd acfdVar) throws Throwable {
         san sanVar;
         if (acfdVar instanceof san) {
             sanVar = (san) acfdVar;

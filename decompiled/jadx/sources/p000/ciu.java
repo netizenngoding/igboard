@@ -87,43 +87,47 @@ public final class ciu extends Binder implements IInterface {
             MultiInstanceInvalidationService multiInstanceInvalidationService3 = this.f14684a;
             RemoteCallbackList remoteCallbackList3 = multiInstanceInvalidationService3.f10178c;
             synchronized (remoteCallbackList3) {
-                Map map = multiInstanceInvalidationService3.f10177b;
-                String str = (String) map.get(Integer.valueOf(i6));
-                if (str == null) {
-                    Log.w("ROOM", "Remote invalidation client ID not registered");
-                } else {
-                    int iBeginBroadcast = remoteCallbackList3.beginBroadcast();
-                    while (i3 < iBeginBroadcast) {
-                        try {
-                            Object broadcastCookie = remoteCallbackList3.getBroadcastCookie(i3);
-                            achu.m3299f(broadcastCookie, "null cannot be cast to non-null type kotlin.Int");
-                            Integer num = (Integer) broadcastCookie;
-                            int iIntValue = num.intValue();
-                            String str2 = (String) map.get(num);
-                            if (i6 != iIntValue && achu.m3306m(str, str2)) {
-                                try {
-                                    cit citVar2 = (cit) remoteCallbackList3.getBroadcastItem(i3);
-                                    Parcel parcelObtain = Parcel.obtain();
+                try {
+                    Map map = multiInstanceInvalidationService3.f10177b;
+                    String str = (String) map.get(Integer.valueOf(i6));
+                    if (str == null) {
+                        Log.w("ROOM", "Remote invalidation client ID not registered");
+                    } else {
+                        int iBeginBroadcast = remoteCallbackList3.beginBroadcast();
+                        while (i3 < iBeginBroadcast) {
+                            try {
+                                Object broadcastCookie = remoteCallbackList3.getBroadcastCookie(i3);
+                                achu.m3299f(broadcastCookie, "null cannot be cast to non-null type kotlin.Int");
+                                Integer num = (Integer) broadcastCookie;
+                                int iIntValue = num.intValue();
+                                String str2 = (String) map.get(num);
+                                if (i6 != iIntValue && achu.m3306m(str, str2)) {
                                     try {
-                                        parcelObtain.writeInterfaceToken("androidx.room.IMultiInstanceInvalidationCallback");
-                                        parcelObtain.writeStringArray(strArrCreateStringArray);
-                                        citVar2.f14683a.transact(1, parcelObtain, null, 1);
-                                        parcelObtain.recycle();
-                                    } catch (Throwable th) {
-                                        parcelObtain.recycle();
-                                        throw th;
+                                        cit citVar2 = (cit) remoteCallbackList3.getBroadcastItem(i3);
+                                        Parcel parcelObtain = Parcel.obtain();
+                                        try {
+                                            parcelObtain.writeInterfaceToken("androidx.room.IMultiInstanceInvalidationCallback");
+                                            parcelObtain.writeStringArray(strArrCreateStringArray);
+                                            citVar2.f14683a.transact(1, parcelObtain, null, 1);
+                                            parcelObtain.recycle();
+                                        } catch (Throwable th) {
+                                            parcelObtain.recycle();
+                                            throw th;
+                                        }
+                                    } catch (RemoteException e) {
+                                        Log.w("ROOM", "Error invoking a remote callback", e);
                                     }
-                                } catch (RemoteException e) {
-                                    Log.w("ROOM", "Error invoking a remote callback", e);
                                 }
+                                i3++;
+                            } catch (Throwable th2) {
+                                multiInstanceInvalidationService3.f10178c.finishBroadcast();
+                                throw th2;
                             }
-                            i3++;
-                        } catch (Throwable th2) {
-                            multiInstanceInvalidationService3.f10178c.finishBroadcast();
-                            throw th2;
                         }
+                        multiInstanceInvalidationService3.f10178c.finishBroadcast();
                     }
-                    multiInstanceInvalidationService3.f10178c.finishBroadcast();
+                } catch (Throwable th3) {
+                    throw th3;
                 }
             }
         }

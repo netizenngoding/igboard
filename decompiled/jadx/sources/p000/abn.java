@@ -63,7 +63,7 @@ public final class abn extends acfy implements achc {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         ?? r7;
         ?? it;
         add addVar;

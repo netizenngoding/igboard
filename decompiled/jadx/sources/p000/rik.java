@@ -43,7 +43,7 @@ public final class rik extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) {
+    public final Object mo1696b(Object obj) throws Throwable {
         acbw.m3007V(obj);
         try {
             kvh kvhVar = this.f59214e;

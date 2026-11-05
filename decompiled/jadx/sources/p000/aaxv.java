@@ -81,7 +81,7 @@ public final /* synthetic */ class aaxv implements Function {
             case 5:
                 return aayw.m1709c((aazb) obj);
             case 6:
-                return aaay.m437G(obj);
+                return ((aazb) obj).f2646i;
             case 7:
                 aaay.m447W((aazb) obj);
                 return dValueOf;
@@ -96,7 +96,7 @@ public final /* synthetic */ class aaxv implements Function {
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
                 return aaay.m441K(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
-                return ((aazb) obj).f2645h;
+                return aaay.m433C(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
                 aazb aazbVar = (aazb) obj;
                 double d = true != aazbVar.f2641d ? 90.0d : 30.0d;
