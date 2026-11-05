@@ -27,6 +27,13 @@ SUPER_LINE = re.compile(r"^\.super L([^;]+);$", re.MULTILINE)
 SOURCE_LINE = re.compile(r'^\.source "(.*)";$', re.MULTILINE)
 
 
+def dex_label(dirname: str) -> str:
+    """smali -> classes.dex, smali_classes5 -> classes5.dex."""
+    if dirname == "smali":
+        return "classes.dex"
+    return dirname.replace("smali_", "", 1) + ".dex"
+
+
 def dex_dirs() -> list[Path]:
     return sorted([p for p in (OUT / "apktool").glob("smali*") if p.is_dir()],
                   key=lambda p: (len(p.name), p.name))
@@ -52,16 +59,12 @@ def main() -> int:
         for path in smali.rglob("*.smali"):
             scanned += 1
             text = read(path)
-            cls = CLASS_LINE.search(text)
-            if not cls:
-                continue
-            name = cls.group(1)
+            name = str(path.relative_to(smali).with_suffix(""))  # keeps $
             rel = str(path.relative_to(OUT))
             if name.startswith(MOD_PREFIX + "/"):
                 mod_classes.append({
                     "class": name.replace("/", "."),
-                    "dex": smali.name.replace("smali", "classes") + ".dex"
-                    if smali.name != "smali" else "classes.dex",
+                    "dex": dex_label(smali.name),
                     "super": (SUPER_LINE.search(text) or [None, None])[1],
                     "source": (SOURCE_LINE.search(text) or [None, None])[1],
                     "smali": rel,

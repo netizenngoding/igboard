@@ -31,6 +31,29 @@ All trademarks and product names belong to their respective owners.
 * Google — Gboard
 * Apple — iOS keyboard design inspiration
 
+## What is inside the APK
+
+`iboard.apk` is a **repackaged Gboard release**, and the evidence is in
+[`analysis/`](analysis/README.md):
+
+* base: Gboard `18.5.6.993608717-release-arm64-v8a` (`com.google.android.inputmethod.latin`),
+  target SDK 37, arm64-v8a only, 105.6 MiB
+* signature: self-signed `CN = iBoard Local Test` (v1 alias `IBOARD-T`, plus v2/v3),
+  not Google's — so it cannot install over Play's Gboard and can never be updated by Play
+* the mod itself: **16 classes in package `mk`** plus one relocated Gboard class, living in
+  three appended dex files (`classes5-7.dex`, 52 KiB total against the 23 MiB of stock dex)
+* ten stock Gboard classes call into it: `InputView` (glass plate, toolbar, touch routing),
+  both candidates/suggestion holders, `SilkPopupView`, `SwitchCompat`, `MaterialSwitch`, the
+  `Application` subclass that installs the activity walker, and three theme-state receivers
+* cosmetic payload: `style_sheet_mk_ios26_{light,dark}.binarypb` Gboard theme style sheets and
+  three **Apple SF Pro Text** fonts (15.7 MiB)
+
+Read [`analysis/08-mod-internals.md`](analysis/08-mod-internals.md) for the class-by-class map,
+hook sites, exact colors and geometry, and [`analysis/09-rebuild.md`](analysis/09-rebuild.md)
+to rebuild and re-sign it.
+
+---
+
 ## Repository layout
 
 ```

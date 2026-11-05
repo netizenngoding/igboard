@@ -19,7 +19,7 @@ form.
 | ABI payload | `arm64-v8a` only (`android:multiArch="false"`) | `decompiled/raw/lib/` |
 | signature | **self-signed** `CN = iBoard Local Test` | [`01-identity.md`](01-identity.md) |
 | dex containers | 7 — four stock, three appended by the mod | [`03-dex.md`](03-dex.md) |
-| injected code | **17 classes** in package `mk` (+1 relocated Gboard class) | [`mod-map.md`](mod-map.md) |
+| injected code | **16 classes** in package `mk`, plus 1 relocated Gboard class, in 3 appended dex files | [`mod-map.md`](mod-map.md) |
 | rebrand | `ime_name` = `iBoard`, 74 strings rewritten, 14 still say "Gboard" | `decompiled/apktool/res/values/strings.xml` |
 
 Everything else — 22,862 classes in `classes.dex` … `classes4.dex`, all 15
@@ -41,7 +41,8 @@ tiny dex files and inserts a handful of static calls into stock classes:
 | `classes6.dex` | 10.8 KiB | 4 | `mk/Th` theme engine + inner classes |
 | `classes7.dex` | 11.9 KiB | 6 | `mk/Tog` control replacement + `Track`/`Thumb` drawables |
 
-Seventeen classes of new code against 22,879 total: the modification is
+Seventeen classes live in those appended dex files (16 `mk/*` + one relocated
+Gboard class) against 22,879 total: the modification is
 **0.07 % of the classes** and a rounding error of the payload. The rest of the
 experience is Gboard's, wearing an iOS costume.
 
@@ -58,7 +59,7 @@ experience is Gboard's, wearing an iOS costume.
 
 ## 4. Hook sites — where stock Gboard calls the mod
 
-Twelve stock classes carry injected `invoke-static` calls into `mk`:
+Ten stock classes carry injected `invoke-static` calls into `mk`:
 
 | stock class | injected calls | effect |
 | --- | --- | --- |
