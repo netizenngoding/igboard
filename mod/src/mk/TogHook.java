@@ -161,10 +161,8 @@ public final class TogHook {
                 aSwitch.setShowText(false);
                 aSwitch.setThumbDrawable(thumb);
                 aSwitch.setTrackDrawable(track);
-                try {
-                    aSwitch.setThumbOffset(0);
-                } catch (Throwable ignored) {
-                }
+                // Switch keeps thumbOffset private in some SDKs; reflection keeps this portable.
+                call(parent, "setThumbOffset", new Class<?>[]{int.class}, Integer.valueOf(0));
                 try {
                     aSwitch.setThumbTintList(null);
                     aSwitch.setTrackTintList(null);
