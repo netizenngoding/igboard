@@ -3,7 +3,7 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 8
 == 2. dex ==
--rw-r--r-- 1 runner runner 15916 Nov  5 17:05 /home/runner/work/igboard/igboard/mod/dex/classes8.dex
+-rw-r--r-- 1 runner runner 15932 Nov  5 17:11 /home/runner/work/igboard/igboard/mod/dex/classes8.dex
 == 3. redirect the smali call sites to mk.TogHook ==
 /home/runner/work/igboard/igboard/mod/work/smali/eux.smali:1
 /home/runner/work/igboard/igboard/mod/work/smali_classes2/android/support/v7/widget/SwitchCompat.smali:1
@@ -24,19 +24,19 @@ I: Importing lib...
 I: Importing unknown files...
 I: Built apk into: /home/runner/work/igboard/igboard/mod/dex/unsigned.apk
 == 5. inject classes8.dex ==
-    30328  2026-11-05 17:05   classes5.dex
-    11040  2026-11-05 17:05   classes6.dex
-  9439944  2026-11-05 17:05   classes.dex
- 10229200  2026-11-05 17:05   classes2.dex
-   770476  2026-11-05 17:05   classes4.dex
-  4319272  2026-11-05 17:05   classes3.dex
-    12040  2026-11-05 17:05   classes7.dex
-    15916  2026-11-05 17:05   classes8.dex
+    30328  2026-11-05 17:11   classes5.dex
+    11040  2026-11-05 17:11   classes6.dex
+  9439944  2026-11-05 17:11   classes.dex
+ 10229200  2026-11-05 17:11   classes2.dex
+   770476  2026-11-05 17:11   classes4.dex
+  4319272  2026-11-05 17:11   classes3.dex
+    12040  2026-11-05 17:11   classes7.dex
+    15932  2026-11-05 17:11   classes8.dex
 == 6. align ==
 == 7. sign ==
 V3.0 Signer: certificate DN: CN=iBoard Local Test
 V3.0 Signer: certificate SHA-256 digest: a73bf852b2fe421aa4671ddc0a4bf332210850865301e9f1dd35bfe9d4740fdc
 V3.0 Signer: certificate SHA-1 digest: 4f9423aa4f602e1cfac6e719fcb04c3a38260175
 V3.0 Signer: certificate MD5 digest: de54a430116bdecc4b5c0a86ac68d6f6
--rw-r--r-- 1 runner runner 110536065 Nov  5 17:05 /home/runner/work/igboard/igboard/build/iboard-liquidglass.apk
-ccdb21c9255dd117f97dd075fe517b1e43c4bfbae6c62ccf92af67d1c093eae7  /home/runner/work/igboard/igboard/build/iboard-liquidglass.apk
+-rw-r--r-- 1 runner runner 110536065 Nov  5 17:11 /home/runner/work/igboard/igboard/build/iboard-liquidglass.apk
+0fa216559967894357a95b75f09427b0809f9c83ccf753880f618ce04349c9d3  /home/runner/work/igboard/igboard/build/iboard-liquidglass.apk
