@@ -84,6 +84,36 @@ jobs:
           } > mod/result.txt
           cat mod/result.txt
 
+      - name: Publish release asset
+        if: success()
+        run: |
+          APK="build/iboard-liquidglass.apk"
+          SIZE=$(stat -c '%s' "$APK")
+          echo "uploading $APK ($SIZE bytes)"
+          if [ "$SIZE" -lt 1000000 ]; then
+            echo "::error::$APK is $SIZE bytes - refusing to publish a Git LFS pointer"
+            file "$APK" || true
+            exit 1
+          fi
+          TAG="liquid-glass-v1"
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" \
+              --title "iBoard Liquid Glass build" \
+              --target "$GITHUB_REF_NAME" \
+              --notes "Settings toggles and sliders rebuilt as Liquid Glass controls.
+
+          * track 64x28dp capsule, thumb 40x24dp capsule (Kyant0/AndroidLiquidGlass parameters)
+          * accent #34C759 light / #30D158 dark, track #787878 @20% / #787880 @36%
+          * slider track 6dp, accent #0088FF / #0091FF
+          * shadow 4dp @5% with radius/6 offset, 0.5dp specular rim, pressed lens + inner shadow
+          * shipped as classes8.dex, hooked from eux/SwitchCompat/MaterialSwitch
+
+          This is an unsigned-for-Play, self-signed unofficial modification of Gboard.
+          Uninstall or disable the stock Gboard before installing."
+          fi
+          gh release upload "$TAG" build/iboard-liquidglass.apk --clobber
+          gh release view "$TAG" --json assets --jq '.assets[] | "\(.name) \(.size) bytes"'
+
       - name: Commit APK, keystore and log
         if: always()
         run: |
@@ -103,24 +133,3 @@ jobs:
             sleep 10
           done
 
-      - name: Publish release asset
-        if: success()
-        run: |
-          TAG="liquid-glass-v1"
-          if ! gh release view "$TAG" >/dev/null 2>&1; then
-            gh release create "$TAG" \
-              --title "iBoard Liquid Glass build" \
-              --target "$GITHUB_REF_NAME" \
-              --notes "Settings toggles and sliders rebuilt as Liquid Glass controls.
-
-          * track 64x28dp capsule, thumb 40x24dp capsule (Kyant0/AndroidLiquidGlass parameters)
-          * accent #34C759 light / #30D158 dark, track #787878 @20% / #787880 @36%
-          * slider track 6dp, accent #0088FF / #0091FF
-          * shadow 4dp @5% with radius/6 offset, 0.5dp specular rim, pressed lens + inner shadow
-          * shipped as classes8.dex, hooked from eux/SwitchCompat/MaterialSwitch
-
-          This is an unsigned-for-Play, self-signed unofficial modification of Gboard.
-          Uninstall or disable the stock Gboard before installing."
-          fi
-          gh release upload "$TAG" build/iboard-liquidglass.apk --clobber
-          gh release view "$TAG" --json assets --jq '.assets[] | "\(.name) \(.size) bytes"'
