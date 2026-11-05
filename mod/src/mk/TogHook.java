@@ -162,6 +162,10 @@ public final class TogHook {
                 aSwitch.setThumbDrawable(thumb);
                 aSwitch.setTrackDrawable(track);
                 try {
+                    aSwitch.setThumbOffset(0);
+                } catch (Throwable ignored) {
+                }
+                try {
                     aSwitch.setThumbTintList(null);
                     aSwitch.setTrackTintList(null);
                 } catch (Throwable ignored) {
@@ -177,6 +181,7 @@ public final class TogHook {
                 call(parent, "setTrackTintList", new Class<?>[]{android.content.res.ColorStateList.class},
                         (Object) null);
                 call(parent, "setSwitchMinWidth", new Class<?>[]{int.class}, Integer.valueOf(0));
+                call(parent, "setThumbOffset", new Class<?>[]{int.class}, Integer.valueOf(0));
                 call(parent, "setShowText", new Class<?>[]{boolean.class}, Boolean.FALSE);
             }
             track.setHostChecked(button.isChecked());

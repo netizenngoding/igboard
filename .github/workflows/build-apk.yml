@@ -65,6 +65,10 @@ jobs:
       - name: Install apktool
         run: bash scripts/install_tools.sh 2>&1 | tail -4
 
+      - name: Render control preview (AWT, same geometry constants)
+        continue-on-error: true
+        run: java mod/preview/GlassPreview.java mod/preview
+
       - name: Build Liquid Glass APK
         run: |
           set -o pipefail
@@ -85,7 +89,7 @@ jobs:
         run: |
           git config user.name "igboard-builder"
           git config user.email "builder@users.noreply.github.com"
-          git add -A build mod/build.log mod/result.txt 2>/dev/null || true
+          git add -A build mod 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "nothing to commit"
             exit 0
