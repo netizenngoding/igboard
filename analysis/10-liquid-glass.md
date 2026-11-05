@@ -6,9 +6,13 @@ layer, injected as `classes8.dex`, using the geometry and colours of
 (`LiquidToggle.kt` / `LiquidSlider.kt`, Apache-2.0).
 
 Artifact: **`build/iboard-liquidglass.apk`** — release asset
-`liquid-glass-v1` / `iboard-liquidglass.apk`, 105.4 MiB, sha256
-`10d1881ba404603b4765c94ef2af5cb598fe831c5f5937f45cbff4d79ecb756e` (first build;
-rebuilds change the digest, not the look).
+`liquid-glass-v1` / `iboard-liquidglass.apk`, 110,536,065 bytes, sha256
+`d9a3016805c6cee4d785c68893e0868820eaa5a08a7c267b58015e00d549db0d`.
+
+Download: <https://github.com/netizenngoding/igboard/releases/download/liquid-glass-v1/iboard-liquidglass.apk>
+
+Every rebuild produces a new digest (apksigner timestamps), never a different
+look: the geometry constants live in `mod/src/mk/Glass.java`.
 
 ## 1. What the layer replaces
 
