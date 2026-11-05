@@ -39,7 +39,7 @@ public final class GlassPreview {
         }
         Files.createDirectories(outDir);
 
-        int w = 740, h = 560;
+        int w = 740, h = 700;
         render(Path.of(outDir.toString(), "preview-light.png"), w, h, false);
         render(Path.of(outDir.toString(), "preview-dark.png"), w, h, true);
         System.out.println("wrote preview-light.png and preview-dark.png to " + outDir);
