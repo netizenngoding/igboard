@@ -31,7 +31,7 @@ public final class cld extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r5v3, types: [achc, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         if (this.$cid == 0) {
             acbw.m3007V(obj);
             cko ckoVar = (cko) this.f14908b;

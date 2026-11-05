@@ -46,7 +46,7 @@ public final class ddd extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r0v9 */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         ?? r0 = (aclu) this.f20522f;
         acfl acflVar = acfl.f5236a;
         try {

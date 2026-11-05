@@ -284,77 +284,81 @@ public final class aln implements aqk, akb {
         Executor executor;
         Object obj = this.f9355a;
         synchronized (obj) {
-            LongSparseArray longSparseArray = this.f9359e;
-            int size = longSparseArray.size();
-            while (true) {
-                size--;
-                if (size < 0) {
-                    break;
+            try {
+                LongSparseArray longSparseArray = this.f9359e;
+                int size = longSparseArray.size();
+                while (true) {
+                    size--;
+                    if (size < 0) {
+                        break;
+                    }
+                    ala alaVar = (ala) longSparseArray.valueAt(size);
+                    long jMo5426c = alaVar.mo5426c();
+                    LongSparseArray longSparseArray2 = this.f9364j;
+                    alg algVar = (alg) longSparseArray2.get(jMo5426c);
+                    if (algVar != null) {
+                        longSparseArray2.remove(jMo5426c);
+                        longSparseArray.removeAt(size);
+                        ama amaVar = new ama(algVar, null, alaVar);
+                        synchronized (obj) {
+                            List list = this.f9366l;
+                            if (list.size() < mo5294c()) {
+                                amaVar.m5364i(this);
+                                list.add(amaVar);
+                                aqjVar = this.f9358d;
+                                executor = this.f9363i;
+                            } else {
+                                alk.m5435f("TAG", 3);
+                                amaVar.close();
+                                aqjVar = null;
+                                executor = null;
+                            }
+                        }
+                    }
+                    throw th;
                 }
-                ala alaVar = (ala) longSparseArray.valueAt(size);
-                long jMo5426c = alaVar.mo5426c();
-                LongSparseArray longSparseArray2 = this.f9364j;
-                alg algVar = (alg) longSparseArray2.get(jMo5426c);
-                if (algVar != null) {
-                    longSparseArray2.remove(jMo5426c);
-                    longSparseArray.removeAt(size);
-                    ama amaVar = new ama(algVar, null, alaVar);
-                    synchronized (obj) {
-                        List list = this.f9366l;
-                        if (list.size() < mo5294c()) {
-                            amaVar.m5364i(this);
-                            list.add(amaVar);
-                            aqjVar = this.f9358d;
-                            executor = this.f9363i;
+                synchronized (obj) {
+                    LongSparseArray longSparseArray3 = this.f9364j;
+                    if (longSparseArray3.size() != 0 && longSparseArray.size() != 0) {
+                        long jKeyAt = longSparseArray3.keyAt(0);
+                        Long lValueOf = Long.valueOf(jKeyAt);
+                        long jKeyAt2 = longSparseArray.keyAt(0);
+                        Long lValueOf2 = Long.valueOf(jKeyAt2);
+                        bng.m7892j(!lValueOf2.equals(lValueOf));
+                        lValueOf2.getClass();
+                        lValueOf.getClass();
+                        if (jKeyAt2 <= jKeyAt) {
+                            int size2 = longSparseArray.size();
+                            while (true) {
+                                size2--;
+                                if (size2 < 0) {
+                                    break;
+                                }
+                                long jKeyAt3 = longSparseArray.keyAt(size2);
+                                lValueOf.getClass();
+                                if (jKeyAt3 < jKeyAt) {
+                                    longSparseArray.removeAt(size2);
+                                }
+                            }
                         } else {
-                            alk.m5435f("TAG", 3);
-                            amaVar.close();
-                            aqjVar = null;
-                            executor = null;
+                            int size3 = longSparseArray3.size();
+                            while (true) {
+                                size3--;
+                                if (size3 < 0) {
+                                    break;
+                                }
+                                long jKeyAt4 = longSparseArray3.keyAt(size3);
+                                lValueOf2.getClass();
+                                if (jKeyAt4 < jKeyAt2) {
+                                    ((alg) longSparseArray3.valueAt(size3)).close();
+                                    longSparseArray3.removeAt(size3);
+                                }
+                            }
                         }
                     }
                 }
+            } catch (Throwable th) {
                 throw th;
-            }
-            synchronized (obj) {
-                LongSparseArray longSparseArray3 = this.f9364j;
-                if (longSparseArray3.size() != 0 && longSparseArray.size() != 0) {
-                    long jKeyAt = longSparseArray3.keyAt(0);
-                    Long lValueOf = Long.valueOf(jKeyAt);
-                    long jKeyAt2 = longSparseArray.keyAt(0);
-                    Long lValueOf2 = Long.valueOf(jKeyAt2);
-                    bng.m7892j(!lValueOf2.equals(lValueOf));
-                    lValueOf2.getClass();
-                    lValueOf.getClass();
-                    if (jKeyAt2 <= jKeyAt) {
-                        int size2 = longSparseArray.size();
-                        while (true) {
-                            size2--;
-                            if (size2 < 0) {
-                                break;
-                            }
-                            long jKeyAt3 = longSparseArray.keyAt(size2);
-                            lValueOf.getClass();
-                            if (jKeyAt3 < jKeyAt) {
-                                longSparseArray.removeAt(size2);
-                            }
-                        }
-                    } else {
-                        int size3 = longSparseArray3.size();
-                        while (true) {
-                            size3--;
-                            if (size3 < 0) {
-                                break;
-                            }
-                            long jKeyAt4 = longSparseArray3.keyAt(size3);
-                            lValueOf2.getClass();
-                            if (jKeyAt4 < jKeyAt2) {
-                                ((alg) longSparseArray3.valueAt(size3)).close();
-                                longSparseArray3.removeAt(size3);
-                            }
-                        }
-                    }
-                }
             }
         }
     }

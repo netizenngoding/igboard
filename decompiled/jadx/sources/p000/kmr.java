@@ -37,7 +37,7 @@ public final class kmr extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         if (this.$cid != 0) {
             acbw.m3007V(obj);
             C1235vv c1235vv = (C1235vv) this.f41704b;

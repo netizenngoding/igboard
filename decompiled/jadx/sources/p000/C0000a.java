@@ -1829,11 +1829,6 @@ public class C0000a {
         return str + obj2 + str2 + obj;
     }
 
-    /* JADX INFO: renamed from: cr */
-    public static /* synthetic */ void m149cr(wwl wwlVar, String str, String str2, String str3, char c, String str4, Throwable th) {
-        ((wvu) ((wvu) ((wvu) wwlVar).mo34835i(th)).mo34836j(str2, str3, c, str4)).mo34846t(str);
-    }
-
     /* JADX INFO: renamed from: cs */
     public static /* synthetic */ String m150cs(byte b, Object obj, String str) {
         return str + obj + ((char) b);

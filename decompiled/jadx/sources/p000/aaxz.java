@@ -82,7 +82,7 @@ public final /* synthetic */ class aaxz implements Function {
             case 6:
                 return aaay.m441K(obj);
             case 7:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 8:
                 aazb aazbVar = (aazb) obj;
                 aaay.m447W(aazbVar);

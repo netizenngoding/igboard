@@ -7,7 +7,7 @@ import java.security.GeneralSecurityException;
 public final class xva {
 
     /* JADX INFO: renamed from: a */
-    public static final xzm f76755a;
+    public static final xzm f76755a = new xzm(xtp.class, new xuf(5));
 
     /* JADX INFO: renamed from: b */
     public static final xzm f76756b;
@@ -20,7 +20,6 @@ public final class xva {
 
     static {
         int i = 5;
-        f76755a = new xzm(xtp.class, new xuf(i));
         f76756b = new xzm("type.googleapis.com/google.crypto.tink.AesGcmSivKey", new xug(i));
         f76757c = new xzm(xtm.class, new xuh(i));
         f76758d = new xzm("type.googleapis.com/google.crypto.tink.AesGcmSivKey", new xui(i));

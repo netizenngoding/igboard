@@ -272,7 +272,7 @@ public final class hsp extends ohq implements hts, ohg {
 
     @Override // p000.ohg
     /* JADX INFO: renamed from: m */
-    public final boolean mo9635m(ohe oheVar) {
+    public final boolean mo9635m(ohe oheVar) throws Exception {
         hsb hsbVar;
         if (m25541ag() && (hsbVar = this.f33005c) != null) {
             qbc[] qbcVarArr = oheVar.f50916b;

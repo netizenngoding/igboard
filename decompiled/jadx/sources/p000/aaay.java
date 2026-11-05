@@ -38,6 +38,11 @@ public class aaay {
         return aayw.m1708b(7.0d);
     }
 
+    /* JADX INFO: renamed from: G */
+    public static /* synthetic */ Object m437G(Object obj) {
+        return ((aazb) obj).f2646i;
+    }
+
     /* JADX INFO: renamed from: H */
     public static /* synthetic */ Object m438H(Object obj) {
         return ((aazb) obj).f2644g;

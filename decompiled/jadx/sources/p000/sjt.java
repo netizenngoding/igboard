@@ -79,7 +79,7 @@ public final class sjt {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    public final Object m30310b(Locale locale, acfd acfdVar) throws Throwable {
+    public final Object m30310b(Locale locale, acfd acfdVar) {
         sjq sjqVar;
         if (acfdVar instanceof sjq) {
             sjqVar = (sjq) acfdVar;
@@ -125,7 +125,7 @@ public final class sjt {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: c */
-    public final Object m30311c(Locale locale, String str, acfd acfdVar) throws Throwable {
+    public final Object m30311c(Locale locale, String str, acfd acfdVar) {
         sjr sjrVar;
         String str2;
         Object next;

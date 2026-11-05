@@ -90,7 +90,7 @@ public abstract class wot extends wni implements Collection, wsg {
     }
 
     /* JADX INFO: renamed from: n */
-    public abstract wpa mo34417i();
+    public abstract wpa mo34578n();
 
     /* JADX INFO: renamed from: o */
     public abstract wsf mo34579o(int i);

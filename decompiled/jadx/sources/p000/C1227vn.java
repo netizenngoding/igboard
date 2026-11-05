@@ -39,7 +39,7 @@ public final class C1227vn implements InterfaceC1231vr {
     /* JADX WARN: Type inference failed for: r8v4 */
     /* JADX WARN: Type inference failed for: r8v5 */
     /* JADX INFO: renamed from: c */
-    public final Object m33311c(C1222vi c1222vi, InterfaceC1238vy interfaceC1238vy, acfd acfdVar) throws Throwable {
+    public final Object m33311c(C1222vi c1222vi, InterfaceC1238vy interfaceC1238vy, acfd acfdVar) {
         C1225vl c1225vl;
         ?? r8;
         if (acfdVar instanceof C1225vl) {

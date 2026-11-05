@@ -20,7 +20,7 @@ public final class acwn {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m3944a(Context context, dmw dmwVar, UUID uuid, acgy acgyVar, acgy acgyVar2, achd achdVar, acfd acfdVar) throws Throwable {
+    public final Object m3944a(Context context, dmw dmwVar, UUID uuid, acgy acgyVar, acgy acgyVar2, achd achdVar, acfd acfdVar) {
         dmy dmyVar;
         if (acfdVar instanceof dmy) {
             dmyVar = (dmy) acfdVar;

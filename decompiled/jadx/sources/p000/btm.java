@@ -1,5 +1,7 @@
 package p000;
 
+import java.io.IOException;
+
 /* JADX INFO: compiled from: PG */
 /* JADX INFO: loaded from: classes.dex */
 final class btm extends acfy implements achd {
@@ -25,7 +27,7 @@ final class btm extends acfy implements achd {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) throws IOException {
         Object obj2 = this.f13484b;
         acfl acflVar = acfl.f5236a;
         int i = this.f13483a;

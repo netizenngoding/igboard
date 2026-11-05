@@ -47,7 +47,7 @@ public final class dok extends acfy implements achd {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         acfl acflVar = acfl.f5236a;
         int i = this.f21681a;
         acbw.m3007V(obj);

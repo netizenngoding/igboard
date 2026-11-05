@@ -72,7 +72,7 @@ public final class sap implements oab {
     /* JADX WARN: Code duplicated, block: B:24:0x008a A[LOOP:0: B:22:0x0084->B:24:0x008a, LOOP_END] */
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: d */
-    public final Object m29889d(acfd acfdVar) throws Throwable {
+    public final Object m29889d(acfd acfdVar) {
         sai saiVar;
         say sayVar;
         LinkedHashMap linkedHashMap;
@@ -148,7 +148,7 @@ public final class sap implements oab {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: e */
-    public final Object m29890e(acfd acfdVar) throws Throwable {
+    public final Object m29890e(acfd acfdVar) {
         saj sajVar;
         if (acfdVar instanceof saj) {
             sajVar = (saj) acfdVar;
@@ -194,7 +194,7 @@ public final class sap implements oab {
     /* JADX WARN: Code duplicated, block: B:25:0x008c A[RETURN] */
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: f */
-    public final Object m29891f(String str, acfd acfdVar) throws Throwable {
+    public final Object m29891f(String str, acfd acfdVar) {
         sal salVar;
         say sayVar;
         sax saxVarM32967bA;
@@ -258,7 +258,7 @@ public final class sap implements oab {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: g */
-    public final Object m29892g(String str, acfd acfdVar) throws Throwable {
+    public final Object m29892g(String str, acfd acfdVar) {
         sam samVar;
         if (acfdVar instanceof sam) {
             samVar = (sam) acfdVar;

@@ -43,7 +43,7 @@ public final class tbx extends acfy implements achc {
         return ((tbx) mo1701c((acpy) obj, (acfd) obj2)).mo1696b(acde.f5115a);
     }
 
-    /* JADX WARN: Code duplicated, block: B:47:0x00fc A[Catch: all -> 0x0120, TRY_LEAVE, TryCatch #1 {, blocks: (B:38:0x00c5, B:40:0x00cb, B:42:0x00d2, B:43:0x00d6, B:46:0x00de, B:47:0x00fc), top: B:81:0x00c5, inners: #5 }] */
+    /* JADX WARN: Code duplicated, block: B:47:0x00fc A[Catch: all -> 0x0120, TRY_LEAVE, TryCatch #1 {all -> 0x0120, blocks: (B:38:0x00c5, B:40:0x00cb, B:42:0x00d2, B:43:0x00d6, B:46:0x00de, B:47:0x00fc), top: B:81:0x00c5, inners: #5 }] */
     /* JADX WARN: Code duplicated, block: B:69:0x015f A[Catch: all -> 0x0182, TRY_LEAVE, TryCatch #3 {, blocks: (B:15:0x003c, B:17:0x0042, B:19:0x0049, B:20:0x004d, B:68:0x0141, B:69:0x015f), top: B:83:0x003c, inners: #0 }] */
     /* JADX WARN: Code duplicated, block: B:73:0x0180  */
     /* JADX WARN: Code duplicated, block: B:81:0x00c5 A[EXC_TOP_SPLITTER, SYNTHETIC] */
@@ -144,17 +144,21 @@ public final class tbx extends acfy implements achc {
                             r17 = r14;
                             r16 = r15;
                             synchronized (obj2) {
-                                if (((acib) obj3).f5296a || ((acib) r8).f5296a) {
-                                    ((acib) r8).f5296a = true;
-                                    bArrM12013a2 = new byte[0];
-                                } else {
-                                    ((acib) r8).f5296a = true;
-                                    try {
-                                        bArrM12013a2 = ((OggOpusEncoder) r17).m12013a();
-                                    } catch (Exception e) {
-                                        ((wvu) ((wvu) tby.f64152a.m34778d()).mo34835i(e).mo34836j("com/google/android/libraries/inputmethod/voice/smartdictation/service/s3/audio/LibOggOpusEncoder", "encode$<anonymous>$<anonymous>", 80, "LibOggOpusEncoder.kt")).mo34846t("Error flushing OggOpus encoder. [SD]");
+                                try {
+                                    if (((acib) obj3).f5296a || ((acib) r8).f5296a) {
+                                        ((acib) r8).f5296a = true;
                                         bArrM12013a2 = new byte[0];
+                                    } else {
+                                        ((acib) r8).f5296a = true;
+                                        try {
+                                            bArrM12013a2 = ((OggOpusEncoder) r17).m12013a();
+                                        } catch (Exception e) {
+                                            ((wvu) ((wvu) tby.f64152a.m34778d()).mo34835i(e).mo34836j("com/google/android/libraries/inputmethod/voice/smartdictation/service/s3/audio/LibOggOpusEncoder", "encode$<anonymous>$<anonymous>", 80, "LibOggOpusEncoder.kt")).mo34846t("Error flushing OggOpus encoder. [SD]");
+                                            bArrM12013a2 = new byte[0];
+                                        }
                                     }
+                                } catch (Throwable th2) {
+                                    throw th2;
                                 }
                             }
                             acnw acnwVar2 = acnw.f5544a;
@@ -165,8 +169,8 @@ public final class tbx extends acfy implements achc {
                             this.f64146c = null;
                             this.f64147d = null;
                             this.f64148e = 3;
-                        } catch (Throwable th2) {
-                            th = th2;
+                        } catch (Throwable th3) {
+                            th = th3;
                             th = th;
                             synchronized (obj2) {
                                 if (((acib) obj3).f5296a) {
@@ -191,9 +195,9 @@ public final class tbx extends acfy implements achc {
                         }
                     } else {
                         if (i != 3) {
-                            Throwable th3 = (Throwable) this.f64151h;
+                            Throwable th4 = (Throwable) this.f64151h;
                             acbw.m3007V(obj);
-                            throw th3;
+                            throw th4;
                         }
                         acbw.m3007V(obj);
                     }
@@ -235,8 +239,8 @@ public final class tbx extends acfy implements achc {
                         this.f64148e = 3;
                     }
                 }
-            } catch (Throwable th4) {
-                th = th4;
+            } catch (Throwable th5) {
+                th = th5;
                 r12 = r14;
                 r5 = acibVar2;
                 r14 = r12;
@@ -275,16 +279,16 @@ public final class tbx extends acfy implements achc {
                     try {
                         r12.m12015c(1);
                         acibVar.f5296a = true;
-                    } catch (Throwable th5) {
-                        th = th5;
+                    } catch (Throwable th6) {
+                        th = th6;
                     }
-                } catch (Throwable th6) {
-                    throw th6;
+                } catch (Throwable th7) {
+                    throw th7;
                 }
             }
             acqmVarM30450a = sqk.m30450a(this.f64150g, 2048);
-        } catch (Throwable th7) {
-            th = th7;
+        } catch (Throwable th8) {
+            th = th8;
             ?? r6 = r14;
             r14 = r12;
             r12 = r6;

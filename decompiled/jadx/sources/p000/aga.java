@@ -256,7 +256,7 @@ public final class aga implements AutoCloseable, InterfaceC1295ya {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    public final Object m5208b(acfd acfdVar) throws Throwable {
+    public final Object m5208b(acfd acfdVar) {
         afz afzVar;
         if (acfdVar instanceof afz) {
             afzVar = (afz) acfdVar;

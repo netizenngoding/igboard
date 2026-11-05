@@ -57,7 +57,7 @@ public final class btw implements bqw {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.bqw
     /* JADX INFO: renamed from: b */
-    public final Object mo8240b(Object obj, acfd acfdVar) throws Throwable {
+    public final Object mo8240b(Object obj, acfd acfdVar) {
         btv btvVar;
         if (acfdVar instanceof btv) {
             btvVar = (btv) acfdVar;

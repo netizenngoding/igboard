@@ -1565,7 +1565,7 @@ public class gog {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: aC */
-    public final Object m16324aC(Context context, acfd acfdVar) throws Throwable {
+    public final Object m16324aC(Context context, acfd acfdVar) {
         guj gujVar;
         if (acfdVar instanceof guj) {
             gujVar = (guj) acfdVar;

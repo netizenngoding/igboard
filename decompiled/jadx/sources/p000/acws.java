@@ -157,7 +157,7 @@ public final class acws implements aclc, acou {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: d */
-    public final Object m3955d(acfd acfdVar) throws Throwable {
+    public final Object m3955d(acfd acfdVar) {
         acwq acwqVar;
         if (acfdVar instanceof acwq) {
             acwqVar = (acwq) acfdVar;

@@ -44,7 +44,7 @@ public final class acb extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r7v2, types: [acck, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         List list;
         int i = this.$cid;
         byte[] bArr = null;

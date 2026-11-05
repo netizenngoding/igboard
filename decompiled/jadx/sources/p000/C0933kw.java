@@ -272,7 +272,7 @@ public class C0933kw {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: i */
-    public static Object m22159i(acma acmaVar, long j, acfd acfdVar) throws Throwable {
+    public static Object m22159i(acma acmaVar, long j, acfd acfdVar) {
         C1069pr c1069pr;
         if (acfdVar instanceof C1069pr) {
             c1069pr = (C1069pr) acfdVar;

@@ -25,7 +25,7 @@ public final /* synthetic */ class hsf implements mtq {
 
     @Override // p000.mtq
     /* JADX INFO: renamed from: a */
-    public final void mo15246a(mtu mtuVar, final View view) {
+    public final void mo15246a(mtu mtuVar, final View view) throws Exception {
         rjd rjdVar;
         SurfaceView surfaceView;
         int i = this.$cid;

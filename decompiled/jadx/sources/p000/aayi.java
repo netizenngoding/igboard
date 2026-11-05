@@ -72,7 +72,7 @@ public final /* synthetic */ class aayi implements Function {
             case 2:
                 return aaay.m439I(obj);
             case 3:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 4:
                 return aaay.m439I(obj);
             case 5:
@@ -95,11 +95,11 @@ public final /* synthetic */ class aayi implements Function {
             case 10:
                 return aaay.m438H(obj);
             case 11:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
                 return aaay.m435E(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
                 return aaay.m439I(obj);
             case 15:

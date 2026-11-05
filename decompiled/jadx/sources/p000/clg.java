@@ -52,7 +52,7 @@ public final class clg extends acfy implements acgy {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         int i = this.$cid;
         if (i == 0) {
             acfl acflVar = acfl.f5236a;

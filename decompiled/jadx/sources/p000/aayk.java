@@ -109,7 +109,7 @@ public final /* synthetic */ class aayk implements Function {
                 aayw.m1714h((aazb) obj);
                 return null;
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 15:
                 return aaay.m436F(obj);
             case 16:

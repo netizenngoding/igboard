@@ -1,34 +1,34 @@
 # Modification map
 
-`mk/*` is the only non-stock package in the app. 13 mod classes across 3 dex container(s); 13 stock classes call into them.
+`mk/*` is the only non-stock package in the app. 16 mod classes across 3 dex container(s); 10 stock classes call into them.
 
 ## Mod classes
 
 | class | dex | methods | super | smali bytes |
 | --- | --- | --- | --- | --- |
-| `mk.MkBar` | classes_classes5.dex | 20 | `java/lang/Object` | 22104 |
-| `mk.MkGlass` | classes_classes5.dex | 4 | `java/lang/Object` | 6951 |
-| `mk.MkIcon` | classes_classes5.dex | 4 | `java/lang/Object` | 56689 |
-| `mk.Th` | classes_classes6.dex | 30 | `java/lang/Object` | 34392 |
-| `mk.Th$1` | classes_classes6.dex | 2 | `java/lang/Object` | 923 |
-| `mk.Th$2` | classes_classes6.dex | 2 | `java/lang/Object` | 3093 |
-| `mk.Th$3` | classes_classes6.dex | 3 | `android/animation/AnimatorListenerAdapter` | 1187 |
-| `mk.Tog` | classes_classes7.dex | 11 | `java/lang/Object` | 16174 |
-| `mk.Tog$1` | classes_classes7.dex | 8 | `java/lang/Object` | 1564 |
-| `mk.Tog$2` | classes_classes7.dex | 2 | `java/lang/Object` | 1052 |
-| `mk.Tog$Thumb` | classes_classes7.dex | 13 | `android/graphics/drawable/Drawable` | 19811 |
-| `mk.Tog$Thumb$1` | classes_classes7.dex | 2 | `java/lang/Object` | 1711 |
-| `mk.Tog$Track` | classes_classes7.dex | 10 | `android/graphics/drawable/Drawable` | 5560 |
+| `mk.MkBar` | classes5.dex | 20 | `java/lang/Object` | 22104 |
+| `mk.MkGlass` | classes5.dex | 4 | `java/lang/Object` | 6951 |
+| `mk.MkIcon` | classes5.dex | 4 | `java/lang/Object` | 56689 |
+| `mk.MkLand` | classes5.dex | 20 | `java/lang/Object` | 32114 |
+| `mk.MkLand$1` | classes5.dex | 2 | `java/lang/Object` | 1482 |
+| `mk.MkLand$2` | classes5.dex | 2 | `java/lang/Object` | 2826 |
+| `mk.Th` | classes6.dex | 30 | `java/lang/Object` | 34392 |
+| `mk.Th$1` | classes6.dex | 2 | `java/lang/Object` | 923 |
+| `mk.Th$2` | classes6.dex | 2 | `java/lang/Object` | 3093 |
+| `mk.Th$3` | classes6.dex | 3 | `android/animation/AnimatorListenerAdapter` | 1187 |
+| `mk.Tog` | classes7.dex | 11 | `java/lang/Object` | 16174 |
+| `mk.Tog$1` | classes7.dex | 8 | `java/lang/Object` | 1564 |
+| `mk.Tog$2` | classes7.dex | 2 | `java/lang/Object` | 1052 |
+| `mk.Tog$Thumb` | classes7.dex | 13 | `android/graphics/drawable/Drawable` | 19811 |
+| `mk.Tog$Thumb$1` | classes7.dex | 2 | `java/lang/Object` | 1711 |
+| `mk.Tog$Track` | classes7.dex | 10 | `android/graphics/drawable/Drawable` | 5560 |
 
 ## Hook sites (stock code calling the mod)
 
 | stock class | calls |
 | --- | --- |
-| `and` | `mk/MkBar->globe`, `mk/MkBar->mic`, `mk/MkGlass->kbTop`, `mk/MkIcon->globe`, `mk/MkIcon->mic`, `mk/MkLand$1-><init>`, `mk/MkLand$2-><init>`, `mk/MkLand->A`, `mk/MkLand->B`, `mk/MkLand->P`, `mk/MkLand->best`, `mk/MkLand->bestY`, `mk/MkLand->dp`, `mk/MkLand->emojiKey`, `mk/MkLand->ensure`, `mk/MkLand->fix`, `mk/MkLand->hit`, `mk/MkLand->label`, `mk/MkLand->lastL`, `mk/MkLand->lastR`, `mk/MkLand->lastS`, `mk/MkLand->on`, `mk/MkLand->pressed`, `mk/MkLand->rel`, `mk/MkLand->rowY`, `mk/MkLand->scan`, `mk/MkLand->side`, `mk/MkLand->tracking`, `mk/Th->bg`, `mk/Th->dark`, `mk/Th->nav` |
-| `and$1` | `mk/MkLand$1->val$v`, `mk/MkLand->ensure` |
-| `and$2` | `mk/MkLand$2->val$r`, `mk/MkLand$2->val$v`, `mk/MkLand->emoji` |
 | `android.support.v7.widget.SwitchCompat` | `mk/Tog->sw` |
-| `atinFixedCountCandidatesHolderView` | `mk/Th->sugg` |
+| `com.google.android.apps.inputmethod.latin.keyboard.widget.LatinFixedCountCandidatesHolderView` | `mk/Th->sugg` |
 | `com.google.android.libraries.inputmethod.inputview.InputView` | `mk/MkBar->draw`, `mk/MkBar->extra`, `mk/MkBar->touch`, `mk/MkGlass->post`, `mk/MkGlass->pre`, `mk/MkLand->fixL`, `mk/MkLand->fixR` |
 | `com.google.android.libraries.inputmethod.popup.SilkPopupView` | `mk/Th->pop2` |
 | `com.google.android.libraries.inputmethod.widgets.FixedSizeCandidatesHolderView` | `mk/Th->sugg` |

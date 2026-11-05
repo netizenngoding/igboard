@@ -96,7 +96,7 @@ public final class ckj {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m9451a(cjd cjdVar, acfd acfdVar) throws Throwable {
+    public final Object m9451a(cjd cjdVar, acfd acfdVar) {
         cjy cjyVar;
         if (acfdVar instanceof cjy) {
             cjyVar = (cjy) acfdVar;
@@ -255,7 +255,7 @@ public final class ckj {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object m9453c(cjd cjdVar, int i, acfd acfdVar) throws Throwable {
+    public final Object m9453c(cjd cjdVar, int i, acfd acfdVar) {
         cke ckeVar;
         cjd cjdVar2;
         int i2;

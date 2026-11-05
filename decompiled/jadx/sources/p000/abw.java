@@ -157,7 +157,7 @@ public final class abw implements InterfaceC1291xx {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.InterfaceC1291xx
     /* JADX INFO: renamed from: a */
-    public final Object mo2793a(acfd acfdVar) throws Throwable {
+    public final Object mo2793a(acfd acfdVar) {
         abt abtVar;
         if (acfdVar instanceof abt) {
             abtVar = (abt) acfdVar;

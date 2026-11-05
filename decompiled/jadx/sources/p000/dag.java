@@ -36,7 +36,7 @@ final class dag extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         Object rdxVar;
         Object culVar;
         acpy acpyVar = (acpy) this.f20381d;
@@ -90,25 +90,21 @@ final class dag extends acfy implements achc {
                     achu.m3304k("connManager");
                 }
                 synchronized (dal.f20391b) {
-                    try {
-                        if (dal.f20392c.isEmpty()) {
+                    if (dal.f20392c.isEmpty()) {
+                        cxd.m12388b();
+                        String str = daq.f20407a;
+                        try {
+                            connectivityManager.registerDefaultNetworkCallback(dal.f20390a);
+                        } catch (SecurityException e) {
                             cxd.m12388b();
-                            String str = daq.f20407a;
-                            try {
-                                connectivityManager.registerDefaultNetworkCallback(dal.f20390a);
-                            } catch (SecurityException e) {
-                                cxd.m12388b();
-                                Log.e(daq.f20407a, "NetworkRequestConstraintController couldn't register callback", e);
-                                dbtVar.mo2543a(new dae(7));
-                                culVar = new cul(8);
-                            }
-                        } else if (dal.f20394e && dal.f20395f != null) {
-                            cxd.m12388b();
-                            String str2 = daq.f20407a;
-                            dbtVar.mo2543a(dal.f20390a.m12457a(networkRequestM12343a, dal.f20393d) ? dad.f20374a : new dae(7));
+                            Log.e(daq.f20407a, "NetworkRequestConstraintController couldn't register callback", e);
+                            dbtVar.mo2543a(new dae(7));
+                            culVar = new cul(8);
                         }
-                    } catch (Throwable th) {
-                        throw th;
+                    } else if (dal.f20394e && dal.f20395f != null) {
+                        cxd.m12388b();
+                        String str2 = daq.f20407a;
+                        dbtVar.mo2543a(dal.f20390a.m12457a(networkRequestM12343a, dal.f20393d) ? dad.f20374a : new dae(7));
                     }
                 }
                 rdxVar = new dak(dbtVar, connectivityManager, i2);

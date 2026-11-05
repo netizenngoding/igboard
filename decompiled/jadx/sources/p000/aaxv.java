@@ -81,7 +81,7 @@ public final /* synthetic */ class aaxv implements Function {
             case 5:
                 return aayw.m1709c((aazb) obj);
             case 6:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 7:
                 aaay.m447W((aazb) obj);
                 return dValueOf;

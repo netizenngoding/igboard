@@ -87,7 +87,7 @@ public final /* synthetic */ class aayn implements Function {
             case 9:
                 return aaay.m436F(obj);
             case 10:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 11:
                 return aaay.m434D(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:

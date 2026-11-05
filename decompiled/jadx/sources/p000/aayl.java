@@ -83,7 +83,7 @@ public final /* synthetic */ class aayl implements Function {
             case 6:
                 return aaay.m431A(obj);
             case 7:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 8:
                 aazb aazbVar2 = (aazb) obj;
                 List list = aazbVar2.f2640c;

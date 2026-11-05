@@ -107,7 +107,7 @@ public final /* synthetic */ class aayf implements Function {
                 int i4 = aazbVar4.f2651n;
                 return aazbVar4.f2650m == 3 ? Double.valueOf(1.5d) : Double.valueOf(1.22d);
             case 10:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 11:
                 aazb aazbVar5 = (aazb) obj;
                 int i5 = aazbVar5.f2651n;

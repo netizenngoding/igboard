@@ -21,7 +21,7 @@ final class acpi extends acfu {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         this.f5592a = obj;
         this.f5594c |= Integer.MIN_VALUE;
         Object objM3770f = acpk.m3770f(this.f5593b, this);

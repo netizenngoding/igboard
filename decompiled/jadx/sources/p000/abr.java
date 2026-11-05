@@ -22,7 +22,7 @@ public final class abr implements AutoCloseable {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m2569a(long j, acma acmaVar, acfd acfdVar) throws Throwable {
+    public final Object m2569a(long j, acma acmaVar, acfd acfdVar) {
         abp abpVar;
         aclk aclkVar;
         if (acfdVar instanceof abp) {

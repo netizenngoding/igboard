@@ -4,7 +4,7 @@
   "mod_classes": [
     {
       "class": "mk.MkBar",
-      "dex": "classes_classes5.dex",
+      "dex": "classes5.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes5/mk/MkBar.smali",
@@ -13,7 +13,7 @@
     },
     {
       "class": "mk.MkGlass",
-      "dex": "classes_classes5.dex",
+      "dex": "classes5.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes5/mk/MkGlass.smali",
@@ -22,7 +22,7 @@
     },
     {
       "class": "mk.MkIcon",
-      "dex": "classes_classes5.dex",
+      "dex": "classes5.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes5/mk/MkIcon.smali",
@@ -30,8 +30,35 @@
       "methods": 4
     },
     {
+      "class": "mk.MkLand",
+      "dex": "classes5.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes5/mk/MkLand.smali",
+      "bytes": 32114,
+      "methods": 20
+    },
+    {
+      "class": "mk.MkLand$1",
+      "dex": "classes5.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes5/mk/MkLand$1.smali",
+      "bytes": 1482,
+      "methods": 2
+    },
+    {
+      "class": "mk.MkLand$2",
+      "dex": "classes5.dex",
+      "super": "java/lang/Object",
+      "source": null,
+      "smali": "apktool/smali_classes5/mk/MkLand$2.smali",
+      "bytes": 2826,
+      "methods": 2
+    },
+    {
       "class": "mk.Th",
-      "dex": "classes_classes6.dex",
+      "dex": "classes6.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes6/mk/Th.smali",
@@ -40,7 +67,7 @@
     },
     {
       "class": "mk.Th$1",
-      "dex": "classes_classes6.dex",
+      "dex": "classes6.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes6/mk/Th$1.smali",
@@ -49,7 +76,7 @@
     },
     {
       "class": "mk.Th$2",
-      "dex": "classes_classes6.dex",
+      "dex": "classes6.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes6/mk/Th$2.smali",
@@ -58,7 +85,7 @@
     },
     {
       "class": "mk.Th$3",
-      "dex": "classes_classes6.dex",
+      "dex": "classes6.dex",
       "super": "android/animation/AnimatorListenerAdapter",
       "source": null,
       "smali": "apktool/smali_classes6/mk/Th$3.smali",
@@ -67,7 +94,7 @@
     },
     {
       "class": "mk.Tog",
-      "dex": "classes_classes7.dex",
+      "dex": "classes7.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes7/mk/Tog.smali",
@@ -76,7 +103,7 @@
     },
     {
       "class": "mk.Tog$1",
-      "dex": "classes_classes7.dex",
+      "dex": "classes7.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes7/mk/Tog$1.smali",
@@ -85,7 +112,7 @@
     },
     {
       "class": "mk.Tog$2",
-      "dex": "classes_classes7.dex",
+      "dex": "classes7.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes7/mk/Tog$2.smali",
@@ -94,7 +121,7 @@
     },
     {
       "class": "mk.Tog$Thumb",
-      "dex": "classes_classes7.dex",
+      "dex": "classes7.dex",
       "super": "android/graphics/drawable/Drawable",
       "source": null,
       "smali": "apktool/smali_classes7/mk/Tog$Thumb.smali",
@@ -103,7 +130,7 @@
     },
     {
       "class": "mk.Tog$Thumb$1",
-      "dex": "classes_classes7.dex",
+      "dex": "classes7.dex",
       "super": "java/lang/Object",
       "source": null,
       "smali": "apktool/smali_classes7/mk/Tog$Thumb$1.smali",
@@ -112,7 +139,7 @@
     },
     {
       "class": "mk.Tog$Track",
-      "dex": "classes_classes7.dex",
+      "dex": "classes7.dex",
       "super": "android/graphics/drawable/Drawable",
       "source": null,
       "smali": "apktool/smali_classes7/mk/Tog$Track.smali",
@@ -120,62 +147,8 @@
       "methods": 10
     }
   ],
-  "hook_count": 13,
+  "hook_count": 10,
   "hooks": [
-    {
-      "class": "and",
-      "smali": "apktool/smali_classes5/mk/MkLand.smali",
-      "calls": [
-        "mk/MkBar->globe",
-        "mk/MkBar->mic",
-        "mk/MkGlass->kbTop",
-        "mk/MkIcon->globe",
-        "mk/MkIcon->mic",
-        "mk/MkLand$1-><init>",
-        "mk/MkLand$2-><init>",
-        "mk/MkLand->A",
-        "mk/MkLand->B",
-        "mk/MkLand->P",
-        "mk/MkLand->best",
-        "mk/MkLand->bestY",
-        "mk/MkLand->dp",
-        "mk/MkLand->emojiKey",
-        "mk/MkLand->ensure",
-        "mk/MkLand->fix",
-        "mk/MkLand->hit",
-        "mk/MkLand->label",
-        "mk/MkLand->lastL",
-        "mk/MkLand->lastR",
-        "mk/MkLand->lastS",
-        "mk/MkLand->on",
-        "mk/MkLand->pressed",
-        "mk/MkLand->rel",
-        "mk/MkLand->rowY",
-        "mk/MkLand->scan",
-        "mk/MkLand->side",
-        "mk/MkLand->tracking",
-        "mk/Th->bg",
-        "mk/Th->dark",
-        "mk/Th->nav"
-      ]
-    },
-    {
-      "class": "and$1",
-      "smali": "apktool/smali_classes5/mk/MkLand$1.smali",
-      "calls": [
-        "mk/MkLand$1->val$v",
-        "mk/MkLand->ensure"
-      ]
-    },
-    {
-      "class": "and$2",
-      "smali": "apktool/smali_classes5/mk/MkLand$2.smali",
-      "calls": [
-        "mk/MkLand$2->val$r",
-        "mk/MkLand$2->val$v",
-        "mk/MkLand->emoji"
-      ]
-    },
     {
       "class": "android.support.v7.widget.SwitchCompat",
       "smali": "apktool/smali_classes2/android/support/v7/widget/SwitchCompat.smali",
@@ -184,7 +157,7 @@
       ]
     },
     {
-      "class": "atinFixedCountCandidatesHolderView",
+      "class": "com.google.android.apps.inputmethod.latin.keyboard.widget.LatinFixedCountCandidatesHolderView",
       "smali": "apktool/smali/com/google/android/apps/inputmethod/latin/keyboard/widget/LatinFixedCountCandidatesHolderView.smali",
       "calls": [
         "mk/Th->sugg"
@@ -279,14 +252,14 @@
     }
   ],
   "classes_per_dex": {
-    "smali_classes5": 3,
+    "smali_classes5": 6,
     "smali_classes6": 4,
     "smali_classes7": 6
   },
   "call_frequency": [
     [
       "mk/Th->bg",
-      4
+      3
     ],
     [
       "mk/Th->hint",
@@ -298,10 +271,6 @@
     ],
     [
       "mk/Tog->sw",
-      2
-    ],
-    [
-      "mk/MkLand->ensure",
       2
     ],
     [
@@ -342,138 +311,6 @@
     ],
     [
       "mk/Th->pop2",
-      1
-    ],
-    [
-      "mk/MkLand$2->val$r",
-      1
-    ],
-    [
-      "mk/MkLand$2->val$v",
-      1
-    ],
-    [
-      "mk/MkLand->emoji",
-      1
-    ],
-    [
-      "mk/MkLand$1->val$v",
-      1
-    ],
-    [
-      "mk/MkBar->globe",
-      1
-    ],
-    [
-      "mk/MkBar->mic",
-      1
-    ],
-    [
-      "mk/MkGlass->kbTop",
-      1
-    ],
-    [
-      "mk/MkIcon->globe",
-      1
-    ],
-    [
-      "mk/MkIcon->mic",
-      1
-    ],
-    [
-      "mk/MkLand$1-><init>",
-      1
-    ],
-    [
-      "mk/MkLand$2-><init>",
-      1
-    ],
-    [
-      "mk/MkLand->A",
-      1
-    ],
-    [
-      "mk/MkLand->B",
-      1
-    ],
-    [
-      "mk/MkLand->P",
-      1
-    ],
-    [
-      "mk/MkLand->best",
-      1
-    ],
-    [
-      "mk/MkLand->bestY",
-      1
-    ],
-    [
-      "mk/MkLand->dp",
-      1
-    ],
-    [
-      "mk/MkLand->emojiKey",
-      1
-    ],
-    [
-      "mk/MkLand->fix",
-      1
-    ],
-    [
-      "mk/MkLand->hit",
-      1
-    ],
-    [
-      "mk/MkLand->label",
-      1
-    ],
-    [
-      "mk/MkLand->lastL",
-      1
-    ],
-    [
-      "mk/MkLand->lastR",
-      1
-    ],
-    [
-      "mk/MkLand->lastS",
-      1
-    ],
-    [
-      "mk/MkLand->on",
-      1
-    ],
-    [
-      "mk/MkLand->pressed",
-      1
-    ],
-    [
-      "mk/MkLand->rel",
-      1
-    ],
-    [
-      "mk/MkLand->rowY",
-      1
-    ],
-    [
-      "mk/MkLand->scan",
-      1
-    ],
-    [
-      "mk/MkLand->side",
-      1
-    ],
-    [
-      "mk/MkLand->tracking",
-      1
-    ],
-    [
-      "mk/Th->dark",
-      1
-    ],
-    [
-      "mk/Th->nav",
       1
     ]
   ]

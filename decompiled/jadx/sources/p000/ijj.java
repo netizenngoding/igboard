@@ -1,6 +1,7 @@
 package p000;
 
 import android.content.Context;
+import java.io.IOException;
 import java.io.InputStream;
 
 /* JADX INFO: compiled from: PG */
@@ -24,7 +25,7 @@ final class ijj extends acfy implements acgy {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) throws IOException {
         acbw.m3007V(obj);
         InputStream inputStreamOpen = this.f35027a.getAssets().open("mozc.data");
         achu.m3300g(inputStreamOpen, "open(...)");

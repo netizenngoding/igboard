@@ -53,7 +53,7 @@ final class bsc extends acfy implements acgy {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         Object obj2;
         acie acieVar;
         acic acicVar;

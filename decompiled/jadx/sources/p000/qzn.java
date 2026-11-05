@@ -286,34 +286,30 @@ public final class qzn implements qzl {
     @Override // p000.qzl
     /* JADX INFO: renamed from: e */
     public final synchronized void mo29069e() {
+        SQLiteDatabase sQLiteDatabase = this.f58500c;
+        sQLiteDatabase.beginTransaction();
         try {
-            SQLiteDatabase sQLiteDatabase = this.f58500c;
-            sQLiteDatabase.beginTransaction();
-            try {
-                wuj wujVarListIterator = ((wns) this.f58499b.values()).listIterator(0);
-                while (wujVarListIterator.hasNext()) {
-                    qzs qzsVar = (qzs) wujVarListIterator.next();
-                    SQLiteDatabase sQLiteDatabase2 = qzsVar.f58521d;
-                    String str = qzsVar.f58519b;
-                    wgo wgoVar = qze.f58481a;
-                    sQLiteDatabase2.delete(str, null, null);
-                    if (!sQLiteDatabase2.inTransaction()) {
-                        qzsVar.m29086e(false);
-                    }
+            wuj wujVarListIterator = ((wns) this.f58499b.values()).listIterator(0);
+            while (wujVarListIterator.hasNext()) {
+                qzs qzsVar = (qzs) wujVarListIterator.next();
+                SQLiteDatabase sQLiteDatabase2 = qzsVar.f58521d;
+                String str = qzsVar.f58519b;
+                wgo wgoVar = qze.f58481a;
+                sQLiteDatabase2.delete(str, null, null);
+                if (!sQLiteDatabase2.inTransaction()) {
+                    qzsVar.m29086e(false);
                 }
-                sQLiteDatabase.setTransactionSuccessful();
-                sQLiteDatabase.endTransaction();
-                m29075h(true);
-                this.f58503f = -1L;
-                qzs.m29080c(new File(this.f58502e, "_tmp"));
-            } catch (Throwable th) {
-                this.f58500c.endTransaction();
-                m29075h(true);
-                this.f58503f = -1L;
-                throw th;
             }
-        } catch (Throwable th2) {
-            throw th2;
+            sQLiteDatabase.setTransactionSuccessful();
+            sQLiteDatabase.endTransaction();
+            m29075h(true);
+            this.f58503f = -1L;
+            qzs.m29080c(new File(this.f58502e, "_tmp"));
+        } catch (Throwable th) {
+            this.f58500c.endTransaction();
+            m29075h(true);
+            this.f58503f = -1L;
+            throw th;
         }
     }
 
@@ -322,148 +318,152 @@ public final class qzn implements qzl {
     final synchronized void m29077g() {
         int i;
         int i2;
-        int i3 = 0;
-        wuj wujVarListIterator = ((wns) this.f58499b.values()).listIterator(0);
-        while (wujVarListIterator.hasNext()) {
-            qzs qzsVar = (qzs) wujVarListIterator.next();
-            SQLiteDatabase sQLiteDatabase = qzsVar.f58521d;
-            wpa wpaVarM29052a = qze.m29052a(sQLiteDatabase);
-            String str = qzsVar.f58519b;
-            if (wpaVarM29052a.contains(str)) {
-                Object[] objArr = new Object[1];
-                objArr[i3] = str;
-                Cursor cursorRawQuery = sQLiteDatabase.rawQuery(String.format("PRAGMA TABLE_INFO(%s)", objArr), null);
-                try {
-                    wnv wnvVar = new wnv(4);
-                    int i4 = 2;
-                    if (cursorRawQuery.moveToFirst()) {
-                        while (true) {
-                            String string = cursorRawQuery.getString(1);
-                            String string2 = cursorRawQuery.getString(i4);
-                            boolean z = cursorRawQuery.getInt(3) == 0 ? 1 : i3;
-                            boolean z2 = cursorRawQuery.getInt(5) != 0 ? 1 : i3;
-                            i = i3;
-                            i2 = i4;
-                            qyy qyyVar = (qyy) ((wsw) qyz.f58460a).f73391d.get(zli.m36077bB(string2));
-                            if (qyyVar == null) {
-                                throw new IllegalArgumentException("No matching type for given type name: ".concat(String.valueOf(string2)));
+        try {
+            int i3 = 0;
+            wuj wujVarListIterator = ((wns) this.f58499b.values()).listIterator(0);
+            while (wujVarListIterator.hasNext()) {
+                qzs qzsVar = (qzs) wujVarListIterator.next();
+                SQLiteDatabase sQLiteDatabase = qzsVar.f58521d;
+                wpa wpaVarM29052a = qze.m29052a(sQLiteDatabase);
+                String str = qzsVar.f58519b;
+                if (wpaVarM29052a.contains(str)) {
+                    Object[] objArr = new Object[1];
+                    objArr[i3] = str;
+                    Cursor cursorRawQuery = sQLiteDatabase.rawQuery(String.format("PRAGMA TABLE_INFO(%s)", objArr), null);
+                    try {
+                        wnv wnvVar = new wnv(4);
+                        int i4 = 2;
+                        if (cursorRawQuery.moveToFirst()) {
+                            while (true) {
+                                String string = cursorRawQuery.getString(1);
+                                String string2 = cursorRawQuery.getString(i4);
+                                boolean z = cursorRawQuery.getInt(3) == 0 ? 1 : i3;
+                                boolean z2 = cursorRawQuery.getInt(5) != 0 ? 1 : i3;
+                                i = i3;
+                                i2 = i4;
+                                qyy qyyVar = (qyy) ((wsw) qyz.f58460a).f73391d.get(zli.m36077bB(string2));
+                                if (qyyVar == null) {
+                                    throw new IllegalArgumentException("No matching type for given type name: ".concat(String.valueOf(string2)));
+                                }
+                                wnvVar.mo29447a(string, new qyx(qyyVar, z2, z));
+                                if (!cursorRawQuery.moveToNext()) {
+                                    break;
+                                }
+                                i4 = i2;
+                                i3 = i;
+                                throw th;
                             }
-                            wnvVar.mo29447a(string, new qyx(qyyVar, z2, z));
-                            if (!cursorRawQuery.moveToNext()) {
-                                break;
+                        }
+                        i = i3;
+                        i2 = 2;
+                        wnz wnzVarM34550f = wnvVar.m34550f(true);
+                        if (cursorRawQuery != null) {
+                            cursorRawQuery.close();
+                        }
+                        wpa wpaVarM29053b = qze.m29053b(sQLiteDatabase, str, true);
+                        if (wpaVarM29053b.size() > 1) {
+                            ((wvu) qzs.f58518a.mo34775a(olz.f51265a).mo34836j("com/google/android/libraries/inputmethod/protoxdb/TableSchema", "maintainSchema", 602, "TableSchema.java")).mo34808J("ProtoxDb tables only support one unique field, but table [%s] has: %s", str, wpaVarM29053b);
+                        }
+                        String str2 = (String) zli.m36051ac(wpaVarM29053b.iterator(), null);
+                        String str3 = qzsVar.f58520c.f58513d;
+                        if (TextUtils.isEmpty(str3) || TextUtils.equals(str2, str3)) {
+                            if (!TextUtils.isEmpty(str2) && TextUtils.isEmpty(str3)) {
+                                qze.m29056e(sQLiteDatabase, str, str2);
                             }
-                            i4 = i2;
-                            i3 = i;
+                            if (wnzVarM34550f.containsKey("_file_id_")) {
+                                ContentValues contentValues = new ContentValues();
+                                contentValues.putNull("_file_id_");
+                                sQLiteDatabase.update(str, contentValues, "_file_id_ IS NOT NULL", null);
+                            }
+                            wtm wtmVar = new wtm(qzsVar.f58525h.entrySet(), wnzVarM34550f.entrySet());
+                            if (wtmVar.isEmpty()) {
+                                qzsVar.m29084a();
+                            } else {
+                                wui it = wtmVar.iterator();
+                                while (it.hasNext()) {
+                                    Map.Entry entry = (Map.Entry) it.next();
+                                    String str4 = (String) entry.getKey();
+                                    qyx qyxVar = (qyx) entry.getValue();
+                                    qyy qyyVar2 = qyxVar.f58451a;
+                                    String strM29036b = qyz.m29036b(qyyVar2);
+                                    Object[] objArr2 = new Object[3];
+                                    objArr2[i] = str;
+                                    objArr2[1] = str4;
+                                    objArr2[i2] = strM29036b;
+                                    StringBuilder sb = new StringBuilder(String.format("ALTER TABLE %s ADD COLUMN %s %s", objArr2));
+                                    if (!qyxVar.f58453c) {
+                                        qze.m29054c(sb, qyyVar2);
+                                    }
+                                    sQLiteDatabase.execSQL(sb.toString());
+                                }
+                                qzsVar.m29084a();
+                            }
+                        } else {
+                            qze.m29057f(sQLiteDatabase, str);
+                            qzs.m29080c(qzsVar.f58522e);
+                            qzsVar.m29085b();
+                        }
+                    } catch (Throwable th) {
+                        if (cursorRawQuery == null) {
+                            throw th;
+                        }
+                        try {
+                            cursorRawQuery.close();
+                            throw th;
+                        } catch (Throwable th2) {
+                            th.addSuppressed(th2);
                             throw th;
                         }
                     }
+                } else {
+                    qzsVar.m29085b();
                     i = i3;
-                    i2 = 2;
-                    wnz wnzVarM34550f = wnvVar.m34550f(true);
-                    if (cursorRawQuery != null) {
-                        cursorRawQuery.close();
-                    }
-                    wpa wpaVarM29053b = qze.m29053b(sQLiteDatabase, str, true);
-                    if (wpaVarM29053b.size() > 1) {
-                        ((wvu) qzs.f58518a.mo34775a(olz.f51265a).mo34836j("com/google/android/libraries/inputmethod/protoxdb/TableSchema", "maintainSchema", 602, "TableSchema.java")).mo34808J("ProtoxDb tables only support one unique field, but table [%s] has: %s", str, wpaVarM29053b);
-                    }
-                    String str2 = (String) zli.m36051ac(wpaVarM29053b.iterator(), null);
-                    String str3 = qzsVar.f58520c.f58513d;
-                    if (TextUtils.isEmpty(str3) || TextUtils.equals(str2, str3)) {
-                        if (!TextUtils.isEmpty(str2) && TextUtils.isEmpty(str3)) {
-                            qze.m29056e(sQLiteDatabase, str, str2);
-                        }
-                        if (wnzVarM34550f.containsKey("_file_id_")) {
-                            ContentValues contentValues = new ContentValues();
-                            contentValues.putNull("_file_id_");
-                            sQLiteDatabase.update(str, contentValues, "_file_id_ IS NOT NULL", null);
-                        }
-                        wtm wtmVar = new wtm(qzsVar.f58525h.entrySet(), wnzVarM34550f.entrySet());
-                        if (wtmVar.isEmpty()) {
-                            qzsVar.m29084a();
-                        } else {
-                            wui it = wtmVar.iterator();
-                            while (it.hasNext()) {
-                                Map.Entry entry = (Map.Entry) it.next();
-                                String str4 = (String) entry.getKey();
-                                qyx qyxVar = (qyx) entry.getValue();
-                                qyy qyyVar2 = qyxVar.f58451a;
-                                String strM29036b = qyz.m29036b(qyyVar2);
-                                Object[] objArr2 = new Object[3];
-                                objArr2[i] = str;
-                                objArr2[1] = str4;
-                                objArr2[i2] = strM29036b;
-                                StringBuilder sb = new StringBuilder(String.format("ALTER TABLE %s ADD COLUMN %s %s", objArr2));
-                                if (!qyxVar.f58453c) {
-                                    qze.m29054c(sb, qyyVar2);
-                                }
-                                sQLiteDatabase.execSQL(sb.toString());
-                            }
-                            qzsVar.m29084a();
-                        }
-                    } else {
-                        qze.m29057f(sQLiteDatabase, str);
-                        qzs.m29080c(qzsVar.f58522e);
-                        qzsVar.m29085b();
-                    }
-                } catch (Throwable th) {
-                    if (cursorRawQuery == null) {
-                        throw th;
-                    }
-                    try {
-                        cursorRawQuery.close();
-                        throw th;
-                    } catch (Throwable th2) {
-                        th.addSuppressed(th2);
-                        throw th;
+                }
+                qzsVar.f58529l = true;
+                qzr qzrVar = qzsVar.f58520c;
+                File file = qzsVar.f58522e;
+                if (file.exists()) {
+                    qzs.m29080c(file);
+                    if (!file.delete()) {
+                        ((wvu) ((wvu) qzs.f58518a.m34778d()).mo34836j("com/google/android/libraries/inputmethod/protoxdb/TableSchema", "initialize", 204, "TableSchema.java")).mo34849w("Failed to delete disabled table files directory: %s", file);
                     }
                 }
-            } else {
-                qzsVar.m29085b();
-                i = i3;
+                boolean z3 = qzsVar.f58529l;
+                i3 = i;
             }
-            qzsVar.f58529l = true;
-            qzr qzrVar = qzsVar.f58520c;
-            File file = qzsVar.f58522e;
-            if (file.exists()) {
-                qzs.m29080c(file);
-                if (!file.delete()) {
-                    ((wvu) ((wvu) qzs.f58518a.m34778d()).mo34836j("com/google/android/libraries/inputmethod/protoxdb/TableSchema", "initialize", 204, "TableSchema.java")).mo34849w("Failed to delete disabled table files directory: %s", file);
+            int i5 = i3;
+            HashSet hashSet = new HashSet();
+            HashSet hashSet2 = new HashSet();
+            wns wnsVar = this.f58504h.f58492b;
+            int i6 = ((wsx) wnsVar).f73398d;
+            for (int i7 = i5; i7 < i6; i7++) {
+                hashSet.add(((qzr) wnsVar.get(i7)).f58510a.mo29073d());
+            }
+            SQLiteDatabase sQLiteDatabase2 = this.f58500c;
+            wui it2 = zli.m36155v(qze.m29052a(sQLiteDatabase2), hashSet).iterator();
+            while (it2.hasNext()) {
+                String str5 = (String) it2.next();
+                if (!f58498g.contains(str5)) {
+                    qze.m29057f(sQLiteDatabase2, str5);
                 }
             }
-            boolean z3 = qzsVar.f58529l;
-            i3 = i;
-        }
-        int i5 = i3;
-        HashSet hashSet = new HashSet();
-        HashSet hashSet2 = new HashSet();
-        wns wnsVar = this.f58504h.f58492b;
-        int i6 = ((wsx) wnsVar).f73398d;
-        for (int i7 = i5; i7 < i6; i7++) {
-            hashSet.add(((qzr) wnsVar.get(i7)).f58510a.mo29073d());
-        }
-        SQLiteDatabase sQLiteDatabase2 = this.f58500c;
-        wui it2 = zli.m36155v(qze.m29052a(sQLiteDatabase2), hashSet).iterator();
-        while (it2.hasNext()) {
-            String str5 = (String) it2.next();
-            if (!f58498g.contains(str5)) {
-                qze.m29057f(sQLiteDatabase2, str5);
-            }
-        }
-        File[] fileArrListFiles = this.f58502e.listFiles();
-        if (fileArrListFiles != null) {
-            for (int i8 = i5; i8 < fileArrListFiles.length; i8++) {
-                File file2 = fileArrListFiles[i8];
-                String name = file2.getName();
-                if (!name.equals("_tmp") && !hashSet2.contains(name)) {
-                    qzs.m29080c(file2);
-                    if (!file2.delete()) {
-                        ((wvu) ((wvu) f58497a.m34778d()).mo34836j("com/google/android/libraries/inputmethod/protoxdb/ProtoxDb", "sweepUnregisteredTableDirs", 367, "ProtoxDb.java")).mo34849w("Failed to delete unregistered table directory: %s", file2);
+            File[] fileArrListFiles = this.f58502e.listFiles();
+            if (fileArrListFiles != null) {
+                for (int i8 = i5; i8 < fileArrListFiles.length; i8++) {
+                    File file2 = fileArrListFiles[i8];
+                    String name = file2.getName();
+                    if (!name.equals("_tmp") && !hashSet2.contains(name)) {
+                        qzs.m29080c(file2);
+                        if (!file2.delete()) {
+                            ((wvu) ((wvu) f58497a.m34778d()).mo34836j("com/google/android/libraries/inputmethod/protoxdb/ProtoxDb", "sweepUnregisteredTableDirs", 367, "ProtoxDb.java")).mo34849w("Failed to delete unregistered table directory: %s", file2);
+                        }
                     }
                 }
             }
+            m29076i();
+            this.f58503f = -1L;
+        } catch (Throwable th3) {
+            throw th3;
         }
-        m29076i();
-        this.f58503f = -1L;
     }
 }

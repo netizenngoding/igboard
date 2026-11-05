@@ -30,7 +30,7 @@ public final class bui extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         bug bugVar = (bug) this.f13526c;
         acfl acflVar = acfl.f5236a;
         if (this.f13525b != 0) {

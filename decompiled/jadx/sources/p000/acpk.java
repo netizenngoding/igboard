@@ -612,7 +612,7 @@ public class acpk implements acpo {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: f */
-    static /* synthetic */ Object m3770f(acpk acpkVar, acfd acfdVar) throws Throwable {
+    static /* synthetic */ Object m3770f(acpk acpkVar, acfd acfdVar) {
         acpi acpiVar;
         acpt acptVar;
         if (acfdVar instanceof acpi) {
@@ -853,7 +853,7 @@ public class acpk implements acpo {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0015  */
     /* JADX INFO: renamed from: g */
-    public final Object m3778g(acpt acptVar, int i, long j, acfd acfdVar) throws Throwable {
+    public final Object m3778g(acpt acptVar, int i, long j, acfd acfdVar) {
         acpj acpjVar;
         acps acpsVar;
         acpf acpfVar;

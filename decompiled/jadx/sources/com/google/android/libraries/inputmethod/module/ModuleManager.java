@@ -193,20 +193,24 @@ public class ModuleManager implements oab {
         }
 
         public synchronized qgp getModuleObject() {
-            xqq xqqVar = this.createModuleFutureTask;
-            if (xqqVar != null && xqqVar.isDone()) {
-                try {
-                    xqq xqqVar2 = this.createModuleFutureTask;
-                    zli.m36114bm(xqqVar2.isDone(), "Future was expected to be done: %s", xqqVar2);
-                    return (qgp) C0000a.m17R(xqqVar2);
-                } catch (ExecutionException e) {
-                    wwl wwlVarM34777c = ModuleManager.f18229a.m34777c();
-                    wgr wgrVar = new wgr(getClass().getSimpleName());
-                    wgrVar.m34254b("moduleDef", this.moduleDef);
-                    ((wvu) ((wvu) ((wvu) wwlVarM34777c).mo34835i(e)).mo34836j("com/google/android/libraries/inputmethod/module/ModuleManager$ModuleInfo", "getModuleObject", (char) 843, "ModuleManager.java")).mo34849w("Failed to get module from moduleFuture: %s", wgrVar);
+            try {
+                xqq xqqVar = this.createModuleFutureTask;
+                if (xqqVar != null && xqqVar.isDone()) {
+                    try {
+                        xqq xqqVar2 = this.createModuleFutureTask;
+                        zli.m36114bm(xqqVar2.isDone(), "Future was expected to be done: %s", xqqVar2);
+                        return (qgp) C0000a.m17R(xqqVar2);
+                    } catch (ExecutionException e) {
+                        wwl wwlVarM34777c = ModuleManager.f18229a.m34777c();
+                        wgr wgrVar = new wgr(getClass().getSimpleName());
+                        wgrVar.m34254b("moduleDef", this.moduleDef);
+                        ((wvu) ((wvu) ((wvu) wwlVarM34777c).mo34835i(e)).mo34836j("com/google/android/libraries/inputmethod/module/ModuleManager$ModuleInfo", "getModuleObject", (char) 843, "ModuleManager.java")).mo34849w("Failed to get module from moduleFuture: %s", wgrVar);
+                    }
                 }
+                return null;
+            } catch (Throwable th) {
+                throw th;
             }
-            return null;
         }
 
         public qgp loadModule() {

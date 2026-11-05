@@ -77,7 +77,7 @@ public final /* synthetic */ class aaye implements Function {
                 aaay.m446V(aazbVar);
                 return Double.valueOf(true == aazbVar.f2641d ? 30.0d : 90.0d);
             case 4:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 5:
                 int i = ((aazb) obj).f2651n;
                 return null;

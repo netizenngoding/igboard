@@ -53,7 +53,7 @@ public final class adp extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r4v8, types: [acgy, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         int i = this.$cid;
         if (i == 0) {
             aek aekVar = (aek) this.f8244a;

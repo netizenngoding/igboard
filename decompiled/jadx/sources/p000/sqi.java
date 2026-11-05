@@ -177,7 +177,7 @@ public final class sqi implements soq {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.soq
     /* JADX INFO: renamed from: a */
-    public final Object mo30425a(String str, acfd acfdVar) throws Throwable {
+    public final Object mo30425a(String str, acfd acfdVar) {
         sqg sqgVar;
         String strM35121v;
         String str2;

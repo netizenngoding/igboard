@@ -7,6 +7,10 @@ public class dox extends dpf {
     /* JADX INFO: renamed from: a */
     private final int f21709a;
 
+    public /* synthetic */ dox(int i) {
+        this.f21709a = i;
+    }
+
     @Override // p000.dpf
     /* JADX INFO: renamed from: b */
     public final int mo12999b() {

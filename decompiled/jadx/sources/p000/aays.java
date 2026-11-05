@@ -79,7 +79,7 @@ public final /* synthetic */ class aays implements Function {
             case 6:
                 return aayw.m1710d((aazb) obj);
             case 7:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 8:
                 return aaay.m432B(obj);
             case 9:

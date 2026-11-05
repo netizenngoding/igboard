@@ -18,7 +18,7 @@ public final class acrd implements acqm {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.acqm
     /* JADX INFO: renamed from: jD */
-    public final Object mo3815jD(acqn acqnVar, acfd acfdVar) throws Throwable {
+    public final Object mo3815jD(acqn acqnVar, acfd acfdVar) {
         acrc acrcVar;
         acsq e;
         Object obj;

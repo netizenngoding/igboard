@@ -82,7 +82,7 @@ public final /* synthetic */ class aayc implements Function {
             case 4:
                 return new aayx(3.0d, 4.5d);
             case 5:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 6:
                 aaay.m447W((aazb) obj);
                 return Double.valueOf(90.0d);

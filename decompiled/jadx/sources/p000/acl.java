@@ -247,7 +247,7 @@ public final class acl implements ahn {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: c */
-    public final Object m3529c(String str, acfd acfdVar) throws Throwable {
+    public final Object m3529c(String str, acfd acfdVar) {
         acj acjVar;
         if (acfdVar instanceof acj) {
             acjVar = (acj) acfdVar;

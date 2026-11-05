@@ -39,7 +39,7 @@ public final class klv {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m21593a(acfd acfdVar) throws Throwable {
+    public final Object m21593a(acfd acfdVar) {
         klu kluVar;
         int i;
         int i2;

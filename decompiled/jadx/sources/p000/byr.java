@@ -45,6 +45,14 @@ public final class byr {
     /* JADX INFO: renamed from: j */
     final byy f13840j;
 
+    /* JADX WARN: Bottom block not found for handler: all -> 0x0093 */
+    /* JADX WARN: Code restructure failed: missing block: B:24:0x0099, code lost:
+    
+        return;
+     */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+    */
     public byr(byo byoVar) {
         ReentrantReadWriteLock reentrantReadWriteLock = new ReentrantReadWriteLock();
         this.f13833c = reentrantReadWriteLock;
@@ -66,28 +74,24 @@ public final class byr {
             this.f13835e = 0;
             reentrantReadWriteLock.writeLock().unlock();
             if (m8702a() == 0) {
-                try {
-                    adgs adgsVar = new adgs(bynVar, (byte[]) null);
-                    byy byyVar = bynVar.f13821a.f13840j;
-                    synchronized (byyVar.f13860a) {
-                        try {
-                            if (byyVar.f13861b == null) {
-                                byyVar.f13862c = new HandlerThread("emojiCompat", 10);
-                                byyVar.f13862c.start();
-                                byyVar.f13861b = new Handler(byyVar.f13862c.getLooper());
-                            }
-                            byyVar.f13861b.post(new byw(byyVar, adgsVar, 0));
-                        } catch (Throwable th) {
-                            throw th;
+                adgs adgsVar = new adgs(bynVar, (byte[]) null);
+                byy byyVar = bynVar.f13821a.f13840j;
+                synchronized (byyVar.f13860a) {
+                    try {
+                        if (byyVar.f13861b == null) {
+                            byyVar.f13862c = new HandlerThread("emojiCompat", 10);
+                            byyVar.f13862c.start();
+                            byyVar.f13861b = new Handler(byyVar.f13862c.getLooper());
                         }
+                        byyVar.f13861b.post(new byw(byyVar, adgsVar, 0));
+                    } catch (Throwable th) {
+                        throw th;
                     }
-                } catch (Throwable th2) {
-                    bynVar.f13821a.m8704d(th2);
                 }
             }
-        } catch (Throwable th3) {
+        } catch (Throwable th2) {
             this.f13833c.writeLock().unlock();
-            throw th3;
+            throw th2;
         }
     }
 

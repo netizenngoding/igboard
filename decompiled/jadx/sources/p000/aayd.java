@@ -67,7 +67,7 @@ public final /* synthetic */ class aayd implements Function {
     public final Object apply(Object obj) {
         switch (this.$cid) {
             case 0:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 1:
                 return aaay.m442L(obj);
             case 2:
@@ -76,7 +76,7 @@ public final /* synthetic */ class aayd implements Function {
             case 3:
                 return aaay.m442L(obj);
             case 4:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 5:
                 aazb aazbVar = (aazb) obj;
                 aaay.m447W(aazbVar);
@@ -84,7 +84,7 @@ public final /* synthetic */ class aayd implements Function {
             case 6:
                 return aaay.m443M(obj);
             case 7:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 8:
                 aaay.m447W((aazb) obj);
                 return Double.valueOf(30.0d);
@@ -101,9 +101,9 @@ public final /* synthetic */ class aayd implements Function {
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
                 return aaay.m443M(obj);
             case 15:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 16:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 17:
                 return aaay.m444N(obj);
             case 18:
