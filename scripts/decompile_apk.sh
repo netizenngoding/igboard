@@ -61,12 +61,14 @@ done
 
 echo "== 5. certificates =="
 mkdir -p "$OUT/certs"
-if ls "$OUT/raw"/META-INF/*.RSA "$OUT/raw"/META-INF/*.DSA "$OUT/raw"/META-INF/*.EC >/dev/null 2>&1; then
+if compgen -G "$OUT/raw/META-INF/*.RSA" >/dev/null || compgen -G "$OUT/raw/META-INF/*.DSA" >/dev/null \
+   || compgen -G "$OUT/raw/META-INF/*.EC" >/dev/null; then
   keytool -printcert -jarfile "$APK" > "$OUT/certs/keystore-v1.txt" 2>&1 || true
 fi
 
 echo "== 6. reports =="
 APK="$APK" OUT="$OUT" ANA="${ANA:-$ROOT/analysis}" python3 "$ROOT/scripts/apk_survey.py"
+OUT="$OUT" ANA="${ANA:-$ROOT/analysis}" python3 "$ROOT/scripts/mod_map.py"
 
 echo "== done =="
 du -sh "$OUT"/* 2>/dev/null || true
