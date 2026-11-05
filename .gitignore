@@ -3,3 +3,5 @@
 # local scratch output from scripts/decompile_apk.sh
 decompiled/**/tmp/
 *.log.tmp
+__pycache__/
+*.pyc

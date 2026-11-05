@@ -36,10 +36,19 @@ java -Xmx4g -jar "$TOOLS/apktool.jar" d -f -o "$OUT/apktool" "$APK"
 echo "== 3. jadx (java sources + resources) =="
 rm -rf "$OUT/jadx"
 jadx_run() { java "-Xmx$JADX_HEAP" -cp "$TOOLS/jadx/lib/*" jadx.cli.JadxCLI "$@"; }
+# jadx exits non-zero whenever it hits un-decompilable methods; that is normal for
+# a large obfuscated app and is not a reason to lose the recovered sources.
 if ! jadx_run -d "$OUT/jadx" --show-bad-code --deobf --threads-count "$JADX_THREADS" "$APK"; then
-  echo "!! full jadx run failed, retrying without resources" >&2
+  echo "!! jadx reported per-method errors; keeping partial output" >&2
+fi
+java_files=$(find "$OUT/jadx/sources" -name '*.java' 2>/dev/null | wc -l)
+echo "   recovered java files: $java_files"
+if [ "$java_files" -lt 100 ]; then
+  echo "!! too few java files, retrying without resource decoding" >&2
   rm -rf "$OUT/jadx"
-  jadx_run -d "$OUT/jadx" --show-bad-code --deobf --no-res --threads-count "$JADX_THREADS" "$APK"
+  jadx_run -d "$OUT/jadx" --show-bad-code --deobf --no-res --threads-count "$JADX_THREADS" "$APK" || true
+  java_files=$(find "$OUT/jadx/sources" -name '*.java' 2>/dev/null | wc -l)
+  echo "   recovered java files after retry: $java_files"
 fi
 
 echo "== 4. native library ELF dumps =="
