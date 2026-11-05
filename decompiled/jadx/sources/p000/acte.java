@@ -25,7 +25,7 @@ final class acte implements acqn {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo2603a(Object obj, acfd acfdVar) throws Throwable {
+    public final Object mo2603a(Object obj, acfd acfdVar) {
         actd actdVar;
         if (acfdVar instanceof actd) {
             actdVar = (actd) acfdVar;

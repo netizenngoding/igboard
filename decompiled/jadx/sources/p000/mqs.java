@@ -121,9 +121,15 @@ public final class mqs {
 
     /* JADX INFO: renamed from: g */
     public final boolean m23806g() {
-        if (m23804e()) {
-            return !obk.m25249N(this.f46856i) || !qlp.m28427e(rff.f58888b) || Collection.EL.stream(this.f46853f.values()).filter(new kao(9)).map(new kez(9)).anyMatch(new jhg(this, 18)) || this.f46860m;
+        if (!m23804e()) {
+            return false;
         }
-        return false;
+        if (obk.m25249N(this.f46856i) && qlp.m28427e(rff.f58888b)) {
+            int i = 9;
+            if (!Collection.EL.stream(this.f46853f.values()).filter(new kao(i)).map(new kez(i)).anyMatch(new jhg(this, 18)) && !this.f46860m) {
+                return false;
+            }
+        }
+        return true;
     }
 }

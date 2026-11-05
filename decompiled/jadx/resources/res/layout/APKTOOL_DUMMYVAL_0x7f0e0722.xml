@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag=".keytop.for-action-key"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150369">
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView
+        android:tag=".background-icon.for-action-key"
+        style="@style/APKTOOL_DUMMYVAL_0x7f15032c"/>
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleAndAutoMirroredImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+        android:tag=".icon.for-action-key"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150320"/>
+</FrameLayout>

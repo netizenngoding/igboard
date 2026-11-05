@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.textediting.TextEditingKeyboard">
+        <view
+            direction="locale"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055c"
+            scalable="false"
+            type="header">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17123a"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e89"/>
+        </view>
+        <view
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055a"
+            type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171239"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e88"/>
+        </view>
+    </keyboard>
+</framework>

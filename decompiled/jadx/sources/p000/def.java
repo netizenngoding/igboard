@@ -9,7 +9,7 @@ public final class def {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public static final Object m12532a(lsn lsnVar, dcm dcmVar, acfd acfdVar) throws Throwable {
+    public static final Object m12532a(lsn lsnVar, dcm dcmVar, acfd acfdVar) {
         dee deeVar;
         if (acfdVar instanceof dee) {
             deeVar = (dee) acfdVar;

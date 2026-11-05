@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="zero">‫%1$d ساعة</item>
+        <item quantity="one">ساعة واحدة (%1$d)</item>
+        <item quantity="two">ساعتَين (%1$d)</item>
+        <item quantity="few">‫%1$d ساعات</item>
+        <item quantity="many">‫%1$d ساعة</item>
+        <item quantity="other">‫%1$d ساعة</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="zero">‫%1$d دقيقة</item>
+        <item quantity="one">دقيقة واحدة (%1$d)</item>
+        <item quantity="two">دقيقتان (%1$d)</item>
+        <item quantity="few">‫%1$d دقائق</item>
+        <item quantity="many">‫%1$d دقيقة</item>
+        <item quantity="other">‫%1$d دقيقة</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="zero">أنت على وشك الوصول إلى الحد الأقصى للجلسة الذي يبلغ %1$d دقيقة</item>
+        <item quantity="one">أنت على وشك الوصول إلى الحد الأقصى للجلسة الذي يبلغ دقيقة واحدة (%1$d)</item>
+        <item quantity="two">أنت على وشك الوصول إلى الحد الأقصى للجلسة الذي يبلغ دقيقتَين (%1$d)</item>
+        <item quantity="few">أنت على وشك الوصول إلى الحد الأقصى للجلسة الذي يبلغ %1$d دقائق</item>
+        <item quantity="many">أنت على وشك الوصول إلى الحد الأقصى للجلسة الذي يبلغ %1$d دقيقة</item>
+        <item quantity="other">أنت على وشك الوصول إلى الحد الأقصى للجلسة الذي يبلغ %1$d دقيقة</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="zero">سيتم إغلاق الجلسة بعد %1$d ثانية…</item>
+        <item quantity="one">سيتم إغلاق الجلسة بعد ثانية واحدة (%1$d)…</item>
+        <item quantity="two">سيتم إغلاق الجلسة بعد ثانيتَين (%1$d)…</item>
+        <item quantity="few">سيتم إغلاق الجلسة بعد %1$d ثوانٍ…</item>
+        <item quantity="many">سيتم إغلاق الجلسة بعد %1$d ثانية…</item>
+        <item quantity="other">سيتم إغلاق الجلسة بعد %1$d ثانية…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="zero">تم تحديد %d مفتاح</item>
+        <item quantity="one">تم تحديد مفتاح واحد (%d)</item>
+        <item quantity="two">تم تحديد مفتاحَين (%d)</item>
+        <item quantity="few">تم تحديد %d مفاتيح</item>
+        <item quantity="many">تم تحديد %d مفتاحًا</item>
+        <item quantity="other">تم تحديد %d مفتاح</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="zero">اكتملت عملية تثبيت اللغات %s.</item>
+        <item quantity="one">اكتملت عملية تثبيت اللغة %s.</item>
+        <item quantity="two">اكتملت عملية تثبيت اللغتين %s.</item>
+        <item quantity="few">اكتملت عملية تثبيت اللغات %s.</item>
+        <item quantity="many">اكتملت عملية تثبيت اللغات %s.</item>
+        <item quantity="other">اكتملت عملية تثبيت اللغات %s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="zero">‫%d ساعة</item>
+        <item quantity="one">ساعة واحدة (%d)</item>
+        <item quantity="two">ساعتَين (%d)</item>
+        <item quantity="few">‫%d ساعات</item>
+        <item quantity="many">‫%d ساعة</item>
+        <item quantity="other">‫%d ساعة</item>
+    </plurals>
+</resources>

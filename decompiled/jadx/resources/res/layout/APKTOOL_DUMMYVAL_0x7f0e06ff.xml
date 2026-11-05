@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duplicateParentState="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+        style="@style/APKTOOL_DUMMYVAL_0x7f15031b"/>
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1503be"/>
+</FrameLayout>

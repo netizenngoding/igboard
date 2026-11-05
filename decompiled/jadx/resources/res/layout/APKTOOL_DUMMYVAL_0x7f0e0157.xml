@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+    android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a50"
+    android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404c1"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b038e"
+    android:tag=".label.secondary.non-linear-scale"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/APKTOOL_DUMMYVAL_0x7f140444"/>

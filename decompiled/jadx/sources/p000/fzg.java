@@ -433,40 +433,36 @@ public final class fzg implements AutoCloseable {
                                     yxjVar2 = yxjVar3;
                                 }
                                 synchronized (fzgVar.f28044e) {
-                                    try {
-                                        if (!fzgVar.m15662v(i2)) {
-                                            boolean zM15758h = fzgVar.f28046g.m15758h(yxjVar2, fzrVar, qenVar);
-                                            AtomicBoolean atomicBoolean = fzgVar.f28041b;
-                                            synchronized (atomicBoolean) {
-                                                try {
-                                                    if (zM15758h) {
-                                                        wxa wxaVar2 = (wxa) ((wxa) wxeVar.m34776b()).mo34836j("com/google/android/apps/inputmethod/libs/delight5/Delight5DecoderWrapper", "loadLanguageModel", 1021, "Delight5DecoderWrapper.java");
-                                                        yxi yxiVarM35888b7 = yxi.m35888b(yxjVar2.f80159e);
-                                                        if (yxiVarM35888b7 == null) {
-                                                            yxiVarM35888b7 = yxi.UNKNOWN;
-                                                        }
-                                                        wxaVar2.mo34808J("Loaded main LM %s.%s", yxiVarM35888b7, yxjVar2.f80163i);
-                                                        fzgVar.f28045f.add(yxjVar2);
-                                                        atomicBoolean.set(true);
-                                                        atomicBoolean.notifyAll();
-                                                    } else {
-                                                        wxa wxaVar3 = (wxa) ((wxa) wxeVar.m34778d()).mo34836j("com/google/android/apps/inputmethod/libs/delight5/Delight5DecoderWrapper", "loadLanguageModel", 1027, "Delight5DecoderWrapper.java");
-                                                        yxi yxiVarM35888b8 = yxi.m35888b(yxjVar2.f80159e);
-                                                        if (yxiVarM35888b8 == null) {
-                                                            yxiVarM35888b8 = yxi.UNKNOWN;
-                                                        }
-                                                        wxaVar3.mo34800B("Failed to load main LM %d.%s", yxiVarM35888b8.f80154y, yxjVar2.f80163i);
-                                                        fzgVar.f28054o = true;
-                                                        fzgVar.f28047h.mo17400n(fzo.DELIGHT_LOAD_MAIN_LM_FAILED, new Object[0]);
-                                                        fzgVar.f28055p.add(sfg.m30079b(yxjVar2.f80163i, yxjVar2.f80164j));
+                                    if (!fzgVar.m15662v(i2)) {
+                                        boolean zM15758h = fzgVar.f28046g.m15758h(yxjVar2, fzrVar, qenVar);
+                                        AtomicBoolean atomicBoolean = fzgVar.f28041b;
+                                        synchronized (atomicBoolean) {
+                                            try {
+                                                if (zM15758h) {
+                                                    wxa wxaVar2 = (wxa) ((wxa) wxeVar.m34776b()).mo34836j("com/google/android/apps/inputmethod/libs/delight5/Delight5DecoderWrapper", "loadLanguageModel", 1021, "Delight5DecoderWrapper.java");
+                                                    yxi yxiVarM35888b7 = yxi.m35888b(yxjVar2.f80159e);
+                                                    if (yxiVarM35888b7 == null) {
+                                                        yxiVarM35888b7 = yxi.UNKNOWN;
                                                     }
-                                                } catch (Throwable th) {
-                                                    throw th;
+                                                    wxaVar2.mo34808J("Loaded main LM %s.%s", yxiVarM35888b7, yxjVar2.f80163i);
+                                                    fzgVar.f28045f.add(yxjVar2);
+                                                    atomicBoolean.set(true);
+                                                    atomicBoolean.notifyAll();
+                                                } else {
+                                                    wxa wxaVar3 = (wxa) ((wxa) wxeVar.m34778d()).mo34836j("com/google/android/apps/inputmethod/libs/delight5/Delight5DecoderWrapper", "loadLanguageModel", 1027, "Delight5DecoderWrapper.java");
+                                                    yxi yxiVarM35888b8 = yxi.m35888b(yxjVar2.f80159e);
+                                                    if (yxiVarM35888b8 == null) {
+                                                        yxiVarM35888b8 = yxi.UNKNOWN;
+                                                    }
+                                                    wxaVar3.mo34800B("Failed to load main LM %d.%s", yxiVarM35888b8.f80154y, yxjVar2.f80163i);
+                                                    fzgVar.f28054o = true;
+                                                    fzgVar.f28047h.mo17400n(fzo.DELIGHT_LOAD_MAIN_LM_FAILED, new Object[0]);
+                                                    fzgVar.f28055p.add(sfg.m30079b(yxjVar2.f80163i, yxjVar2.f80164j));
                                                 }
+                                            } catch (Throwable th) {
+                                                throw th;
                                             }
                                         }
-                                    } catch (Throwable th2) {
-                                        throw th2;
                                     }
                                 }
                             } else if (!fzgVar.m15662v(i2)) {
@@ -508,7 +504,7 @@ public final class fzg implements AutoCloseable {
                             atomicBoolean2.notifyAll();
                         }
                     }
-                } catch (Throwable th3) {
+                } catch (Throwable th2) {
                     yxi yxiVarM35888b13 = yxi.m35888b(yxjVar3.f80159e);
                     if (yxiVarM35888b13 == null) {
                         yxiVarM35888b13 = yxi.UNKNOWN;
@@ -522,7 +518,7 @@ public final class fzg implements AutoCloseable {
                             atomicBoolean3.notifyAll();
                         }
                     }
-                    throw th3;
+                    throw th2;
                 }
             }
         });

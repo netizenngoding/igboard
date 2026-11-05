@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f04005f"
+    android:minWidth="?attr/APKTOOL_DUMMYVAL_0x7f04005f"
+    android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140044"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150781">
+    <ImageView
+        android:importantForAccessibility="no"
+        style="@style/APKTOOL_DUMMYVAL_0x7f15075d"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

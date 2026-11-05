@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:tag=".non-linear-scale"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="2dp">
+    <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+        android:scrollbarStyle="outsideOverlay"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02c3"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ac"
+        android:visibility="gone"
+        android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1403ad"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1504a4"/>
+</LinearLayout>

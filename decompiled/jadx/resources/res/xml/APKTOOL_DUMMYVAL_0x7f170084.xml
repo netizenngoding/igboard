@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="ar-SA"
+        string_id="ime_arabic_hejazi">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f17047d"
+            non_prime_def="@xml/APKTOOL_DUMMYVAL_0x7f170907"
+            support_a11y_keyboard="true"
+            variant="arabic"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141417"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f17047e"
+            non_prime_def="@xml/APKTOOL_DUMMYVAL_0x7f170907"
+            support_a11y_keyboard="true"
+            variant="arabic_two"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141418"/>
+    </ime>
+</framework>

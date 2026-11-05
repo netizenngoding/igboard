@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.tooltip.WidgetTooltipView style="@style/APKTOOL_DUMMYVAL_0x7f151154">
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f151156">
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f151150">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0821"/>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0824"/>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0822"/>
+        </LinearLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e081b"/>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.companionwidget.tooltip.WidgetTooltipView>

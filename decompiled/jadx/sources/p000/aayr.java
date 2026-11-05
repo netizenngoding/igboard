@@ -72,13 +72,13 @@ public final /* synthetic */ class aayr implements Function {
             case 2:
                 return aaay.m434D(obj);
             case 3:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 4:
                 return aaay.m431A(obj);
             case 5:
                 return aaay.m431A(obj);
             case 6:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 7:
                 return aayw.m1710d((aazb) obj);
             case 8:
@@ -90,12 +90,12 @@ public final /* synthetic */ class aayr implements Function {
             case 11:
                 return aaay.m435E(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 ((aazb) obj).f2642e;
                 return null;
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 15:
                 aazb aazbVar = (aazb) obj;
                 List list = aazbVar.f2640c;
@@ -103,11 +103,11 @@ public final /* synthetic */ class aayr implements Function {
             case 16:
                 return aaay.m435E(obj);
             case 17:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 18:
                 return aaay.m434D(obj);
             case 19:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             default:
                 return aayw.m1708b(true != ((aazb) obj).f2641d ? 4.5d : 6.0d);
         }

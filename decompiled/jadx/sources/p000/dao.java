@@ -29,7 +29,7 @@ public final class dao extends acfy implements achd {
     /* JADX WARN: Type inference failed for: r8v1, types: [acqn, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         bng bngVar;
         acfl acflVar = acfl.f5236a;
         int i = this.f20403a;

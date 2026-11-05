@@ -154,45 +154,41 @@ public final class pfc implements oab {
 
     /* JADX INFO: renamed from: d */
     public final synchronized void m26707d(Collection collection, String str) {
-        try {
-            ((wvu) ((wvu) f53634a.m34776b()).mo34836j("com/google/android/libraries/inputmethod/inputmethodentry/ImeDefCache", "clearCacheForLanguages", 340, "ImeDefCache.java")).mo34808J("clearCacheForLanguages: languagesToClear=%s, conditionName=%s", collection, str);
-            HashSet hashSet = new HashSet();
-            if (collection != null) {
-                Iterator it = collection.iterator();
-                while (it.hasNext()) {
-                    sfc sfcVar = (sfc) it.next();
-                    xqp xqpVar = (xqp) this.f53638e.remove(sfcVar);
-                    if (xqpVar != null) {
-                        xqpVar.cancel(false);
-                        hashSet.add(sfcVar);
-                    }
-                }
-            } else {
-                synchronized (this) {
-                    hashSet.addAll(this.f53638e.keySet());
-                    m26703h();
+        ((wvu) ((wvu) f53634a.m34776b()).mo34836j("com/google/android/libraries/inputmethod/inputmethodentry/ImeDefCache", "clearCacheForLanguages", 340, "ImeDefCache.java")).mo34808J("clearCacheForLanguages: languagesToClear=%s, conditionName=%s", collection, str);
+        HashSet hashSet = new HashSet();
+        if (collection != null) {
+            Iterator it = collection.iterator();
+            while (it.hasNext()) {
+                sfc sfcVar = (sfc) it.next();
+                xqp xqpVar = (xqp) this.f53638e.remove(sfcVar);
+                if (xqpVar != null) {
+                    xqpVar.cancel(false);
+                    hashSet.add(sfcVar);
                 }
             }
-            Map map = this.f53637d;
-            for (Map.Entry entry : map.entrySet()) {
-                sfc sfcVar2 = (sfc) entry.getKey();
-                if (collection == null || collection.contains(sfcVar2)) {
-                    wui it2 = ((wnz) entry.getValue()).values().iterator();
-                    while (it2.hasNext()) {
-                        if (((ImeDef) it2.next()).f18011x.containsKey(str)) {
-                            hashSet.add(sfcVar2);
-                            break;
-                        }
-                    }
-                }
+        } else {
+            synchronized (this) {
+                hashSet.addAll(this.f53638e.keySet());
+                m26703h();
             }
-            if (hashSet.isEmpty()) {
-                return;
-            }
-            map.keySet().removeAll(hashSet);
-        } catch (Throwable th) {
-            throw th;
         }
+        Map map = this.f53637d;
+        for (Map.Entry entry : map.entrySet()) {
+            sfc sfcVar2 = (sfc) entry.getKey();
+            if (collection == null || collection.contains(sfcVar2)) {
+                wui it2 = ((wnz) entry.getValue()).values().iterator();
+                while (it2.hasNext()) {
+                    if (((ImeDef) it2.next()).f18011x.containsKey(str)) {
+                        hashSet.add(sfcVar2);
+                        break;
+                    }
+                }
+            }
+        }
+        if (hashSet.isEmpty()) {
+            return;
+        }
+        map.keySet().removeAll(hashSet);
     }
 
     @Override // p000.oab

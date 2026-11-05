@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0709e4"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709e4"
+    android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f0709e3"/>

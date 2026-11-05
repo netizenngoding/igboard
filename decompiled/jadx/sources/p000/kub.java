@@ -309,8 +309,10 @@ public final class kub implements ktc {
                     ktaVar.mo21792b(ksz.f42570e);
                 }
             }
-        } finally {
             Trace.endSection();
+        } catch (Throwable th) {
+            Trace.endSection();
+            throw th;
         }
     }
 
@@ -385,10 +387,8 @@ public final class kub implements ktc {
             } else {
                 ((wvu) ((wvu) wvxVar.m34778d()).mo34836j("com/google/android/apps/inputmethod/libs/voiceime/news3/NewS3Recognizer", "startRecognition", 123, "NewS3Recognizer.java")).mo34849w("startRecognition(): Cannot run with %s [news3]", ksaVar);
             }
+        } finally {
             Trace.endSection();
-        } catch (Throwable th) {
-            Trace.endSection();
-            throw th;
         }
     }
 }

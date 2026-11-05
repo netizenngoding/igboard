@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        class="com.google.android.libraries.inputmethod.ime.password.PasswordIme"
+        label="@string/APKTOOL_DUMMYVAL_0x7f140871"
+        language="und-Latn-x-password"
+        string_id="password">
+        <if language="zz">
+            <extra_values>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02fc"
+                    value="@string/APKTOOL_DUMMYVAL_0x7f14068c"/>
+            </extra_values>
+        </if>
+        <if variant="akoose                 |armenian_armenia_phonetic                 |azerbaijani_iran                 |bagri_arabic                 |balinese                 |balochi                 |balti                 |brahui                 |burmese                 |clariti                 |cree_latin                 |dakhini                 |dhatki                 |dhivehi                 |dzongkha                 |fon                 |gilaki                 |gujari                 |hazaragi                 |hindko                 |indus_kohistani                 |ipa_chart                 |kachi_koli                 |kalam_kohistani                 |kazakh_pc                 |khmer_cambodia                 |khmer_cambodia_native                 |khmer_surin                 |khmu                 |khowar                 |klingon                 |lao                 |limbu                 |marwari_arabic                 |mon                 |navajo                 |pahari_pothwari                 |pao_karen                 |parkari_koli                 |pashayi                 |pashto                 |punjabi_pakistan                 |saraiki                 |sasak                 |shina                 |tamil                 |thai                 |tibetan                 |torwali                 |urdu_in                 |urdu_pakistan                 |wanetsi">
+            <keyboard_group>
+                <keyboard
+                    def="@xml/APKTOOL_DUMMYVAL_0x7f170615"
+                    type="prime"/>
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/APKTOOL_DUMMYVAL_0x7f140d5d"
+                        value="true"/>
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </if>
+        <else_if variant="arabic_qwerty|pcqwerty">
+            <keyboard_group>
+                <keyboard
+                    def="@xml/APKTOOL_DUMMYVAL_0x7f170615"
+                    type="prime"/>
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/APKTOOL_DUMMYVAL_0x7f140d5d"
+                        value="false"/>
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </else_if>
+        <else_if variant="morse_2">
+            <keyboard_group>
+                <keyboard
+                    def="@xml/APKTOOL_DUMMYVAL_0x7f170853"
+                    type="prime"/>
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/APKTOOL_DUMMYVAL_0x7f140d5d"
+                        value="false"/>
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </else_if>
+        <else_if enable_number_row="true">
+            <keyboard_group>
+                <keyboard
+                    def="@xml/APKTOOL_DUMMYVAL_0x7f170615"
+                    type="prime"/>
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/APKTOOL_DUMMYVAL_0x7f14093f"
+                        value="false"/>
+                </override_keyboard_xml_conditions>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec5"/>
+            </keyboard_group>
+        </else_if>
+        <else>
+            <keyboard_group>
+                <keyboard
+                    def="@xml/APKTOOL_DUMMYVAL_0x7f170615"
+                    type="prime"/>
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/APKTOOL_DUMMYVAL_0x7f14093f"
+                        value="false"/>
+                    <bool
+                        name="@string/APKTOOL_DUMMYVAL_0x7f140d5d"
+                        value="false"/>
+                </override_keyboard_xml_conditions>
+                <if
+                    enable_number_row_in_password="false"
+                    enable_secondary_digits="true">
+                    <override_keyboard_xml_conditions>
+                        <bool
+                            name="@string/APKTOOL_DUMMYVAL_0x7f140d5d"
+                            value="true"/>
+                    </override_keyboard_xml_conditions>
+                </if>
+            </keyboard_group>
+        </else>
+    </ime>
+</framework>

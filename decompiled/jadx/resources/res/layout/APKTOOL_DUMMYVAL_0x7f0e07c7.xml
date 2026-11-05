@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f150b3e">
+    <com.google.android.material.card.MaterialCardView style="@style/APKTOOL_DUMMYVAL_0x7f150b3d">
+        <ImageView
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b299a"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150b3c"/>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

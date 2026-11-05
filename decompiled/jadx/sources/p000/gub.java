@@ -1,5 +1,6 @@
 package p000;
 
+import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
@@ -30,7 +31,7 @@ final class gub extends acfx implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) throws IOException {
         acjt acjtVar;
         ZipEntry nextEntry;
         acfl acflVar = acfl.f5236a;

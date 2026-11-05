@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="36dp"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1507a1">
+    <ImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0167"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:importantForAccessibility="no"
+        android:layout_marginHorizontal="9dp"/>
+    <TextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b016a"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1507a4"/>
+</LinearLayout>

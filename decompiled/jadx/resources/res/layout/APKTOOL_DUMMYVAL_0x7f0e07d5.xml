@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f150b41">
+    <com.google.android.material.card.MaterialCardView style="@style/APKTOOL_DUMMYVAL_0x7f150b42">
+        <ImageView
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b29ac"
+            android:background="#ff999999"
+            android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07098e"
+            android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07098b"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b29ab"
+            android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080269"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0805ff"
+            android:importantForAccessibility="no"/>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07d1"/>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07d2"/>
+    </com.google.android.material.card.MaterialCardView>
+</com.google.android.material.card.MaterialCardView>

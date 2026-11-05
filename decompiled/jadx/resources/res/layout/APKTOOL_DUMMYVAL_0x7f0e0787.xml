@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f07005a"
+    android:maxHeight="?attr/APKTOOL_DUMMYVAL_0x7f040016"/>

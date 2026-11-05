@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170f06"/>
+    <softkeys>
+        <softkey_list template_id="@+id/APKTOOL_DUMMYVAL_0x7f0b261c">
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f1401b4"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cc8"
+                keycode="SWITCH_KEYBOARD"
+                param_data="prime"
+                param_icon="@drawable/APKTOOL_DUMMYVAL_0x7f0806a4"/>
+        </softkey_list>
+    </softkeys>
+</framework>

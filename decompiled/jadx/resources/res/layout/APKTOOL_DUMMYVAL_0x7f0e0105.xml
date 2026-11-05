@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02b7"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f0402db"
+    android:layout_height="match_parent"/>

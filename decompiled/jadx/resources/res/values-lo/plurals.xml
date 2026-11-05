@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d ຊົ່ວໂມງ</item>
+        <item quantity="other">%1$d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d ນາທີ</item>
+        <item quantity="other">%1$d ນາທີ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">ທ່ານໃກ້ຮອດຂີດຈຳກັດ %1$d ນທ ແລ້ວ</item>
+        <item quantity="other">ທ່ານໃກ້ຮອດຂີດຈຳກັດ %1$d ນທ ແລ້ວ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">ກຳລັງຈະປິດໃນອີກ %1$d ວິນາທີ…</item>
+        <item quantity="other">ກຳລັງຈະປິດໃນອີກ %1$d ວິນາທີ…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">ມອບໝາຍປຸ່ມ %d ແລ້ວ</item>
+        <item quantity="other">ມອບໝາຍປຸ່ມ %d ແລ້ວ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">ຕອນນີ້ຕິດຕັ້ງ %s ແລ້ວ.</item>
+        <item quantity="other">ຕອນນີ້ຕິດຕັ້ງ %s ແລ້ວ.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d ຊົ່ວໂມງ</item>
+        <item quantity="other">%d ຊົ່ວໂມງ</item>
+    </plurals>
+</resources>

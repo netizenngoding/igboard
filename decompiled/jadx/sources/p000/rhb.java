@@ -88,7 +88,7 @@ final class rhb extends acfy implements achc {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         int spanStart;
         float fM22877cl;
         float f;

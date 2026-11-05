@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.emoji.widget.FixedSizeEmojiListHolder xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:APKTOOL_DUMMYVAL_0x7f0404fd="@integer/APKTOOL_DUMMYVAL_0x7f0c001f"
+    app:APKTOOL_DUMMYVAL_0x7f0405c7="@layout/APKTOOL_DUMMYVAL_0x7f0e00d2"
+    app:APKTOOL_DUMMYVAL_0x7f0406a4="true"
+    app:APKTOOL_DUMMYVAL_0x7f04096a="@integer/APKTOOL_DUMMYVAL_0x7f0c0020"/>

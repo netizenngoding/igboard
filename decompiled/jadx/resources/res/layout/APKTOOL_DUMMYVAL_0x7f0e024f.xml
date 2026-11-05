@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.ShadowedSoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f0802a0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07036f"
+    android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07036f"
+    app:APKTOOL_DUMMYVAL_0x7f040473="@dimen/APKTOOL_DUMMYVAL_0x7f07037d"
+    app:APKTOOL_DUMMYVAL_0x7f040b0f="true">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0250"/>
+</com.google.android.libraries.inputmethod.widgets.ShadowedSoftKeyboardView>

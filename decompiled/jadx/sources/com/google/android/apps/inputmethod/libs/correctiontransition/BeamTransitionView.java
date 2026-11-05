@@ -246,10 +246,14 @@ public class BeamTransitionView extends fve {
         this.f15504c.cancel();
     }
 
+    /* JADX WARN: Bottom block not found for handler: all -> 0x00f7 */
     /* JADX WARN: Code duplicated, block: B:31:0x00d2 A[Catch: all -> 0x00ee, TRY_LEAVE, TryCatch #1 {all -> 0x00ee, blocks: (B:17:0x006f, B:19:0x0077, B:20:0x007b, B:21:0x0080, B:23:0x0088, B:31:0x00d2, B:24:0x00a1, B:28:0x00b1), top: B:44:0x006f, outer: #0 }] */
     /* JADX WARN: Code duplicated, block: B:49:0x00e7 A[SYNTHETIC] */
     /* JADX WARN: Multi-variable type inference failed */
     @Override // android.view.View
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+    */
     protected final void onDraw(Canvas canvas) {
         float f;
         achu.m3301h(canvas, "canvas");
@@ -258,79 +262,74 @@ public class BeamTransitionView extends fve {
             return;
         }
         int iSave = canvas.save();
-        try {
-            achu.m3301h(canvas, "canvas");
-            canvas.translate(-this.f27487e.x, -this.f27487e.y);
-            Paint paint = this.f15507l;
-            int i = 0;
-            wuj wujVarListIterator = this.f27488f.listIterator(0);
-            achu.m3300g(wujVarListIterator, "iterator(...)");
-            while (wujVarListIterator.hasNext()) {
-                E next = wujVarListIterator.next();
-                achu.m3300g(next, "next(...)");
-                wns wnsVar = (wns) next;
-                int i2 = i;
-                for (Object obj : wnsVar) {
-                    int i3 = i2 + 1;
-                    achu.m3300g(obj, "next(...)");
-                    RectF rectF = (RectF) obj;
-                    int iSave2 = canvas.save();
-                    if (paint != null) {
-                        try {
-                            if (this.f15502a < 1.0f) {
-                                canvas.drawRect(rectF, paint);
-                            } else {
-                                canvas.drawRect(rectF, this.f15509n);
-                            }
-                        } catch (Throwable th) {
-                            canvas.restoreToCount(iSave2);
-                            throw th;
-                        }
-                    }
-                    canvas.clipRect(rectF);
-                    if (this.f15508m) {
-                        int size = wnsVar.size();
-                        int i4 = (int) (this.f15502a * size);
-                        if (i4 != i2) {
-                            f = -1.0f;
+        achu.m3301h(canvas, "canvas");
+        canvas.translate(-this.f27487e.x, -this.f27487e.y);
+        Paint paint = this.f15507l;
+        int i = 0;
+        wuj wujVarListIterator = this.f27488f.listIterator(0);
+        achu.m3300g(wujVarListIterator, "iterator(...)");
+        while (wujVarListIterator.hasNext()) {
+            E next = wujVarListIterator.next();
+            achu.m3300g(next, "next(...)");
+            wns wnsVar = (wns) next;
+            int i2 = i;
+            for (Object obj : wnsVar) {
+                int i3 = i2 + 1;
+                achu.m3300g(obj, "next(...)");
+                RectF rectF = (RectF) obj;
+                int iSave2 = canvas.save();
+                if (paint != null) {
+                    try {
+                        if (this.f15502a < 1.0f) {
+                            canvas.drawRect(rectF, paint);
                         } else {
-                            float f2 = rectF.left;
-                            Bitmap bitmap = this.f15505j;
-                            achu.m3298e(bitmap);
-                            float fMax = Math.max(f2 - bitmap.getWidth(), 0.0f);
-                            f = fMax + ((this.f15502a - (i4 / size)) * (rectF.right - fMax));
+                            canvas.drawRect(rectF, this.f15509n);
                         }
-                        if (f > r14) {
-                            float fMax2 = Math.max(0.0f, rectF.top - 2.0f);
-                            Bitmap bitmap2 = this.f15505j;
-                            achu.m3298e(bitmap2);
-                            canvas.drawBitmap(bitmap2, f, fMax2, this.f15506k);
-                        }
+                    } catch (Throwable th) {
                         canvas.restoreToCount(iSave2);
-                        i2 = i3;
-                        i = 0;
+                        throw th;
+                    }
+                }
+                canvas.clipRect(rectF);
+                if (this.f15508m) {
+                    int size = wnsVar.size();
+                    int i4 = (int) (this.f15502a * size);
+                    if (i4 != i2) {
+                        f = -1.0f;
                     } else {
-                        float f3 = rectF.left;
-                        Bitmap bitmap3 = this.f15505j;
-                        achu.m3298e(bitmap3);
-                        float fMax3 = Math.max(f3 - bitmap3.getWidth(), 0.0f);
-                        f = fMax3 + (this.f15502a * (rectF.right - fMax3));
+                        float f2 = rectF.left;
+                        Bitmap bitmap = this.f15505j;
+                        achu.m3298e(bitmap);
+                        float fMax = Math.max(f2 - bitmap.getWidth(), 0.0f);
+                        f = fMax + ((this.f15502a - (i4 / size)) * (rectF.right - fMax));
                     }
                     if (f > r14) {
-                        float fMax4 = Math.max(0.0f, rectF.top - 2.0f);
-                        Bitmap bitmap4 = this.f15505j;
-                        achu.m3298e(bitmap4);
-                        canvas.drawBitmap(bitmap4, f, fMax4, this.f15506k);
+                        float fMax2 = Math.max(0.0f, rectF.top - 2.0f);
+                        Bitmap bitmap2 = this.f15505j;
+                        achu.m3298e(bitmap2);
+                        canvas.drawBitmap(bitmap2, f, fMax2, this.f15506k);
                     }
                     canvas.restoreToCount(iSave2);
                     i2 = i3;
                     i = 0;
+                } else {
+                    float f3 = rectF.left;
+                    Bitmap bitmap3 = this.f15505j;
+                    achu.m3298e(bitmap3);
+                    float fMax3 = Math.max(f3 - bitmap3.getWidth(), 0.0f);
+                    f = fMax3 + (this.f15502a * (rectF.right - fMax3));
                 }
+                if (f > r14) {
+                    float fMax4 = Math.max(0.0f, rectF.top - 2.0f);
+                    Bitmap bitmap4 = this.f15505j;
+                    achu.m3298e(bitmap4);
+                    canvas.drawBitmap(bitmap4, f, fMax4, this.f15506k);
+                }
+                canvas.restoreToCount(iSave2);
+                i2 = i3;
+                i = 0;
             }
-            canvas.restoreToCount(iSave);
-        } catch (Throwable th2) {
-            canvas.restoreToCount(iSave);
-            throw th2;
         }
+        canvas.restoreToCount(iSave);
     }
 }

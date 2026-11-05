@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="ALTGR">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f7d"
+            view_id="@+id/E01"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0fad"
+            view_id="@+id/E02"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0fa1"
+            view_id="@+id/E03"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f65"
+            view_id="@+id/E04"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f59"
+            view_id="@+id/E05"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f95"
+            view_id="@+id/E06"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f89"
+            view_id="@+id/E07"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f4d"
+            view_id="@+id/E08"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0fee"
+            view_id="@+id/E12"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1038"
+            view_id="@+id/D03"/>
+    </key_mapping>
+</framework>

@@ -60,7 +60,7 @@ public final class kwu implements AutoCloseable {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    public final Object m22177a(acfd acfdVar) throws Throwable {
+    public final Object m22177a(acfd acfdVar) {
         kwq kwqVar;
         if (acfdVar instanceof kwq) {
             kwqVar = (kwq) acfdVar;
@@ -95,7 +95,7 @@ public final class kwu implements AutoCloseable {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    public final Object m22178b(acfd acfdVar) throws Throwable {
+    public final Object m22178b(acfd acfdVar) {
         kwr kwrVar;
         if (acfdVar instanceof kwr) {
             kwrVar = (kwr) acfdVar;
@@ -130,7 +130,7 @@ public final class kwu implements AutoCloseable {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: c */
-    public final Object m22179c(acfd acfdVar) throws Throwable {
+    public final Object m22179c(acfd acfdVar) {
         kws kwsVar;
         if (acfdVar instanceof kws) {
             kwsVar = (kws) acfdVar;
@@ -181,7 +181,7 @@ public final class kwu implements AutoCloseable {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object m22180d(acfd acfdVar) throws Throwable {
+    public final Object m22180d(acfd acfdVar) {
         kwt kwtVar;
         if (acfdVar instanceof kwt) {
             kwtVar = (kwt) acfdVar;

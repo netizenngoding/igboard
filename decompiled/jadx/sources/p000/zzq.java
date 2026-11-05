@@ -128,7 +128,7 @@ public final class zzq {
     }
 
     /* JADX INFO: renamed from: d */
-    public final void m36297d(int i) throws InvalidAlgorithmParameterException {
+    public final void m36297d(int i) {
         if (i != 16 && i != 24 && i != 32) {
             throw new InvalidAlgorithmParameterException(String.format("Invalid key size %d; only 16-byte, 24-byte and 32-byte AES keys are supported", Integer.valueOf(i)));
         }
@@ -136,7 +136,7 @@ public final class zzq {
     }
 
     /* JADX INFO: renamed from: e */
-    public final void m36298e(int i) throws InvalidAlgorithmParameterException {
+    public final void m36298e(int i) {
         if (i < 16) {
             throw new InvalidAlgorithmParameterException(String.format("Invalid key size in bytes %d; HMAC key must be at least 16 bytes", Integer.valueOf(i)));
         }
@@ -144,7 +144,7 @@ public final class zzq {
     }
 
     /* JADX INFO: renamed from: f */
-    public final void m36299f(int i) throws GeneralSecurityException {
+    public final void m36299f(int i) {
         if (i < 12 || i > 16) {
             throw new GeneralSecurityException(String.format("Invalid IV size in bytes %d; IV size must be between 12 and 16 bytes", Integer.valueOf(i)));
         }
@@ -152,7 +152,7 @@ public final class zzq {
     }
 
     /* JADX INFO: renamed from: g */
-    public final void m36300g(int i) throws GeneralSecurityException {
+    public final void m36300g(int i) {
         if (i < 10) {
             throw new GeneralSecurityException(String.format("Invalid tag size in bytes %d; must be at least 10 bytes", Integer.valueOf(i)));
         }

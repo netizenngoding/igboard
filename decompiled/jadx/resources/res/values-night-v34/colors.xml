@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b10">@android:color/system_on_primary_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b11">@android:color/system_on_primary_container_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b14">@android:color/system_on_secondary_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b15">@android:color/system_on_secondary_container_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b18">@android:color/system_on_surface_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b1a">@android:color/system_on_surface_variant_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b1f">@android:color/system_outline_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b20">@android:color/system_outline_variant_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b21">@android:color/system_primary_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b22">@android:color/system_primary_container_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b26">@android:color/system_secondary_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b27">@android:color/system_secondary_container_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b2a">@android:color/system_surface_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b2b">@android:color/system_surface_bright_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b2c">@android:color/system_surface_container_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b2d">@android:color/system_surface_container_high_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b2e">@android:color/system_surface_container_highest_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b2f">@android:color/system_surface_container_low_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b31">@android:color/system_surface_dim_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b33">@android:color/system_surface_variant_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b4e">@android:color/system_accent1_700</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b4f">@android:color/system_accent1_700</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b5b">@android:color/system_on_surface_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b5d">@android:color/system_on_surface_variant_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b5e">@color/APKTOOL_DUMMYVAL_0x7f060b5f</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b5f">@android:color/system_neutral2_400</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b60">@android:color/system_accent1_800</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b61">@android:color/system_surface_container_highest_dark</color>
+    <color name="APKTOOL_DUMMYVAL_0x7f060b62">@android:color/system_accent1_200</color>
+</resources>

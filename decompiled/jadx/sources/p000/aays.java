@@ -73,15 +73,15 @@ public final /* synthetic */ class aays implements Function {
             case 3:
                 return aaay.m435E(obj);
             case 4:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 5:
                 return Double.valueOf(true != ((aazb) obj).f2641d ? 4.0d : 98.0d);
             case 6:
                 return aayw.m1710d((aazb) obj);
             case 7:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 8:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 9:
                 return aaay.m434D(obj);
             case 10:
@@ -93,13 +93,13 @@ public final /* synthetic */ class aays implements Function {
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 return aaay.m434D(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 15:
                 return aaay.m431A(obj);
             case 16:
                 return aaay.m431A(obj);
             case 17:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 18:
                 return aayw.m1710d((aazb) obj);
             case 19:

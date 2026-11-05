@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view
+            override="motion_event_handler"
+            type="body">
+            <motion_event_handler class=".libs.latin5.handler.LatinMotionEventHandler"/>
+            <motion_event_handler
+                class=".motioneventhandler.scrubmove.ScrubDeleteMotionEventHandler"
+                preference_key="@string/APKTOOL_DUMMYVAL_0x7f14096a"
+                reverse_preference="false"/>
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebe"/>
+            <motion_event_handler class=".libs.latin5.handler.LatinKeyboardLayoutHandler"/>
+        </view>
+    </keyboard>
+</framework>

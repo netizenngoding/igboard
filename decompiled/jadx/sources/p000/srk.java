@@ -434,7 +434,7 @@ public final class srk {
         	at jadx.core.utils.BlockUtils.traverseSuccessorsUntil(BlockUtils.java:749)
         */
     /* JADX INFO: renamed from: j */
-    public final java.lang.Object m30521j(p000.mpk r20, p000.ouo r21, p000.achc r22, p000.acfd r23) throws java.lang.Throwable {
+    public final java.lang.Object m30521j(p000.mpk r20, p000.ouo r21, p000.achc r22, p000.acfd r23) {
         /*
             Method dump skipped, instruction units count: 307
             To view this dump add '--comments-level debug' option

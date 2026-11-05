@@ -34,7 +34,7 @@ public final class cus implements acqn {
     /* JADX WARN: Type inference failed for: r8v44, types: [acqn, java.lang.Object] */
     @Override // p000.acqn
     /* JADX INFO: renamed from: a */
-    public final Object mo2603a(Object obj, acfd acfdVar) throws Throwable {
+    public final Object mo2603a(Object obj, acfd acfdVar) {
         C1079qa c1079qa;
         ajm ajmVarM5307g;
         dec decVar;

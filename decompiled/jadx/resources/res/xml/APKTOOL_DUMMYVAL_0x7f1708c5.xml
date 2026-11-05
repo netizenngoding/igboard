@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.expression.keyboard.QueryableExpressionKeyboard">
+        <view
+            direction="locale"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0552"
+            type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef9"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a97"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef5"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170bfc"/>
+        </view>
+    </keyboard>
+</framework>

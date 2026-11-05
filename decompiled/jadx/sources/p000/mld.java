@@ -37,7 +37,7 @@ final class mld extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         acfl acflVar = acfl.f5236a;
         try {
             if (this.f46489a != 0) {

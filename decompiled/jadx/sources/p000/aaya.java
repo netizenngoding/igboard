@@ -57,13 +57,13 @@ public final /* synthetic */ class aaya implements Function {
         double dM1716a2;
         switch (this.$cid) {
             case 0:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 1:
                 return Double.valueOf(0.0d);
             case 2:
                 return Double.valueOf(true == ((aazb) obj).f2641d ? 100.0d : 0.0d);
             case 3:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 4:
                 return Double.valueOf(true != ((aazb) obj).f2641d ? 0.12d : 0.2d);
             case 5:
@@ -75,7 +75,7 @@ public final /* synthetic */ class aaya implements Function {
             case 7:
                 return aaay.m443M(obj);
             case 8:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 9:
                 aazb aazbVar2 = (aazb) obj;
                 if (aazbVar2.f2641d) {
@@ -91,7 +91,7 @@ public final /* synthetic */ class aaya implements Function {
             case 11:
                 return Double.valueOf(true == ((aazb) obj).f2641d ? 30.0d : 80.0d);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 aazb aazbVar3 = (aazb) obj;
                 if (aazbVar3.f2641d) {

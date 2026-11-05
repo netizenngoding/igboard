@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/APKTOOL_DUMMYVAL_0x7f140bdf">
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/APKTOOL_DUMMYVAL_0x7f140be5"
+            android:key="@string/APKTOOL_DUMMYVAL_0x7f1409a8"
+            android:summary="@string/APKTOOL_DUMMYVAL_0x7f140be4"/>
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/APKTOOL_DUMMYVAL_0x7f140be1"
+            android:key="@string/APKTOOL_DUMMYVAL_0x7f1409a6"
+            android:summary="@string/APKTOOL_DUMMYVAL_0x7f140be0">
+            <extra
+                android:name="disable_if_preference_is_true"
+                android:value="@string/APKTOOL_DUMMYVAL_0x7f1409a7"/>
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/APKTOOL_DUMMYVAL_0x7f140be3"
+            android:key="@string/APKTOOL_DUMMYVAL_0x7f1409a7"
+            android:summary="@string/APKTOOL_DUMMYVAL_0x7f140be2">
+            <extra
+                android:name="disable_if_preference_is_true"
+                android:value="@string/APKTOOL_DUMMYVAL_0x7f1409a6"/>
+        </SwitchPreferenceCompat>
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

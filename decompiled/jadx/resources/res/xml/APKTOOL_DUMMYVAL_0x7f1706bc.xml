@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework support_a11y_keyboard="false">
+    <keyboard_group
+        dynamic_layout="{dynamic_layout}"
+        layout_theme="@style/APKTOOL_DUMMYVAL_0x7f15038e"
+        supports_split_mode="true"
+        variant="{variant}"
+        variant_label="{variant_label}">
+        <if
+            enable_pk_simulator="true"
+            enable_pk_simulator_setting="true"
+            true="{support_a11y_keyboard}">
+            <keyboard
+                def="@xml/APKTOOL_DUMMYVAL_0x7f170893"
+                type="prime"/>
+        </if>
+        <else>
+            <keyboard
+                def="{main_def}"
+                type="prime"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170910"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec6"/>
+        </else>
+    </keyboard_group>
+</framework>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d שעות</item>
+        <item quantity="two">שעתיים (%1$d)</item>
+        <item quantity="other">‫%1$d שעות</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">‫%1$d דקות</item>
+        <item quantity="two">‫%1$d דקות</item>
+        <item quantity="other">‫%1$d דקות</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">You&apos;re approaching the %1$d-min limit</item>
+        <item quantity="two">התקרבת למגבלה של שתי (%1$d) דקות</item>
+        <item quantity="other">התקרבת למגבלה של (%1$d) דקות</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">הסשן ייסגר בעוד %1$d שניות…</item>
+        <item quantity="two">הסשן ייסגר בעוד %1$d שניות…</item>
+        <item quantity="other">הסשן ייסגר בעוד %1$d שניות…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">הוקצו %d תווים</item>
+        <item quantity="two">הוקצו %d תווים</item>
+        <item quantity="other">הוקצו %d תווים</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s מותקנות עכשיו.</item>
+        <item quantity="two">%s מותקנות עכשיו.</item>
+        <item quantity="other">%s מותקנות עכשיו.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">‫%d שעות</item>
+        <item quantity="two">שעתיים (%d)</item>
+        <item quantity="other">‫%d שעות</item>
+    </plurals>
+</resources>

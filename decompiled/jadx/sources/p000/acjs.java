@@ -57,7 +57,7 @@ public final class acjs extends acjt implements Iterator, acfd, acih {
 
     @Override // p000.acfd
     /* JADX INFO: renamed from: dj */
-    public final void mo3152dj(Object obj) throws Throwable {
+    public final void mo3152dj(Object obj) {
         acbw.m3007V(obj);
         this.f5342b = 4;
     }

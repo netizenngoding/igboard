@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_enabled="true"
+        android:state_hovered="true">
+        <objectAnimator
+            android:interpolator="?attr/APKTOOL_DUMMYVAL_0x7f0408b0"
+            android:duration="?attr/APKTOOL_DUMMYVAL_0x7f0408a6"
+            android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f07045c"
+            android:valueType="floatType"
+            android:propertyName="translationZ"
+            android:startDelay="?attr/APKTOOL_DUMMYVAL_0x7f0408a3"/>
+    </item>
+    <item
+        android:state_enabled="true"
+        app:APKTOOL_DUMMYVAL_0x7f0409ef="true">
+        <objectAnimator
+            android:interpolator="?attr/APKTOOL_DUMMYVAL_0x7f0408b0"
+            android:duration="?attr/APKTOOL_DUMMYVAL_0x7f0408a6"
+            android:valueTo="@dimen/APKTOOL_DUMMYVAL_0x7f07045a"
+            android:valueType="floatType"
+            android:propertyName="translationZ"
+            android:startDelay="?attr/APKTOOL_DUMMYVAL_0x7f0408a3"/>
+    </item>
+    <item>
+        <set>
+            <objectAnimator
+                android:interpolator="?attr/APKTOOL_DUMMYVAL_0x7f0408b0"
+                android:duration="?attr/APKTOOL_DUMMYVAL_0x7f0408a0"
+                android:valueTo="0dp"
+                android:valueType="floatType"
+                android:propertyName="translationZ"/>
+        </set>
+    </item>
+    <item>
+        <objectAnimator
+            android:duration="0"
+            android:valueTo="0dp"
+            android:valueType="floatType"
+            android:propertyName="translationZ"/>
+    </item>
+</selector>

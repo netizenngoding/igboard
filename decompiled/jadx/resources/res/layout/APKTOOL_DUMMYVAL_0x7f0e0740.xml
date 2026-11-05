@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+    app:APKTOOL_DUMMYVAL_0x7f040893="@dimen/APKTOOL_DUMMYVAL_0x7f070724"
+    app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1503cc"/>

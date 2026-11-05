@@ -40,7 +40,7 @@ public final class shz extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r8v4, types: [achc, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         acne acneVar;
         if (this.$cid != 0) {
             aclu acluVar = (aclu) this.f61945d;

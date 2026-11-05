@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15034d">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0731"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d саат</item>
+        <item quantity="other">%1$d саат</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d мүнөт</item>
+        <item quantity="other">%1$d мүнөт</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">%1$d мүнөт деп белгиленген чекке жетип калдыңыз</item>
+        <item quantity="other">%1$d мүнөт деп белгиленген чекке жетип калдыңыз</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">%1$d секунддан кийин жабылат…</item>
+        <item quantity="other">%1$d секунддан кийин жабылат…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d баскыч дайындалган</item>
+        <item quantity="other">%d баскыч дайындалган</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s орнотулду.</item>
+        <item quantity="other">%s орнотулду.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d саат</item>
+        <item quantity="other">%d саат</item>
+    </plurals>
+</resources>

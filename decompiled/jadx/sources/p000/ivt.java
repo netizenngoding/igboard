@@ -16,7 +16,7 @@ final class ivt extends acfy implements achd {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         acbw.m3007V(obj);
         throw new ivs();
     }

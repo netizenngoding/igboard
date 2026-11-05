@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c3"
+    style="@style/APKTOOL_DUMMYVAL_0x7f15034c">
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03cc"
+        android:tag=".label.secondary"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150328"/>
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+        android:tag=".label"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150328"/>
+</FrameLayout>

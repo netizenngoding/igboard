@@ -45,7 +45,7 @@ public final class aay extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         switch (this.$cid) {
             case 0:
                 C0905jv c0905jv = (C0905jv) this.f2583a;

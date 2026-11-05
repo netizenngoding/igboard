@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            content_description="@string/APKTOOL_DUMMYVAL_0x7f1410b6"
+            disable_lift_to_tap="true"
+            id="@+id/APKTOOL_DUMMYVAL_0x7f0b21a9"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0701">
+            <action
+                data="symbol"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS"/>
+            <label
+                location="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+                value="!?#"/>
+        </softkey>
+    </softkeys>
+</framework>

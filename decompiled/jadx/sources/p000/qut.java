@@ -78,27 +78,23 @@ public final class qut implements SharedPreferences {
 
     /* JADX INFO: renamed from: f */
     private final synchronized boolean m28871f(IBinder iBinder) {
+        IInterface iInterfaceQueryLocalInterface = iBinder.queryLocalInterface("com.google.android.libraries.inputmethod.preferences.ICrossProcessPreferenceServer");
+        qvk qviVar = iInterfaceQueryLocalInterface instanceof qvk ? (qvk) iInterfaceQueryLocalInterface : new qvi(iBinder);
         try {
-            IInterface iInterfaceQueryLocalInterface = iBinder.queryLocalInterface("com.google.android.libraries.inputmethod.preferences.ICrossProcessPreferenceServer");
-            qvk qviVar = iInterfaceQueryLocalInterface instanceof qvk ? (qvk) iInterfaceQueryLocalInterface : new qvi(iBinder);
-            try {
-                if (!qviVar.mo28898e(this.f58143h)) {
-                    ((wvu) ((wvu) f58136a.m34778d()).mo34836j("com/google/android/libraries/inputmethod/preferences/CrossProcessSharedPreferences", "connectServer", 255, "CrossProcessSharedPreferences.java")).mo34846t("Failed to register to the server.");
-                    return false;
-                }
-                this.f58140e = qviVar;
-                try {
-                    iBinder.linkToDeath(this.f58144i, 0);
-                } catch (Exception e) {
-                    ((wvu) ((wvu) ((wvu) f58136a.m34778d()).mo34835i(e)).mo34836j("com/google/android/libraries/inputmethod/preferences/CrossProcessSharedPreferences", "connectServer", (char) 268, "CrossProcessSharedPreferences.java")).mo34846t("Failed to add deathRecipient.");
-                }
-                return true;
-            } catch (Exception e2) {
-                ((wvu) ((wvu) ((wvu) f58136a.m34778d()).mo34835i(e2)).mo34836j("com/google/android/libraries/inputmethod/preferences/CrossProcessSharedPreferences", "connectServer", (char) 259, "CrossProcessSharedPreferences.java")).mo34846t("Failed to register to the server.");
+            if (!qviVar.mo28898e(this.f58143h)) {
+                ((wvu) ((wvu) f58136a.m34778d()).mo34836j("com/google/android/libraries/inputmethod/preferences/CrossProcessSharedPreferences", "connectServer", 255, "CrossProcessSharedPreferences.java")).mo34846t("Failed to register to the server.");
                 return false;
             }
-        } catch (Throwable th) {
-            throw th;
+            this.f58140e = qviVar;
+            try {
+                iBinder.linkToDeath(this.f58144i, 0);
+            } catch (Exception e) {
+                ((wvu) ((wvu) ((wvu) f58136a.m34778d()).mo34835i(e)).mo34836j("com/google/android/libraries/inputmethod/preferences/CrossProcessSharedPreferences", "connectServer", (char) 268, "CrossProcessSharedPreferences.java")).mo34846t("Failed to add deathRecipient.");
+            }
+            return true;
+        } catch (Exception e2) {
+            ((wvu) ((wvu) ((wvu) f58136a.m34778d()).mo34835i(e2)).mo34836j("com/google/android/libraries/inputmethod/preferences/CrossProcessSharedPreferences", "connectServer", (char) 259, "CrossProcessSharedPreferences.java")).mo34846t("Failed to register to the server.");
+            return false;
         }
         throw th;
     }

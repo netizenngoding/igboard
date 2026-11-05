@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150b2f">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07ca"/>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07c6"/>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07be"/>
+</LinearLayout>

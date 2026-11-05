@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.DayNight" parent="@style/APKTOOL_DUMMYVAL_0x7f15099e">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/APKTOOL_DUMMYVAL_0x7f15099e">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150a19" parent="@style/APKTOOL_DUMMYVAL_0x7f150a09">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150a1a" parent="@style/APKTOOL_DUMMYVAL_0x7f150a0a">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150a25" parent="@style/APKTOOL_DUMMYVAL_0x7f150a15">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150a4a" parent="@style/APKTOOL_DUMMYVAL_0x7f150a3a">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150a98" parent="@style/APKTOOL_DUMMYVAL_0x7f150a94">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150a99" parent="@style/APKTOOL_DUMMYVAL_0x7f150a95">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150ade" parent="@style/APKTOOL_DUMMYVAL_0x7f150ada">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150bba" parent="@style/APKTOOL_DUMMYVAL_0x7f150bb8">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150be9" parent="@style/APKTOOL_DUMMYVAL_0x7f150be7">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150cdd" parent="@style/APKTOOL_DUMMYVAL_0x7f150bcb">
+        <item name="android:defaultFocusHighlightEnabled">false</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150ce0" parent="@style/APKTOOL_DUMMYVAL_0x7f150e13">
+    </style>
+</resources>

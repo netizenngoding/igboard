@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view type="body">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f00"/>
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c28"/>
+            </if>
+            <else>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c0a"/>
+            </else>
+        </view>
+    </keyboard>
+</framework>

@@ -46,7 +46,7 @@ public final class C1043os extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         Object obj2;
         Object objM32456d;
         Object obj3;

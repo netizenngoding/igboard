@@ -45,7 +45,7 @@ public final class sxy extends acfy implements achc {
     /* JADX WARN: Multi-variable type inference failed */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         sax saxVarM29895a;
         int iM3422i;
         List listM3122f;

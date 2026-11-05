@@ -29,7 +29,7 @@ final class adq extends acfy implements acgy {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         acbw.m3007V(obj);
         this.f8297a.f5299a = null;
         if (this.f8298b.f5299a == null) {

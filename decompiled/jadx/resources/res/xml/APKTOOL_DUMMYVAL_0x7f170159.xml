@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        ascii_capable="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="en-US"
+        string_id="ime_en_us_clariti">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706be"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170555"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1704f2"
+            non_prime_def="@xml/APKTOOL_DUMMYVAL_0x7f17090b"
+            variant="clariti"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141473"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17003c"/>
+    </ime>
+</framework>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080672">
+    <target
+        android:name="@string/APKTOOL_DUMMYVAL_0x7f1407cc"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f08019a"/>
+    <target
+        android:name="@string/APKTOOL_DUMMYVAL_0x7f1407cc"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f08019b"/>
+    <target
+        android:name="@string/APKTOOL_DUMMYVAL_0x7f1407cd"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f08019c"/>
+</animated-vector>

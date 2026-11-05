@@ -1,0 +1,832 @@
+{
+  "apk": {
+    "path": "/home/runner/work/igboard/igboard/build/iboard.apk",
+    "size": 110727188,
+    "sha256": "a624da792cb4bb7209ff65d2d43319c890ad15ffb3fbd2171a57f1b4ca5a91cb",
+    "md5": "87f07b4fc32cdd34695a8b75b7fb5f8b",
+    "entries": 9566,
+    "uncompressed": 138237241
+  },
+  "signing": {
+    "v2": 1,
+    "v3": 1
+  },
+  "dex": [
+    {
+      "version": "038",
+      "checksum": "63df60e0",
+      "signature": "4e9788553c8043c0e87ffeaeed30115ba05e8491",
+      "file_size": 9439940,
+      "header_size": 112,
+      "string_ids": 47353,
+      "type_ids": 13847,
+      "proto_ids": 13373,
+      "field_ids": 38251,
+      "method_ids": 57410,
+      "class_defs": 8011,
+      "data_size": 8012912,
+      "name": "classes.dex",
+      "class_count": 8011,
+      "zip_size": 9439940
+    },
+    {
+      "version": "038",
+      "checksum": "a15be989",
+      "signature": "8c0e075df19670be3bb5d976ce45e3ff8633d764",
+      "file_size": 10229196,
+      "header_size": 112,
+      "string_ids": 45368,
+      "type_ids": 15155,
+      "proto_ids": 15218,
+      "field_ids": 43395,
+      "method_ids": 65483,
+      "class_defs": 9192,
+      "data_size": 8639208,
+      "name": "classes2.dex",
+      "class_count": 9192,
+      "zip_size": 10229196
+    },
+    {
+      "version": "038",
+      "checksum": "47fdbf76",
+      "signature": "8215f54fcd974a8d2793648289ef4668f43361ba",
+      "file_size": 4319272,
+      "header_size": 112,
+      "string_ids": 26662,
+      "type_ids": 8502,
+      "proto_ids": 7066,
+      "field_ids": 20613,
+      "method_ids": 27771,
+      "class_defs": 4864,
+      "data_size": 3550992,
+      "name": "classes3.dex",
+      "class_count": 4864,
+      "zip_size": 4319272
+    },
+    {
+      "version": "038",
+      "checksum": "d4c647a0",
+      "signature": "0f33c1fd021ee54cc580404752a9479448df1e1b",
+      "file_size": 770476,
+      "header_size": 112,
+      "string_ids": 3943,
+      "type_ids": 1132,
+      "proto_ids": 1590,
+      "field_ids": 1501,
+      "method_ids": 7164,
+      "class_defs": 795,
+      "data_size": 636224,
+      "name": "classes4.dex",
+      "class_count": 795,
+      "zip_size": 770476
+    },
+    {
+      "version": "038",
+      "checksum": "048a0ac5",
+      "signature": "82b5579481a5ee08c3b56314571a6b4fa7a83051",
+      "file_size": 30328,
+      "header_size": 112,
+      "string_ids": 355,
+      "type_ids": 74,
+      "proto_ids": 109,
+      "field_ids": 59,
+      "method_ids": 236,
+      "class_defs": 7,
+      "data_size": 24608,
+      "name": "classes5.dex",
+      "class_count": 7,
+      "zip_size": 30328
+    },
+    {
+      "version": "038",
+      "checksum": "bc4f7dfc",
+      "signature": "c0efc1a1a9b5de3c3b158fecc2bd039aafbd6e9f",
+      "file_size": 11040,
+      "header_size": 112,
+      "string_ids": 218,
+      "type_ids": 55,
+      "proto_ids": 63,
+      "field_ids": 20,
+      "method_ids": 123,
+      "class_defs": 4,
+      "data_size": 7808,
+      "name": "classes6.dex",
+      "class_count": 4,
+      "zip_size": 11040
+    },
+    {
+      "version": "038",
+      "checksum": "7f6c7f46",
+      "signature": "99a993063e3bd89bcee28c1dc923be22852f2b70",
+      "file_size": 12200,
+      "header_size": 112,
+      "string_ids": 223,
+      "type_ids": 59,
+      "proto_ids": 68,
+      "field_ids": 38,
+      "method_ids": 122,
+      "class_defs": 6,
+      "data_size": 8672,
+      "name": "classes7.dex",
+      "class_count": 6,
+      "zip_size": 12200
+    }
+  ],
+  "manifest": {
+    "path": "decompiled/apktool/AndroidManifest.xml",
+    "package": "com.google.android.inputmethod.latin",
+    "split": null,
+    "version_name": null,
+    "version_code": null,
+    "platform_build_version": null,
+    "platform_build_string": null,
+    "install_location": null,
+    "shared_user_id": null,
+    "permissions": [
+      {
+        "name": "android.permission.ACCESS_NETWORK_STATE",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.ACCESS_WIFI_STATE",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.GET_ACCOUNTS",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.INTERNET",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.READ_CONTACTS",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.READ_USER_DICTIONARY",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.VIBRATE",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.WRITE_USER_DICTIONARY",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.GET_PACKAGE_SIZE",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.WAKE_LOCK",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.FOREGROUND_SERVICE",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "com.google.android.apps.aicore.service.BIND_SERVICE",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.INJECT_KEY_EVENTS",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.PERSONAL_CONTEXT_PUBLISH_HINTS",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.PERSONAL_CONTEXT_RECEIVE_INSIGHTS",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.PERSONAL_CONTEXT_HOST_INSIGHT_SURFACE",
+        "max_sdk": null,
+        "tag": "uses-permission"
+      },
+      {
+        "name": "android.permission.READ_MEDIA_IMAGES",
+        "max_sdk": null,
+        "tag": "uses-permission-sdk-23"
+      },
+      {
+        "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "max_sdk": null,
+        "tag": "uses-permission-sdk-23"
+      },
+      {
+        "name": "android.permission.RECORD_AUDIO",
+        "max_sdk": null,
+        "tag": "uses-permission-sdk-23"
+      },
+      {
+        "name": "android.permission.INTERACT_ACROSS_PROFILES",
+        "max_sdk": null,
+        "tag": "uses-permission-sdk-23"
+      },
+      {
+        "name": "android.permission.CAMERA",
+        "max_sdk": null,
+        "tag": "uses-permission-sdk-23"
+      },
+      {
+        "name": "android.permission.READ_EXTERNAL_STORAGE",
+        "max_sdk": "32",
+        "tag": "uses-permission-sdk-23"
+      }
+    ],
+    "features": [
+      {
+        "name": "android.hardware.faketouch",
+        "required": "true"
+      },
+      {
+        "name": "android.hardware.screen.portrait",
+        "required": "false"
+      },
+      {
+        "name": "android.hardware.microphone",
+        "required": "false"
+      },
+      {
+        "name": "android.hardware.wifi",
+        "required": "false"
+      },
+      {
+        "name": "android.hardware.camera.any",
+        "required": "false"
+      },
+      {
+        "name": "android.hardware.camera",
+        "required": "false"
+      },
+      {
+        "name": "android.hardware.camera.autofocus",
+        "required": "false"
+      }
+    ],
+    "libraries": [
+      {
+        "name": "androidx.window.extensions",
+        "required": "false"
+      },
+      {
+        "name": "androidx.window.sidecar",
+        "required": "false"
+      }
+    ],
+    "native_libraries": [
+      {
+        "name": "libedgetpu_util.so",
+        "required": "false"
+      },
+      {
+        "name": "libedgetpu_client.google.so",
+        "required": "false"
+      },
+      {
+        "name": "libOpenCL.so",
+        "required": "false"
+      },
+      {
+        "name": "libOpenCL-car.so",
+        "required": "false"
+      },
+      {
+        "name": "libOpenCL-pixel.so",
+        "required": "false"
+      }
+    ],
+    "app": {
+      "allowBackup": "true",
+      "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+      "backupAgent": "com.google.android.libraries.inputmethod.backup.BackupAgent",
+      "crossProfile": "true",
+      "enableOnBackInvokedCallback": "true",
+      "extractNativeLibs": "false",
+      "gwpAsanMode": "always",
+      "icon": "@mipmap/ic_app",
+      "killAfterRestore": "false",
+      "label": "@string/ime_name",
+      "multiArch": "false",
+      "name": "com.google.android.apps.inputmethod.latin.HiltLatinApp",
+      "restoreAnyVersion": "true",
+      "roundIcon": "@mipmap/ic_app_round",
+      "supportsRtl": "true",
+      "theme": "@style/APKTOOL_DUMMYVAL_0x7f15002d",
+      "usesCleartextTraffic": "false"
+    },
+    "meta_data": [
+      {
+        "name": "com.google.android.backup.api_key",
+        "value": "AEdPqrEAAAAIl3fO6Spo7vqdonbORA0gOqfXPTnKWTdG6eHJNA"
+      },
+      {
+        "name": "com.google.android.partnersetup.RLZ_BOUNTY_ACCESS_POINT",
+        "value": "y0,yg"
+      },
+      {
+        "name": "com.google.android.gms.phenotype.registration.xml:com.google.android.gms.auth_account_client",
+        "value": null
+      },
+      {
+        "name": "com.google.android.gms.phenotype.registration.xml:com.google.android.gms.learning",
+        "value": null
+      },
+      {
+        "name": "com.google.android.gms.phenotype.registration.xml:com.google.android.gms.clearcut_client",
+        "value": null
+      },
+      {
+        "name": "com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.consentverifier",
+        "value": null
+      },
+      {
+        "name": "com.google.android.gms.phenotype.registration.xml:com.google.android.gms.droidguardclient",
+        "value": null
+      },
+      {
+        "name": "com.google.android.gms.phenotype.registration.xml:com.google.android.gms.icing.mdd",
+        "value": null
+      },
+      {
+        "name": "com.google.android.gms.phenotype.registration.xml:com.google.android.inputmethod.latin",
+        "value": null
+      },
+      {
+        "name": "com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.performance.primes",
+        "value": null
+      },
+      {
+        "name": "android.content.APP_RESTRICTIONS",
+        "value": null
+      },
+      {
+        "name": "com.google.android.gms.version",
+        "value": "@integer/google_play_services_version"
+      },
+      {
+        "name": "com.android.dynamic.apk.fused.modules",
+        "value": "base"
+      },
+      {
+        "name": "com.android.stamp.source",
+        "value": "https://play.google.com/store"
+      },
+      {
+        "name": "com.android.stamp.type",
+        "value": "STAMP_TYPE_STANDALONE_APK"
+      },
+      {
+        "name": "com.android.vending.splits",
+        "value": null
+      },
+      {
+        "name": "com.android.vending.derived.apk.id",
+        "value": "2"
+      }
+    ]
+  },
+  "component_counts": {
+    "activity": 30,
+    "service": 22,
+    "receiver": 12,
+    "provider": 9
+  },
+  "resources": {
+    "file_count": 9664,
+    "total_bytes": 81220215,
+    "locales": [
+      "af",
+      "ak",
+      "am",
+      "ar",
+      "as",
+      "az",
+      "b+es+419",
+      "b+my+Qaag",
+      "b+sr+Latn",
+      "be",
+      "bg",
+      "bn",
+      "bo",
+      "bs",
+      "ca",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "eu",
+      "fa",
+      "ff",
+      "fi",
+      "fr",
+      "gl",
+      "gu",
+      "h360dp",
+      "h480dp",
+      "h500dp",
+      "h720dp",
+      "ha",
+      "hdpi",
+      "hi",
+      "hr",
+      "hu",
+      "hy",
+      "id",
+      "ig",
+      "in",
+      "is",
+      "it",
+      "iw",
+      "ja",
+      "ka",
+      "kk",
+      "km",
+      "kn",
+      "ko",
+      "ky",
+      "land",
+      "large",
+      "ldrtl",
+      "lo",
+      "lt",
+      "lv",
+      "mdpi",
+      "mk",
+      "ml",
+      "mn",
+      "mr",
+      "ms",
+      "my",
+      "nb",
+      "ne",
+      "night",
+      "nl",
+      "nod",
+      "or",
+      "pa",
+      "pl",
+      "port",
+      "pt",
+      "rAU",
+      "rBR",
+      "rCA",
+      "rCN",
+      "rES",
+      "rGB",
+      "rHK",
+      "rIN",
+      "rPT",
+      "rTW",
+      "rUS",
+      "rXC",
+      "rZG",
+      "ro",
+      "round",
+      "ru",
+      "se",
+      "si",
+      "sk",
+      "sl",
+      "small",
+      "sou",
+      "sq",
+      "sr",
+      "sv",
+      "sw",
+      "sw270dp",
+      "sw350dp",
+      "sw360dp",
+      "sw400dp",
+      "sw600dp",
+      "sw728dp",
+      "sw768dp",
+      "sw800dp",
+      "ta",
+      "te",
+      "th",
+      "tl",
+      "tr",
+      "uk",
+      "ur",
+      "uz",
+      "v27",
+      "v28",
+      "v29",
+      "v31",
+      "v33",
+      "v34",
+      "v35",
+      "v36",
+      "vi",
+      "w360dp",
+      "w400dp",
+      "w600dp",
+      "watch",
+      "xhdpi",
+      "xlarge",
+      "xxhdpi",
+      "xxxhdpi",
+      "yo",
+      "zh",
+      "zu"
+    ]
+  },
+  "assets": {
+    "file_count": 148,
+    "total_bytes": 651362
+  },
+  "native": {
+    "arm64-v8a": {
+      "count": 15,
+      "bytes": 35832680
+    }
+  },
+  "prefixes": [
+    [
+      "com.google.android",
+      778
+    ],
+    [
+      "j$.util.stream",
+      309
+    ],
+    [
+      "j$.nio.file",
+      109
+    ],
+    [
+      "org.chromium.support_lib_boundary",
+      75
+    ],
+    [
+      "org.chromium.net",
+      69
+    ],
+    [
+      "androidx.camera.camera2",
+      58
+    ],
+    [
+      "java.util.function",
+      37
+    ],
+    [
+      "j$.time.chrono",
+      36
+    ],
+    [
+      "j$.time.format",
+      35
+    ],
+    [
+      "j$.util.concurrent",
+      34
+    ],
+    [
+      "android.support.v7",
+      24
+    ],
+    [
+      "j$.time.temporal",
+      24
+    ],
+    [
+      "com.android.settingslib",
+      19
+    ],
+    [
+      "com.google.mediapipe",
+      19
+    ],
+    [
+      "j$.util.function",
+      19
+    ],
+    [
+      "j$.desugar.sun",
+      17
+    ],
+    [
+      "androidx.camera.core",
+      15
+    ],
+    [
+      "androidx.work.impl",
+      10
+    ],
+    [
+      "java.nio.file",
+      9
+    ],
+    [
+      "com.android.personalcontext",
+      8
+    ],
+    [
+      "com.google.firebase",
+      7
+    ],
+    [
+      "com.google.mlkit",
+      7
+    ],
+    [
+      "j$.nio.channels",
+      7
+    ],
+    [
+      "j$.time.zone",
+      7
+    ],
+    [
+      "com.bumptech.glide",
+      5
+    ],
+    [
+      "com.google.research",
+      5
+    ],
+    [
+      "android.net.http",
+      5
+    ],
+    [
+      "androidx.graphics.surface",
+      4
+    ],
+    [
+      "androidx.constraintlayout.widget",
+      3
+    ],
+    [
+      "androidx.core.app",
+      3
+    ],
+    [
+      "com.google.learning",
+      3
+    ],
+    [
+      "androidx.camera.view",
+      3
+    ],
+    [
+      "androidx.emoji.widget",
+      3
+    ],
+    [
+      "androidx.window.area",
+      3
+    ],
+    [
+      "androidx.window.extensions",
+      3
+    ],
+    [
+      "androidx.window.layout",
+      3
+    ],
+    [
+      "androidx.window.reflection",
+      3
+    ],
+    [
+      "com.android.inputmethod",
+      2
+    ],
+    [
+      "android.hardware.camera2",
+      2
+    ],
+    [
+      "androidx.core.graphics",
+      2
+    ],
+    [
+      "android.support.v4",
+      2
+    ],
+    [
+      "androidx.camera.lifecycle",
+      2
+    ],
+    [
+      "androidx.graphics.path",
+      2
+    ],
+    [
+      "com.google.fcp",
+      2
+    ],
+    [
+      "j$.com.android",
+      2
+    ],
+    [
+      "a",
+      1
+    ],
+    [
+      "aabp",
+      1
+    ],
+    [
+      "aace",
+      1
+    ],
+    [
+      "aaco",
+      1
+    ],
+    [
+      "aacw",
+      1
+    ],
+    [
+      "aahu",
+      1
+    ],
+    [
+      "aahv",
+      1
+    ],
+    [
+      "lhq",
+      1
+    ],
+    [
+      "aair",
+      1
+    ],
+    [
+      "aaiu",
+      1
+    ],
+    [
+      "zls",
+      1
+    ],
+    [
+      "aaiv",
+      1
+    ],
+    [
+      "aajh",
+      1
+    ],
+    [
+      "aaji",
+      1
+    ],
+    [
+      "aajj",
+      1
+    ]
+  ],
+  "token_hits": {
+    "ios": 40,
+    "iphone": 15,
+    "ipad": 4,
+    "apple": 7,
+    "blur": 40
+  }
+}

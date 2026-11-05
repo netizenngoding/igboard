@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d jam</item>
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d menit</item>
+        <item quantity="other">%1$d menit</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Anda hampir mencapai batas %1$d mnt</item>
+        <item quantity="other">Anda hampir mencapai batas %1$d mnt</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Menutup dalam %1$d detik…</item>
+        <item quantity="other">Menutup dalam %1$d detik…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d kunci ditetapkan</item>
+        <item quantity="other">%d kunci ditetapkan</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s telah diinstal.</item>
+        <item quantity="other">%s telah diinstal.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d jam</item>
+        <item quantity="other">%d jam</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140c87"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f140965"/>
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140bde"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f140937"
+        android:summary="@string/APKTOOL_DUMMYVAL_0x7f140bdd"/>
+</PreferenceScreen>

@@ -67,11 +67,11 @@ public final /* synthetic */ class aayn implements Function {
             case 0:
                 return aaay.m431A(obj);
             case 1:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 2:
                 return aaay.m431A(obj);
             case 3:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 4:
                 ((aazb) obj).f2642e;
                 return null;
@@ -83,11 +83,11 @@ public final /* synthetic */ class aayn implements Function {
             case 7:
                 return aaay.m435E(obj);
             case 8:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 9:
                 return aaay.m436F(obj);
             case 10:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 11:
                 return aaay.m434D(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
@@ -95,7 +95,7 @@ public final /* synthetic */ class aayn implements Function {
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 return aaay.m434D(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 15:
                 return aaay.m435E(obj);
             case 16:
@@ -107,7 +107,7 @@ public final /* synthetic */ class aayn implements Function {
                 ((aazb) obj).f2642e;
                 return null;
             case 19:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             default:
                 return aaay.m431A(obj);
         }

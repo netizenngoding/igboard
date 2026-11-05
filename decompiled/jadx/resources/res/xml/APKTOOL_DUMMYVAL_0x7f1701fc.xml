@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="iw"
+        string_id="ime_hebrew">
+        <keyboard_group
+            supports_split_mode="true"
+            variant="hebrew"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414d6">
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170002"/>
+            <if device="tablet"/>
+            <else>
+                <layout_specific_settings resource_id="@xml/APKTOOL_DUMMYVAL_0x7f170460"/>
+            </else>
+            <keyboard
+                def="@xml/APKTOOL_DUMMYVAL_0x7f1706e4"
+                type="prime"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f17090f"/>
+        </keyboard_group>
+    </ime>
+</framework>

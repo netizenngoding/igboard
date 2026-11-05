@@ -286,30 +286,34 @@ public final class qzn implements qzl {
     @Override // p000.qzl
     /* JADX INFO: renamed from: e */
     public final synchronized void mo29069e() {
-        SQLiteDatabase sQLiteDatabase = this.f58500c;
-        sQLiteDatabase.beginTransaction();
         try {
-            wuj wujVarListIterator = ((wns) this.f58499b.values()).listIterator(0);
-            while (wujVarListIterator.hasNext()) {
-                qzs qzsVar = (qzs) wujVarListIterator.next();
-                SQLiteDatabase sQLiteDatabase2 = qzsVar.f58521d;
-                String str = qzsVar.f58519b;
-                wgo wgoVar = qze.f58481a;
-                sQLiteDatabase2.delete(str, null, null);
-                if (!sQLiteDatabase2.inTransaction()) {
-                    qzsVar.m29086e(false);
+            SQLiteDatabase sQLiteDatabase = this.f58500c;
+            sQLiteDatabase.beginTransaction();
+            try {
+                wuj wujVarListIterator = ((wns) this.f58499b.values()).listIterator(0);
+                while (wujVarListIterator.hasNext()) {
+                    qzs qzsVar = (qzs) wujVarListIterator.next();
+                    SQLiteDatabase sQLiteDatabase2 = qzsVar.f58521d;
+                    String str = qzsVar.f58519b;
+                    wgo wgoVar = qze.f58481a;
+                    sQLiteDatabase2.delete(str, null, null);
+                    if (!sQLiteDatabase2.inTransaction()) {
+                        qzsVar.m29086e(false);
+                    }
                 }
+                sQLiteDatabase.setTransactionSuccessful();
+                sQLiteDatabase.endTransaction();
+                m29075h(true);
+                this.f58503f = -1L;
+                qzs.m29080c(new File(this.f58502e, "_tmp"));
+            } catch (Throwable th) {
+                this.f58500c.endTransaction();
+                m29075h(true);
+                this.f58503f = -1L;
+                throw th;
             }
-            sQLiteDatabase.setTransactionSuccessful();
-            sQLiteDatabase.endTransaction();
-            m29075h(true);
-            this.f58503f = -1L;
-            qzs.m29080c(new File(this.f58502e, "_tmp"));
-        } catch (Throwable th) {
-            this.f58500c.endTransaction();
-            m29075h(true);
-            this.f58503f = -1L;
-            throw th;
+        } catch (Throwable th2) {
+            throw th2;
         }
     }
 

@@ -69,11 +69,11 @@ public final /* synthetic */ class aaxz implements Function {
             case 0:
                 return Double.valueOf(true != ((aazb) obj).f2641d ? 95.0d : 20.0d);
             case 1:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 2:
                 return aaay.m442L(obj);
             case 3:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 4:
                 aaay.m447W((aazb) obj);
                 return Double.valueOf(10.0d);
@@ -82,7 +82,7 @@ public final /* synthetic */ class aaxz implements Function {
             case 6:
                 return aaay.m441K(obj);
             case 7:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 8:
                 aazb aazbVar = (aazb) obj;
                 aaay.m447W(aazbVar);
@@ -91,7 +91,7 @@ public final /* synthetic */ class aaxz implements Function {
             case 9:
                 return aaay.m443M(obj);
             case 10:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 11:
                 aazb aazbVar2 = (aazb) obj;
                 if (aazbVar2.f2641d) {
@@ -105,7 +105,7 @@ public final /* synthetic */ class aaxz implements Function {
                 }
                 return Double.valueOf(dM1716a);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 aazb aazbVar3 = (aazb) obj;
                 if (aazbVar3.f2641d) {
@@ -125,13 +125,13 @@ public final /* synthetic */ class aaxz implements Function {
             case 16:
                 return Double.valueOf(true != ((aazb) obj).f2641d ? 30.0d : 80.0d);
             case 17:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 18:
                 return Double.valueOf(true == ((aazb) obj).f2641d ? 40.0d : 80.0d);
             case 19:
                 return aaay.m443M(obj);
             default:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
         }
     }
 

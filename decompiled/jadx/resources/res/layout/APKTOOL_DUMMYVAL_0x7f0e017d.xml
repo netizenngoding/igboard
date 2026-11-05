@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b041e"
+    android:tag="?attr/APKTOOL_DUMMYVAL_0x7f040086"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080378"
+    android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07035e"
+    android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07035e"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0418"
+        android:visibility="gone"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1504ec">
+        <ImageView
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0415"
+            android:importantForAccessibility="no"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1504ea"/>
+        <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0417"
+            app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1504eb"/>
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.text.TransformationTextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b041c"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1504ee"/>
+</LinearLayout>

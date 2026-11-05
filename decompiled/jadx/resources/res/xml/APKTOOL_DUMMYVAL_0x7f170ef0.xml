@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        enable_free_cursor_by_long_press_space="true"
+        enable_scrub_move="true"
+        free_cursor="true">
+        <action
+            action_on_down="true"
+            data="free_cursor"
+            keycode="SWITCH_KEYBOARD"
+            play_media_effect="false"
+            suppress_long_click="true"
+            type="LONG_PRESS"/>
+    </if>
+</framework>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.positionable.PositionableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08033f"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0299"
+            android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08033c"
+            android:layout_width="28dp"
+            android:layout_height="20dp"
+            android:scaleType="centerInside"
+            android:tint="?attr/APKTOOL_DUMMYVAL_0x7f0404cc"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="14dp"
+            android:backgroundTint="?attr/APKTOOL_DUMMYVAL_0x7f0404eb"
+            app:APKTOOL_DUMMYVAL_0x7f040727="@+id/APKTOOL_DUMMYVAL_0x7f0b0423"
+            app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            app:APKTOOL_DUMMYVAL_0x7f040745="@+id/APKTOOL_DUMMYVAL_0x7f0b0423"/>
+        <FrameLayout
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0423"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:APKTOOL_DUMMYVAL_0x7f040721="true"
+            app:APKTOOL_DUMMYVAL_0x7f04072e="@+id/APKTOOL_DUMMYVAL_0x7f0b0299"
+            app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"/>
+        <com.google.android.apps.inputmethod.libs.superinsert.impl.FrameLayoutWithHeightRatio
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0227"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            app:APKTOOL_DUMMYVAL_0x7f040740="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            app:APKTOOL_DUMMYVAL_0x7f040744="@+id/APKTOOL_DUMMYVAL_0x7f0b0423"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.libraries.inputmethod.widgets.positionable.PositionableFrameLayout>

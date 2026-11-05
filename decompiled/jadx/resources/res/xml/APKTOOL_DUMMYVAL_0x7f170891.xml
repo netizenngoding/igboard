@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if show_suggestion_strip="true">
+        <merge def="@xml/APKTOOL_DUMMYVAL_0x7f1707e6"/>
+    </if>
+</framework>

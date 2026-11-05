@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition
+        motion:APKTOOL_DUMMYVAL_0x7f040510="@+id/APKTOOL_DUMMYVAL_0x7f0b01d7"
+        motion:APKTOOL_DUMMYVAL_0x7f040511="@+id/APKTOOL_DUMMYVAL_0x7f0b01d8"
+        motion:APKTOOL_DUMMYVAL_0x7f0405a9="300"
+        motion:APKTOOL_DUMMYVAL_0x7f0408bf="APKTOOL_DUMMYVAL_0x7f0b0246"/>
+    <Transition
+        motion:APKTOOL_DUMMYVAL_0x7f040510="@+id/APKTOOL_DUMMYVAL_0x7f0b01d8"
+        motion:APKTOOL_DUMMYVAL_0x7f040511="@+id/APKTOOL_DUMMYVAL_0x7f0b01d7"
+        motion:APKTOOL_DUMMYVAL_0x7f0405a9="200"
+        motion:APKTOOL_DUMMYVAL_0x7f0408bf="APKTOOL_DUMMYVAL_0x7f0b0248"/>
+    <ConstraintSet android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01d8">
+        <Constraint
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0424"
+            android:layout_height="0dp"
+            motion:APKTOOL_DUMMYVAL_0x7f040728="@+id/input_area"
+            motion:APKTOOL_DUMMYVAL_0x7f04073b="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f04073f="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"/>
+        <Constraint
+            android:id="@+id/input_area"
+            motion:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f04073b="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f04073f="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"/>
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01d7">
+        <Constraint
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0424"
+            android:layout_height="0dp"
+            motion:APKTOOL_DUMMYVAL_0x7f040728="@+id/input_area"
+            motion:APKTOOL_DUMMYVAL_0x7f04073b="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f04073f="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"/>
+        <Constraint
+            android:id="@+id/input_area"
+            android:layout_height="0dp"
+            motion:APKTOOL_DUMMYVAL_0x7f040733="APKTOOL_DUMMYVAL_0x7f0b06f9"
+            motion:APKTOOL_DUMMYVAL_0x7f040736="1"
+            motion:APKTOOL_DUMMYVAL_0x7f04073b="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f04073f="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            motion:APKTOOL_DUMMYVAL_0x7f040744="APKTOOL_DUMMYVAL_0x7f0b06ef"/>
+    </ConstraintSet>
+</MotionScene>

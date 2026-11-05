@@ -77,7 +77,7 @@ public final /* synthetic */ class aaye implements Function {
                 aaay.m446V(aazbVar);
                 return Double.valueOf(true == aazbVar.f2641d ? 30.0d : 90.0d);
             case 4:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 5:
                 int i = ((aazb) obj).f2651n;
                 return null;
@@ -85,12 +85,12 @@ public final /* synthetic */ class aaye implements Function {
                 aayw.m1714h((aazb) obj);
                 return null;
             case 7:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 8:
                 aayw.m1714h((aazb) obj);
                 return null;
             case 9:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 10:
                 return aayw.m1713g((aazb) obj);
             case 11:
@@ -107,20 +107,20 @@ public final /* synthetic */ class aaye implements Function {
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 return aaay.m439I(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 15:
                 return aaay.m435E(obj);
             case 16:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 17:
                 return aayw.m1713g((aazb) obj);
             case 18:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 19:
                 int i3 = ((aazb) obj).f2651n;
                 return aayw.m1708b(3.0d);
             default:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
         }
     }
 

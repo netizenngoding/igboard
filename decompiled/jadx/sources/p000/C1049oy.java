@@ -185,46 +185,42 @@ public final /* synthetic */ class C1049oy implements acgn {
         }
         dbo dboVar = dduVar.f20560a;
         synchronized (((cyg) dboVar).f20228l) {
-            try {
-                cxd.m12388b();
-                Log.i(cyg.f20217a, C0000a.m144cm(string, "Moving WorkSpec (", ") to the foreground"));
-                czu czuVar = (czu) ((cyg) dboVar).f20223g.remove(string);
-                if (czuVar != null) {
-                    if (((cyg) dboVar).f20218b == null) {
-                        Context context = ((cyg) dboVar).f20219c;
-                        int i6 = ddq.f20554a;
-                        achu.m3301h(context, "context");
-                        Object systemService = context.getApplicationContext().getSystemService("power");
-                        achu.m3299f(systemService, "null cannot be cast to non-null type android.os.PowerManager");
-                        PowerManager.WakeLock wakeLockNewWakeLock = ((PowerManager) systemService).newWakeLock(1, "WorkManager: ProcessorForegroundLck");
-                        synchronized (ddr.f20555a) {
-                        }
-                        achu.m3298e(wakeLockNewWakeLock);
-                        ((cyg) dboVar).f20218b = wakeLockNewWakeLock;
-                        ((cyg) dboVar).f20218b.acquire();
+            cxd.m12388b();
+            Log.i(cyg.f20217a, C0000a.m144cm(string, "Moving WorkSpec (", ") to the foreground"));
+            czu czuVar = (czu) ((cyg) dboVar).f20223g.remove(string);
+            if (czuVar != null) {
+                if (((cyg) dboVar).f20218b == null) {
+                    Context context = ((cyg) dboVar).f20219c;
+                    int i6 = ddq.f20554a;
+                    achu.m3301h(context, "context");
+                    Object systemService = context.getApplicationContext().getSystemService("power");
+                    achu.m3299f(systemService, "null cannot be cast to non-null type android.os.PowerManager");
+                    PowerManager.WakeLock wakeLockNewWakeLock = ((PowerManager) systemService).newWakeLock(1, "WorkManager: ProcessorForegroundLck");
+                    synchronized (ddr.f20555a) {
                     }
-                    ((cyg) dboVar).f20222f.put(string, czuVar);
-                    Context context2 = ((cyg) dboVar).f20219c;
-                    dcf dcfVarM12431a = czuVar.m12431a();
-                    int i7 = dbq.f20432k;
-                    Intent intent = new Intent(context2, (Class<?>) SystemForegroundService.class);
-                    intent.setAction("ACTION_START_FOREGROUND");
-                    intent.putExtra("KEY_WORKSPEC_ID", dcfVarM12431a.f20456a);
-                    intent.putExtra("KEY_GENERATION", dcfVarM12431a.f20457b);
-                    intent.putExtra("KEY_NOTIFICATION_ID", ((cwu) obj9).f20121a);
-                    intent.putExtra("KEY_FOREGROUND_SERVICE_TYPE", ((cwu) obj9).f20122b);
-                    intent.putExtra("KEY_NOTIFICATION", ((cwu) obj9).f20123c);
-                    context2.startForegroundService(intent);
-                    ArrayList arrayList = new ArrayList(((cyg) dboVar).f20227k);
-                    dcf dcfVarM12431a2 = czuVar.m12431a();
-                    int size = arrayList.size();
-                    while (iIntValue < size) {
-                        ((cxv) arrayList.get(iIntValue)).mo12404a(dcfVarM12431a2, true);
-                        iIntValue++;
-                    }
+                    achu.m3298e(wakeLockNewWakeLock);
+                    ((cyg) dboVar).f20218b = wakeLockNewWakeLock;
+                    ((cyg) dboVar).f20218b.acquire();
                 }
-            } catch (Throwable th2) {
-                throw th2;
+                ((cyg) dboVar).f20222f.put(string, czuVar);
+                Context context2 = ((cyg) dboVar).f20219c;
+                dcf dcfVarM12431a = czuVar.m12431a();
+                int i7 = dbq.f20432k;
+                Intent intent = new Intent(context2, (Class<?>) SystemForegroundService.class);
+                intent.setAction("ACTION_START_FOREGROUND");
+                intent.putExtra("KEY_WORKSPEC_ID", dcfVarM12431a.f20456a);
+                intent.putExtra("KEY_GENERATION", dcfVarM12431a.f20457b);
+                intent.putExtra("KEY_NOTIFICATION_ID", ((cwu) obj9).f20121a);
+                intent.putExtra("KEY_FOREGROUND_SERVICE_TYPE", ((cwu) obj9).f20122b);
+                intent.putExtra("KEY_NOTIFICATION", ((cwu) obj9).f20123c);
+                context2.startForegroundService(intent);
+                ArrayList arrayList = new ArrayList(((cyg) dboVar).f20227k);
+                dcf dcfVarM12431a2 = czuVar.m12431a();
+                int size = arrayList.size();
+                while (iIntValue < size) {
+                    ((cxv) arrayList.get(iIntValue)).mo12404a(dcfVarM12431a2, true);
+                    iIntValue++;
+                }
             }
         }
         Object obj10 = this.f52809b;

@@ -78,7 +78,7 @@ public final /* synthetic */ class aayp implements Function {
                 ((aazb) obj).f2642e;
                 return null;
             case 4:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 5:
                 return aaay.m431A(obj);
             case 6:
@@ -93,7 +93,7 @@ public final /* synthetic */ class aayp implements Function {
             case 7:
                 return aaay.m435E(obj);
             case 8:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 9:
                 aazb aazbVar2 = (aazb) obj;
                 if (!aazbVar2.f2641d && aazbVar2.f2639b.f2662b <= 12.0d) {
@@ -112,26 +112,26 @@ public final /* synthetic */ class aayp implements Function {
                 ((aazb) obj).f2642e;
                 return null;
             case 11:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
                 return aaay.m431A(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 return aaay.m436F(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 15:
                 ((aazb) obj).f2642e;
                 return null;
             case 16:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 17:
                 return aaay.m435E(obj);
             case 18:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 19:
                 return aayw.m1710d((aazb) obj);
             default:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
         }
     }
 

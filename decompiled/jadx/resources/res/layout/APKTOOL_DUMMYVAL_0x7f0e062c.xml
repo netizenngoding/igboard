@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f150014">
+    <com.google.android.libraries.inputmethod.widgets.AutoMirroredImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0721"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150013"/>
+</FrameLayout>

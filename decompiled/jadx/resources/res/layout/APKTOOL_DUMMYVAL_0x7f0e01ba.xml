@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f1501f3">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/key_pos_switch_to_symbol"
+        android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c0067"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e5"/>
+    <LinearLayout
+        android:weightSum="9"
+        android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c0068"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150363">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/A02"
+            android:layout_weight="1"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506ef"/>
+        <LinearLayout
+            android:layout_weight="7"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150362">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@+id/key_pos_switch_to_next_language"
+                android:visibility="gone"
+                android:layout_weight="1"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1506e4"/>
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@+id/key_pos_space"
+                android:visibility="gone"
+                android:layout_weight="6"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1506f1"/>
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@+id/A06"
+                android:visibility="gone"
+                android:layout_weight="6"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1506e4"/>
+        </LinearLayout>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/A08"
+            android:layout_weight="1"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506ef"/>
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/key_pos_ime_action"
+        android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c0069"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506ec"/>
+</LinearLayout>

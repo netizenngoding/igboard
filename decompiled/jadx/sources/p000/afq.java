@@ -36,7 +36,7 @@ final class afq extends acfy implements achc {
     /* JADX WARN: Type inference failed for: r6v2, types: [achc, java.lang.Object] */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         aclk aclkVar;
         Object obj2 = this.f8806a;
         acbw.m3007V(obj);

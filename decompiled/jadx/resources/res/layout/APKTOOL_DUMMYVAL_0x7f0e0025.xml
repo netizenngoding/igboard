@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2931"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+    app:APKTOOL_DUMMYVAL_0x7f04072e="@+id/key_pos_header_power_key"
+    app:APKTOOL_DUMMYVAL_0x7f040740="@+id/key_pos_header_access_points_menu"
+    app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+    <ImageView
+        android:layout_gravity="start|center_vertical"
+        android:tag=".divider.vertical.for-candidate-key"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070057"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08052c"
+        android:scaleType="center"/>
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:tag=".divider.vertical.for-candidate-key"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070057"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08052c"
+        android:scaleType="center"/>
+</FrameLayout>

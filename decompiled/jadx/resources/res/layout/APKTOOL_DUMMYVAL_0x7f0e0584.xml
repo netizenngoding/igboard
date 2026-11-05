@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f15049f">
+    <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f1504a1"/>
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15044f">
+        <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15049e">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@+id/key_pos_candidates_del"
+                android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c0075"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1506f9"/>
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@+id/key_pos_candidates_ime_action"
+                android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c0075"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1506fd"/>
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@+id/key_pos_candidates_page_up"
+                android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c0075"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1506f9"/>
+        </LinearLayout>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/key_pos_candidates_page_down"
+            android:layout_weight="?attr/APKTOOL_DUMMYVAL_0x7f0401e3"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506e7"/>
+    </LinearLayout>
+</FrameLayout>

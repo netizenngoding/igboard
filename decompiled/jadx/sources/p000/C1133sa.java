@@ -38,7 +38,7 @@ public final class C1133sa implements InterfaceC1130ry {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.InterfaceC1130ry
     /* JADX INFO: renamed from: a */
-    public final Object mo29670a(acgy acgyVar, acfd acfdVar) throws Throwable {
+    public final Object mo29670a(acgy acgyVar, acfd acfdVar) {
         C1131rz c1131rz;
         if (acfdVar instanceof C1131rz) {
             c1131rz = (C1131rz) acfdVar;

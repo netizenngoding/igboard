@@ -4,6 +4,7 @@ import android.content.Context;
 import com.google.android.apps.inputmethod.libs.expression.image.storage.ImageFileDatabase;
 import java.io.BufferedOutputStream;
 import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -50,7 +51,7 @@ public final class gts {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object m16523a(Path path, acfd acfdVar) throws Throwable {
+    public final Object m16523a(Path path, acfd acfdVar) throws gtu {
         gto gtoVar;
         gtt gttVar;
         guq guqVar;
@@ -164,7 +165,7 @@ public final class gts {
     /* JADX WARN: Type inference failed for: r8v3 */
     /* JADX WARN: Type inference failed for: r8v4 */
     /* JADX INFO: renamed from: b */
-    public final Object m16524b(xcd xcdVar, guq guqVar, Path path, acfd acfdVar) throws Throwable {
+    public final Object m16524b(xcd xcdVar, guq guqVar, Path path, acfd acfdVar) {
         gtq gtqVar;
         Object obj;
         ?? r8;
@@ -241,7 +242,7 @@ public final class gts {
     /* JADX WARN: Type inference failed for: r7v3, types: [j$.nio.file.Path] */
     /* JADX WARN: Type inference failed for: r7v5 */
     /* JADX INFO: renamed from: c */
-    public final Object m16525c(guq guqVar, Path path, acfd acfdVar) throws Throwable {
+    public final Object m16525c(guq guqVar, Path path, acfd acfdVar) throws IOException {
         gtr gtrVar;
         gtt gttVar;
         ?? r1;

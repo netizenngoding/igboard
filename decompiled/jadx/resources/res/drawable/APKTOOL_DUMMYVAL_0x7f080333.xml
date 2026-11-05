@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.focus.FocusRingDrawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:APKTOOL_DUMMYVAL_0x7f040662="@style/APKTOOL_DUMMYVAL_0x7f150613">
+    <shape android:shape="rectangle">
+        <solid android:color="@android:color/transparent"/>
+    </shape>
+</com.google.android.material.focus.FocusRingDrawable>

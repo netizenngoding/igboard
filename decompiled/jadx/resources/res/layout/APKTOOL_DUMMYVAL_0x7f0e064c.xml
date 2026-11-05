@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.tooltip.WidgetTooltipView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/APKTOOL_DUMMYVAL_0x7f151154">
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1504f6">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f0709ef">
+            <ImageView
+                android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+                app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+                app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1504f4"/>
+            <TextView
+                app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f04015e"
+                app:APKTOOL_DUMMYVAL_0x7f040721="true"
+                app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+                app:APKTOOL_DUMMYVAL_0x7f040740="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+                app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"
+                app:APKTOOL_DUMMYVAL_0x7f04075a="0dp"
+                app:APKTOOL_DUMMYVAL_0x7f040772="@dimen/APKTOOL_DUMMYVAL_0x7f07084b"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1504f5"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+                android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b072f"
+                app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f04015e"
+                app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1504f3"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.companionwidget.tooltip.WidgetTooltipView>

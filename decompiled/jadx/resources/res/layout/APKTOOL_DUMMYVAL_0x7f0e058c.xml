@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f1501f3">
+    <LinearLayout
+        android:layout_weight="181"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150363">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/key_pos_back_to_prime"
+            android:layout_weight="90.5"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506e5"/>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/A03"
+            android:layout_weight="90.5"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506e5"/>
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/A51"
+        android:layout_weight="141.33"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e4"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/A52"
+        android:layout_weight="141.33"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e4"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/A53"
+        android:layout_weight="141.33"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e4"/>
+    <LinearLayout
+        android:layout_weight="116"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150363">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/key_pos_left_arrow"
+            android:layout_weight="58"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506e5"/>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/key_pos_right_arrow"
+            android:layout_weight="58"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506e5"/>
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/key_pos_back_to_prime2"
+        android:layout_weight="65"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e5"/>
+</LinearLayout>

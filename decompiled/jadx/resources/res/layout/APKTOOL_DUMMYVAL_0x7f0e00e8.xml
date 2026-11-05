@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070956"
+    android:typeface="sans"
+    android:tag=".label.text-size-medium"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:maxLines="1"
+    android:layoutDirection="ltr"
+    android:autoSizeTextType="uniform"
+    android:autoSizeMinTextSize="@dimen/APKTOOL_DUMMYVAL_0x7f070724"
+    android:layout_marginHorizontal="?attr/APKTOOL_DUMMYVAL_0x7f040100"
+    android:autoSizeMaxTextSize="@dimen/APKTOOL_DUMMYVAL_0x7f070956"
+    app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040159"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150e2c"/>

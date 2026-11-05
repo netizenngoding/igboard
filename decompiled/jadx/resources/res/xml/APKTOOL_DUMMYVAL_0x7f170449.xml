@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme"
+        display_app_completions="true"
+        indicator_label="拼"
+        inline_composing="false"
+        language="zh-CN"
+        language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f17123e"
+        string_id="ime_zh_cn_9key"
+        use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty">
+            <attrs language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f17123f"/>
+        </if>
+        <if enable_chinese_inline_composing_cn="true">
+            <attrs inline_composing="true"/>
+        </if>
+        <keyboard_group
+            pk_language_tag="en"
+            pk_layout_type="qwerty"
+            supports_split_mode="true"
+            variant="9key"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141404"
+            variant_name_mandatory="true">
+            <layout_specific_settings resource_id="@xml/APKTOOL_DUMMYVAL_0x7f171240"/>
+            <keyboard
+                def="@xml/APKTOOL_DUMMYVAL_0x7f17069e"
+                type="prime">
+                <merge def="@xml/APKTOOL_DUMMYVAL_0x7f1704c3"/>
+            </keyboard>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170905"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec4"/>
+            <if keyboard_mode="split">
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/APKTOOL_DUMMYVAL_0x7f140d58"
+                        value="true"/>
+                </override_keyboard_xml_conditions>
+            </if>
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02e4"
+                value="true"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02de"
+                value="true"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f5"
+                value="。"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02da"
+                value="@string/APKTOOL_DUMMYVAL_0x7f14093e"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f4"
+                value="hmm"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02d0"
+                res="@xml/APKTOOL_DUMMYVAL_0x7f1704c8"/>
+            <if keyboard_mode="split">
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f9"
+                    value="false"/>
+            </if>
+        </extra_values>
+        <processors>
+            <processor class="com.google.android.libraries.inputmethod.ime.processor.ComposingTextProcessor"/>
+            <processor class="com.google.android.apps.inputmethod.libs.hmmvoice.ChineseHmmVoiceInputProcessor"/>
+            <processor class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseAutoHalfWidthPeriodProcessor"/>
+            <processor class="com.google.android.apps.inputmethod.libs.pinyin.HmmPinyinT9DecodeProcessor"/>
+            <processor class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseDoubleSpaceProcessor"/>
+            <processor class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseAutoSpaceProcessor"/>
+            <processor class="com.google.android.libraries.inputmethod.ime.processor.ScrubMoveProcessor"/>
+            <processor class="com.google.android.libraries.inputmethod.ime.processor.OutputProcessor"/>
+        </processors>
+    </ime>
+</framework>

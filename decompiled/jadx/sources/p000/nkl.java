@@ -31,13 +31,9 @@ public final /* synthetic */ class nkl implements Runnable {
         this.f48728b = abpjVar;
     }
 
-    /* JADX WARN: Bottom block not found for handler: all -> 0x0065 */
     /* JADX WARN: Type inference failed for: r9v6, types: [android.view.inputmethod.InputConnection, java.lang.Object] */
     /* JADX WARN: Type inference failed for: r9v8, types: [android.view.inputmethod.InputConnection, java.lang.Object] */
     @Override // java.lang.Runnable
-    /*
-        Code decompiled incorrectly, please refer to instructions dump.
-    */
     public final void run() {
         int i;
         int i2;
@@ -193,21 +189,26 @@ public final /* synthetic */ class nkl implements Runnable {
                     return;
                 }
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
-                int i9 = acbv.f5065a;
                 try {
-                    abqv abqvVar = ((abpj) this.f48728b).f3746j;
-                    int i10 = this.f48727a;
-                    zli.m36048aZ(i10 > 0, "numMessages must be > 0");
-                    if (((abup) abqvVar).m2763b()) {
+                    int i9 = acbv.f5065a;
+                    try {
+                        abqv abqvVar = ((abpj) this.f48728b).f3746j;
+                        int i10 = this.f48727a;
+                        zli.m36048aZ(i10 > 0, "numMessages must be > 0");
+                        if (((abup) abqvVar).m2763b()) {
+                            return;
+                        }
+                        ((abup) abqvVar).f4254e += (long) i10;
+                        ((abup) abqvVar).m2762a();
                         return;
+                    } catch (Throwable th) {
+                        throw th;
                     }
-                    ((abup) abqvVar).f4254e += (long) i10;
-                    ((abup) abqvVar).m2762a();
+                } catch (Throwable th2) {
+                    ((abpj) this.f48728b).mo2499b(th2);
                     return;
-                } catch (Throwable th) {
-                    throw th;
                 }
-                ((abpj) this.f48728b).mo2499b(th);
+                ((abpj) this.f48728b).mo2499b(th2);
                 return;
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
                 ((abrb) this.f48728b).f3871g.mo793e(this.f48727a);

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="?attr/APKTOOL_DUMMYVAL_0x7f04057b"
+    android:paddingTop="24dp"
+    android:paddingRight="?attr/APKTOOL_DUMMYVAL_0x7f04057b"
+    android:paddingBottom="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textview.MaterialTextView
+        android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a67"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f14119d"/>
+</LinearLayout>

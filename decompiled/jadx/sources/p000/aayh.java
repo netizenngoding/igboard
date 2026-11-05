@@ -74,7 +74,7 @@ public final /* synthetic */ class aayh implements Function {
             case 2:
                 return aaay.m440J(obj);
             case 3:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 4:
                 aazb aazbVar2 = (aazb) obj;
                 int i2 = aazbVar2.f2651n;
@@ -95,14 +95,14 @@ public final /* synthetic */ class aayh implements Function {
                 aayw.m1714h((aazb) obj);
                 return null;
             case 7:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 8:
                 return ((aazb) obj).f2645h;
             case 9:
                 aayw.m1714h((aazb) obj);
                 return null;
             case 10:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 11:
                 aazb aazbVar3 = (aazb) obj;
                 int i4 = aazbVar3.f2651n;
@@ -117,7 +117,7 @@ public final /* synthetic */ class aayh implements Function {
                 aayw.m1714h((aazb) obj);
                 return null;
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 15:
                 aazb aazbVar4 = (aazb) obj;
                 int i6 = aazbVar4.f2651n;
@@ -139,7 +139,7 @@ public final /* synthetic */ class aayh implements Function {
                 }
                 return aazbVar5.f2650m == 4 ? Double.valueOf(97.0d) : Double.valueOf(98.0d);
             case 17:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 18:
                 return Double.valueOf(true == ((aazb) obj).f2641d ? 98.0d : 4.0d);
             case 19:
@@ -147,7 +147,7 @@ public final /* synthetic */ class aayh implements Function {
                 int i8 = aazbVar6.f2651n;
                 return aazbVar6.f2650m == 3 ? Double.valueOf(1.4d) : Double.valueOf(1.15d);
             default:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
         }
     }
 

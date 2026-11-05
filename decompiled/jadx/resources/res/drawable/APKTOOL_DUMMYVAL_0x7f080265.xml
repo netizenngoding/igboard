@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?android:attr/colorControlHighlight">
+    <item android:id="@android:id/mask">
+        <selector>
+            <item
+                android:state_selected="true"
+                android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080266"/>
+            <item android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080263"/>
+        </selector>
+    </item>
+    <item android:id="@android:id/background">
+        <selector>
+            <item
+                android:state_selected="true"
+                android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080266"/>
+            <item android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080263"/>
+        </selector>
+    </item>
+</ripple>

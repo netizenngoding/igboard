@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d시간</item>
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d분</item>
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">%1$d분 한도에 거의 도달했습니다</item>
+        <item quantity="other">%1$d분 한도에 거의 도달했습니다</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">%1$d초 후 종료됨…</item>
+        <item quantity="other">%1$d초 후 종료됨…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">키 %d개 할당됨</item>
+        <item quantity="other">키 %d개 할당됨</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s가 설치되었습니다.</item>
+        <item quantity="other">%s가 설치되었습니다.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d시간</item>
+        <item quantity="other">%d시간</item>
+    </plurals>
+</resources>

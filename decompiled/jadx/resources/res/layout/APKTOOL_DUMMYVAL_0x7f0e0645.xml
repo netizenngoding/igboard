@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag=".popup-item.for-keytop-popup"
+    android:background="?attr/APKTOOL_DUMMYVAL_0x7f040055"
+    android:layout_width="wrap_content"
+    android:layout_height="?attr/APKTOOL_DUMMYVAL_0x7f040289"
+    android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f08069b"
+    android:minWidth="?attr/APKTOOL_DUMMYVAL_0x7f04028a">
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0722"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506b8"/>
+</FrameLayout>

@@ -75,7 +75,7 @@ public final /* synthetic */ class aaxy implements Function {
             case 3:
                 return aaay.m442L(obj);
             case 4:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 5:
                 return Double.valueOf(true != ((aazb) obj).f2641d ? 10.0d : 90.0d);
             case 6:
@@ -88,7 +88,7 @@ public final /* synthetic */ class aaxy implements Function {
             case 9:
                 return aaay.m441K(obj);
             case 10:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 11:
                 return ((aazb) obj).f2645h;
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
@@ -107,7 +107,7 @@ public final /* synthetic */ class aaxy implements Function {
             case 16:
                 return aaay.m443M(obj);
             case 17:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 18:
                 aaay.m447W((aazb) obj);
                 return dValueOf;

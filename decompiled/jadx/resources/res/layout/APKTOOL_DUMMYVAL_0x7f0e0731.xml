@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:typeface="sans"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404ca"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f9"
+        android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070369"
+        android:layout_height="20sp"
+        android:layout_marginTop="11.5dp"
+        android:layout_marginBottom="11.5dp"
+        android:singleLine="true"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="8dp"
+        android:autoSizeMaxTextSize="14sp"
+        app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"/>
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07036d"
+        android:typeface="sans"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404bd"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07036c"
+        app:APKTOOL_DUMMYVAL_0x7f040a96="ja-JP"/>
+</merge>

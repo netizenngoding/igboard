@@ -61,7 +61,7 @@ public final class uys {
         this.f69269j = new uzk(uwsVar, strM32694a, "", z);
     }
 
-    /* JADX WARN: Code duplicated, block: B:18:0x004e A[Catch: all -> 0x01bc, TryCatch #1 {, blocks: (B:5:0x0007, B:7:0x000b, B:9:0x0015, B:13:0x0029, B:15:0x0036, B:17:0x004a, B:19:0x0050, B:21:0x0058, B:23:0x0062, B:24:0x007a, B:26:0x0095, B:28:0x009f, B:29:0x00ae, B:30:0x00c2, B:32:0x00c8, B:34:0x00e2, B:36:0x00ea, B:38:0x00f5, B:39:0x00f9, B:41:0x0105, B:51:0x0143, B:42:0x010c, B:43:0x0113, B:45:0x011c, B:46:0x0122, B:48:0x0129, B:50:0x013b, B:49:0x0131, B:54:0x014c, B:56:0x0156, B:57:0x0162, B:59:0x016e, B:61:0x0176, B:63:0x0185, B:72:0x01a5, B:66:0x018a, B:68:0x0192, B:70:0x01a1, B:18:0x004e, B:73:0x01b3, B:77:0x01b8, B:78:0x01bb, B:74:0x01b5, B:8:0x000f), top: B:86:0x0007, inners: #0 }] */
+    /* JADX WARN: Code duplicated, block: B:18:0x004e A[Catch: all -> 0x01bc, TryCatch #1 {all -> 0x01bc, blocks: (B:5:0x0007, B:7:0x000b, B:9:0x0015, B:13:0x0029, B:15:0x0036, B:17:0x004a, B:19:0x0050, B:21:0x0058, B:23:0x0062, B:24:0x007a, B:26:0x0095, B:28:0x009f, B:29:0x00ae, B:30:0x00c2, B:32:0x00c8, B:34:0x00e2, B:36:0x00ea, B:38:0x00f5, B:39:0x00f9, B:41:0x0105, B:51:0x0143, B:42:0x010c, B:43:0x0113, B:45:0x011c, B:46:0x0122, B:48:0x0129, B:50:0x013b, B:49:0x0131, B:54:0x014c, B:56:0x0156, B:57:0x0162, B:59:0x016e, B:61:0x0176, B:63:0x0185, B:72:0x01a5, B:66:0x018a, B:68:0x0192, B:70:0x01a1, B:18:0x004e, B:73:0x01b3, B:77:0x01b8, B:78:0x01bb, B:74:0x01b5, B:8:0x000f), top: B:86:0x0007, inners: #0 }] */
     /* JADX WARN: Code duplicated, block: B:82:0x01bf A[LOOP:1: B:34:0x00e2->B:82:0x01bf, LOOP_END] */
     /* JADX WARN: Code duplicated, block: B:90:0x0149 A[SYNTHETIC] */
     /* JADX WARN: Type inference failed for: r10v1, types: [java.lang.Object, java.util.concurrent.ConcurrentMap] */
@@ -77,131 +77,135 @@ public final class uys {
             return uzjVar;
         }
         synchronized (this) {
-            uzjVarM32715a = this.f69267h;
-            if (uzjVarM32715a == null) {
-                StrictMode.ThreadPolicy threadPolicyAllowThreadDiskWrites = StrictMode.allowThreadDiskWrites();
-                try {
-                    uzjVarM32715a = this.f69269j.m32715a();
-                    StrictMode.setThreadPolicy(threadPolicyAllowThreadDiskWrites);
-                    Object obj = uzjVarM32715a.f69345e;
-                    int i = ((uzi) obj).f69340c - 2;
-                    int i2 = 15;
-                    if (i != 15) {
-                        int i3 = 16;
-                        if (i != 16) {
-                            uws uwsVar = this.f69262b;
-                            uzn uznVar = uwsVar.f69098f;
-                            char c = 1;
-                            if (mom.m23697e(uznVar.f69365c)) {
-                                long j = uznVar.m32719a().f69185g;
-                                TimeUnit timeUnit = TimeUnit.HOURS;
-                                if (j + 86400000 < System.currentTimeMillis()) {
-                                    uznVar.m32722d(true);
+            try {
+                uzjVarM32715a = this.f69267h;
+                if (uzjVarM32715a == null) {
+                    StrictMode.ThreadPolicy threadPolicyAllowThreadDiskWrites = StrictMode.allowThreadDiskWrites();
+                    try {
+                        uzjVarM32715a = this.f69269j.m32715a();
+                        StrictMode.setThreadPolicy(threadPolicyAllowThreadDiskWrites);
+                        Object obj = uzjVarM32715a.f69345e;
+                        int i = ((uzi) obj).f69340c - 2;
+                        int i2 = 15;
+                        if (i != 15) {
+                            int i3 = 16;
+                            if (i != 16) {
+                                uws uwsVar = this.f69262b;
+                                uzn uznVar = uwsVar.f69098f;
+                                char c = 1;
+                                if (mom.m23697e(uznVar.f69365c)) {
+                                    long j = uznVar.m32719a().f69185g;
+                                    TimeUnit timeUnit = TimeUnit.HOURS;
+                                    if (j + 86400000 < System.currentTimeMillis()) {
+                                        uznVar.m32722d(true);
+                                    } else {
+                                        xqp xqpVar = xql.f76484a;
+                                    }
                                 } else {
-                                    xqp xqpVar = xql.f76484a;
+                                    xqp xqpVar2 = xql.f76484a;
                                 }
-                            } else {
-                                xqp xqpVar2 = xql.f76484a;
-                            }
-                            int i4 = 14;
-                            if (uzjVarM32715a.m32712a() && ((String) uzjVarM32715a.f69342b).isEmpty()) {
-                                uwsVar.m32649b().execute(new qre(this, i4));
-                                uzjVarM32715a = new uzj(uzl.f69351a, (uzi) obj);
-                            } else {
-                                uwsVar.m32649b().execute(new qre(this, i2));
-                                uym uymVar = uwsVar.f69101i;
-                                Object obj2 = uzjVarM32715a.f69343c;
-                                wpa wpaVar = this.f69268i;
-                                String str = this.f69263c;
-                                if (!wpaVar.isEmpty() && !((AtomicBoolean) uymVar.f69247a).getAndSet(true)) {
-                                    lez.m22377a().f43892a.add(0, new zlm(uymVar, (byte[]) null));
-                                }
-                                byte[] bArrM954A = ((aakp) obj2).m954A();
-                                ConcurrentMap.EL.compute(uymVar.f69249c, str, new jsd(bArrM954A, i4));
-                                Iterator it = wpaVar.iterator();
-                                while (it.hasNext()) {
-                                    AtomicReference atomicReference = (AtomicReference) uymVar.f69251e.putIfAbsent((String) it.next(), new AtomicReference(new uyl(str, bArrM954A)));
-                                    if (atomicReference != null) {
-                                        while (true) {
-                                            Object obj3 = atomicReference.get();
-                                            if (obj3 instanceof uyl) {
-                                                uyl uylVar = (uyl) obj3;
-                                                String str2 = uylVar.f69245a;
-                                                if (str.equals(str2)) {
-                                                    uylVar.m32678b(bArrM954A);
-                                                    break;
-                                                }
-                                                uyl uylVar2 = new uyl(str, bArrM954A);
-                                                if (str.compareTo(str2) < 0) {
-                                                    uylVarArr2 = new uyl[2];
-                                                    uylVarArr2[0] = uylVar2;
-                                                    uylVarArr2[c] = uylVar;
-                                                } else {
-                                                    uylVarArr2 = new uyl[2];
-                                                    uylVarArr2[0] = uylVar;
-                                                    uylVarArr2[c] = uylVar2;
-                                                }
-                                                if (C0000a.m0A(atomicReference, obj3, uylVarArr2)) {
+                                int i4 = 14;
+                                if (uzjVarM32715a.m32712a() && ((String) uzjVarM32715a.f69342b).isEmpty()) {
+                                    uwsVar.m32649b().execute(new qre(this, i4));
+                                    uzjVarM32715a = new uzj(uzl.f69351a, (uzi) obj);
+                                } else {
+                                    uwsVar.m32649b().execute(new qre(this, i2));
+                                    uym uymVar = uwsVar.f69101i;
+                                    Object obj2 = uzjVarM32715a.f69343c;
+                                    wpa wpaVar = this.f69268i;
+                                    String str = this.f69263c;
+                                    if (!wpaVar.isEmpty() && !((AtomicBoolean) uymVar.f69247a).getAndSet(true)) {
+                                        lez.m22377a().f43892a.add(0, new zlm(uymVar, (byte[]) null));
+                                    }
+                                    byte[] bArrM954A = ((aakp) obj2).m954A();
+                                    ConcurrentMap.EL.compute(uymVar.f69249c, str, new jsd(bArrM954A, i4));
+                                    Iterator it = wpaVar.iterator();
+                                    while (it.hasNext()) {
+                                        AtomicReference atomicReference = (AtomicReference) uymVar.f69251e.putIfAbsent((String) it.next(), new AtomicReference(new uyl(str, bArrM954A)));
+                                        if (atomicReference != null) {
+                                            while (true) {
+                                                Object obj3 = atomicReference.get();
+                                                if (obj3 instanceof uyl) {
+                                                    uyl uylVar = (uyl) obj3;
+                                                    String str2 = uylVar.f69245a;
+                                                    if (str.equals(str2)) {
+                                                        uylVar.m32678b(bArrM954A);
+                                                        break;
+                                                    }
+                                                    uyl uylVar2 = new uyl(str, bArrM954A);
+                                                    if (str.compareTo(str2) < 0) {
+                                                        uylVarArr2 = new uyl[2];
+                                                        uylVarArr2[0] = uylVar2;
+                                                        uylVarArr2[c] = uylVar;
+                                                    } else {
+                                                        uylVarArr2 = new uyl[2];
+                                                        uylVarArr2[0] = uylVar;
+                                                        uylVarArr2[c] = uylVar2;
+                                                    }
+                                                    if (C0000a.m0A(atomicReference, obj3, uylVarArr2)) {
+                                                        c = 1;
+                                                        break;
+                                                    }
                                                     c = 1;
-                                                    break;
-                                                }
-                                                c = 1;
-                                            } else {
-                                                uyl[] uylVarArr3 = (uyl[]) obj3;
-                                                int iBinarySearch = Arrays.binarySearch(uylVarArr3, str);
-                                                if (iBinarySearch >= 0) {
-                                                    uylVarArr3[iBinarySearch].m32678b(bArrM954A);
-                                                    break;
-                                                }
-                                                int i5 = ~iBinarySearch;
-                                                int length = uylVarArr3.length;
-                                                int i6 = length + 1;
-                                                int i7 = length - i5;
-                                                if (i7 == 0) {
-                                                    uylVarArr = (uyl[]) Arrays.copyOf(uylVarArr3, i6);
                                                 } else {
-                                                    uylVarArr = new uyl[i6];
-                                                    System.arraycopy(uylVarArr3, 0, uylVarArr, 0, i5);
-                                                    System.arraycopy(uylVarArr3, i5, uylVarArr, i5 + 1, i7);
-                                                }
-                                                uylVarArr[i5] = new uyl(str, bArrM954A);
-                                                uylVarArr2 = uylVarArr;
-                                                if (C0000a.m0A(atomicReference, obj3, uylVarArr2)) {
+                                                    uyl[] uylVarArr3 = (uyl[]) obj3;
+                                                    int iBinarySearch = Arrays.binarySearch(uylVarArr3, str);
+                                                    if (iBinarySearch >= 0) {
+                                                        uylVarArr3[iBinarySearch].m32678b(bArrM954A);
+                                                        break;
+                                                    }
+                                                    int i5 = ~iBinarySearch;
+                                                    int length = uylVarArr3.length;
+                                                    int i6 = length + 1;
+                                                    int i7 = length - i5;
+                                                    if (i7 == 0) {
+                                                        uylVarArr = (uyl[]) Arrays.copyOf(uylVarArr3, i6);
+                                                    } else {
+                                                        uylVarArr = new uyl[i6];
+                                                        System.arraycopy(uylVarArr3, 0, uylVarArr, 0, i5);
+                                                        System.arraycopy(uylVarArr3, i5, uylVarArr, i5 + 1, i7);
+                                                    }
+                                                    uylVarArr[i5] = new uyl(str, bArrM954A);
+                                                    uylVarArr2 = uylVarArr;
+                                                    if (C0000a.m0A(atomicReference, obj3, uylVarArr2)) {
+                                                        c = 1;
+                                                        break;
+                                                        break;
+                                                    }
                                                     c = 1;
-                                                    break;
-                                                    break;
                                                 }
-                                                c = 1;
                                             }
                                         }
                                     }
-                                }
-                                if (!this.f69264d.equals("")) {
-                                    uwsVar.m32649b().execute(new qre(this, i3));
-                                }
-                                uzk uzkVar = this.f69269j;
-                                uzn uznVar2 = uzkVar.f69346a.f69098f;
-                                boolean z = uzkVar.f69349d;
-                                yes yesVar = yes.FILE;
-                                if (z) {
-                                    uxr uxrVarM32720b = uznVar2.m32720b();
-                                    if (uxrVarM32720b.f69198e && new aalw(uxrVarM32720b.f69202i, uxr.f69194a).contains(yesVar) && !uxrVarM32720b.f69207n) {
-                                        uwsVar.m32649b().execute(new tfu(this, 18));
+                                    if (!this.f69264d.equals("")) {
+                                        uwsVar.m32649b().execute(new qre(this, i3));
                                     }
-                                } else {
-                                    uxq uxqVarM32719a = uznVar2.m32719a();
-                                    if (uxqVarM32719a.f69183e && new aalw(uxqVarM32719a.f69188j, uxq.f69179a).contains(yesVar) && !uxqVarM32719a.f69193o) {
-                                        uwsVar.m32649b().execute(new tfu(this, 18));
+                                    uzk uzkVar = this.f69269j;
+                                    uzn uznVar2 = uzkVar.f69346a.f69098f;
+                                    boolean z = uzkVar.f69349d;
+                                    yes yesVar = yes.FILE;
+                                    if (z) {
+                                        uxr uxrVarM32720b = uznVar2.m32720b();
+                                        if (uxrVarM32720b.f69198e && new aalw(uxrVarM32720b.f69202i, uxr.f69194a).contains(yesVar) && !uxrVarM32720b.f69207n) {
+                                            uwsVar.m32649b().execute(new tfu(this, 18));
+                                        }
+                                    } else {
+                                        uxq uxqVarM32719a = uznVar2.m32719a();
+                                        if (uxqVarM32719a.f69183e && new aalw(uxqVarM32719a.f69188j, uxq.f69179a).contains(yesVar) && !uxqVarM32719a.f69193o) {
+                                            uwsVar.m32649b().execute(new tfu(this, 18));
+                                        }
                                     }
                                 }
                             }
                         }
+                        this.f69267h = uzjVarM32715a;
+                    } catch (Throwable th) {
+                        StrictMode.setThreadPolicy(threadPolicyAllowThreadDiskWrites);
+                        throw th;
                     }
-                    this.f69267h = uzjVarM32715a;
-                } catch (Throwable th) {
-                    StrictMode.setThreadPolicy(threadPolicyAllowThreadDiskWrites);
-                    throw th;
                 }
+            } catch (Throwable th2) {
+                throw th2;
             }
         }
         return uzjVarM32715a;

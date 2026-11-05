@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c17"/>
+    <if language="zz-NEVER">
+        <if language="fo-FO"/>
+        <else>
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge
+                    key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1264"
+                    view_id="@+id/B08"/>
+            </merge_key_mapping>
+        </else>
+        <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b125d"
+                view_id="@+id/B09"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b117f"
+                view_id="@+id/B10"/>
+        </merge_key_mapping>
+    </if>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c18"/>
+</framework>

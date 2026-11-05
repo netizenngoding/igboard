@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f150763" parent="@android:style/Widget.Material.Spinner">
+        <item name="android:background">@drawable/APKTOOL_DUMMYVAL_0x7f080742</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:popupBackground">@drawable/APKTOOL_DUMMYVAL_0x7f080743</item>
+        <item name="android:dropDownVerticalOffset">48dp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150764" parent="@android:style/Widget.Material.DropDownItem.Spinner">
+        <item name="android:textColor">@color/APKTOOL_DUMMYVAL_0x7f060b4c</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150765" parent="@android:style/Widget.DeviceDefault.TextView.SpinnerItem">
+        <item name="android:textColor">@color/APKTOOL_DUMMYVAL_0x7f060b4c</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15096c" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0312</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15096d" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">0x0</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0094</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15096e" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0179</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150977" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">44sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15097c" parent="@android:style/TextAppearance.DeviceDefault.Headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">32sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15097e" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0071</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150987" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">28sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150988" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0094</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f15098a" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0071</item>
+        <item name="android:hyphenationFrequency">3</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:lineBreakWordStyle">1</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150b22" parent="@style/APKTOOL_DUMMYVAL_0x7f150b25">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150b25" parent="@style/APKTOOL_DUMMYVAL_0x7f150b24">
+        <item name="android:spinnerStyle">@style/APKTOOL_DUMMYVAL_0x7f150763</item>
+        <item name="android:spinnerDropDownItemStyle">@style/APKTOOL_DUMMYVAL_0x7f150764</item>
+        <item name="android:spinnerItemStyle">@style/APKTOOL_DUMMYVAL_0x7f150765</item>
+    </style>
+</resources>

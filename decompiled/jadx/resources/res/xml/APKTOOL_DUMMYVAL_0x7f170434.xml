@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="xdq-RU"
+        string_id="ime_kaitag"
+        supports_inline_suggestion="true">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708fc"
+            variant="kaitag"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414fc"/>
+    </ime>
+</framework>

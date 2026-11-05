@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b29a6"
+    android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07098e"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07098d">
+    <com.google.android.material.card.MaterialCardView
+        android:duplicateParentState="true"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150b41">
+        <com.google.android.material.card.MaterialCardView style="@style/APKTOOL_DUMMYVAL_0x7f150b42">
+            <FrameLayout
+                android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b29a0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b29a1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layoutDirection="ltr"/>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07d1"/>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07d2"/>
+        </com.google.android.material.card.MaterialCardView>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07098c"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404c1"
+        android:gravity="bottom|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b299f"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"/>
+</LinearLayout>

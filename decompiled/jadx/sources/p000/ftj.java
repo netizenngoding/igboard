@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import com.google.android.inputmethod.latin.R;
+import java.io.IOException;
 
 /* JADX INFO: compiled from: PG */
 /* JADX INFO: loaded from: classes2.dex */
@@ -41,7 +42,7 @@ public final class ftj extends acfy implements achc {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) throws IOException {
         acfl acflVar = acfl.f5236a;
         int i = this.f27274a;
         acbw.m3007V(obj);

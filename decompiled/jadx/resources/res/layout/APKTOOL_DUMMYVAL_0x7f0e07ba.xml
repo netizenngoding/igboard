@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag=".text-preview-area"
+    android:background="@color/APKTOOL_DUMMYVAL_0x7f0605c8"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    app:APKTOOL_DUMMYVAL_0x7f0406bc="true">
+    <TextView
+        android:textSize="22dp"
+        android:ellipsize="start"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2979"
+        android:visibility="visible"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1503a7"/>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

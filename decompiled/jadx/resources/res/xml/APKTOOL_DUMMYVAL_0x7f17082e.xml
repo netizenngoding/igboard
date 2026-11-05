@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if>
+        <any_of>
+            <cond
+                language="bgx-TR"
+                variant="turkish_f"/>
+            <cond
+                language="bgx-TR"
+                variant="turkish_q"/>
+            <cond language="cnr-Cyrl-ME"/>
+            <cond language="cnr-Latn-ME"/>
+            <cond
+                language="crh-Latn"
+                variant="turkish_f"/>
+            <cond
+                language="crh-Latn"
+                variant="turkish_q"/>
+            <cond language="cs-CZ"/>
+            <cond language="da-DK"/>
+            <cond language="de-AT"/>
+            <cond language="de-BE"/>
+            <cond language="de-CH"/>
+            <cond
+                language="de-DE"
+                variant="azerty"/>
+            <cond
+                language="de-DE"
+                variant="colemak"/>
+            <cond
+                language="de-DE"
+                variant="dvorak"/>
+            <cond
+                language="de-DE"
+                variant="german"/>
+            <cond
+                language="de-DE"
+                variant="qwerty"/>
+            <cond
+                language="de-DE"
+                variant="qwertz"/>
+            <cond language="de-LU"/>
+            <cond language="el-CY"/>
+            <cond
+                language="el-GR"
+                variant="greek"/>
+            <cond
+                language="en-GB"
+                variant="azerty"/>
+            <cond
+                language="en-GB"
+                variant="colemak"/>
+            <cond
+                language="en-GB"
+                variant="pcqwerty"/>
+            <cond
+                language="en-GB"
+                variant="qwerty"/>
+            <cond
+                language="en-GB"
+                variant="qwertz"/>
+            <cond language="es-419"/>
+            <cond language="es-AR"/>
+            <cond language="es-ES"/>
+            <cond language="es-MX"/>
+            <cond language="es-US"/>
+            <cond language="et-EE"/>
+            <cond
+                language="fr-002"
+                variant="azerty"/>
+            <cond
+                language="fr-002"
+                variant="qwerty"/>
+            <cond
+                language="fr-002"
+                variant="qwertz"/>
+            <cond language="fr-BE"/>
+            <cond language="fr-CA"/>
+            <cond
+                language="fr-CH"
+                variant="azerty"/>
+            <cond
+                language="fr-CH"
+                variant="pcqwerty"/>
+            <cond
+                language="fr-CH"
+                variant="qwerty"/>
+            <cond
+                language="fr-CH"
+                variant="qwertz"/>
+            <cond
+                language="fr-CH"
+                variant="swiss"/>
+            <cond language="fr-FR"/>
+            <cond
+                language="gag-MD"
+                variant="turkish_f"/>
+            <cond
+                language="gag-MD"
+                variant="turkish_q"/>
+            <cond language="gsw-CH"/>
+            <cond language="hu-HU"/>
+            <cond language="is-IS"/>
+            <cond language="it-CH"/>
+            <cond language="it-IT"/>
+            <cond
+                language="iw-IL"
+                variant="hebrew"/>
+            <cond
+                language="ji"
+                variant="yiddish"/>
+            <cond
+                language="kiu-TR"
+                variant="kirmanjki"/>
+            <cond
+                language="kiu-TR"
+                variant="turkish_f"/>
+            <cond
+                language="kiu-TR"
+                variant="turkish_q"/>
+            <cond
+                language="kk-KZ"
+                variant="kazakh"/>
+            <cond
+                language="kk-KZ"
+                variant="kazakh_pc"/>
+            <cond
+                language="kmz-Latn-IR"
+                variant="turkish_q"/>
+            <cond
+                language="ku"
+                variant="kurdish_latin"/>
+            <cond
+                language="ku"
+                variant="pcqwerty"/>
+            <cond
+                language="ku"
+                variant="qwerty"/>
+            <cond
+                language="ku"
+                variant="qwertz"/>
+            <cond
+                language="lad-BA"
+                variant="turkish_q"/>
+            <cond language="lv-LV"/>
+            <cond
+                language="mr-IN"
+                variant="marathi_india"/>
+            <cond language="nb-NO"/>
+            <cond language="nl-BE"/>
+            <cond
+                language="nn-NO"
+                variant="nordic"/>
+            <cond language="nod-Thai-TH"/>
+            <cond language="pnt-GR"/>
+            <cond language="pt-PT"/>
+            <cond
+                language="ro-MD"
+                variant="azerty"/>
+            <cond
+                language="ro-MD"
+                variant="colemak"/>
+            <cond
+                language="ro-MD"
+                variant="dvorak"/>
+            <cond
+                language="ro-MD"
+                variant="pcqwerty"/>
+            <cond
+                language="ro-MD"
+                variant="qwerty"/>
+            <cond
+                language="ro-RO"
+                variant="azerty"/>
+            <cond
+                language="ro-RO"
+                variant="colemak"/>
+            <cond
+                language="ro-RO"
+                variant="dvorak"/>
+            <cond
+                language="ro-RO"
+                variant="pcqwerty"/>
+            <cond
+                language="ro-RO"
+                variant="qwerty"/>
+            <cond
+                language="sk-SK"
+                variant="pcqwerty"/>
+            <cond
+                language="sk-SK"
+                variant="qwerty"/>
+            <cond language="sou-TH"/>
+            <cond language="sr-Cyrl-RS"/>
+            <cond language="sr-Latn-RS"/>
+            <cond
+                language="th-TH"
+                variant="thai"/>
+            <cond language="tr-CY"/>
+            <cond language="tr-TR"/>
+            <cond language="uk-UA"/>
+            <cond language="ydd-IL"/>
+        </any_of>
+        <view
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0507"
+            type="body"/>
+    </if>
+    <else_if>
+        <any_of>
+            <cond language="pt-002"/>
+            <cond language="pt-AO"/>
+            <cond language="pt-BR"/>
+            <cond language="pt-MO"/>
+        </any_of>
+        <view
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04ea"
+            type="body"/>
+    </else_if>
+    <else>
+        <view
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e04ec"
+            type="body"/>
+    </else>
+</framework>

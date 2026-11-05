@@ -55,35 +55,39 @@ public final class qky implements whq {
         Socket socket;
         Instant.now().toEpochMilli();
         synchronized (f57222d) {
-            f57224f = null;
-            adca adcaVar = f57223e;
-            if (adcaVar != null) {
-                adcaVar.f6982c.m4074b().shutdown();
-                Object obj = adcaVar.f6980B.f81809a;
-                Iterator it = ((ConcurrentLinkedQueue) ((adeb) obj).f7281d).iterator();
-                achu.m3300g(it, "iterator(...)");
-                while (it.hasNext()) {
-                    addz addzVar = (addz) it.next();
-                    achu.m3298e(addzVar);
-                    synchronized (addzVar) {
-                        if (addzVar.f7268m.isEmpty()) {
-                            it.remove();
-                            addzVar.m4247f();
-                            socket = addzVar.f7258c;
-                        } else {
-                            socket = null;
+            try {
+                f57224f = null;
+                adca adcaVar = f57223e;
+                if (adcaVar != null) {
+                    adcaVar.f6982c.m4074b().shutdown();
+                    Object obj = adcaVar.f6980B.f81809a;
+                    Iterator it = ((ConcurrentLinkedQueue) ((adeb) obj).f7281d).iterator();
+                    achu.m3300g(it, "iterator(...)");
+                    while (it.hasNext()) {
+                        addz addzVar = (addz) it.next();
+                        achu.m3298e(addzVar);
+                        synchronized (addzVar) {
+                            if (addzVar.f7268m.isEmpty()) {
+                                it.remove();
+                                addzVar.m4247f();
+                                socket = addzVar.f7258c;
+                            } else {
+                                socket = null;
+                            }
+                        }
+                        if (socket != null) {
+                            adcu.m4156h(socket);
+                            achu.m3301h(addzVar, "connection");
                         }
                     }
-                    if (socket != null) {
-                        adcu.m4156h(socket);
-                        achu.m3301h(addzVar, "connection");
+                    if (((ConcurrentLinkedQueue) ((adeb) obj).f7281d).isEmpty()) {
+                        ((addh) ((adeb) obj).f7280c).m4196a();
                     }
+                    ngq.m24474a(adcaVar.f6989j);
+                    f57223e = null;
                 }
-                if (((ConcurrentLinkedQueue) ((adeb) obj).f7281d).isEmpty()) {
-                    ((addh) ((adeb) obj).f7280c).m4196a();
-                }
-                ngq.m24474a(adcaVar.f6989j);
-                f57223e = null;
+            } catch (Throwable th) {
+                throw th;
             }
         }
         Instant.now().toEpochMilli();

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        class="com.google.android.apps.inputmethod.libs.mozc.ime.SimpleJapaneseIme"
+        display_app_completions="false"
+        inline_composing="true"
+        language="@string/APKTOOL_DUMMYVAL_0x7f14052c"
+        language_specific_settings="@xml/setting_japanese_language_specific"
+        string_id="@string/APKTOOL_DUMMYVAL_0x7f140d97"
+        unacceptable_meta_keys=""
+        use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty|12key">
+            <attrs language_specific_settings="@xml/setting_japanese_language_specific_with_pk"/>
+        </if>
+        <if japanese_pk_kana_input="true">
+            <attrs keyevent_interpreter="com.google.android.apps.inputmethod.libs.mozc.ime.JapaneseKanaKeyEventInterpreter"/>
+        </if>
+        <keyboard_group
+            pk_language_tag="ja-Latn-JP"
+            pk_layout_type="extended"
+            variant="godan">
+            <layout_specific_settings resource_id="@xml/setting_japanese_softwarekeyboard"/>
+            <if
+                japanese_landscape_qwerty="true"
+                orientation="landscape">
+                <attrs variant_label="@string/APKTOOL_DUMMYVAL_0x7f140add"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170205"/>
+            </if>
+            <else>
+                <include
+                    href="@xml/APKTOOL_DUMMYVAL_0x7f170002"
+                    support_a11y_keyboard="true"/>
+                <keyboard
+                    def="@xml/APKTOOL_DUMMYVAL_0x7f1706eb"
+                    type="prime"/>
+                <if japanese_use_tri_state_mode="true">
+                    <keyboard
+                        def="@xml/APKTOOL_DUMMYVAL_0x7f1706ec"
+                        type="alphabet">
+                        <extra_values>
+                            <item
+                                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ef"
+                                value="QWERTY_ALPHABET"/>
+                        </extra_values>
+                    </keyboard>
+                    <keyboard
+                        def="@xml/APKTOOL_DUMMYVAL_0x7f1706ee"
+                        type="tri_state_digit"/>
+                </if>
+            </else>
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <keyboard
+                    def="@xml/APKTOOL_DUMMYVAL_0x7f1707c5"
+                    type="digit">
+                    <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170666"/>
+                </keyboard>
+            </if>
+            <else>
+                <keyboard
+                    def="@xml/APKTOOL_DUMMYVAL_0x7f1707c4"
+                    type="digit">
+                    <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170666"/>
+                </keyboard>
+            </else>
+            <keyboard
+                def="@xml/APKTOOL_DUMMYVAL_0x7f170878"
+                type="symbol">
+                <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170666"/>
+            </keyboard>
+        </keyboard_group>
+        <extra_values>
+            <if
+                japanese_landscape_qwerty="true"
+                orientation="landscape">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170204"/>
+            </if>
+            <else>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f6"
+                    value="GODAN_KANA"/>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02e3"
+                    value="HARDWARE_QWERTY_KANA"/>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02d0"
+                    res="@xml/APKTOOL_DUMMYVAL_0x7f1706ea"/>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b0301"
+                    value="true"/>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ea"
+                    res="@array/APKTOOL_DUMMYVAL_0x7f0300c1"/>
+            </else>
+        </extra_values>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17003e"/>
+    </ime>
+</framework>

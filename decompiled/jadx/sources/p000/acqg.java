@@ -14,7 +14,7 @@ public final class acqg extends acqi {
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     @Override // p000.acqi, p000.acsw
     /* JADX INFO: renamed from: b */
-    protected final Object mo3816b(acpy acpyVar, acfd acfdVar) throws Throwable {
+    protected final Object mo3816b(acpy acpyVar, acfd acfdVar) {
         acqf acqfVar;
         if (acfdVar instanceof acqf) {
             acqfVar = (acqf) acfdVar;

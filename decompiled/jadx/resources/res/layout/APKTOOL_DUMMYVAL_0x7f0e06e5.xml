@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag=".access-point-entry-menu-icon.item-ripple"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080298"
+    android:scaleType="centerCrop"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150241">
+    <com.google.android.libraries.inputmethod.accesspoint.impl.AnimatedAccessPointEntryIconView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+        android:tag=".icon.for-access-point-icon.entry.non-linear-scale.ioshide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:alpha="0"/>
+</FrameLayout>

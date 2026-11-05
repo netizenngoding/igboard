@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f150002"
+    android:clipToPadding="false"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150004">
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+        android:tag=".icon.for-access-point-icon.non-linear-scale.ioshide"
+        android:visibility="gone"
+        android:duplicateParentState="true"
+        android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070055"
+        android:layout_height="?attr/APKTOOL_DUMMYVAL_0x7f040002"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:maxWidth="?attr/APKTOOL_DUMMYVAL_0x7f040002"
+        android:alpha="0"/>
+    <com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsBarExpandLabelView
+        android:textSize="14dp"
+        android:ellipsize="marquee"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+        android:tag=".label.access-point-item.top-bar.ioshide"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingStart="4dp"
+        app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"/>
+</LinearLayout>

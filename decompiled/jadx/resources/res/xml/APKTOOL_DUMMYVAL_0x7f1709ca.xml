@@ -1,0 +1,2851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if>
+        <any_of>
+            <cond language="ady-RU"/>
+            <cond language="av-RU"/>
+            <cond language="bxr-RU"/>
+            <cond language="ce-RU"/>
+            <cond language="cu-RU"/>
+            <cond language="cv-RU"/>
+            <cond language="dar-RU"/>
+            <cond language="dng-KG"/>
+            <cond
+                language="gag-Cyrl"
+                variant="russian_jcuken"/>
+            <cond language="inh-RU"/>
+            <cond language="kaa-Cyrl-UZ"/>
+            <cond language="kbd-RU"/>
+            <cond language="krc-RU"/>
+            <cond language="kum-RU"/>
+            <cond language="kv-RU"/>
+            <cond language="lbe-RU"/>
+            <cond language="lez-AZ"/>
+            <cond language="lez-RU"/>
+            <cond language="mdf-RU"/>
+            <cond language="mhr-RU"/>
+            <cond language="mrj-RU"/>
+            <cond language="myv-RU"/>
+            <cond language="os-RU"/>
+            <cond
+                language="ru-BY"
+                variant="russian"/>
+            <cond
+                language="ru-KG"
+                variant="russian"/>
+            <cond
+                language="ru-RU"
+                variant="russian"/>
+            <cond language="sty-RU"/>
+            <cond language="tab-RU"/>
+            <cond language="tly-RU"/>
+            <cond language="udm-RU"/>
+            <cond language="uum-GE"/>
+            <cond language="xal-RU"/>
+            <cond language="yrk-RU"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709dc"/>
+    </if>
+    <else_if>
+        <any_of>
+            <cond
+                language="az-AZ"
+                variant="azerbaijani"/>
+            <cond
+                language="az-AZ"
+                variant="querty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17091e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="ba-RU"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17091f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="be-BY"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170920"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-BE"
+                variant="azerty"/>
+            <cond
+                language="de-BE"
+                variant="german"/>
+            <cond
+                language="fr-002"
+                variant="azerty"/>
+            <cond
+                language="fr-BE"
+                variant="azerty"/>
+            <cond
+                language="fr-CA"
+                variant="azerty"/>
+            <cond
+                language="fr-CH"
+                variant="azerty"/>
+            <cond
+                language="nl-BE"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170923"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-BE"
+                variant="colemak"/>
+            <cond
+                language="fr-BE"
+                variant="colemak"/>
+            <cond
+                language="fr-CA"
+                variant="colemak"/>
+            <cond
+                language="nl-BE"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170921"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-BE"
+                variant="dvorak"/>
+            <cond
+                language="fr-BE"
+                variant="dvorak"/>
+            <cond
+                language="fr-CA"
+                variant="dvorak"/>
+            <cond
+                language="nl-BE"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170922"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-BE"
+                variant="qwerty"/>
+            <cond
+                language="nl-BE"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170924"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nl-BE"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170925"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="bo-CN"
+                variant="tibetan"/>
+            <cond
+                language="bo-CN"
+                variant="tibetan_alphabetical"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170926"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-002"
+                variant="pcqwerty"/>
+            <cond
+                language="pt-002"
+                variant="portuguese"/>
+            <cond
+                language="pt-002"
+                variant="qwerty"/>
+            <cond
+                language="pt-AO"
+                variant="pcqwerty"/>
+            <cond
+                language="pt-AO"
+                variant="portuguese"/>
+            <cond
+                language="pt-AO"
+                variant="qwerty"/>
+            <cond
+                language="pt-BR"
+                variant="pcqwerty"/>
+            <cond
+                language="pt-BR"
+                variant="portuguese"/>
+            <cond
+                language="pt-BR"
+                variant="qwerty"/>
+            <cond
+                language="pt-MO"
+                variant="pcqwerty"/>
+            <cond
+                language="pt-MO"
+                variant="portuguese"/>
+            <cond
+                language="pt-MO"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17092a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-002"
+                variant="azerty"/>
+            <cond
+                language="pt-AO"
+                variant="azerty"/>
+            <cond
+                language="pt-BR"
+                variant="azerty"/>
+            <cond
+                language="pt-MO"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170927"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-002"
+                variant="colemak"/>
+            <cond
+                language="pt-AO"
+                variant="colemak"/>
+            <cond
+                language="pt-BR"
+                variant="colemak"/>
+            <cond
+                language="pt-MO"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170928"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-002"
+                variant="dvorak"/>
+            <cond
+                language="pt-002"
+                variant="dvorak_spanish"/>
+            <cond
+                language="pt-AO"
+                variant="dvorak"/>
+            <cond
+                language="pt-AO"
+                variant="dvorak_spanish"/>
+            <cond
+                language="pt-BR"
+                variant="dvorak"/>
+            <cond
+                language="pt-BR"
+                variant="dvorak_spanish"/>
+            <cond
+                language="pt-MO"
+                variant="dvorak"/>
+            <cond
+                language="pt-MO"
+                variant="dvorak_spanish"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170929"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-002"
+                variant="qwertz"/>
+            <cond
+                language="pt-AO"
+                variant="qwertz"/>
+            <cond
+                language="pt-BR"
+                variant="qwertz"/>
+            <cond
+                language="pt-MO"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17092b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="bs-Cyrl-BA"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17092c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="bg-BG"
+                variant="bulgarian"/>
+            <cond
+                language="rmn-BG"
+                variant="bulgarian"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17092d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="chr-x-dual"/>
+            <cond language="chr-US"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17092e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hr-HR"
+                variant="croatian"/>
+            <cond
+                language="hr-HR"
+                variant="qwertz"/>
+            <cond
+                language="sl-SI"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170932"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hr-HR"
+                variant="azerty"/>
+            <cond
+                language="sl-SI"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17092f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hr-HR"
+                variant="colemak"/>
+            <cond
+                language="sl-SI"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170930"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hr-HR"
+                variant="dvorak"/>
+            <cond
+                language="sl-SI"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170931"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hr-HR"
+                variant="pcqwerty"/>
+            <cond
+                language="hr-HR"
+                variant="qwerty"/>
+            <cond
+                language="sl-SI"
+                variant="pcqwerty"/>
+            <cond
+                language="sl-SI"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170933"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cs-CZ"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170937"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cs-CZ"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170934"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cs-CZ"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170935"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cs-CZ"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170936"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cs-CZ"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170938"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="da-DK"
+                variant="nordic"/>
+            <cond
+                language="da-DK"
+                variant="pcqwerty"/>
+            <cond
+                language="da-DK"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17093c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="da-DK"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170939"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="da-DK"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17093a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="da-DK"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17093b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="da-DK"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17093d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="dsb-DE"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170941"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="dsb-DE"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17093e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="dsb-DE"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17093f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="dsb-DE"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170940"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="dsb-DE"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170942"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="dv-MV"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170943"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="dz-BT"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170944"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="el-GR"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170945"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-IN"
+                variant="pcqwerty"/>
+            <cond
+                language="en-IN"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170948"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-IN"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170946"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-IN"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170947"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-IN"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170949"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-GB"
+                variant="pcqwerty"/>
+            <cond
+                language="en-GB"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17094c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-GB"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17094a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-GB"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17094b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-GB"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17094d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="en-US"
+                variant="us_intl"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17094e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="et-EE"
+                variant="estonian"/>
+            <cond
+                language="et-EE"
+                variant="pcqwerty"/>
+            <cond
+                language="et-EE"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170952"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="et-EE"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17094f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="et-EE"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170950"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="et-EE"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170951"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="et-EE"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170953"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fi-FI"
+                variant="nordic"/>
+            <cond
+                language="fi-FI"
+                variant="pcqwerty"/>
+            <cond
+                language="fi-FI"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170957"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fi-FI"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170954"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fi-FI"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170955"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fi-FI"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170956"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fi-FI"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170958"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fo-FO"
+                variant="pcqwerty"/>
+            <cond
+                language="fo-FO"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17095c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fo-FO"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170959"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fo-FO"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17095a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fo-FO"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17095b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fo-FO"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17095d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fr-FR"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170962"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fr-FR"
+                variant="bepo"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17095e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fr-002"
+                variant="qwerty"/>
+            <cond
+                language="fr-BE"
+                variant="qwerty"/>
+            <cond
+                language="fr-CA"
+                variant="pcqwerty"/>
+            <cond
+                language="fr-CA"
+                variant="qwerty"/>
+            <cond
+                language="fr-CH"
+                variant="pcqwerty"/>
+            <cond
+                language="fr-CH"
+                variant="qwerty"/>
+            <cond
+                language="fr-FR"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17095f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fr-FR"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170960"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fr-FR"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170961"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ga"
+                variant="pcqwerty"/>
+            <cond
+                language="ga"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170966"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ga"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170963"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ga"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170964"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ga"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170965"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ga"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170967"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gd-GB"
+                variant="pcqwerty"/>
+            <cond
+                language="gd-GB"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17096b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gd-GB"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170968"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gd-GB"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170969"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gd-GB"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17096a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gd-GB"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17096c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-AT"
+                variant="german"/>
+            <cond
+                language="de-AT"
+                variant="qwertz"/>
+            <cond
+                language="de-BE"
+                variant="qwertz"/>
+            <cond
+                language="de-DE"
+                variant="german"/>
+            <cond
+                language="de-DE"
+                variant="qwertz"/>
+            <cond
+                language="de-LU"
+                variant="german"/>
+            <cond
+                language="de-LU"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170971"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-AT"
+                variant="azerty"/>
+            <cond
+                language="de-DE"
+                variant="azerty"/>
+            <cond
+                language="de-LU"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17096d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-AT"
+                variant="colemak"/>
+            <cond
+                language="de-DE"
+                variant="colemak"/>
+            <cond
+                language="de-LU"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17096e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-AT"
+                variant="dvorak"/>
+            <cond
+                language="de-DE"
+                variant="dvorak"/>
+            <cond
+                language="de-LU"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17096f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-DE"
+                variant="de_neo2"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170970"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-AT"
+                variant="qwerty"/>
+            <cond
+                language="de-DE"
+                variant="qwerty"/>
+            <cond
+                language="de-LU"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170972"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gn"
+                variant="pcqwerty"/>
+            <cond
+                language="gn"
+                variant="qwerty"/>
+            <cond
+                language="gn"
+                variant="spanish"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170976"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gn"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170973"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gn"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170974"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gn"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170975"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gn"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170977"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="el-CY"/>
+            <cond
+                language="el-GR"
+                variant="greek"/>
+            <cond language="pnt-GR"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170978"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="gu-IN"
+                variant="gujarati"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170979"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ha-GH"
+                variant="hausa"/>
+            <cond
+                language="ha-GH"
+                variant="pcqwerty"/>
+            <cond
+                language="ha-GH"
+                variant="qwerty"/>
+            <cond
+                language="ha-NG"
+                variant="hausa"/>
+            <cond
+                language="ha-NG"
+                variant="pcqwerty"/>
+            <cond
+                language="ha-NG"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17097d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ha-GH"
+                variant="azerty"/>
+            <cond
+                language="ha-NG"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17097a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ha-GH"
+                variant="colemak"/>
+            <cond
+                language="ha-NG"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17097b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ha-GH"
+                variant="dvorak"/>
+            <cond
+                language="ha-NG"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17097c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ha-GH"
+                variant="qwertz"/>
+            <cond
+                language="ha-NG"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17097e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="haw"
+                variant="hawaiian"/>
+            <cond
+                language="haw"
+                variant="pcqwerty"/>
+            <cond
+                language="haw"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170982"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="haw"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17097f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="haw"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170980"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="haw"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170981"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="haw"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170983"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="iw-IL"
+                variant="hebrew"/>
+            <cond
+                language="ji"
+                variant="yiddish"/>
+            <cond language="ydd-IL"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170984"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hi-IN"
+                variant="hindi"/>
+            <cond
+                language="hi-IN"
+                variant="hindi_10key"/>
+            <cond
+                language="hi-IN"
+                variant="hindi_compact"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170985"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hu-HU"
+                variant="hungarian"/>
+            <cond
+                language="hu-HU"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170989"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hu-HU"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170986"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hu-HU"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170987"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hu-HU"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170988"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hu-HU"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17098a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="hy-AM"
+                variant="armenian_armenia_phonetic"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17098b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="is-IS"
+                variant="icelandic"/>
+            <cond
+                language="is-IS"
+                variant="pcqwerty"/>
+            <cond
+                language="is-IS"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17098f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="is-IS"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17098c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="is-IS"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17098d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="is-IS"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17098e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="is-IS"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170990"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ig-NG"
+                variant="pcqwerty"/>
+            <cond
+                language="ig-NG"
+                variant="qwerty"/>
+            <cond
+                language="ig-NG"
+                variant="spanish"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170994"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ig-NG"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170991"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ig-NG"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170992"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ig-NG"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170993"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ig-NG"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170995"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="it-CH"
+                variant="pcqwerty"/>
+            <cond
+                language="it-CH"
+                variant="qwerty"/>
+            <cond
+                language="it-CH"
+                variant="swiss"/>
+            <cond
+                language="it-IT"
+                variant="pcqwerty"/>
+            <cond
+                language="it-IT"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170999"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="it-CH"
+                variant="azerty"/>
+            <cond
+                language="it-IT"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170996"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="it-CH"
+                variant="colemak"/>
+            <cond
+                language="it-IT"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170997"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="it-CH"
+                variant="dvorak"/>
+            <cond
+                language="it-IT"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170998"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="it-CH"
+                variant="qwertz"/>
+            <cond
+                language="it-IT"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17099a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="jv-Java-ID"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17099b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ka-GE"
+                variant="georgian_georgia"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17099c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ka-GE"
+                variant="georgian_qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17099d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="kn-IN"
+                variant="kannada_india"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17099e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="khb-CN"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17099f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="kl-GL"
+                variant="nordic"/>
+            <cond
+                language="kl-GL"
+                variant="pcqwerty"/>
+            <cond
+                language="kl-GL"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a3"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="kl-GL"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a0"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="kl-GL"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a1"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="kl-GL"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a2"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="kl-GL"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a4"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="km-KH"
+                variant="khmer_cambodia"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a6"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="km-KH"
+                variant="khmer_cambodia_native"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a5"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ku"
+                variant="kurdish_latin"/>
+            <cond
+                language="ku"
+                variant="pcqwerty"/>
+            <cond
+                language="ku"
+                variant="qwerty"/>
+            <cond
+                language="ku"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a7"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="ky-KG"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a8"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lv-LV"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709a9"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lv-LV"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709aa"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lv-LV"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ab"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lv-LV"
+                variant="pcqwerty"/>
+            <cond
+                language="lv-LV"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ac"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lv-LV"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ad"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lt-LT"
+                variant="pcqwerty"/>
+            <cond
+                language="lt-LT"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b1"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lt-LT"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ae"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lt-LT"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709af"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lt-LT"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b0"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lt-LT"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b2"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="lo-LA"
+                variant="lao"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b3"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ml-IN"
+                variant="malayalam_india"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b4"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="mr-IN"
+                variant="marathi_india"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b5"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="mk-MK"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b6"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="mn-MN"
+                variant="mongolian"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b7"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="mt-MT"
+                variant="maltese"/>
+            <cond
+                language="mt-MT"
+                variant="pcqwerty"/>
+            <cond
+                language="mt-MT"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709bb"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="mt-MT"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b8"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="mt-MT"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709b9"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="mt-MT"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ba"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="mt-MT"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709bc"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="my-MM"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709bd"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ne-IN"
+                variant="nepali_devanagari_dynamic"/>
+            <cond
+                language="ne-NP"
+                variant="nepali_nepal_dynamic"/>
+            <cond
+                language="ne-NP"
+                variant="nepali_nepal_romanized"/>
+            <cond
+                language="ne-NP"
+                variant="nepali_nepal_traditional"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709be"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nl-NL"
+                variant="pcqwerty"/>
+            <cond
+                language="nl-NL"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c2"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nl-NL"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709bf"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nl-NL"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c0"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nl-NL"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c1"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nl-NL"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c3"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nb-NO"
+                variant="nordic"/>
+            <cond
+                language="nb-NO"
+                variant="pcqwerty"/>
+            <cond
+                language="nb-NO"
+                variant="qwerty"/>
+            <cond
+                language="nn-NO"
+                variant="nordic"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c7"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nb-NO"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c4"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nb-NO"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c5"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nb-NO"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c6"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nb-NO"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c8"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="or-IN"
+                variant="odia"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709c9"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pl-PL"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ce"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pl-PL"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709cb"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pl-PL"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709cc"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pl-PL"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709cd"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pl-PL"
+                variant="pcqwerty"/>
+            <cond
+                language="pl-PL"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709cf"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-PT"
+                variant="pcqwerty"/>
+            <cond
+                language="pt-PT"
+                variant="portuguese"/>
+            <cond
+                language="pt-PT"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d3"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-PT"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d0"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-PT"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d1"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-PT"
+                variant="dvorak"/>
+            <cond
+                language="pt-PT"
+                variant="dvorak_spanish"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d2"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pt-PT"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d4"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ps"
+                variant="pashto"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d5"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="pa-Guru"
+                variant="punjabi_gurmukhi"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d6"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ro-MD"
+                variant="qwertz"/>
+            <cond
+                language="ro-RO"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d7"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ro-MD"
+                variant="pcqwerty"/>
+            <cond
+                language="ro-MD"
+                variant="qwerty"/>
+            <cond
+                language="ro-RO"
+                variant="pcqwerty"/>
+            <cond
+                language="ro-RO"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709db"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ro-MD"
+                variant="azerty"/>
+            <cond
+                language="ro-RO"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d8"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ro-MD"
+                variant="colemak"/>
+            <cond
+                language="ro-RO"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709d9"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ro-MD"
+                variant="dvorak"/>
+            <cond
+                language="ro-RO"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709da"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="sah-RU"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709dd"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="se-NO"
+                variant="asertt"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709df"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="se-NO"
+                variant="northern_sami"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709de"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="cnr-Cyrl-ME"/>
+            <cond language="sr-Cyrl-RS"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e0"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cnr-Latn-ME"
+                variant="qwertz"/>
+            <cond
+                language="cnr-Latn-ME"
+                variant="serbian_qwertz"/>
+            <cond
+                language="sr-Latn-RS"
+                variant="qwertz"/>
+            <cond
+                language="sr-Latn-RS"
+                variant="serbian_qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e4"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cnr-Latn-ME"
+                variant="azerty"/>
+            <cond
+                language="sr-Latn-RS"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e1"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cnr-Latn-ME"
+                variant="colemak"/>
+            <cond
+                language="sr-Latn-RS"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e2"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cnr-Latn-ME"
+                variant="dvorak"/>
+            <cond
+                language="sr-Latn-RS"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e3"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="cnr-Latn-ME"
+                variant="pcqwerty"/>
+            <cond
+                language="cnr-Latn-ME"
+                variant="qwerty"/>
+            <cond
+                language="sr-Latn-RS"
+                variant="pcqwerty"/>
+            <cond
+                language="sr-Latn-RS"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e5"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="si-LK"
+                variant="sinhala"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e6"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sk-SK"
+                variant="pcqwerty"/>
+            <cond
+                language="sk-SK"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e7"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-AR"
+                variant="pcqwerty"/>
+            <cond
+                language="es-AR"
+                variant="qwerty"/>
+            <cond
+                language="es-AR"
+                variant="spanish"/>
+            <cond
+                language="es-ES"
+                variant="pcqwerty"/>
+            <cond
+                language="es-ES"
+                variant="qwerty"/>
+            <cond
+                language="es-ES"
+                variant="spanish"/>
+            <cond
+                language="es-MX"
+                variant="pcqwerty"/>
+            <cond
+                language="es-MX"
+                variant="qwerty"/>
+            <cond
+                language="es-MX"
+                variant="spanish"/>
+            <cond
+                language="es-US"
+                variant="pcqwerty"/>
+            <cond
+                language="es-US"
+                variant="qwerty"/>
+            <cond
+                language="es-US"
+                variant="spanish"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f0"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-AR"
+                variant="azerty"/>
+            <cond
+                language="es-ES"
+                variant="azerty"/>
+            <cond
+                language="es-MX"
+                variant="azerty"/>
+            <cond
+                language="es-US"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e8"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-AR"
+                variant="colemak"/>
+            <cond
+                language="es-ES"
+                variant="colemak"/>
+            <cond
+                language="es-MX"
+                variant="colemak"/>
+            <cond
+                language="es-US"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709e9"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-AR"
+                variant="dvorak"/>
+            <cond
+                language="es-AR"
+                variant="dvorak_spanish"/>
+            <cond
+                language="es-ES"
+                variant="dvorak"/>
+            <cond
+                language="es-ES"
+                variant="dvorak_spanish"/>
+            <cond
+                language="es-MX"
+                variant="dvorak"/>
+            <cond
+                language="es-MX"
+                variant="dvorak_spanish"/>
+            <cond
+                language="es-US"
+                variant="dvorak"/>
+            <cond
+                language="es-US"
+                variant="dvorak_spanish"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ea"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-419"
+                variant="pcqwerty"/>
+            <cond
+                language="es-419"
+                variant="qwerty"/>
+            <cond
+                language="es-419"
+                variant="spanish"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ee"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-419"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709eb"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-419"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ec"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-419"
+                variant="dvorak"/>
+            <cond
+                language="es-419"
+                variant="dvorak_spanish"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ed"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-419"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ef"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="es-AR"
+                variant="qwertz"/>
+            <cond
+                language="es-ES"
+                variant="qwertz"/>
+            <cond
+                language="es-MX"
+                variant="qwertz"/>
+            <cond
+                language="es-US"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f1"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sq-x-gheg"
+                variant="albanian"/>
+            <cond
+                language="sq-x-gheg"
+                variant="qwertz"/>
+            <cond
+                language="sq-x-standard"
+                variant="albanian"/>
+            <cond
+                language="sq-x-standard"
+                variant="qwertz"/>
+            <cond
+                language="sq-x-tosk"
+                variant="albanian"/>
+            <cond
+                language="sq-x-tosk"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f5"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sq-x-gheg"
+                variant="azerty"/>
+            <cond
+                language="sq-x-standard"
+                variant="azerty"/>
+            <cond
+                language="sq-x-tosk"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f2"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sq-x-gheg"
+                variant="colemak"/>
+            <cond
+                language="sq-x-standard"
+                variant="colemak"/>
+            <cond
+                language="sq-x-tosk"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f3"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sq-x-gheg"
+                variant="dvorak"/>
+            <cond
+                language="sq-x-standard"
+                variant="dvorak"/>
+            <cond
+                language="sq-x-tosk"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f4"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sq-x-gheg"
+                variant="pcqwerty"/>
+            <cond
+                language="sq-x-gheg"
+                variant="qwerty"/>
+            <cond
+                language="sq-x-standard"
+                variant="pcqwerty"/>
+            <cond
+                language="sq-x-standard"
+                variant="qwerty"/>
+            <cond
+                language="sq-x-tosk"
+                variant="pcqwerty"/>
+            <cond
+                language="sq-x-tosk"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f6"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sv-FI"
+                variant="nordic"/>
+            <cond
+                language="sv-FI"
+                variant="pcqwerty"/>
+            <cond
+                language="sv-FI"
+                variant="qwerty"/>
+            <cond
+                language="sv-FI"
+                variant="svorak"/>
+            <cond
+                language="sv-SE"
+                variant="nordic"/>
+            <cond
+                language="sv-SE"
+                variant="pcqwerty"/>
+            <cond
+                language="sv-SE"
+                variant="qwerty"/>
+            <cond
+                language="sv-SE"
+                variant="svorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709fa"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sv-FI"
+                variant="azerty"/>
+            <cond
+                language="sv-SE"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f7"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sv-FI"
+                variant="colemak"/>
+            <cond
+                language="sv-SE"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f8"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sv-FI"
+                variant="dvorak"/>
+            <cond
+                language="sv-SE"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709f9"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="sv-FI"
+                variant="qwertz"/>
+            <cond
+                language="sv-SE"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709fb"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="fr-002"
+                variant="qwertz"/>
+            <cond
+                language="fr-BE"
+                variant="qwertz"/>
+            <cond
+                language="fr-CA"
+                variant="qwertz"/>
+            <cond
+                language="fr-CH"
+                variant="qwertz"/>
+            <cond
+                language="fr-CH"
+                variant="swiss"/>
+            <cond
+                language="fr-FR"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709fc"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-CH"
+                variant="qwertz"/>
+            <cond
+                language="de-CH"
+                variant="swiss"/>
+            <cond
+                language="gsw-CH"
+                variant="qwertz"/>
+            <cond
+                language="gsw-CH"
+                variant="swiss"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a00"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-CH"
+                variant="azerty"/>
+            <cond
+                language="gsw-CH"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709fd"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-CH"
+                variant="colemak"/>
+            <cond
+                language="gsw-CH"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709fe"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-CH"
+                variant="dvorak"/>
+            <cond
+                language="gsw-CH"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1709ff"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="de-CH"
+                variant="pcqwerty"/>
+            <cond
+                language="de-CH"
+                variant="qwerty"/>
+            <cond
+                language="gsw-CH"
+                variant="pcqwerty"/>
+            <cond
+                language="gsw-CH"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a01"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="ta-IN"
+                variant="tamil"/>
+            <cond
+                language="ta-IN"
+                variant="tamil_phonetic"/>
+            <cond
+                language="ta-LK"
+                variant="tamil"/>
+            <cond
+                language="ta-SG"
+                variant="tamil"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a02"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="te-IN"
+                variant="telugu_india"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a03"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tk-TM"
+                variant="turkmen"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a04"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="nso-ZA"
+                variant="northern_sotho"/>
+            <cond
+                language="tn-BW"
+                variant="pcqwerty"/>
+            <cond
+                language="tn-BW"
+                variant="qwerty"/>
+            <cond
+                language="tn-BW"
+                variant="tswana"/>
+            <cond
+                language="tn-ZA"
+                variant="pcqwerty"/>
+            <cond
+                language="tn-ZA"
+                variant="qwerty"/>
+            <cond
+                language="tn-ZA"
+                variant="tswana"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a08"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tn-BW"
+                variant="azerty"/>
+            <cond
+                language="tn-ZA"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a05"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tn-BW"
+                variant="colemak"/>
+            <cond
+                language="tn-ZA"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a06"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tn-BW"
+                variant="dvorak"/>
+            <cond
+                language="tn-ZA"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a07"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tn-BW"
+                variant="qwertz"/>
+            <cond
+                language="tn-ZA"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a09"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="tt-RU"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a0a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="bgx-TR"
+                variant="turkish_q"/>
+            <cond
+                language="crh-Latn"
+                variant="turkish_q"/>
+            <cond
+                language="gag-MD"
+                variant="turkish_q"/>
+            <cond
+                language="kiu-TR"
+                variant="kirmanjki"/>
+            <cond
+                language="kiu-TR"
+                variant="turkish_q"/>
+            <cond
+                language="kmz-Latn-IR"
+                variant="turkish_q"/>
+            <cond
+                language="lad-BA"
+                variant="turkish_q"/>
+            <cond
+                language="tr-CY"
+                variant="pcqwerty"/>
+            <cond
+                language="tr-CY"
+                variant="qwerty"/>
+            <cond
+                language="tr-CY"
+                variant="turkish_q"/>
+            <cond
+                language="tr-TR"
+                variant="pcqwerty"/>
+            <cond
+                language="tr-TR"
+                variant="qwerty"/>
+            <cond
+                language="tr-TR"
+                variant="turkish_q"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a0f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tr-CY"
+                variant="azerty"/>
+            <cond
+                language="tr-TR"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a0b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tr-CY"
+                variant="colemak"/>
+            <cond
+                language="tr-TR"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a0c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tr-CY"
+                variant="dvorak"/>
+            <cond
+                language="tr-TR"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a0d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="bgx-TR"
+                variant="turkish_f"/>
+            <cond
+                language="crh-Latn"
+                variant="turkish_f"/>
+            <cond
+                language="gag-MD"
+                variant="turkish_f"/>
+            <cond
+                language="kiu-TR"
+                variant="turkish_f"/>
+            <cond
+                language="tr-CY"
+                variant="turkish_f"/>
+            <cond
+                language="tr-TR"
+                variant="turkish_f"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a0e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="tr-CY"
+                variant="qwertz"/>
+            <cond
+                language="tr-TR"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a10"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond language="uk-UA"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a11"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="vi-VN"
+                variant="pcqwerty"/>
+            <cond
+                language="vi-VN"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a15"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="vi-VN"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a12"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="vi-VN"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a13"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="vi-VN"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a14"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="vi-VN"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a16"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="wo"
+                variant="azerty"/>
+            <cond
+                language="wo"
+                variant="wolof"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a19"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="wo"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a17"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="wo"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a18"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="wo"
+                variant="pcqwerty"/>
+            <cond
+                language="wo"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a1a"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="wo"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a1b"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="yo"
+                variant="pcqwerty"/>
+            <cond
+                language="yo"
+                variant="qwerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a1f"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="yo"
+                variant="azerty"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a1c"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="yo"
+                variant="colemak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a1d"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="yo"
+                variant="dvorak"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a1e"/>
+    </else_if>
+    <else_if>
+        <any_of>
+            <cond
+                language="yo"
+                variant="qwertz"/>
+        </any_of>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a20"/>
+    </else_if>
+</framework>

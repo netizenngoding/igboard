@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.expression.imagefeedback.p004ui.ImageFeedbackTypeSelectorView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03ea"
+    android:tag=".popup"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080769"
+    android:padding="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="6dp">
+    <com.google.android.material.button.MaterialButton
+        android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a69"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404bd"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03e3"
+        android:tag=".label.disable-non-linear-scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f1404e8"
+        app:APKTOOL_DUMMYVAL_0x7f0406ab="@drawable/APKTOOL_DUMMYVAL_0x7f08045e"
+        app:APKTOOL_DUMMYVAL_0x7f0406b1="16dp"
+        app:APKTOOL_DUMMYVAL_0x7f0406b7="?attr/APKTOOL_DUMMYVAL_0x7f0404bd"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150e33"/>
+    <com.google.android.material.button.MaterialButton
+        android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a69"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404bd"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03e4"
+        android:tag=".label.disable-non-linear-scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f1404ea"
+        app:APKTOOL_DUMMYVAL_0x7f0406ab="@drawable/APKTOOL_DUMMYVAL_0x7f080417"
+        app:APKTOOL_DUMMYVAL_0x7f0406b1="16dp"
+        app:APKTOOL_DUMMYVAL_0x7f0406b7="?attr/APKTOOL_DUMMYVAL_0x7f0404bd"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040744="@+id/APKTOOL_DUMMYVAL_0x7f0b03e3"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150e33"/>
+</com.google.android.apps.inputmethod.libs.expression.imagefeedback.p004ui.ImageFeedbackTypeSelectorView>

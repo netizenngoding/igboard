@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end|top"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b077d"
+    android:focusable="false"
+    android:visibility="gone"
+    android:clickable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+    app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+    <com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout
+        android:tag=".bg_writing_tools_report_popup"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080357"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="?attr/APKTOOL_DUMMYVAL_0x7f040349"
+        android:layout_marginEnd="?attr/APKTOOL_DUMMYVAL_0x7f040348"
+        app:APKTOOL_DUMMYVAL_0x7f040473="?attr/APKTOOL_DUMMYVAL_0x7f04033c">
+        <com.google.android.material.button.MaterialButton
+            android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a69"
+            android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404bd"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b077e"
+            android:tag=".label.non-linear-scale.jarvis-prompt-pop-up-menu-item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/APKTOOL_DUMMYVAL_0x7f1416cf"
+            app:APKTOOL_DUMMYVAL_0x7f0406ab="@drawable/APKTOOL_DUMMYVAL_0x7f08045f"
+            app:APKTOOL_DUMMYVAL_0x7f0406b1="16dp"
+            app:APKTOOL_DUMMYVAL_0x7f0406b7="?attr/APKTOOL_DUMMYVAL_0x7f0404bd"
+            app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150e33"/>
+    </com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout>
+</FrameLayout>

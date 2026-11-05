@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    class="com.google.android.material.snackbar.SnackbarContentLayout">
+    <TextView
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b081a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="?attr/APKTOOL_DUMMYVAL_0x7f0409c3"/>
+    <Button
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0819"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        style="?attr/APKTOOL_DUMMYVAL_0x7f0409c0"/>
+    <Button
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b067b"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?attr/APKTOOL_DUMMYVAL_0x7f0409c1"/>
+</view>

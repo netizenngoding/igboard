@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01aa"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080293"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0804f6"
+        android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140195"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150214"/>
+</FrameLayout>

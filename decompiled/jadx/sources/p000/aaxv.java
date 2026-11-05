@@ -77,11 +77,11 @@ public final /* synthetic */ class aaxv implements Function {
             case 3:
                 return aaay.m443M(obj);
             case 4:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 5:
                 return aayw.m1709c((aazb) obj);
             case 6:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 7:
                 aaay.m447W((aazb) obj);
                 return dValueOf;
@@ -106,14 +106,14 @@ public final /* synthetic */ class aaxv implements Function {
             case 15:
                 return aaay.m441K(obj);
             case 16:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 17:
                 aaay.m447W((aazb) obj);
                 return dValueOf;
             case 18:
                 return aaay.m441K(obj);
             case 19:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             default:
                 aaay.m447W((aazb) obj);
                 return Double.valueOf(30.0d);

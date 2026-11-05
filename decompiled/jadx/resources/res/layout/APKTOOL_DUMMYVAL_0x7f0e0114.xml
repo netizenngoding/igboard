@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0307"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070184">
+    <com.google.android.libraries.inputmethod.widgets.BidiViewPager
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0409"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"/>
+    <ImageView
+        android:layout_gravity="end"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0406"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f07017f"
+        android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070180"
+        android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070180"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080424"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1403b4"
+        app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1502c7"/>
+    <com.google.android.libraries.inputmethod.widgets.PageIndicatorView
+        android:layout_gravity="bottom"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0407"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070181"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040746="1"
+        page_indicator_image="@layout/APKTOOL_DUMMYVAL_0x7f0e0116"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

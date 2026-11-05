@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f080565">@drawable/APKTOOL_DUMMYVAL_0x7f080454</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f080571">@drawable/APKTOOL_DUMMYVAL_0x7f080405</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f080572">@drawable/APKTOOL_DUMMYVAL_0x7f0804a1</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f080573">@drawable/APKTOOL_DUMMYVAL_0x7f08047f</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f080574">@drawable/APKTOOL_DUMMYVAL_0x7f080456</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f080579">@drawable/APKTOOL_DUMMYVAL_0x7f08041c</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f08057d">@drawable/APKTOOL_DUMMYVAL_0x7f080482</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f080581">@drawable/APKTOOL_DUMMYVAL_0x7f080481</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f080582">@drawable/APKTOOL_DUMMYVAL_0x7f0804cf</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f0805bd">@drawable/APKTOOL_DUMMYVAL_0x7f080496</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f0805be">@drawable/APKTOOL_DUMMYVAL_0x7f080498</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f0805c7">@drawable/APKTOOL_DUMMYVAL_0x7f0804c1</drawable>
+    <drawable name="APKTOOL_DUMMYVAL_0x7f0805c8">@drawable/APKTOOL_DUMMYVAL_0x7f0804cd</drawable>
+</resources>

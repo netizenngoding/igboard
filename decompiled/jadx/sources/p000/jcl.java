@@ -55,7 +55,7 @@ public final class jcl extends acfy implements achd {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         Object obj2;
         ?? r3;
         acfl acflVar = acfl.f5236a;

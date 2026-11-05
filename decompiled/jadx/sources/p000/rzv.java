@@ -116,8 +116,9 @@ public final class rzv implements qgp {
         if (context == null) {
             try {
                 achu.m3304k("applicationContext");
-            } finally {
+            } catch (Throwable th) {
                 Trace.endSection();
+                throw th;
             }
         }
         if (qhbVar == null) {
@@ -131,6 +132,7 @@ public final class rzv implements qgp {
         } catch (RuntimeException e) {
             ((wvu) ((wvu) rzw.f61013a.m34777c()).mo34835i(e).mo34836j("com/google/android/libraries/inputmethod/usagestore/CrossProfileUsageStoreModuleProvider$Module", "safeAddAvailabilityListener", 220, "CrossProfileUsageStoreModuleProvider.kt")).mo34846t("Failed to add profile availability listener");
         }
+        Trace.endSection();
     }
 
     @Override // p000.qgp

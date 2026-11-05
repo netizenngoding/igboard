@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework
+    dynamic_layout=""
+    force_show_number_row="false"
+    lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170040"
+    main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707eb"
+    non_prime_def="@xml/APKTOOL_DUMMYVAL_0x7f17090f"
+    pk_language_tag=""
+    pk_layout_type=""
+    supports_one_handed_mode="true"
+    supports_split_mode="true"
+    variant=""
+    variant_label=""
+    variant_name_mandatory="false">
+    <keyboard_group
+        dynamic_layout="{dynamic_layout}"
+        pk_language_tag="{pk_language_tag}"
+        pk_layout_type="{pk_layout_type}"
+        supports_one_handed_mode="{supports_one_handed_mode}"
+        supports_split_mode="{supports_split_mode}"
+        variant="{variant}"
+        variant_label="{variant_label}"
+        variant_name_mandatory="{variant_name_mandatory}">
+        <include
+            force_show_number_row="{force_show_number_row}"
+            href="@xml/APKTOOL_DUMMYVAL_0x7f170002"
+            support_a11y_keyboard="true"/>
+        <layout_specific_settings resource_id="{layout_settings}"/>
+        <keyboard
+            def="{lang_def}"
+            type="prime">
+            <merge def="{main_def}"/>
+        </keyboard>
+        <include href="{non_prime_def}"/>
+    </keyboard_group>
+</framework>

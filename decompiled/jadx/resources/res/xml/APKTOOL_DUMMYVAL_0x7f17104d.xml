@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list splitter=" ">
+            <softkey
+                alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175"
+                content_description="@string/APKTOOL_DUMMYVAL_0x7f1402f4"
+                disable_lift_to_tap="true"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b246f"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06fd">
+                <action
+                    data="smiley"
+                    keycode="SWITCH_KEYBOARD"
+                    type="PRESS"/>
+                <icon
+                    location="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+                    value="@drawable/APKTOOL_DUMMYVAL_0x7f080572"/>
+            </softkey>
+        </softkey_list>
+    </softkeys>
+</framework>

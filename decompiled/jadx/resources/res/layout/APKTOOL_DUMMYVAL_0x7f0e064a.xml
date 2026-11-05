@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag=".popup-status-text.with-button"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08031d"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp"
+    android:layout_width="295dp"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="10dp">
+    <TextView
+        android:textSize="14sp"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404be"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+        android:tag=".popup-status-text-label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.button.MaterialButton
+        android:textSize="14sp"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404d3"
+        android:layout_gravity="end"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b014a"
+        android:tag=".item-ripple.popup-status-text-button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textFontWeight="500"
+        style="?attr/APKTOOL_DUMMYVAL_0x7f0403fe"/>
+</LinearLayout>

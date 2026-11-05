@@ -40,7 +40,7 @@ public final class gut extends acfy implements acgy {
     /* JADX WARN: Type inference failed for: r4v5 */
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    public final Object mo1696b(Object obj) throws Throwable {
+    public final Object mo1696b(Object obj) {
         Object obj2;
         ?? r0;
         ?? r4;

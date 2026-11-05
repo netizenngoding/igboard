@@ -66,10 +66,8 @@ public abstract class oir implements qgp {
                     ((wvu) ((wvu) oiu.f51061a.m34778d()).mo34835i(e).mo34836j("com/google/android/libraries/inputmethod/featuresplit/FeatureSplitObservationModule", "requestDeferredInstallImpl", 114, "FeatureSplitObservationModule.kt")).mo34849w("Failed in installing %s.", strMo25697b);
                 }
             }
+        } finally {
             Trace.endSection();
-        } catch (Throwable th) {
-            Trace.endSection();
-            throw th;
         }
     }
 

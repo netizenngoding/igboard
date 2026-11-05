@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="mtr-XT"
+        string_id="ime_mewari_transliteration">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c5"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141584"/>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02d7"
+                value="। "/>
+        </extra_values>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170059"/>
+    </ime>
+</framework>

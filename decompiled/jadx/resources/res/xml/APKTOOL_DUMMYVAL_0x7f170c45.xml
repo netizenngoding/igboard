@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0827"
+            view_id="@+id/key_pos_space"/>
+    </key_mapping>
+    <key_mapping state="NO_IME_PICKER">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0827"
+            view_id="@+id/key_pos_space"/>
+    </key_mapping>
+    <key_mapping state="SHIFT_LOCK,CAPS_LOCK">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0829"
+            view_id="@+id/key_pos_space"/>
+    </key_mapping>
+</framework>

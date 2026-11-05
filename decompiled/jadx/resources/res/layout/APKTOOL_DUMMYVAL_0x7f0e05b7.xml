@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.checkable.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f0803ae"
+    android:paddingLeft="?attr/APKTOOL_DUMMYVAL_0x7f04057b"
+    android:paddingRight="?attr/APKTOOL_DUMMYVAL_0x7f04057b"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72dp">
+    <ImageView
+        android:duplicateParentState="true"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08053b"
+        android:tint="@color/APKTOOL_DUMMYVAL_0x7f0600ed"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="?android:attr/listPreferredItemPaddingStart"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0600ed"
+        android:id="@android:id/text1"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"/>
+</com.google.android.libraries.inputmethod.widgets.checkable.CheckableLinearLayout>

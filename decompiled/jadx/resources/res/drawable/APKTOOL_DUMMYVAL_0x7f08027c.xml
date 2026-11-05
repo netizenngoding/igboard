@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:inset="1dp">
+    <ripple android:color="?android:attr/colorControlHighlight">
+        <item android:id="@android:id/mask">
+            <selector>
+                <item android:state_selected="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffffff"/>
+                        <corners android:radius="999dp"/>
+                    </shape>
+                </item>
+                <item android:state_single="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffffff"/>
+                        <corners
+                            android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070933"
+                            android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070933"/>
+                    </shape>
+                </item>
+                <item android:state_first="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffffff"/>
+                        <corners
+                            android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070933"
+                            android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070934"/>
+                    </shape>
+                </item>
+                <item android:state_last="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffffff"/>
+                        <corners
+                            android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070934"
+                            android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070933"/>
+                    </shape>
+                </item>
+                <item android:state_middle="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffffff"/>
+                        <corners
+                            android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070934"
+                            android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070934"/>
+                    </shape>
+                </item>
+                <item>
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffffffff"/>
+                    </shape>
+                </item>
+            </selector>
+        </item>
+        <item android:id="@android:id/background">
+            <selector>
+                <item android:state_selected="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="?attr/APKTOOL_DUMMYVAL_0x7f0404e7"/>
+                        <corners android:radius="999dp"/>
+                    </shape>
+                </item>
+                <item android:state_single="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="?attr/APKTOOL_DUMMYVAL_0x7f0404e7"/>
+                        <corners
+                            android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070933"
+                            android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070933"/>
+                    </shape>
+                </item>
+                <item android:state_first="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="?attr/APKTOOL_DUMMYVAL_0x7f0404e7"/>
+                        <corners
+                            android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070933"
+                            android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070934"/>
+                    </shape>
+                </item>
+                <item android:state_last="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="?attr/APKTOOL_DUMMYVAL_0x7f0404e7"/>
+                        <corners
+                            android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070934"
+                            android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070933"/>
+                    </shape>
+                </item>
+                <item android:state_middle="true">
+                    <shape android:shape="rectangle">
+                        <solid android:color="?attr/APKTOOL_DUMMYVAL_0x7f0404e7"/>
+                        <corners
+                            android:topLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:topRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070934"
+                            android:bottomLeftRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070174"
+                            android:bottomRightRadius="@dimen/APKTOOL_DUMMYVAL_0x7f070934"/>
+                    </shape>
+                </item>
+                <item>
+                    <shape android:shape="rectangle">
+                        <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060b88"/>
+                    </shape>
+                </item>
+            </selector>
+        </item>
+    </ripple>
+</inset>

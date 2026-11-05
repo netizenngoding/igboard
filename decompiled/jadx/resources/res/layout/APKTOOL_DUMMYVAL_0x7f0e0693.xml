@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:paddingEnd="14dp">
+    <TextView
+        android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a69"
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b019b"
+        android:tag=".label.clipboard-separator-item.v2"
+        android:layout_width="0dp"
+        android:layout_weight="100"
+        style="@style/APKTOOL_DUMMYVAL_0x7f15020b"/>
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/key_pos_clipboard_edit"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080293"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f0400a4"
+        android:layout_height="?attr/APKTOOL_DUMMYVAL_0x7f0400a4"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08043d"
+        android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140188"
+        android:tooltipText="@string/APKTOOL_DUMMYVAL_0x7f140188"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150213"/>
+</LinearLayout>

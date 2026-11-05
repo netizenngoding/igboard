@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01a1"
+    style="@style/APKTOOL_DUMMYVAL_0x7f15020d">
+    <ImageView
+        android:layout_weight="100"
+        android:importantForAccessibility="no"
+        style="@style/APKTOOL_DUMMYVAL_0x7f15020e"/>
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f140184"
+        android:layout_weight="?attr/APKTOOL_DUMMYVAL_0x7f04007f"
+        app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+        style="@style/APKTOOL_DUMMYVAL_0x7f15020f"/>
+    <TextView
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f140185"
+        android:layout_weight="?attr/APKTOOL_DUMMYVAL_0x7f040080"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150210"/>
+</LinearLayout>

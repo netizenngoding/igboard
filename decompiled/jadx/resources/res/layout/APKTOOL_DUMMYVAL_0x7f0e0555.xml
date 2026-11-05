@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/APKTOOL_DUMMYVAL_0x7f1502b3">
+    <ViewSwitcher
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03b0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:tag=".bg.expression-keyboard-background"
+            android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080279"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="?attr/APKTOOL_DUMMYVAL_0x7f04011f">
+            <FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f150540">
+                <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f15053d"/>
+            </FrameLayout>
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:overScrollMode="never">
+                <com.google.android.apps.inputmethod.libs.expression.header.StartElementRecyclerView
+                    android:orientation="horizontal"
+                    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never"
+                    app:APKTOOL_DUMMYVAL_0x7f04071d="com.google.android.apps.inputmethod.libs.expression.header.StartElementScrollBehavior"/>
+                <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b06e6"
+                    android:clipToPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/APKTOOL_DUMMYVAL_0x7f0400a4"
+                    android:overScrollMode="never"
+                    android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f07071a"
+                    android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0703bc"
+                    android:keyboardNavigationCluster="true"
+                    app:APKTOOL_DUMMYVAL_0x7f04071d="com.google.android.apps.inputmethod.libs.expression.header.MiddleElementScrollBehavior"/>
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            <FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f15053f">
+                <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f15053c"/>
+            </FrameLayout>
+        </LinearLayout>
+        <ViewAnimator
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03af"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0796"/>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f3"/>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0681"/>
+        </ViewAnimator>
+    </ViewSwitcher>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

@@ -13,6 +13,11 @@ public class aaay {
         return Double.valueOf(0.0d);
     }
 
+    /* JADX INFO: renamed from: B */
+    public static /* synthetic */ Object m432B(Object obj) {
+        return ((aazb) obj).f2647j;
+    }
+
     /* JADX INFO: renamed from: D */
     public static /* synthetic */ Object m434D(Object obj) {
         return aayw.m1708b(6.0d);
@@ -26,6 +31,16 @@ public class aaay {
     /* JADX INFO: renamed from: F */
     public static /* synthetic */ Object m436F(Object obj) {
         return aayw.m1708b(7.0d);
+    }
+
+    /* JADX INFO: renamed from: G */
+    public static /* synthetic */ Object m437G(Object obj) {
+        return ((aazb) obj).f2646i;
+    }
+
+    /* JADX INFO: renamed from: H */
+    public static /* synthetic */ Object m438H(Object obj) {
+        return ((aazb) obj).f2644g;
     }
 
     /* JADX INFO: renamed from: I */

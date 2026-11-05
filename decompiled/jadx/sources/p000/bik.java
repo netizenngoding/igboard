@@ -24,56 +24,60 @@ public final class bik {
         synchronized (f12687a) {
             attributeValue = "";
             try {
-                FileInputStream fileInputStreamOpenFileInput = context.openFileInput("android.support.v7.app.AppCompatDelegate.application_locales_record_file");
                 try {
+                    FileInputStream fileInputStreamOpenFileInput = context.openFileInput("android.support.v7.app.AppCompatDelegate.application_locales_record_file");
                     try {
-                        XmlPullParser xmlPullParserNewPullParser = Xml.newPullParser();
-                        xmlPullParserNewPullParser.setInput(fileInputStreamOpenFileInput, "UTF-8");
-                        int depth = xmlPullParserNewPullParser.getDepth();
-                        while (true) {
-                            int next = xmlPullParserNewPullParser.next();
-                            if (next != 1) {
-                                if (next == 3) {
-                                    if (xmlPullParserNewPullParser.getDepth() <= depth) {
+                        try {
+                            XmlPullParser xmlPullParserNewPullParser = Xml.newPullParser();
+                            xmlPullParserNewPullParser.setInput(fileInputStreamOpenFileInput, "UTF-8");
+                            int depth = xmlPullParserNewPullParser.getDepth();
+                            while (true) {
+                                int next = xmlPullParserNewPullParser.next();
+                                if (next != 1) {
+                                    if (next == 3) {
+                                        if (xmlPullParserNewPullParser.getDepth() <= depth) {
+                                            break;
+                                        }
+                                        next = 3;
+                                        if (next == 3) {
+                                        }
+                                    } else if (next == 3 && next != 4 && xmlPullParserNewPullParser.getName().equals("locales")) {
+                                        attributeValue = xmlPullParserNewPullParser.getAttributeValue(null, "application_locales");
                                         break;
                                     }
-                                    next = 3;
-                                    if (next == 3) {
-                                    }
-                                } else if (next == 3 && next != 4 && xmlPullParserNewPullParser.getName().equals("locales")) {
-                                    attributeValue = xmlPullParserNewPullParser.getAttributeValue(null, "application_locales");
+                                } else {
                                     break;
                                 }
-                            } else {
-                                break;
+                            }
+                            if (fileInputStreamOpenFileInput != null) {
+                                try {
+                                    fileInputStreamOpenFileInput.close();
+                                } catch (IOException unused) {
+                                }
+                            }
+                        } catch (IOException | XmlPullParserException unused2) {
+                            Log.w("AppLocalesStorageHelper", "Reading app Locales : Unable to parse through file :androidx.appcompat.app.AppCompatDelegate.application_locales_record_file");
+                            if (fileInputStreamOpenFileInput != null) {
+                                fileInputStreamOpenFileInput.close();
                             }
                         }
+                        if (attributeValue.isEmpty()) {
+                            context.deleteFile("android.support.v7.app.AppCompatDelegate.application_locales_record_file");
+                        }
+                    } catch (Throwable th) {
                         if (fileInputStreamOpenFileInput != null) {
                             try {
                                 fileInputStreamOpenFileInput.close();
-                            } catch (IOException unused) {
+                            } catch (IOException unused3) {
                             }
                         }
-                    } catch (IOException | XmlPullParserException unused2) {
-                        Log.w("AppLocalesStorageHelper", "Reading app Locales : Unable to parse through file :androidx.appcompat.app.AppCompatDelegate.application_locales_record_file");
-                        if (fileInputStreamOpenFileInput != null) {
-                            fileInputStreamOpenFileInput.close();
-                        }
+                        throw th;
                     }
-                    if (attributeValue.isEmpty()) {
-                        context.deleteFile("android.support.v7.app.AppCompatDelegate.application_locales_record_file");
-                    }
-                } catch (Throwable th) {
-                    if (fileInputStreamOpenFileInput != null) {
-                        try {
-                            fileInputStreamOpenFileInput.close();
-                        } catch (IOException unused3) {
-                        }
-                    }
-                    throw th;
+                } catch (FileNotFoundException unused4) {
+                    return "";
                 }
-            } catch (FileNotFoundException unused4) {
-                return "";
+            } catch (Throwable th2) {
+                throw th2;
             }
         }
         return attributeValue;

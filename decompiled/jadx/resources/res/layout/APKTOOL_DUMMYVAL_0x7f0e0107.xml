@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02b6"
+    android:tag=".keyboard-body-area"
+    android:background="@color/APKTOOL_DUMMYVAL_0x7f0605c8"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070170"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp"
+    app:APKTOOL_DUMMYVAL_0x7f0406bc="true">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="?attr/APKTOOL_DUMMYVAL_0x7f0401f1">
+        <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ba"
+            android:paddingTop="12dp"
+            android:paddingBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02b9"
+            android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f0402db"
+            android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070170"
+            android:scaleType="center">
+            <FrameLayout
+                android:layout_gravity="center"
+                android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02b8"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080310"
+                android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1404f5"/>
+        </LinearLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0103"/>
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

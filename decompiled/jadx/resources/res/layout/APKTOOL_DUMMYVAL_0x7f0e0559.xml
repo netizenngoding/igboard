@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150999">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b29f5"
+        android:layout_weight="100"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150991"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b07ca"
+        android:layout_weight="100"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150991"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0235"
+        android:layout_weight="100"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150991"/>
+</LinearLayout>

@@ -65,14 +65,14 @@ public final /* synthetic */ class aayi implements Function {
     public final Object apply(Object obj) {
         switch (this.$cid) {
             case 0:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 1:
                 aayw.m1714h((aazb) obj);
                 return null;
             case 2:
                 return aaay.m439I(obj);
             case 3:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 4:
                 return aaay.m439I(obj);
             case 5:
@@ -80,7 +80,7 @@ public final /* synthetic */ class aayi implements Function {
             case 6:
                 return aaay.m439I(obj);
             case 7:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 8:
                 aazb aazbVar = (aazb) obj;
                 if (aazbVar.f2650m == 3) {
@@ -93,21 +93,21 @@ public final /* synthetic */ class aayi implements Function {
             case 9:
                 return aaay.m440J(obj);
             case 10:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 11:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
                 return aaay.m435E(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
                 return aaay.m439I(obj);
             case 15:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 16:
                 return aaay.m436F(obj);
             case 17:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 18:
                 aazb aazbVar2 = (aazb) obj;
                 int i3 = aazbVar2.f2651n;

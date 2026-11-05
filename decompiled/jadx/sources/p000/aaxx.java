@@ -75,7 +75,7 @@ public final /* synthetic */ class aaxx implements Function {
             case 3:
                 return aaay.m441K(obj);
             case 4:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 5:
                 aazb aazbVar = (aazb) obj;
                 aaay.m446V(aazbVar);
@@ -86,11 +86,11 @@ public final /* synthetic */ class aaxx implements Function {
             case 7:
                 return ((aazb) obj).f2648k;
             case 8:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 9:
                 return Double.valueOf(true == ((aazb) obj).f2641d ? 6.0d : 98.0d);
             case 10:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 11:
                 aazb aazbVar2 = (aazb) obj;
                 aaay.m446V(aazbVar2);
@@ -99,7 +99,7 @@ public final /* synthetic */ class aaxx implements Function {
             case UrlRequest.Status.SENDING_REQUEST /* 12 */:
                 return aaay.m443M(obj);
             case UrlRequest.Status.WAITING_FOR_RESPONSE /* 13 */:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
                 aazb aazbVar3 = (aazb) obj;
                 if (aazbVar3.f2641d) {
@@ -109,7 +109,7 @@ public final /* synthetic */ class aaxx implements Function {
                 }
                 return Double.valueOf(dM1716a2);
             case 15:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 16:
                 return Double.valueOf(true != ((aazb) obj).f2641d ? 50.0d : 60.0d);
             case 17:

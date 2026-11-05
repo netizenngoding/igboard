@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:visibility="invisible"
+    android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070140"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070140"
+    android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07016b"
+    android:importantForAccessibility="no"
+    android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07016b"/>

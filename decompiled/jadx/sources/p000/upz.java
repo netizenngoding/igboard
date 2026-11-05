@@ -134,7 +134,7 @@ public final /* synthetic */ class upz implements Function {
             case 17:
                 return Float.valueOf(((zmy) obj).f81893b);
             case 18:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 19:
                 return ((aazb) obj).f2645h;
             default:

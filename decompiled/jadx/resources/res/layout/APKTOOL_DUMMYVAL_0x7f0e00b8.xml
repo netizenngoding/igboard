@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.EmojiFabView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end|bottom"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b025b"
+    android:tag=".expression-navigation-del-button"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f0803b3"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07016b"
+    android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080253"
+    android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1402f8"
+    android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f07016b"
+    android:elevation="5dp"
+    app:APKTOOL_DUMMYVAL_0x7f04071d="@string/APKTOOL_DUMMYVAL_0x7f1402fd"/>

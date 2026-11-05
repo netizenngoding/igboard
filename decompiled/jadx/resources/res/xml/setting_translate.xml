@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/APKTOOL_DUMMYVAL_0x7f140ca0"
+    android:key="@string/APKTOOL_DUMMYVAL_0x7f140a80">
+    <com.google.android.libraries.inputmethod.preferencewidgets.ColoredBackgroundSwitchPreference
+        android:persistent="true"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140b80"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f14092c"
+        android:summary="@string/APKTOOL_DUMMYVAL_0x7f140b81"/>
+</PreferenceScreen>

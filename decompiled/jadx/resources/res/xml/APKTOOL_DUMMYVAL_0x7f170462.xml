@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.libraries.inputmethod.accesspoint.impl.AccessPointKeyboard">
+        <view
+            direction="locale"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01ab"
+            scalable="false"
+            type="header"/>
+        <view
+            direction="locale"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01aa"
+            type="body">
+            <softkeys>
+                <softkey
+                    content_description="@string/APKTOOL_DUMMYVAL_0x7f140023"
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b0838"
+                    layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06e7">
+                    <action
+                        keycode="START_ACCESS_POINTS_CUSTOMIZE_STATE"
+                        type="PRESS"/>
+                    <icon
+                        location="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+                        value="@drawable/APKTOOL_DUMMYVAL_0x7f080441"/>
+                </softkey>
+            </softkeys>
+            <key_mapping>
+                <mapping
+                    key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0838"
+                    view_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0088"/>
+            </key_mapping>
+            <motion_event_handler class="com.google.android.libraries.inputmethod.accesspoint.impl.AccessPointsPanelMotionEventHandler"/>
+        </view>
+    </keyboard>
+</framework>

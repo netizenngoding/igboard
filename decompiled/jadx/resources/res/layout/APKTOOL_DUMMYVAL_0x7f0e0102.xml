@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02b4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0116"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null"
+        android:layout_marginHorizontal="?attr/APKTOOL_DUMMYVAL_0x7f04011f"
+        app:APKTOOL_DUMMYVAL_0x7f04076d="@android:color/transparent">
+        <FrameLayout
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01e3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:keyboardNavigationCluster="true"
+            app:APKTOOL_DUMMYVAL_0x7f040768="APKTOOL_DUMMYVAL_0x7f0b0287|APKTOOL_DUMMYVAL_0x7f0b0297|APKTOOL_DUMMYVAL_0x7f0b079c"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00d5"/>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f9"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

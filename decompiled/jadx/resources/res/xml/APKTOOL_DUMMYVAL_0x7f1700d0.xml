@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="blk-MM"
+        string_id="ime_pao_karen">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bf"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1704ad"
+            pk_language_tag="blk-Mymr-MM"
+            variant="pao_karen"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1415ac"/>
+    </ime>
+</framework>

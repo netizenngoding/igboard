@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:filterTouchesWhenObscured="true"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:filterTouchesWhenObscured="false">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b4"/>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b7"/>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06bd"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@android:id/widget_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="@dimen/APKTOOL_DUMMYVAL_0x7f0709a6"/>
+    </LinearLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b3"/>
+</LinearLayout>

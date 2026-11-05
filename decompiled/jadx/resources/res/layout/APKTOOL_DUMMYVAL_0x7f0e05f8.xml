@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="?attr/APKTOOL_DUMMYVAL_0x7f04057b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080464"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150cde"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/APKTOOL_DUMMYVAL_0x7f14085c"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150ce4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="@string/APKTOOL_DUMMYVAL_0x7f14085b"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150ce2"/>
+    </LinearLayout>
+</ScrollView>

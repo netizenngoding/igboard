@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080150">
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_6_G_T_1"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080151"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_6_G_T_1"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080157"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_6_G_T_1"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080158"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_5_G_T_1"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080159"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_5_G_T_1"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f08015a"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_4_G"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f08015b"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_3_G"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f08015c"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_3_G"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f08015d"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_2_G"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f08015e"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_2_G"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080152"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_1_G_T_1"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080153"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_L_0_G_T_1"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080154"/>
+    <target
+        android:name="_R_G_L_0_G_L_0_G_T_1"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080155"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/APKTOOL_DUMMYVAL_0x7f080156"/>
+</animated-vector>

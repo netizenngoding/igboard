@@ -22,7 +22,7 @@ public final class acfo extends acfw {
 
     @Override // p000.acfs
     /* JADX INFO: renamed from: b */
-    protected final Object mo1696b(Object obj) throws Throwable {
+    protected final Object mo1696b(Object obj) {
         int i = this.f5246c;
         if (i != 0) {
             if (i != 1) {

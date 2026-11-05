@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="COMPOSING">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cbf"
+            view_id="@+id/key_pos_shift"/>
+    </key_mapping>
+    <key_mapping state="COMPOSING+SHIFT">
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23af"
+                view_id="@+id/key_pos_shift"/>
+        </if>
+        <else>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23ad"
+                view_id="@+id/key_pos_shift"/>
+        </else>
+    </key_mapping>
+    <key_mapping state="COMPOSING+SHIFT_COMBO">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23ae"
+            view_id="@+id/key_pos_shift"/>
+    </key_mapping>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal"/>
+    <else>
+        <key_mapping state="COMPOSING+CAPS_LOCK">
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23a8"
+                view_id="@+id/key_pos_shift"/>
+        </key_mapping>
+    </else>
+    <key_mapping state="COMPOSING+SHUANGPIN_MS_ZIGUANG">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cbd"
+            view_id="@+id/key_pos_shift"/>
+    </key_mapping>
+    <key_mapping state="COMPOSING+SHUANGPIN_MS_ZIGUANG+CAPS_LOCK">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23a8"
+            view_id="@+id/key_pos_shift"/>
+    </key_mapping>
+</framework>

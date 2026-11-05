@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f0709d2"
+    android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f0709d4">
+    <TextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2a4b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/APKTOOL_DUMMYVAL_0x7f0709d3"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150cfb"/>
+</LinearLayout>

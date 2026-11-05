@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="26dp"
+    android:width="26dp"
+    android:viewportWidth="26"
+    android:viewportHeight="26">
+    <group android:name="_R_G">
+        <group
+            android:name="_R_G_L_0_G"
+            android:pivotX="120"
+            android:pivotY="120"
+            android:scaleX="0.1"
+            android:scaleY="0.1"
+            android:translateX="-107"
+            android:translateY="-107">
+            <group
+                android:name="_R_G_L_0_G_L_0_G"
+                android:pivotX="120"
+                android:pivotY="120"
+                android:rotation="0">
+                <group
+                    android:name="_R_G_L_0_G_L_0_G_L_3_G"
+                    android:pivotX="15"
+                    android:pivotY="15"
+                    android:scaleX="10"
+                    android:scaleY="10"
+                    android:translateX="105"
+                    android:translateY="105">
+                    <path
+                        android:name="_R_G_L_0_G_L_0_G_L_3_G_D_0_P_0"
+                        android:fillColor="#ff41493d"
+                        android:pathData="M14.99 5C9.47 5 5 9.48 5 15s4.47 10 9.99 10C20.52 25 25 20.52 25 15S20.52 5 14.99 5M15 23c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                        android:fillAlpha="1"
+                        android:fillType="nonZero"/>
+                </group>
+                <group
+                    android:name="_R_G_L_0_G_L_0_G_L_2_G"
+                    android:pivotX="15"
+                    android:pivotY="15"
+                    android:scaleX="10"
+                    android:scaleY="10"
+                    android:rotation="0"
+                    android:translateX="105"
+                    android:translateY="105">
+                    <path
+                        android:name="_R_G_L_0_G_L_0_G_L_2_G_D_0_P_0"
+                        android:fillColor="#ff41493d"
+                        android:pathData="M15 17c-.01.01-3.45 0-3.45 0H9.88a5.495 5.495 0 0 0 10.24 0h-1.67S15 17.01 15 17"
+                        android:fillAlpha="1"
+                        android:fillType="nonZero"/>
+                </group>
+                <group
+                    android:name="_R_G_L_0_G_L_0_G_L_1_G"
+                    android:pivotX="-34.902"
+                    android:pivotY="-25.191"
+                    android:scaleX="1"
+                    android:scaleY="1"
+                    android:translateX="189.5"
+                    android:translateY="120.5">
+                    <path
+                        android:name="_R_G_L_0_G_L_0_G_L_1_G_D_0_P_0"
+                        android:fillColor="#ff41493d"
+                        android:pathData="M-20.11-25.19c0 8.16-6.63 14.8-14.79 14.8-8.17 0-14.8-6.64-14.8-14.8 0-8.17 6.63-14.8 14.8-14.8 8.16 0 14.79 6.63 14.79 14.8"
+                        android:fillAlpha="1"
+                        android:fillType="nonZero"/>
+                </group>
+                <group
+                    android:name="_R_G_L_0_G_L_0_G_L_0_G"
+                    android:translateX="120"
+                    android:translateY="120.5">
+                    <path
+                        android:name="_R_G_L_0_G_L_0_G_L_0_G_D_0_P_0"
+                        android:fillColor="#ff41493d"
+                        android:pathData="M-20.11-25.19c0 8.16-6.63 14.8-14.79 14.8-8.17 0-14.8-6.64-14.8-14.8 0-8.17 6.63-14.8 14.8-14.8 8.16 0 14.79 6.63 14.79 14.8"
+                        android:fillAlpha="1"
+                        android:fillType="nonZero"/>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group android:name="time_group"/>
+</vector>

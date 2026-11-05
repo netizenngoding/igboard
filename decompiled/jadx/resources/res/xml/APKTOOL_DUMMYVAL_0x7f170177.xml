@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        ascii_capable="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="fr"
+        string_id="ime_french_bepo"
+        supports_inline_suggestion="true">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170566"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f170734"
+            pk_language_tag="fr-Latn-FR"
+            pk_layout_type="extended"
+            support_a11y_keyboard="true"
+            variant="bepo"/>
+    </ime>
+</framework>

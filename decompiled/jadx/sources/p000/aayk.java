@@ -67,7 +67,7 @@ public final /* synthetic */ class aayk implements Function {
         Double dValueOf = Double.valueOf(1.7d);
         switch (i) {
             case 0:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 1:
                 return aaay.m440J(obj);
             case 2:
@@ -75,11 +75,11 @@ public final /* synthetic */ class aayk implements Function {
             case 3:
                 return aaay.m439I(obj);
             case 4:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 5:
                 return Double.valueOf(true != ((aazb) obj).f2641d ? 100.0d : 0.0d);
             case 6:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 7:
                 aazb aazbVar = (aazb) obj;
                 if (aazbVar.f2641d) {
@@ -109,15 +109,15 @@ public final /* synthetic */ class aayk implements Function {
                 aayw.m1714h((aazb) obj);
                 return null;
             case UrlRequest.Status.READING_RESPONSE /* 14 */:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 15:
                 return aaay.m436F(obj);
             case 16:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             case 17:
                 return aaay.m436F(obj);
             case 18:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 19:
                 aazb aazbVar3 = (aazb) obj;
                 if (aazbVar3.f2641d) {

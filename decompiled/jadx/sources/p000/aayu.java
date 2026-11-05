@@ -32,7 +32,7 @@ public final /* synthetic */ class aayu implements Function {
     public final Object apply(Object obj) {
         int i = this.$cid;
         if (i == 0) {
-            return ((aazb) obj).f2647j;
+            return aaay.m432B(obj);
         }
         if (i == 1) {
             ((aazb) obj).f2642e;

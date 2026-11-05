@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <View
+        android:tag=".keyboard-body-area.for-preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1501dc"/>
+    <View
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b28f3"
+        android:tag=".space_bar"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080761"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginBottom="11dp"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04073b="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04074d="0.4"/>
+    <ImageView
+        android:layout_gravity="bottom"
+        android:tag=".background-icon.for-action-key.for-preview"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070988"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070989"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08075f"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04073c="@+id/APKTOOL_DUMMYVAL_0x7f0b28f3"
+        app:APKTOOL_DUMMYVAL_0x7f04073f="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04074b="@dimen/APKTOOL_DUMMYVAL_0x7f07098a"
+        app:APKTOOL_DUMMYVAL_0x7f04074c="@dimen/APKTOOL_DUMMYVAL_0x7f070988"
+        app:APKTOOL_DUMMYVAL_0x7f04074d="0.25"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

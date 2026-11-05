@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b247a"
+            view_id="@+id/key_pos_toggle_fullscreen"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23b7"
+            view_id="@+id/key_pos_punctuation_1"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b2304"
+            view_id="@+id/key_pos_punctuation_2"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1039"
+            view_id="@+id/key_pos_punctuation_3"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cf4"
+            view_id="@+id/key_pos_punctuation_4"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23a3"
+            view_id="@+id/key_pos_punctuation_5"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b098d"
+            view_id="@+id/key_pos_punctuation_6"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0ccc"
+            view_id="@+id/key_pos_punctuation_7"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b239f"
+            view_id="@+id/key_pos_punctuation_8"/>
+        <if language="zh">
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b12ae"
+                view_id="@+id/key_pos_punctuation_2"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b12a4"
+                view_id="@+id/key_pos_punctuation_3"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b12a0"
+                view_id="@+id/key_pos_punctuation_4"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1501"
+                view_id="@+id/key_pos_punctuation_5"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b129f"
+                view_id="@+id/key_pos_punctuation_7"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b12b2"
+                view_id="@+id/key_pos_punctuation_8"/>
+        </if>
+    </key_mapping>
+</framework>

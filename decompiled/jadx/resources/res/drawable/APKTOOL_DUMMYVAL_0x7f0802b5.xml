@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f0802de"
+    android:insetLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0706fb"
+    android:insetRight="@dimen/APKTOOL_DUMMYVAL_0x7f0706fc"
+    android:insetTop="@dimen/APKTOOL_DUMMYVAL_0x7f0706fd"
+    android:insetBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0706fa"/>

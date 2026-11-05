@@ -44,7 +44,7 @@ final class cka implements acqn {
     /*
         Code decompiled incorrectly, please refer to instructions dump.
     */
-    public final Object mo2603a(int[] iArr, acfd acfdVar) throws Throwable {
+    public final Object mo2603a(int[] iArr, acfd acfdVar) {
         cjz cjzVar;
         if (acfdVar instanceof cjz) {
             cjzVar = (cjz) acfdVar;

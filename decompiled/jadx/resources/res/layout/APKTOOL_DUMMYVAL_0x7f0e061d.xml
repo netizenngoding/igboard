@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.SilkRectangularPopupView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b070e"
+    app:APKTOOL_DUMMYVAL_0x7f040277="@dimen/APKTOOL_DUMMYVAL_0x7f0703fc"
+    app:APKTOOL_DUMMYVAL_0x7f040278="?attr/APKTOOL_DUMMYVAL_0x7f0402a5"
+    app:APKTOOL_DUMMYVAL_0x7f040284="?attr/APKTOOL_DUMMYVAL_0x7f0402a5"
+    app:APKTOOL_DUMMYVAL_0x7f040286="@dimen/APKTOOL_DUMMYVAL_0x7f0703fd"
+    balanced_placement="false"
+    first_key_as_default="false"
+    hide_animation="@animator/APKTOOL_DUMMYVAL_0x7f020032"
+    image_view="@layout/APKTOOL_DUMMYVAL_0x7f0e0644"
+    max_item_per_row="@integer/APKTOOL_DUMMYVAL_0x7f0c00cb"
+    show_animation="@animator/APKTOOL_DUMMYVAL_0x7f02005a"
+    style="@style/APKTOOL_DUMMYVAL_0x7f15064b"
+    text_view="@layout/APKTOOL_DUMMYVAL_0x7f0e0646">
+    <FrameLayout
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b071d"
+        style="@style/APKTOOL_DUMMYVAL_0x7f15064f">
+        <FrameLayout
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0720"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150644"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b071c"
+            style="@style/APKTOOL_DUMMYVAL_0x7f15064e"/>
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.SilkRectangularPopupView>

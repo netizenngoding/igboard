@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/APKTOOL_DUMMYVAL_0x7f15030c">
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150547">
+        <androidx.cardview.widget.CardView style="@style/APKTOOL_DUMMYVAL_0x7f150549">
+            <com.google.android.apps.inputmethod.libs.search.widget.SearchCandidateListHolderView
+                app:APKTOOL_DUMMYVAL_0x7f04042a="@drawable/APKTOOL_DUMMYVAL_0x7f0803c5"
+                app:APKTOOL_DUMMYVAL_0x7f04042b="@layout/APKTOOL_DUMMYVAL_0x7f0e0770"
+                app:APKTOOL_DUMMYVAL_0x7f04042c="?attr/APKTOOL_DUMMYVAL_0x7f04028f"
+                style="@style/APKTOOL_DUMMYVAL_0x7f150543"/>
+        </androidx.cardview.widget.CardView>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e068e"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b042e"
+    app:APKTOOL_DUMMYVAL_0x7f0406bd="true"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1501dc">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+        app:APKTOOL_DUMMYVAL_0x7f04038a="true"
+        app:APKTOOL_DUMMYVAL_0x7f04038b="true"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150537">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0262"/>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e055f"/>
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

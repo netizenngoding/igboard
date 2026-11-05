@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d နာရီ</item>
+        <item quantity="other">%1$d နာရီ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d မိနစ်</item>
+        <item quantity="other">%1$d မိနစ်</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">%1$d မိနစ် ကန့်သတ်ချက် ပြည့်ပါတော့မည်</item>
+        <item quantity="other">%1$d မိနစ် ကန့်သတ်ချက် ပြည့်ပါတော့မည်</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">%1$d စက္ကန့်အကြာတွင် ပိတ်ပါတော့မည်…</item>
+        <item quantity="other">%1$d စက္ကန့်အကြာတွင် ပိတ်ပါတော့မည်…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">ကီး %d ခုကို သတ်မှတ်ပြီးပါပြီ</item>
+        <item quantity="other">ကီး %d ခုကို သတ်မှတ်ပြီးပါပြီ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s ကို ယခု ထည့်သွင်းလိုက်ပါပြီ။</item>
+        <item quantity="other">%s တို့ကို ယခု ထည့်သွင်းလိုက်ပါပြီ။</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d နာရီ</item>
+        <item quantity="other">%d နာရီ</item>
+    </plurals>
+</resources>

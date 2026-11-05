@@ -38,10 +38,8 @@ public final class pzn implements qgp {
             } catch (RuntimeException e) {
                 ((wvu) ((wvu) ((wvu) f55817b.m34777c()).mo34835i(e)).mo34836j("com/google/android/libraries/inputmethod/mdd/cleanup/MddCleanupModule", "onCreate", '*', "MddCleanupModule.java")).mo34846t("Failed to enqueue MDD cleanup work.");
             }
+        } finally {
             Trace.endSection();
-        } catch (Throwable th) {
-            Trace.endSection();
-            throw th;
         }
     }
 

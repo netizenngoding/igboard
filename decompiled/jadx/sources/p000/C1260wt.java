@@ -53,7 +53,7 @@ public final class C1260wt {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: a */
-    static /* synthetic */ Object m34736a(C1260wt c1260wt, acfd acfdVar) throws Throwable {
+    static /* synthetic */ Object m34736a(C1260wt c1260wt, acfd acfdVar) {
         C1257wq c1257wq;
         if (acfdVar instanceof C1257wq) {
             c1257wq = (C1257wq) acfdVar;
@@ -97,7 +97,7 @@ public final class C1260wt {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: b */
-    public final Object m34737b(List list, long j, acfd acfdVar) throws Throwable {
+    public final Object m34737b(List list, long j, acfd acfdVar) {
         C1258wr c1258wr;
         if (acfdVar instanceof C1258wr) {
             c1258wr = (C1258wr) acfdVar;

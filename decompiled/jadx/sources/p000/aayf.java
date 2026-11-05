@@ -91,7 +91,7 @@ public final /* synthetic */ class aayf implements Function {
             case 6:
                 return aaay.m436F(obj);
             case 7:
-                return ((aazb) obj).f2647j;
+                return aaay.m432B(obj);
             case 8:
                 aazb aazbVar3 = (aazb) obj;
                 int i3 = aazbVar3.f2651n;
@@ -107,7 +107,7 @@ public final /* synthetic */ class aayf implements Function {
                 int i4 = aazbVar4.f2651n;
                 return aazbVar4.f2650m == 3 ? Double.valueOf(1.5d) : Double.valueOf(1.22d);
             case 10:
-                return ((aazb) obj).f2646i;
+                return aaay.m437G(obj);
             case 11:
                 aazb aazbVar5 = (aazb) obj;
                 int i5 = aazbVar5.f2651n;
@@ -147,7 +147,7 @@ public final /* synthetic */ class aayf implements Function {
             case 18:
                 return aaay.m439I(obj);
             case 19:
-                return ((aazb) obj).f2644g;
+                return aaay.m438H(obj);
             default:
                 return aaay.m439I(obj);
         }

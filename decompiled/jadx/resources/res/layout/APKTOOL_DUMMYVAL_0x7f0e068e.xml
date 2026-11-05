@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:tag=".expression-search-container"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08027a"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/APKTOOL_DUMMYVAL_0x7f04012c">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e068d"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="10dp">
+    <TextView
+        android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a6b"
+        android:gravity="start|center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b016e"
+        android:tag=".label.accessory-symbol-content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes"/>
+</FrameLayout>

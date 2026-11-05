@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MonolithicCandidatesRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0424"
+    android:keyboardNavigationCluster="true"
+    app:APKTOOL_DUMMYVAL_0x7f040428="60"
+    app:APKTOOL_DUMMYVAL_0x7f040429="30"
+    app:APKTOOL_DUMMYVAL_0x7f04042b="@layout/APKTOOL_DUMMYVAL_0x7f0e072b"
+    app:APKTOOL_DUMMYVAL_0x7f04095b="0"
+    candidateTextOnlyLayout="@layout/APKTOOL_DUMMYVAL_0x7f0e072d"
+    candidate_background="@android:color/transparent"
+    last_column_candidate_background="@android:color/transparent"
+    style="@style/APKTOOL_DUMMYVAL_0x7f15034f">
+    <tag
+        android:value="true"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2932"/>
+    <tag
+        android:value="true"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0646"/>
+</com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MonolithicCandidatesRecyclerView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="NO_SETTINGS_KEY,INPUT_TYPE_URI,INPUT_TYPE_EMAIL_ADDRESS">
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b10ad"
+            view_id="@+id/A02"/>
+    </merge_key_mapping>
+    <merge_key_mapping
+        exclude_state="NO_SETTINGS_KEY"
+        state="INPUT_TYPE_URI,INPUT_TYPE_EMAIL_ADDRESS">
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b10ac"
+            view_id="@+id/A02"/>
+    </merge_key_mapping>
+</framework>

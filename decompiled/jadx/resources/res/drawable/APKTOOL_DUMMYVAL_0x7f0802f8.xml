@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f0805bf"
+        android:left="17dp"
+        android:right="98dp"/>
+    <item
+        android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f0805bf"
+        android:left="44dp"
+        android:right="71dp"/>
+    <item
+        android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f0805bf"
+        android:left="71dp"
+        android:right="44dp"/>
+    <item
+        android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f0805bf"
+        android:left="98dp"
+        android:right="17dp"/>
+</layer-list>

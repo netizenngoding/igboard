@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="ALTGR">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b136a"
+            view_id="@+id/E01"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b136e"
+            view_id="@+id/E02"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b136d"
+            view_id="@+id/E03"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1368"
+            view_id="@+id/E04"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1367"
+            view_id="@+id/E05"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b136c"
+            view_id="@+id/E06"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b136b"
+            view_id="@+id/E07"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1366"
+            view_id="@+id/E08"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1369"
+            view_id="@+id/E09"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b136f"
+            view_id="@+id/E10"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1413"
+            view_id="@+id/E12"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0e22"
+            view_id="@+id/B09"/>
+    </key_mapping>
+    <key_mapping state="ALTGR+SHIFT">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b13f8"
+            view_id="@+id/E12"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b13fa"
+            view_id="@+id/B02"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b13fe"
+            view_id="@+id/B09"/>
+    </key_mapping>
+    <merge_key_mapping
+        exclude_state="SHIFT"
+        state="ALTGR">
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1c66"
+            view_id="@+id/E12"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1c67"
+            view_id="@+id/B09"/>
+    </merge_key_mapping>
+</framework>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1507a1">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0167"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1507a0"/>
+    <TextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b016a"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1507a3"/>
+</LinearLayout>

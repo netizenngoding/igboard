@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+    android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a69"
+    android:tag=".label.voice-learning-center-category-tab"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f0802f4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080310"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"/>

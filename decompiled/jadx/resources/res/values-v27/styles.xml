@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f150091" parent="@style/APKTOOL_DUMMYVAL_0x7f150156">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500a2" parent="@style/APKTOOL_DUMMYVAL_0x7f150158">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1500a3" parent="@style/APKTOOL_DUMMYVAL_0x7f150159">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150156" parent="@style/APKTOOL_DUMMYVAL_0x7f150149">
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f0605c8</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150158" parent="@style/APKTOOL_DUMMYVAL_0x7f15014d">
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f060318</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150159" parent="@style/APKTOOL_DUMMYVAL_0x7f150130">
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f060318</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+    </style>
+    <style name="StickerLightTheme" parent="@style/APKTOOL_DUMMYVAL_0x7f150a06">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@color/APKTOOL_DUMMYVAL_0x7f060b67</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@color/APKTOOL_DUMMYVAL_0x7f060b69</item>
+    </style>
+</resources>

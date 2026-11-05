@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if split_keyboard_handedness_ja="right">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a60"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a5c"/>
+    </if>
+    <else_if split_keyboard_handedness_ja="left">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a61"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a5b"/>
+    </else_if>
+    <else>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a61"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a60"/>
+    </else>
+    <key_mapping>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b151b"
+            view_id="@+id/D01"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1529"
+            view_id="@+id/C01"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1528"
+            view_id="@+id/B00"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b152a"
+            view_id="@+id/A00"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b151a"
+            view_id="@+id/B01"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b247e"
+            view_id="@+id/A01"/>
+        <if japanese_use_tri_state_mode="true">
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b15a1"
+                view_id="@+id/key_pos_switch_hiragana_alphabet"/>
+        </if>
+        <else>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b246e"
+                view_id="@+id/key_pos_switch_hiragana_alphabet"/>
+        </else>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b159e"
+            view_id="@+id/key_pos_ja_12keys_sub_10"/>
+    </key_mapping>
+    <if split_keyboard_handedness_ja="left">
+        <key_mapping state="COMPOSING">
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1567"
+                view_id="@+id/key_pos_ja_12keys_sub_10"/>
+        </key_mapping>
+    </if>
+    <if split_keyboard_handedness_ja="both">
+        <key_mapping>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b247e"
+                view_id="@+id/key_pos_ja_12keys_10"/>
+        </key_mapping>
+        <key_mapping state="COMPOSING">
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1567"
+                view_id="@+id/key_pos_ja_12keys_10"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1567"
+                view_id="@+id/key_pos_ja_12keys_sub_10"/>
+        </key_mapping>
+    </if>
+    <key_mapping state="COMPOSING">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b241e"
+            view_id="@+id/key_pos_space"/>
+    </key_mapping>
+</framework>

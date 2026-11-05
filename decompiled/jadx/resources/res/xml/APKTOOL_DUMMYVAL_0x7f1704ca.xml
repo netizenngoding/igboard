@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170495"/>
+    <keyboard class="com.google.android.apps.inputmethod.latin.keyboard.LatinKeyboardWithNumberMode">
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01b9"
+                type="body"/>
+        </if>
+        <else_if keyboard_mode="split">
+            <if split_keyboard_handedness_zh="right">
+                <view
+                    layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01c6"
+                    type="body"/>
+            </if>
+            <else>
+                <view
+                    layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01c4"
+                    type="body"/>
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01b4"
+                type="body"/>
+        </else>
+        <view
+            override="motion_event_handler"
+            type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebe"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a6f"/>
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e29"/>
+            </if>
+            <else_if keyboard_mode="split">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f08"/>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17121f"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a9f"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e6d"/>
+            </else_if>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c2e"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c46"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c05"/>
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170efd"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170915"/>
+            </if>
+            <else_if keyboard_mode="split">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c47"/>
+            </else_if>
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d ଘଣ୍ଟା</item>
+        <item quantity="other">%1$d ଘଣ୍ଟା</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d ମିନିଟ</item>
+        <item quantity="other">%1$d ମିନିଟ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">ଆପଣ %1$d-ମିନିଟ ସୀମାର ପାଖାପାଖି ପହଞ୍ଚିଛନ୍ତି</item>
+        <item quantity="other">ଆପଣ %1$d ମିନିଟ ସୀମାର ପାଖାପାଖି ପହଞ୍ଚିଛନ୍ତି</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">%1$d ସେକେଣ୍ଡରେ ବନ୍ଦ ହେବାକୁ ଯାଉଛି…</item>
+        <item quantity="other">%1$d ସେକେଣ୍ଡରେ ବନ୍ଦ ହେବାକୁ ଯାଉଛି…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d କୀ ନ୍ୟସ୍ତ କରାଯାଇଛି</item>
+        <item quantity="other">%d ଟି କୀ ନ୍ୟସ୍ତ କରାଯାଇଛି</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s ବର୍ତ୍ତମାନ ଇନଷ୍ଟଲ କରାଯାଇଛି।</item>
+        <item quantity="other">%s ବର୍ତ୍ତମାନ ଇନଷ୍ଟଲ କରାଯାଇଛି।</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d ଘଣ୍ଟା</item>
+        <item quantity="other">%d ଘଣ୍ଟା</item>
+    </plurals>
+</resources>

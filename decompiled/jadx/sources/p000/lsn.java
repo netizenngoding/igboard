@@ -366,7 +366,7 @@ public final class lsn {
 
     /* JADX WARN: Code duplicated, block: B:7:0x0013  */
     /* JADX INFO: renamed from: S */
-    public final Object m23206S(acqn acqnVar, acfd acfdVar) throws Throwable {
+    public final Object m23206S(acqn acqnVar, acfd acfdVar) {
         cjc cjcVar;
         if (acfdVar instanceof cjc) {
             cjcVar = (cjc) acfdVar;

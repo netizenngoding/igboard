@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">Amahora angu-%1$d</item>
+        <item quantity="other">Amahora angu-%1$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">Imizuzu engu-%1$d</item>
+        <item quantity="other">Imizuzu engu-%1$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Usondela emkhawulweni yemizuzu engu-%1$d</item>
+        <item quantity="other">Usondela emkhawulweni yemizuzu engu-%1$d</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Ivala emizuzwaneni engu-%1$d…</item>
+        <item quantity="other">Ivala emizuzwaneni engu-%1$d…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d okhiye abanikeziwe</item>
+        <item quantity="other">%d okhiye abanikeziwe</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">Ama-%s manje afakiwe.</item>
+        <item quantity="other">Ama-%s manje afakiwe.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">Amahora angu-%d</item>
+        <item quantity="other">Amahora angu-%d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.libraries.inputmethod.widgets.highframeraterecyclerview.HighFrameRateRecyclerView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01dc"
+        android:clipToPadding="false"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingVertical="12dp"
+        app:APKTOOL_DUMMYVAL_0x7f040720="true"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040733="APKTOOL_DUMMYVAL_0x7f0b2a6b"
+        app:APKTOOL_DUMMYVAL_0x7f040734="400dp"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

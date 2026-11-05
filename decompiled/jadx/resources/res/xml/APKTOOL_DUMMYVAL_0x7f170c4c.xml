@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b24e6"
+            view_id="@+id/key_pos_tab"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1a1b"
+            view_id="@+id/key_pos_left_arrow"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b2338"
+            view_id="@+id/key_pos_right_arrow"/>
+    </key_mapping>
+    <key_mapping state="IME_FLAG_NAVIGATE_NEXT,IME_ACTION_NEXT">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b24e5"
+            view_id="@+id/key_pos_tab"/>
+    </key_mapping>
+    <key_mapping state="SHIFT+IME_FLAG_NAVIGATE_PREVIOUS,SHIFT+IME_ACTION_PREVIOUS">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23b2"
+            view_id="@+id/key_pos_tab"/>
+    </key_mapping>
+</framework>

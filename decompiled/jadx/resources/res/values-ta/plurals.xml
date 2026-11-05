@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d மணிநேரம்</item>
+        <item quantity="other">%1$d மணிநேரம்</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d நிமிடம்</item>
+        <item quantity="other">%1$d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">%1$d நிமிட வரம்பை நெருங்குகிறீர்கள்</item>
+        <item quantity="other">%1$d நிமிட வரம்பை நெருங்குகிறீர்கள்</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">%1$d வினாடியில் மூடும்…</item>
+        <item quantity="other">%1$d வினாடிகளில் மூடும்…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d விசை ஒதுக்கப்பட்டது</item>
+        <item quantity="other">%d விசைகள் ஒதுக்கப்பட்டன</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">இப்போது %s நிறுவப்பட்டுள்ளது.</item>
+        <item quantity="other">இப்போது %s ஆகியவை நிறுவப்பட்டுள்ளன.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d மணிநேரம்</item>
+        <item quantity="other">%d மணிநேரம்</item>
+    </plurals>
+</resources>

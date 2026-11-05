@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.ExpandedChildLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="7200"
+    app:APKTOOL_DUMMYVAL_0x7f0405f3="@+id/key_pos_space"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1501f3">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/key_pos_switch_to_symbol"
+        android:layout_weight="900"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e6"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/A02"
+        android:visibility="gone"
+        android:layout_weight="0"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e8"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/key_pos_switch_to_next_language"
+        android:visibility="gone"
+        android:layout_weight="900"
+        app:APKTOOL_DUMMYVAL_0x7f04038f="true"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e4"/>
+    <com.google.android.libraries.inputmethod.widgets.SplittableSoftKeyView
+        android:id="@+id/key_pos_space"
+        android:visibility="gone"
+        android:layout_weight="3600"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506f4"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/A06"
+        android:visibility="gone"
+        android:layout_weight="0"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506ef"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/A08"
+        android:visibility="gone"
+        android:layout_weight="0"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506e8"/>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@+id/key_pos_ime_action"
+        android:layout_weight="1800"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1506ec"/>
+</com.google.android.libraries.inputmethod.widgets.ExpandedChildLinearLayout>

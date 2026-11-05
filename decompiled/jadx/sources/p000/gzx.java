@@ -237,57 +237,61 @@ public final class gzx implements whq, oab {
                 if (!sre.m30495l(vftVar2, strM30494k2)) {
                     vft vftVar5 = vfvVar.f70137c;
                     synchronized (vftVar5.f70128a) {
-                        xqp xqpVar2 = vftVar5.f70133f;
-                        if (xqpVar2 != null && xqpVar2.isDone()) {
-                            try {
-                                wzl.m34946A(vftVar5.f70133f);
-                            } catch (Exception e) {
-                                Log.w("MetadataFetcher", "The metadata download is completed with error.", e);
-                                if (!vfvVar.m33060c(vfvVar.f70137c.f70131d)) {
-                                    Log.w("MetadataManager", "There is no cached metadata. Sync without predownload.");
-                                    xqpVarM33058a = vfvVar.m33058a(str2, locale, zkjVar2);
-                                }
-                                xqpVarArr[0] = xqpVarM33058a;
-                                aamdVar = gzwVar2.f30953b.f81660b;
-                                if (aamdVar.isEmpty()) {
-                                    xqpVarSubmit = xql.f76484a;
-                                } else {
-                                    whqVar = gzvVar.f30948b;
-                                    if (((qvt) whqVar.get()).m28944am("pref_key_expressive_stickers_set_default_favorites", false, false)) {
+                        try {
+                            xqp xqpVar2 = vftVar5.f70133f;
+                            if (xqpVar2 != null && xqpVar2.isDone()) {
+                                try {
+                                    wzl.m34946A(vftVar5.f70133f);
+                                } catch (Exception e) {
+                                    Log.w("MetadataFetcher", "The metadata download is completed with error.", e);
+                                    if (!vfvVar.m33060c(vfvVar.f70137c.f70131d)) {
+                                        Log.w("MetadataManager", "There is no cached metadata. Sync without predownload.");
+                                        xqpVarM33058a = vfvVar.m33058a(str2, locale, zkjVar2);
+                                    }
+                                    xqpVarArr[0] = xqpVarM33058a;
+                                    aamdVar = gzwVar2.f30953b.f81660b;
+                                    if (aamdVar.isEmpty()) {
                                         xqpVarSubmit = xql.f76484a;
                                     } else {
-                                        whqVar2 = gzvVar.f30947a;
-                                        if (((qvt) whqVar2.get()).m28943al("pref_key_expressive_stickers_set_default_favorites")) {
-                                            ((qvt) whqVar2.get()).mo9292w("pref_key_expressive_stickers_set_default_favorites");
-                                            if (((Boolean) gzvVar.f30949c.apply(gzvVar.f30950d)).booleanValue()) {
-                                                ((qvt) whqVar.get()).m28927U("pref_key_expressive_stickers_set_default_favorites", Boolean.TRUE);
-                                                xqpVarSubmit = xql.f76484a;
+                                        whqVar = gzvVar.f30948b;
+                                        if (((qvt) whqVar.get()).m28944am("pref_key_expressive_stickers_set_default_favorites", false, false)) {
+                                            xqpVarSubmit = xql.f76484a;
+                                        } else {
+                                            whqVar2 = gzvVar.f30947a;
+                                            if (((qvt) whqVar2.get()).m28943al("pref_key_expressive_stickers_set_default_favorites")) {
+                                                ((qvt) whqVar2.get()).mo9292w("pref_key_expressive_stickers_set_default_favorites");
+                                                if (((Boolean) gzvVar.f30949c.apply(gzvVar.f30950d)).booleanValue()) {
+                                                    ((qvt) whqVar.get()).m28927U("pref_key_expressive_stickers_set_default_favorites", Boolean.TRUE);
+                                                    xqpVarSubmit = xql.f76484a;
+                                                } else {
+                                                    vfo vfoVar3 = gzvVar.f30950d;
+                                                    xqpVarSubmit = vfoVar3.f70109a.submit(new ucb(vfoVar3, aamdVar, 3));
+                                                    wzl.m34948C(xqpVarSubmit, new gqh(gzvVar, 5), xpi.INSTANCE);
+                                                }
                                             } else {
-                                                vfo vfoVar3 = gzvVar.f30950d;
-                                                xqpVarSubmit = vfoVar3.f70109a.submit(new ucb(vfoVar3, aamdVar, 3));
+                                                vfo vfoVar4 = gzvVar.f30950d;
+                                                xqpVarSubmit = vfoVar4.f70109a.submit(new ucb(vfoVar4, aamdVar, 3));
                                                 wzl.m34948C(xqpVarSubmit, new gqh(gzvVar, 5), xpi.INSTANCE);
                                             }
-                                        } else {
-                                            vfo vfoVar4 = gzvVar.f30950d;
-                                            xqpVarSubmit = vfoVar4.f70109a.submit(new ucb(vfoVar4, aamdVar, 3));
-                                            wzl.m34948C(xqpVarSubmit, new gqh(gzvVar, 5), xpi.INSTANCE);
                                         }
                                     }
+                                    xqpVarArr[1] = xqpVarSubmit;
+                                    ably ablyVarM34964S = wzl.m34964S(xqpVarArr);
+                                    dfl dflVar = new dfl(objMo34209b, 17);
+                                    xpi xpiVar = xpi.INSTANCE;
+                                    xqp xqpVarM2337b = ablyVarM34964S.m2337b(dflVar, xpiVar);
+                                    xqpVarM2337b.mo3865b(new RunnableC1183tx(gzvVar, jElapsedRealtime, objMo34209b, 3), xpiVar);
+                                    xqpVarM2337b.mo3865b(new gyq(this, 2), xpiVar);
+                                    this.f30961g = xqpVarM2337b;
+                                    return gzvVar;
                                 }
-                                xqpVarArr[1] = xqpVarSubmit;
-                                ably ablyVarM34964S = wzl.m34964S(xqpVarArr);
-                                dfl dflVar = new dfl(objMo34209b, 17);
-                                xpi xpiVar = xpi.INSTANCE;
-                                xqp xqpVarM2337b = ablyVarM34964S.m2337b(dflVar, xpiVar);
-                                xqpVarM2337b.mo3865b(new RunnableC1183tx(gzvVar, jElapsedRealtime, objMo34209b, 3), xpiVar);
-                                xqpVarM2337b.mo3865b(new gyq(this, 2), xpiVar);
-                                this.f30961g = xqpVarM2337b;
-                                return gzvVar;
                             }
-                        }
-                        if (!vfvVar.m33060c(vfvVar.f70137c.f70131d)) {
-                            Log.w("MetadataManager", "There is no cached metadata. Sync without predownload.");
-                            xqpVarM33058a = vfvVar.m33058a(str2, locale, zkjVar2);
+                            if (!vfvVar.m33060c(vfvVar.f70137c.f70131d)) {
+                                Log.w("MetadataManager", "There is no cached metadata. Sync without predownload.");
+                                xqpVarM33058a = vfvVar.m33058a(str2, locale, zkjVar2);
+                            }
+                        } catch (Throwable th) {
+                            throw th;
                         }
                     }
                     if (sre.m30495l(vfvVar.f70137c, strM30494k2)) {
