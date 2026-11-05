@@ -22,7 +22,7 @@ import javax.imageio.ImageIO;
  * <pre>java mod/preview/GlassPreview.java mod/preview</pre>
  */
 public final class GlassPreview {
-    private static final float SCALE = 3.2f; // px per dp
+    private static final float SCALE = 2.6f; // px per dp
     private static final float TRACK_W = 64f, TRACK_H = 28f, THUMB_W = 40f, THUMB_H = 24f;
     private static final Color ACCENT_LIGHT = new Color(0x34C759);
     private static final Color ACCENT_DARK = new Color(0x30D158);
@@ -64,21 +64,21 @@ public final class GlassPreview {
         g.fill(new RoundRectangle2D.Float(24, 24, w - 48, h - 48, 44, 44));
 
         g.setColor(label);
-        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.BOLD, 26));
-        g.drawString("iBoard settings", 56, 92);
+        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.BOLD, Math.round(13f * SCALE)));
+        g.drawString("iBoard settings", 48, 78);
         g.setColor(sub);
-        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 17));
-        g.drawString("Liquid Glass controls \u2014 Kyant parameters", 56, 122);
+        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, Math.round(9f * SCALE)));
+        g.drawString("Liquid Glass controls \u2014 Kyant parameters", 48, 108);
 
-        float y = 170f;
-        y = row(g, 56, y, w - 112, "Predictive Text", true, dark);
-        y = row(g, 56, y + 26, w - 112, "Show Predictions Inline", false, dark);
-        y = row(g, 56, y + 26, w - 112, "Check Spelling", true, dark);
-        y += 46;
+        float y = 140f;
+        y = row(g, 48, y, w - 96, "Predictive Text", true, dark);
+        y = row(g, 48, y + 8, w - 96, "Show Predictions Inline", false, dark);
+        y = row(g, 48, y + 8, w - 96, "Check Spelling", true, dark);
+        y += 40;
         g.setColor(sub);
-        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 16));
-        g.drawString("Keyboard height", 56, (int) y + 96);
-        slider(g, 56, y + 130, w - 112, 0.62f, dark);
+        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, Math.round(9f * SCALE)));
+        g.drawString("Keyboard height", 48, (int) y + 34);
+        slider(g, 48, y + 78, w - 96, 0.62f, dark);
 
         g.dispose();
         ImageIO.write(image, "png", new File(target.toString()));
@@ -86,15 +86,16 @@ public final class GlassPreview {
 
     private static float row(Graphics2D g, float x, float y, float width, String text,
                              boolean on, boolean dark) {
+        float rowH = 44f * SCALE / 2.6f * 1.06f;
         Color label = dark ? Color.WHITE : Color.BLACK;
         g.setColor(label);
-        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 21));
-        g.drawString(text, x, y + 24);
-        // Separator under the row.
+        g.setFont(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, Math.round(10.5f * SCALE)));
+        g.drawString(text, x, y + rowH * 0.62f);
         g.setColor(dark ? new Color(0x38383A) : new Color(0xE5E5EA));
-        g.fillRect((int) x, (int) (y + 42), (int) width - 120, 1);
-        toggle(g, x + width - TRACK_W * SCALE - 8, y - 4, on, dark, 0f);
-        return y + 42;
+        g.fillRect((int) x, (int) (y + rowH), (int) width - Math.round(90 * SCALE / 2.6f), 1);
+        toggle(g, x + width - TRACK_W * SCALE - 4, y + rowH * 0.5f - TRACK_H * SCALE * 0.5f,
+                on, dark, 0f);
+        return y + rowH;
     }
 
     private static void toggle(Graphics2D g, float x, float y, boolean on, boolean dark,
@@ -129,7 +130,7 @@ public final class GlassPreview {
         // Drop shadow: 4dp at 5%, offset radius/6 (drawn as a soft stack).
         for (int step = 5; step >= 1; step--) {
             float grow = 4f * SCALE * step / 5f;
-            g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.05f / step));
+            g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.05f / (step * 1.6f)));
             g.setColor(Color.BLACK);
             g.fill(new RoundRectangle2D.Float(x - grow * 0.35f,
                     y - grow * 0.35f + (4f / 6f) * SCALE,
@@ -143,8 +144,8 @@ public final class GlassPreview {
 
         // Inner shading + refraction while pressed.
         g.setClip(new RoundRectangle2D.Float(x, y, w, h, r, r));
-        g.setPaint(new GradientPaint(x, y + h * 0.45f, new Color(0, 0, 0, 0), x, y + h,
-                new Color(0, 0, 0, Math.round(255 * (0.10f + 0.06f * press)))));
+        g.setPaint(new GradientPaint(x, y + h * 0.60f, new Color(0, 0, 0, 0), x, y + h,
+                new Color(0, 0, 0, Math.round(255 * (0.05f + 0.09f * press)))));
         g.fillRect((int) x, (int) y, (int) w + 1, (int) h + 1);
         if (press > 0.01f) {
             g.setColor(new Color(accent.getRed(), accent.getGreen(), accent.getBlue(),

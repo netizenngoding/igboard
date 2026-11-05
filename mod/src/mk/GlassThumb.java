@@ -93,8 +93,8 @@ public class GlassThumb extends Drawable {
             // Inner shading: the capsule reads as a lens, so the bottom is darker.
             int clip = canvas.save();
             canvas.clipPath(path);
-            paint.setShader(new LinearGradient(0f, rect.top + rect.height() * 0.45f, 0f, rect.bottom,
-                    0x00000000, Glass.withAlpha(Color.BLACK, 0.10f + 0.06f * pressProgress),
+            paint.setShader(new LinearGradient(0f, rect.top + rect.height() * 0.60f, 0f, rect.bottom,
+                    0x00000000, Glass.withAlpha(Color.BLACK, 0.05f + 0.09f * pressProgress),
                     Shader.TileMode.CLAMP));
             canvas.drawRect(rect, paint);
             paint.setShader(null);
@@ -133,9 +133,9 @@ public class GlassThumb extends Drawable {
         float blur = Glass.dp(host, Glass.SHADOW_RADIUS);
         float dy = Glass.dp(host, Glass.SHADOW_DY);
         paint.setShader(null);
-        for (int step = 4; step >= 1; step--) {
-            float grow = blur * step / 4f;
-            paint.setColor(Glass.withAlpha(Color.BLACK, 0.05f / step));
+        for (int step = 5; step >= 1; step--) {
+            float grow = blur * step / 5f;
+            paint.setColor(Glass.withAlpha(Color.BLACK, 0.05f / (step * 1.6f)));
             tmp.set(bounds.left - grow * 0.35f, bounds.top - grow * 0.35f + dy,
                     bounds.right + grow * 0.35f, bounds.bottom + grow * 0.35f + dy);
             canvas.drawRoundRect(tmp, radius + grow * 0.35f, radius + grow * 0.35f, paint);
