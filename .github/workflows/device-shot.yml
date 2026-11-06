@@ -74,17 +74,30 @@ jobs:
           sudo udevadm trigger --name-match=kvm
           ls -l /dev/kvm
 
-      - name: Emulator run
-        uses: reactivecircus/android-emulator-runner@v2
-        with:
-          api-level: 31
-          target: google_apis
-          arch: x86_64
-          profile: pixel_5
-          disable-animations: true
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
-          script: |
-            bash mod/shots/run-emulator.sh 2>&1 | tee mod/shots/emulator.log
+      - name: Install emulator packages
+        run: |
+          set -euo pipefail
+          SDK="${ANDROID_HOME:-$ANDROID_SDK_ROOT}"
+          SM="$SDK/cmdline-tools/latest/bin/sdkmanager"
+          [ -x "$SM" ] || SM=$(command -v sdkmanager)
+          yes | "$SM" --licenses > /dev/null 2>&1 || true
+          "$SM" --install "platform-tools" "emulator" "system-images;android-31;google_apis;x86_64"
+          ls "$SDK/emulator/emulator" "$SDK/platform-tools/adb"
+
+      - name: Boot emulator and capture
+        run: |
+          set -o pipefail
+          SDK="${ANDROID_HOME:-$ANDROID_SDK_ROOT}"
+          export PATH="$SDK/platform-tools:$SDK/emulator:$PATH"
+          echo "no" | "$SDK/cmdline-tools/latest/bin/avdmanager" create avd -n test \
+            -k "system-images;android-31;google_apis;x86_64" -d pixel_5 --force || true
+          "$SDK/emulator/emulator" -avd test -no-window -no-audio -no-boot-anim \
+            -gpu swiftshader_indirect -no-snapshot -accel on -camera-back none \
+            > mod/shots/emulator-launch.log 2>&1 &
+          adb wait-for-device
+          timeout 420 bash -c 'until [ "$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d "\r")" = "1" ]; do sleep 5; done'
+          adb shell input keyevent 82 || true
+          OUT="$PWD/mod/shots" GITHUB_WORKSPACE="$PWD" bash mod/shots/run-emulator.sh 2>&1 | tee mod/shots/emulator.log
 
       - name: Commit screenshots and logs
         if: always()
