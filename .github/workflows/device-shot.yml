@@ -84,34 +84,7 @@ jobs:
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
           script: |
-            set -x
-            OUT="$GITHUB_WORKSPACE/mod/shots"
-            mkdir -p "$OUT"
-            exec > >(tee -a "$OUT/emulator.log") 2>&1
-            PKG=com.google.android.inputmethod.latin
-            ACT=$PKG/com.google.android.apps.inputmethod.latin.preference.SettingsActivity
-            adb shell getprop ro.product.cpu.abi
-            adb devices
-            adb logcat -c
-            adb install -r -d "$GITHUB_WORKSPACE/mod/shots/test-signed.apk"
-            adb shell pm list packages | grep inputmethod
-            adb shell ime enable $PKG/com.android.inputmethod.latin.LatinIME
-            adb shell ime set $PKG/com.android.inputmethod.latin.LatinIME
-            adb shell am start -W -n $ACT
-            sleep 12
-            adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'
-            adb exec-out screencap -p > "$OUT/settings-light.png"
-            adb shell uiautomator dump /sdcard/ui.xml
-            adb pull /sdcard/ui.xml "$OUT/ui-light.xml"
-            adb logcat -d -v brief > "$OUT/logcat.txt"
-            grep -i iboardglass "$OUT/logcat.txt" | tail -40
-            adb shell cmd uimode night yes
-            sleep 5
-            adb shell am start -W -n $ACT
-            sleep 10
-            adb exec-out screencap -p > "$OUT/settings-dark.png"
-            adb logcat -d -v brief > "$OUT/logcat-after.txt"
-            ls -l "$OUT"
+            bash mod/shots/run-emulator.sh 2>&1 | tee mod/shots/emulator.log
 
       - name: Commit screenshots and logs
         if: always()
