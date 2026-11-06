@@ -85,26 +85,33 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
           script: |
             set -x
+            OUT="$GITHUB_WORKSPACE/mod/shots"
+            mkdir -p "$OUT"
+            exec > >(tee -a "$OUT/emulator.log") 2>&1
             PKG=com.google.android.inputmethod.latin
             ACT=$PKG/com.google.android.apps.inputmethod.latin.preference.SettingsActivity
-            adb logcat -c || true
-            adb install -r -d mod/shots/test-signed.apk || adb install -r mod/shots/test-signed.apk || true
-            adb shell pm list packages | grep inputmethod || true
-            adb shell ime enable $PKG/com.android.inputmethod.latin.LatinIME || true
-            adb shell ime set $PKG/com.android.inputmethod.latin.LatinIME || true
-            adb shell am start -W -n $ACT || true
+            adb shell getprop ro.product.cpu.abi
+            adb devices
+            adb logcat -c
+            adb install -r -d "$GITHUB_WORKSPACE/mod/shots/test-signed.apk"
+            adb shell pm list packages | grep inputmethod
+            adb shell ime enable $PKG/com.android.inputmethod.latin.LatinIME
+            adb shell ime set $PKG/com.android.inputmethod.latin.LatinIME
+            adb shell am start -W -n $ACT
             sleep 12
-            adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp' || true
-            adb exec-out screencap -p > mod/shots/settings-light.png || true
-            adb logcat -d -v brief > mod/shots/logcat.txt || true
-            grep -i iboardglass mod/shots/logcat.txt | tail -40 || true
-            adb shell cmd uimode night yes || true
+            adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'
+            adb exec-out screencap -p > "$OUT/settings-light.png"
+            adb shell uiautomator dump /sdcard/ui.xml
+            adb pull /sdcard/ui.xml "$OUT/ui-light.xml"
+            adb logcat -d -v brief > "$OUT/logcat.txt"
+            grep -i iboardglass "$OUT/logcat.txt" | tail -40
+            adb shell cmd uimode night yes
             sleep 5
-            adb shell am start -W -n $ACT || true
+            adb shell am start -W -n $ACT
             sleep 10
-            adb exec-out screencap -p > mod/shots/settings-dark.png || true
-            adb logcat -d -v brief > mod/shots/logcat-after.txt || true
-            ls -l mod/shots
+            adb exec-out screencap -p > "$OUT/settings-dark.png"
+            adb logcat -d -v brief > "$OUT/logcat-after.txt"
+            ls -l "$OUT"
 
       - name: Commit screenshots and logs
         if: always()
