@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140044"
+    android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0708f3"
+    android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0708f3"
+    style="@style/APKTOOL_DUMMYVAL_0x7f15075c">
+    <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f151145"/>
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b28f9"
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f140044"
+        app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150762"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150639"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06ce" />
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15063a">
+        <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b037a" android:scrollbars="vertical" android:layout_marginTop="20.0dp" android:maxHeight="150.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f140427" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0708bb" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0708bb" style="@style/APKTOOL_DUMMYVAL_0x7f15051f" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0149" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e014a" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

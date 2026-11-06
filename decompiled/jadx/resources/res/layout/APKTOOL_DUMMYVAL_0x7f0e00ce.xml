@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:scrollbarTrackVertical="@null"
+        android:scrollbarStyle="outsideInset"
+        android:layout_gravity="center"
+        android:tag=".popup.for-emoji-kitchen-popup-v2"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08026f"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:elevation="8dp">
+        <include
+            android:gravity="center"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00cf"/>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsHolderView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="?attr/APKTOOL_DUMMYVAL_0x7f04028d"
+    android:paddingEnd="?attr/APKTOOL_DUMMYVAL_0x7f04028d"
+    app:APKTOOL_DUMMYVAL_0x7f0407b1="true"
+    app:APKTOOL_DUMMYVAL_0x7f040a13="@+id/softkey_holder_fixed_candidates"/>

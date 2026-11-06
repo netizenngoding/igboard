@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if language="zz-NEVER">
+        <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1220" view_id="@id/B09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126a" view_id="@id/B10" />
+        </merge_key_mapping>
+    </if>
+</framework>

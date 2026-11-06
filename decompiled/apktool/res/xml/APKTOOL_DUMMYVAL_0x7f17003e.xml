@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if writing_helper_enable_by_word_revert="true">
+        <attrs class="com.google.android.apps.inputmethod.libs.edittracker.EditTrackingImeWrapper" />
+    </if>
+    <extra_values>
+        <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02e8" value="com.google.android.apps.inputmethod.libs.mozc.ime.SimpleJapaneseIme" />
+    </extra_values>
+</framework>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/APKTOOL_DUMMYVAL_0x7f060b45">
+    <item android:id="@android:id/background">
+        <layer-list
+            android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f070896"
+            android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f070896"
+            android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070896"
+            android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070896"
+            android:paddingMode="stack">
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/APKTOOL_DUMMYVAL_0x7f070886"/>
+                    <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060b2f"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</ripple>

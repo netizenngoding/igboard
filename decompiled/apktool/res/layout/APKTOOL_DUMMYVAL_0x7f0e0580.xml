@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/APKTOOL_DUMMYVAL_0x7f150365"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f1501f9">
+        <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" android:paddingLeft="@dimen/APKTOOL_DUMMYVAL_0x7f0708e3" android:paddingTop="3.0dp" android:paddingRight="@dimen/APKTOOL_DUMMYVAL_0x7f070343" android:paddingBottom="3.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="end|center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0157" android:tag=".icon.for-function-key" android:visibility="invisible" android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0806f8" android:scaleType="fitCenter" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070344" />
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0156" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f150754" />
+</LinearLayout>

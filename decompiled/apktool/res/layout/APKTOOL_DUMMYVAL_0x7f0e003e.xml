@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.BubbleHintView android:layout_width="wrap_content" android:layout_height="wrap_content" android:clipToOutline="true" app:APKTOOL_DUMMYVAL_0x7f0403ed="8.0dp" app:APKTOOL_DUMMYVAL_0x7f0403f0="UP" app:APKTOOL_DUMMYVAL_0x7f0403f1="2.0dp" app:APKTOOL_DUMMYVAL_0x7f0403f3="16.0dp" app:APKTOOL_DUMMYVAL_0x7f0403f4="?APKTOOL_DUMMYVAL_0x7f0404eb" app:APKTOOL_DUMMYVAL_0x7f0403f8="26.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.MaxHeightScrollView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00fd" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0dp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404c1" android:gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00fe" android:padding="16.0dp" android:layout_width="237.0dp" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f140050" />
+            <TextView android:textSize="14.0dp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404bd" android:gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00f9" android:padding="16.0dp" android:layout_width="237.0dp" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f14004c" />
+            <TextView android:textSize="14.0dp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404bd" android:gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00fa" android:padding="16.0dp" android:layout_width="237.0dp" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f14004d" />
+            <TextView android:textSize="14.0dp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404bd" android:gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00fb" android:padding="16.0dp" android:layout_width="237.0dp" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f14004e" />
+            <TextView android:textSize="14.0dp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404bd" android:gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00fc" android:padding="16.0dp" android:layout_width="237.0dp" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f14004f" />
+        </LinearLayout>
+    </com.google.android.libraries.inputmethod.widgets.MaxHeightScrollView>
+</com.google.android.libraries.inputmethod.widgets.BubbleHintView>

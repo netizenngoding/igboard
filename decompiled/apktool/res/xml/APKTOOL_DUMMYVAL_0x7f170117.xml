@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" ascii_capable="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="cnh-MM" string_id="ime_hakha_chin">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c4" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170539" pk_language_tag="cnh-Latn-MM" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c7" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170539" pk_language_tag="cnh-Latn-MM" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706b9" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170539" pk_language_tag="cnh-Latn-MM" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bb" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170539" pk_language_tag="cnh-Latn-MM" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706ba" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170539" pk_language_tag="cnh-Latn-MM" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c3" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170539" pk_language_tag="cnh-Latn-MM" />
+    </ime>
+</framework>

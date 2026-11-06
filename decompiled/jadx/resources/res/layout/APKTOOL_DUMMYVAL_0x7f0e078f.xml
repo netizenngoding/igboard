@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.RectangleWithRoundedArrowDrawableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag=".floating-tooltip-background"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0708fb"
+    app:APKTOOL_DUMMYVAL_0x7f0403ed="@dimen/APKTOOL_DUMMYVAL_0x7f0708f7"
+    app:APKTOOL_DUMMYVAL_0x7f0403ef="@dimen/APKTOOL_DUMMYVAL_0x7f0708f9"
+    app:APKTOOL_DUMMYVAL_0x7f0403f0="DOWN"
+    app:APKTOOL_DUMMYVAL_0x7f0403f1="@dimen/APKTOOL_DUMMYVAL_0x7f0708f8"
+    app:APKTOOL_DUMMYVAL_0x7f0403f3="@dimen/APKTOOL_DUMMYVAL_0x7f0708fa"
+    app:APKTOOL_DUMMYVAL_0x7f0403f4="@color/APKTOOL_DUMMYVAL_0x7f06049c"
+    app:APKTOOL_DUMMYVAL_0x7f0403f8="@dimen/APKTOOL_DUMMYVAL_0x7f0708ff">
+    <TextView
+        android:textAppearance="@style/APKTOOL_DUMMYVAL_0x7f150767"
+        android:layout_gravity="center"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b28ff"
+        android:tag=".floating-tooltip-foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0708fc"
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f140d76"
+        android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f0708fd"
+        android:layout_marginVertical="@dimen/APKTOOL_DUMMYVAL_0x7f0708fe"/>
+</com.google.android.libraries.inputmethod.widgets.RectangleWithRoundedArrowDrawableFrameLayout>

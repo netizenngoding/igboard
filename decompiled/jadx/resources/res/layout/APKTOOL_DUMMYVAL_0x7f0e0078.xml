@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.positionable.PositionableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08033f"
+    android:paddingTop="6dp"
+    android:paddingBottom="10dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080310"
+    android:paddingStart="16dp"
+    android:paddingEnd="8dp">
+    <TextView
+        android:textSize="11sp"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404c1"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01da"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404bd"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"/>
+</com.google.android.libraries.inputmethod.widgets.positionable.PositionableLinearLayout>

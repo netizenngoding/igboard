@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03ab" style="@style/APKTOOL_DUMMYVAL_0x7f150307"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner android:id="@id/APKTOOL_DUMMYVAL_0x7f0b14eb" style="@style/APKTOOL_DUMMYVAL_0x7f15030e">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0225" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0228" />
+        <LinearLayout app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/key_pos_header_power_key" app:APKTOOL_DUMMYVAL_0x7f040740="@id/key_pos_header_access_points_menu" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f15030f">
+            <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f150783">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0224" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0227" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e022e" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0230" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e066d" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07ef" />
+            </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0232" />
+        </LinearLayout>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e022f" />
+        <include layout="@attr/APKTOOL_DUMMYVAL_0x7f04000b" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

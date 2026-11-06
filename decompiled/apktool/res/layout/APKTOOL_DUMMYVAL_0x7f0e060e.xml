@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.MaterialPopupView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b070e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" app:APKTOOL_DUMMYVAL_0x7f0400a9="false" app:APKTOOL_DUMMYVAL_0x7f040286="?APKTOOL_DUMMYVAL_0x7f040241" hide_animation="@animator/APKTOOL_DUMMYVAL_0x7f020031" show_animation="@animator/APKTOOL_DUMMYVAL_0x7f020059"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0728" style="@style/APKTOOL_DUMMYVAL_0x7f150491">
+        <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b071c" style="@style/APKTOOL_DUMMYVAL_0x7f150492">
+            <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0721" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f150488" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.popup.MaterialPopupView>

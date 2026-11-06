@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="kyu-MM" string_id="ime_western_kayah_kayah_li">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f17072a" pk_language_tag="kyu-Kali-MM" variant="kayah_li" variant_label="@string/APKTOOL_DUMMYVAL_0x7f14150a" />
+    </ime>
+</framework>

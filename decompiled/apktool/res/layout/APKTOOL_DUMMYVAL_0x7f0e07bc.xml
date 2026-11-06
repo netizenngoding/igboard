@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/APKTOOL_DUMMYVAL_0x7f060b7f" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14116f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b298e" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="matrix" android:importantForAccessibility="no" />
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2991" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150b2d">
+            <TextView android:layout_marginBottom="48.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f14116f" style="@style/APKTOOL_DUMMYVAL_0x7f150b2e" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:layout_height="match_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150b2d" />
+            <View android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2990" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080344" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+            <View android:layout_height="match_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150b2d" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" style="@style/APKTOOL_DUMMYVAL_0x7f150b2d">
+            <Button android:theme="@style/APKTOOL_DUMMYVAL_0x7f150a99" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b298f" android:text="@string/APKTOOL_DUMMYVAL_0x7f1404fe" style="@style/APKTOOL_DUMMYVAL_0x7f150b2c" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

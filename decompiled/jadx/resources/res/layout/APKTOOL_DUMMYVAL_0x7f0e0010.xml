@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/APKTOOL_DUMMYVAL_0x7f04078c">
+    <RelativeLayout
+        android:layout_gravity="center_vertical"
+        android:duplicateParentState="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="?attr/APKTOOL_DUMMYVAL_0x7f04078e"
+        android:layout_marginRight="?attr/APKTOOL_DUMMYVAL_0x7f04078f"
+        android:layout_weight="1">
+        <TextView
+            android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a73"
+            android:ellipsize="marquee"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b29b8"
+            android:fadingEdge="horizontal"
+            android:duplicateParentState="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b07ec"
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_below="@+id/APKTOOL_DUMMYVAL_0x7f0b29b8"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+</android.support.v7.view.menu.ListMenuItemView>

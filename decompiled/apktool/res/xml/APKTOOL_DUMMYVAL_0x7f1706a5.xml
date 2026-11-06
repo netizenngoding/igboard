@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.libraries.inputmethod.freecursor.FreeCursorKeyboard">
+        <view direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0200" type="header" />
+        <view direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01ff" type="body">
+            <motion_event_handler class=".freecursor.FreeCursorMotionEventHandler" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="fa-XT"
+        string_id="ime_fa_arab_transliteration">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c6"
+            non_prime_def="@xml/APKTOOL_DUMMYVAL_0x7f17090c"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414a0"/>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ee"
+                value="true"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f1"
+                value="20"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02e4"
+                value="true"/>
+        </extra_values>
+    </ime>
+</framework>

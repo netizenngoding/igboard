@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:tag=".translate.language-selection.background" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080282" android:padding="?APKTOOL_DUMMYVAL_0x7f04057b" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0sp" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29e6" android:tag=".label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f1411bd" android:textAlignment="center" />
+    <android.support.v7.widget.RecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29e5" android:paddingBottom="16.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

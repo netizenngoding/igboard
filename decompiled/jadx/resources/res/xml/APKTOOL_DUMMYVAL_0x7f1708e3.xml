@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.translate.TranslateKeyboard">
+        <view
+            layout="@attr/APKTOOL_DUMMYVAL_0x7f04030c"
+            type="header"/>
+        <view
+            direction="locale"
+            scalable="false"
+            type="header">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17123b"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e94"/>
+        </view>
+    </keyboard>
+</framework>

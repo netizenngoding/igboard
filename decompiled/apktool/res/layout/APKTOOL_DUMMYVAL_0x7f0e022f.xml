@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_header_power_key" android:tag=".oval-navigation-highlight" android:visibility="invisible" android:paddingStart="?APKTOOL_DUMMYVAL_0x7f0402d9" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f150786"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0730" android:tag=".power-key-customized-state-indicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070052" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08031e" android:scaleType="centerInside" />
+    <FrameLayout android:gravity="center" android:id="@id/host" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.google.android.libraries.inputmethod.widgets.SoftKeyView>

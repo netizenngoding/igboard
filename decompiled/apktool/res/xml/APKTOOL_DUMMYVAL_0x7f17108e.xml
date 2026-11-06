@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ef1" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2688">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20a8" press_data="ပ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b207c" press_data="ဒ်" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b209f" press_data="န" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2085" press_data="ဃ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20cb" press_data="ယ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20a0" press_data="င" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2096" press_data="မ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20ac" press_data="ၡ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b208c" press_data="က" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20a5" press_data="ည" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20fd" press_data="ါ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b207b" press_data="ဒ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20f7" press_data="ၢ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20a9" press_data="ဖ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20f4" press_data="ီ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2097" press_data="မ်" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2092" press_data="လဲၣ်" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2099" press_data="မး" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2083" press_data="ဧါ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2082" press_data="ဧါ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20bf" press_data="တ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2087" press_data="ဟ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b208d" press_data="ခ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20aa" press_data="ရ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b207a" press_data="ဆ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2081" press_data="ဧ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2091" press_data="လ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20ee" press_data="ာ်" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20f3" press_data="ိ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20d7" press_data="ံ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20fe" press_data="ု" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20d9" press_data="့" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2100" press_data="ူ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2067" press_data="ျ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20ef" press_data="ဲ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2062" press_data="ှ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2098" press_data="မ့ၢ်" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2094" press_data="လီၤ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2093" press_data="လီၤ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b207d" press_data="ဒ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2075" press_data="အ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2078" press_data="ဘ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2084" press_data="ဂ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20ab" press_data="သ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20f8" press_data="ၢ်" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20c0" press_data="ထ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20eb" press_data="ၣ်" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20ca" press_data="ဝ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20ec" press_data="ၤ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2068" press_data="ၠ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b20e3" press_data="း" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2066" press_data="ွ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2079" press_data="စ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2065" press_data="ြ" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard candidate_text_size_ratio="1.0" class="com.google.android.apps.inputmethod.latin.keyboard.LatinHandwritingPrimeKeyboard" popup="@attr/APKTOOL_DUMMYVAL_0x7f040279" session_states="CAPS_LOCK">
+        <view direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e053c" scalable="false" type="header">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f1b" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c60" />
+        </view>
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e021e" type="body" />
+        </if>
+        <else>
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e020f" type="body" />
+        </else>
+        <view type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".libs.handwriting.keyboard.HandwritingMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.scrubmove.ScrubDeleteMotionEventHandler" preference_key="@string/APKTOOL_DUMMYVAL_0x7f14096a" reverse_preference="false" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebe" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f05" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f1a" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f19" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c3c" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c2f" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c5e" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c33" />
+        </view>
+    </keyboard>
+</framework>

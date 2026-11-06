@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" ascii_capable="true" class="com.google.android.apps.inputmethod.libs.mozc.ime.SimpleJapaneseIme" display_app_completions="false" inline_composing="true" language="@string/APKTOOL_DUMMYVAL_0x7f14052c" language_specific_settings="@xml/setting_japanese_language_specific" string_id="@string/APKTOOL_DUMMYVAL_0x7f140d96" unacceptable_meta_keys="" use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty|12key">
+            <attrs language_specific_settings="@xml/setting_japanese_language_specific_with_pk" />
+        </if>
+        <if japanese_pk_kana_input="true">
+            <attrs keyevent_interpreter="com.google.android.apps.inputmethod.libs.mozc.ime.JapaneseKanaKeyEventInterpreter" />
+        </if>
+        <keyboard_group pk_language_tag="ja-Latn-JP" pk_layout_type="extended" supports_split_mode="false" variant="50keys" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414f4" variant_name_mandatory="true">
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <attrs layout_theme="@style/APKTOOL_DUMMYVAL_0x7f150390" />
+            </if>
+            <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f1706e9" type="prime" />
+            <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f1706e8" type="alphabet">
+                <extra_values>
+                    <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02ef" value="QWERTY_ALPHABET" />
+                </extra_values>
+            </keyboard>
+            <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f1706ec" type="alphabet_email_oob">
+                <extra_values>
+                    <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02ef" value="QWERTY_ALPHABET" />
+                </extra_values>
+            </keyboard>
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f1707c5" type="digit" />
+            </if>
+            <else>
+                <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f1707c4" type="digit" />
+            </else>
+            <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f170878" type="symbol" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02f6" value="FIFTY_KEYS_HIRAGANA" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02e3" value="HARDWARE_QWERTY_KANA" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02d0" res="@xml/APKTOOL_DUMMYVAL_0x7f1706ea" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b0301" value="true" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02ea" res="@array/APKTOOL_DUMMYVAL_0x7f0300c1" />
+        </extra_values>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17003e" />
+    </ime>
+</framework>

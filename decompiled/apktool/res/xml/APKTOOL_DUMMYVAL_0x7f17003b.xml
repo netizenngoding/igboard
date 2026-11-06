@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if writing_helper_enable_by_word_revert="true">
+        <attrs class="com.google.android.apps.inputmethod.libs.edittracker.EditTrackingImeWrapper" />
+    </if>
+    <if enable_korean_composition_mode="false">
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02e8" value="com.google.android.libraries.inputmethod.ime.processor.AsyncProcessorBasedIme" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02f8" value="true" />
+        </extra_values>
+    </if>
+    <else>
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02e8" value="com.google.android.apps.inputmethod.libs.latin5.LatinIme" />
+        </extra_values>
+    </else>
+</framework>

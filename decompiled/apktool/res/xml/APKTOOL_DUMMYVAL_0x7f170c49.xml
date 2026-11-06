@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0fe6" view_id="@id/key_pos_switch_to_next_language" />
+    </key_mapping>
+    <key_mapping state="SHOW_EMOJI_SWITCH_KEY">
+        <ifnot variant="morse_2">
+            <if expressions="policy_transparency">
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b2473" view_id="@id/key_pos_switch_to_next_language" />
+            </if>
+            <else>
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b246f" view_id="@id/key_pos_switch_to_next_language" />
+            </else>
+        </ifnot>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b247d" view_id="@id/key_pos_switch_to_next_language" />
+    </key_mapping>
+</framework>

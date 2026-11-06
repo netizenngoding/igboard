@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:theme="@style/APKTOOL_DUMMYVAL_0x7f150cd4" android:tag=".keyboard-header-area.panel.v2" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" style="@style/APKTOOL_DUMMYVAL_0x7f150cd2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0606" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f150538">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04072f="0.0dp" />
+        <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29db" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/APKTOOL_DUMMYVAL_0x7f0709a3" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/APKTOOL_DUMMYVAL_0x7f0b03a1" app:APKTOOL_DUMMYVAL_0x7f040740="@id/APKTOOL_DUMMYVAL_0x7f0b03a2" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07df" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29d9" android:layout_width="match_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/APKTOOL_DUMMYVAL_0x7f0b03a1" app:APKTOOL_DUMMYVAL_0x7f040740="@id/key_pos_translate_back_wrapper" app:APKTOOL_DUMMYVAL_0x7f040744="@id/APKTOOL_DUMMYVAL_0x7f0b29db">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07dd" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040730="0.0dp" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

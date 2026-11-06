@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b07c3"
+        android:tag=".expression-query-candidate-icon"
+        android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1502bd"/>
+    <FrameLayout
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b024f"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/key_pos_search_header_cancel"
+        android:tag=".expression-query-candidate-icon"
+        android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293"
+        android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140417"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1502be"/>
+</merge>

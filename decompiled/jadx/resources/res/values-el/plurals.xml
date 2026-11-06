@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d ώρα</item>
+        <item quantity="other">%1$d ώρες</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d λεπτό</item>
+        <item quantity="other">%1$d λεπτά</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Πλησιάζετε το όριο του %1$d λεπτού</item>
+        <item quantity="other">Πλησιάζετε το όριο των %1$d λεπτών</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Κλείσιμο σε %1$d δευτερόλεπτο…</item>
+        <item quantity="other">Κλείσιμο σε %1$d δευτερόλεπτα…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">Αντιστοιχίστηκε %d πλήκτρο</item>
+        <item quantity="other">Αντιστοιχίστηκαν %d πλήκτρα</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">Τα %s εγκαταστάθηκαν.</item>
+        <item quantity="other">Τα %s εγκαταστάθηκαν.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d ώρα</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+</resources>

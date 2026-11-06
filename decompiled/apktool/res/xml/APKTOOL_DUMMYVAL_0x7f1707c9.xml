@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinNumberKeyboard">
+        <if show_suggestion_strip="true">
+            <view default_show="true" direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e053c" scalable="false" type="header" />
+        </if>
+        <if device="tablet" device_size="large" keyboard_mode="normal|split">
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0596" type="body">
+                <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebf" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171217" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f05" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170cbf" />
+            </view>
+        </if>
+        <else>
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0595" type="body">
+                <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebf" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171217" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f05" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170cbf" />
+            </view>
+        </else>
+    </keyboard>
+</framework>

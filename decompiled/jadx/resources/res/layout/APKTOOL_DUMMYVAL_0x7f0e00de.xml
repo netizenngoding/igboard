@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag=".non-linear-scale"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.libraries.inputmethod.emoji.view.EmojiView
+        android:textSize="30dp"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+        android:tag=".non-linear-scale"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080294"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="8dp"
+        app:APKTOOL_DUMMYVAL_0x7f04088c="10dp"/>
+    <ImageView
+        android:layout_gravity="end|bottom"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2a06"
+        android:visibility="gone"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:contentDescription="@null"
+        style="?attr/APKTOOL_DUMMYVAL_0x7f0400f5"/>
+</FrameLayout>

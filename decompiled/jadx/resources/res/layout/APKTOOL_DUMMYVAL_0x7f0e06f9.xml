@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag=".emoji-picker-item"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080701"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:APKTOOL_DUMMYVAL_0x7f040571="true"/>

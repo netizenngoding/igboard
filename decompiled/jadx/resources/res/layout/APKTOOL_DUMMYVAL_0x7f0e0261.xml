@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b042e"
+    app:APKTOOL_DUMMYVAL_0x7f0406bd="true"
+    app:APKTOOL_DUMMYVAL_0x7f04074e="?attr/APKTOOL_DUMMYVAL_0x7f040340"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1501dc">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+        app:APKTOOL_DUMMYVAL_0x7f04038a="true"
+        app:APKTOOL_DUMMYVAL_0x7f04038b="true"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150537">
+        <ViewSwitcher
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2a71"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0560"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0561"/>
+            </FrameLayout>
+        </ViewSwitcher>
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

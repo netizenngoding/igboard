@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_simplified_expression_keyboard="true">
+        <keyboard
+            class="com.google.android.apps.inputmethod.libs.search.emoji.standard.EmojiPickerSimplifiedKeyboard"
+            initial_states="LOCK_KEYBOARD+SUB_CATEGORY_2"
+            persistent_states="@string/APKTOOL_DUMMYVAL_0x7f140d48"
+            persistent_states_pref_key="@string/APKTOOL_DUMMYVAL_0x7f140d49"
+            recent_key_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073c"
+            recent_key_popup_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061b"
+            recent_key_type="smiley"
+            remember_recent_key="ALL_ACTIONS">
+            <view
+                direction="locale"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01fe"
+                scalable="false"
+                type="header"/>
+            <view
+                direction="locale"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0537"
+                type="body">
+                <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef5"/>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef9"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a97"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170bfc"/>
+            </view>
+        </keyboard>
+    </if>
+    <else>
+        <keyboard
+            class="com.google.android.apps.inputmethod.libs.search.emoji.standard.EmojiPickerKeyboard"
+            initial_states="LOCK_KEYBOARD+SUB_CATEGORY_2"
+            persistent_states="@string/APKTOOL_DUMMYVAL_0x7f140d48"
+            persistent_states_pref_key="@string/APKTOOL_DUMMYVAL_0x7f140d49"
+            recent_key_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073c"
+            recent_key_popup_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061b"
+            recent_key_type="smiley"
+            remember_recent_key="ALL_ACTIONS">
+            <view
+                direction="locale"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f3"
+                scalable="false"
+                type="header"/>
+            <view
+                direction="locale"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0537"
+                type="body">
+                <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef5"/>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef9"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a97"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170bfc"/>
+            </view>
+        </keyboard>
+    </else>
+</framework>

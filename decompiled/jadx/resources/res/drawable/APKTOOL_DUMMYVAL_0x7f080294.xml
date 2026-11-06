@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.focus.FocusRingDrawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:APKTOOL_DUMMYVAL_0x7f040662="@style/APKTOOL_DUMMYVAL_0x7f150612">
+    <ripple android:color="?android:attr/colorControlHighlight">
+        <item android:id="@android:id/mask">
+            <shape android:shape="rectangle">
+                <corners android:radius="16dp"/>
+                <solid android:color="#ffffffff"/>
+            </shape>
+        </item>
+    </ripple>
+</com.google.android.material.focus.FocusRingDrawable>

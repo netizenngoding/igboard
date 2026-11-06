@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.view.menu.ExpandedMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02a6"
+    android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f040911"
+    android:layout_height="wrap_content"/>

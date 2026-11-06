@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinDigitsKeyboard" initial_states="LOCK_KEYBOARD">
+        <ifnot keyboard_mode="floating_panel">
+            <view direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e052a" scalable="false" type="header" />
+        </ifnot>
+        <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0590" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.scrubmove.ScrubDeleteMotionEventHandler" preference_key="@string/APKTOOL_DUMMYVAL_0x7f14096a" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebe" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170fac" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f05" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17122a" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171221" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171222" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171230" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef5" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171234" id="@id/APKTOOL_DUMMYVAL_0x7f0b28eb" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171235" id="@id/APKTOOL_DUMMYVAL_0x7f0b28ec" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17110e" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171224" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ca8" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170cab" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e12" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a2f" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c4c" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e13" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.ActionBarOverlayLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0211"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0014"/>
+    <android.support.v7.widget.ActionBarContainer
+        android:gravity="top"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b00cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:touchscreenBlocksFocus="true"
+        android:keyboardNavigationCluster="true"
+        style="?attr/APKTOOL_DUMMYVAL_0x7f04035d">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b00c9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:APKTOOL_DUMMYVAL_0x7f0408d8="@string/APKTOOL_DUMMYVAL_0x7f140007"
+            style="?attr/APKTOOL_DUMMYVAL_0x7f040ada"/>
+        <android.support.v7.widget.ActionBarContextView
+            android:theme="?attr/APKTOOL_DUMMYVAL_0x7f040375"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b00d2"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/APKTOOL_DUMMYVAL_0x7f040374"/>
+    </android.support.v7.widget.ActionBarContainer>
+</android.support.v7.widget.ActionBarOverlayLayout>

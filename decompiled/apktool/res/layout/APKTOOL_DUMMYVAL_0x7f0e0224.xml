@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsBar app:APKTOOL_DUMMYVAL_0x7f0407b1="true" app:APKTOOL_DUMMYVAL_0x7f040a13="@id/softkey_holder_fixed_candidates" style="@style/APKTOOL_DUMMYVAL_0x7f150001"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

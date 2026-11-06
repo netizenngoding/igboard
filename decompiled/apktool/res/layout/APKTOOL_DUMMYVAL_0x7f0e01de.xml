@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d5" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14039a">
+        <ImageView android:layout_gravity="left|center" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f150379" />
+        <ImageView android:layout_gravity="right|center" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f15037c" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05d6" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f14039d">
+        <ImageView android:layout_gravity="right|center" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f150379" />
+        <ImageView android:layout_gravity="right|center" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f15037c" />
+    </FrameLayout>
+</RelativeLayout>

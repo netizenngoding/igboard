@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@+id/APKTOOL_DUMMYVAL_0x7f0b14e4">
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0ccf"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23a2"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cb6"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cba"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0fe4"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b2885"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b2031"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b098d"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b240e"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b230a"/>
+        <key key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b22db"/>
+    </keygroup_mapping>
+</framework>

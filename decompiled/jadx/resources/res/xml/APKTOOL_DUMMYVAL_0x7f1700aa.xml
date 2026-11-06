@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="be-BY"
+        string_id="ime_belarusian_belarus">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f170499"
+            support_a11y_keyboard="true"
+            variant="belarusian_belarus"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141438"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f17049a"
+            support_a11y_keyboard="true"
+            variant="belarusian_belarus_with_apostrophe"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141439"/>
+    </ime>
+</framework>

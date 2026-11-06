@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.jarvis.JarvisKeyboard">
+        <view
+            direction="locale"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e053e"
+            scalable="false"
+            type="header"/>
+        <view
+            direction="locale"
+            id="@+id/APKTOOL_DUMMYVAL_0x7f0b043c"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0264"
+            scalable="false"
+            type="header">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17120b"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c79"/>
+        </view>
+        <view
+            direction="locale"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0260"
+            type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+        </view>
+    </keyboard>
+</framework>

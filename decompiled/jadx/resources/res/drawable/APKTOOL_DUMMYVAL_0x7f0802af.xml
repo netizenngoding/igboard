@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="?attr/APKTOOL_DUMMYVAL_0x7f0402b4"
+    android:paddingBottom="?attr/APKTOOL_DUMMYVAL_0x7f0402b2"
+    android:paddingStart="?attr/APKTOOL_DUMMYVAL_0x7f040237"
+    android:paddingEnd="?attr/APKTOOL_DUMMYVAL_0x7f040237">
+    <item
+        android:drawable="@android:color/transparent"
+        android:top="?attr/APKTOOL_DUMMYVAL_0x7f0402b4"
+        android:bottom="?attr/APKTOOL_DUMMYVAL_0x7f0402b2"
+        android:start="?attr/APKTOOL_DUMMYVAL_0x7f040237"
+        android:end="?attr/APKTOOL_DUMMYVAL_0x7f040237"/>
+</layer-list>

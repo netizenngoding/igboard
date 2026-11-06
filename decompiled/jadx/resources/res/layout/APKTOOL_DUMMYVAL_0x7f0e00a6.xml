@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f0806fc"
+    android:paddingStart="6dp"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1502f1"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2" android:tag=".bg_writing_tools_item" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080357" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="8.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.jarvis.miscs.ColorfulScrollbarScrollView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" app:APKTOOL_DUMMYVAL_0x7f040453="false">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f151166">
+            <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0467" android:layout_marginBottom="24.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080603" android:tint="?APKTOOL_DUMMYVAL_0x7f0404cc" style="@style/APKTOOL_DUMMYVAL_0x7f151163" />
+            <TextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a7f" android:textSize="16.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f1416e4" android:lineHeight="24.0dp" style="@style/APKTOOL_DUMMYVAL_0x7f150361" />
+            <TextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a4e" android:layout_marginTop="12.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f1416e3" style="@style/APKTOOL_DUMMYVAL_0x7f150361" />
+        </LinearLayout>
+    </com.google.android.apps.inputmethod.libs.jarvis.miscs.ColorfulScrollbarScrollView>
+</FrameLayout>

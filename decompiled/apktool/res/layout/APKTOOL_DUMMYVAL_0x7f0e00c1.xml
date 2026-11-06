@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.animatedview.AnimatedImageView android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0111" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080294" android:scaleType="fitCenter" android:layout_marginHorizontal="4.0dp" app:APKTOOL_DUMMYVAL_0x7f04087c="APKTOOL_DUMMYVAL_0x7f0b2a03"
+      xmlns:app="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

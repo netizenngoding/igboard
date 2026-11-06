@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/APKTOOL_DUMMYVAL_0x7f140b4e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.preferencewidgets.ColoredBackgroundSwitchPreference android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140ca1" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a1d" />
+    <com.android.settingslib.widget.RadioButtonPreference android:persistent="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f140119" android:key="@string/APKTOOL_DUMMYVAL_0x7f140901" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f140a1d" app:APKTOOL_DUMMYVAL_0x7f0409bb="false">
+        <extra android:name="hide_if_flag_is_false" android:value="enable_llm_pc=false" />
+    </com.android.settingslib.widget.RadioButtonPreference>
+    <com.android.settingslib.widget.RadioButtonPreference android:persistent="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f14011b" android:key="@string/APKTOOL_DUMMYVAL_0x7f140902" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f140a1d" app:APKTOOL_DUMMYVAL_0x7f0409bb="false">
+        <extra android:name="hide_if_flag_is_false" android:value="enable_llm_pc=false" />
+    </com.android.settingslib.widget.RadioButtonPreference>
+    <androidx.preference.PreferenceCategory android:title="@string/APKTOOL_DUMMYVAL_0x7f140b50" android:key="@string/APKTOOL_DUMMYVAL_0x7f140b4f">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140b7d" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a1f" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f140a1d" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/APKTOOL_DUMMYVAL_0x7f140b9b" android:key="@string/APKTOOL_DUMMYVAL_0x7f140b9a">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140b9d" android:key="@string/APKTOOL_DUMMYVAL_0x7f14095a" android:summary="@string/APKTOOL_DUMMYVAL_0x7f140b9c" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

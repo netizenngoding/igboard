@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+    android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a81"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+    android:tag=".expression-text-btn-content"
+    android:paddingHorizontal="10dp"
+    app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1503be"/>

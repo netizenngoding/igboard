@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1504d2"
+    app:APKTOOL_DUMMYVAL_0x7f040473="36dp"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150233">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2978"
+            android:tag=".text-preview-area.toolbar"
+            android:background="#ffffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="22dp"
+                android:ellipsize="start"
+                android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2979"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0709e4"
+                android:singleLine="true"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1503a7"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2a56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0631"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView>

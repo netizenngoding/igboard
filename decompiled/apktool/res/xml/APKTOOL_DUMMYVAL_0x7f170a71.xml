@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e7d" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ab1" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ab2" />
+</framework>

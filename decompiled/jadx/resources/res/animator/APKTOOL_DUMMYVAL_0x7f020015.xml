@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@animator/APKTOOL_DUMMYVAL_0x7f020001"
+    android:duration="300"
+    android:valueType="intType"/>

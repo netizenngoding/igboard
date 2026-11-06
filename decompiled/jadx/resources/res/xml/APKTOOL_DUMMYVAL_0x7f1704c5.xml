@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinPrimeKeyboard"
+        popup="@attr/APKTOOL_DUMMYVAL_0x7f040279"
+        recent_key_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073d"
+        recent_key_popup_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e061b">
+        <view
+            default_show="true"
+            direction="locale"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0541"
+            scalable="false"
+            type="header">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f1b"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c60"/>
+        </view>
+        <if split_keyboard_handedness_zh="right">
+            <view
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01b8"
+                type="body"/>
+        </if>
+        <else>
+            <view
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01b6"
+                type="body"/>
+        </else>
+        <view type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+            <motion_event_handler
+                class="com.google.android.apps.inputmethod.libs.pinyin.Pinyin9KeyGestureHandler"
+                preference_key="@string/APKTOOL_DUMMYVAL_0x7f14094e"
+                reverse_preference="false"/>
+            <motion_event_handler
+                class=".motioneventhandler.scrubmove.ScrubDeleteMotionEventHandler"
+                preference_key="@string/APKTOOL_DUMMYVAL_0x7f14096a"
+                reverse_preference="false"/>
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebe"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17121e"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f17"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171224"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a86"/>
+            <if keyboard_mode="split">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1711fe"/>
+            </if>
+            <else>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1711fd"/>
+            </else>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1711ff"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171230"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f12"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f08"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171232"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f07"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef6"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c45"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a9d"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a9e"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a4d"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170917"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c2e"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a4e"/>
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404bb" />
+    <item android:state_focused="true" android:state_enabled="true" android:state_selected="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404bb" />
+    <item android:state_enabled="true" android:state_selected="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404bb" android:state_hovered="true" />
+    <item android:state_enabled="true" android:state_selected="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404b5" />
+    <item android:state_enabled="true" android:state_checkable="true" android:state_pressed="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404bf" />
+    <item android:state_enabled="true" android:state_pressed="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404bf" />
+    <item android:state_focused="true" android:state_enabled="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404bf" />
+    <item android:state_enabled="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404bf" android:state_hovered="true" />
+    <item android:state_enabled="true" android:color="?APKTOOL_DUMMYVAL_0x7f0404a2" />
+</selector>

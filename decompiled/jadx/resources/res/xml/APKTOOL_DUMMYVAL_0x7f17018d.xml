@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="gdx-XT"
+        string_id="ime_gdx_deva_transliteration">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c5"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414b1"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170059"/>
+    </ime>
+</framework>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.BubbleHintView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag=".floating-tooltip-background"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070091"
+    app:APKTOOL_DUMMYVAL_0x7f0403ed="@dimen/APKTOOL_DUMMYVAL_0x7f07008d"
+    app:APKTOOL_DUMMYVAL_0x7f0403ef="@dimen/APKTOOL_DUMMYVAL_0x7f07008f"
+    app:APKTOOL_DUMMYVAL_0x7f0403f0="DOWN"
+    app:APKTOOL_DUMMYVAL_0x7f0403f1="@dimen/APKTOOL_DUMMYVAL_0x7f07008e"
+    app:APKTOOL_DUMMYVAL_0x7f0403f3="@dimen/APKTOOL_DUMMYVAL_0x7f070090"
+    app:APKTOOL_DUMMYVAL_0x7f0403f4="@android:color/white"
+    app:APKTOOL_DUMMYVAL_0x7f0403f8="@dimen/APKTOOL_DUMMYVAL_0x7f070094">
+    <TextView
+        android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f070093"
+        android:layout_gravity="center"
+        android:tag=".floating-tooltip-foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f14011f"
+        android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070092"
+        app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"/>
+</com.google.android.libraries.inputmethod.widgets.BubbleHintView>

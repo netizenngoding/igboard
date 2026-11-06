@@ -1,0 +1,70 @@
+package p000;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+public final class zct extends aaln implements aams {
+
+    /* JADX INFO: renamed from: a */
+    public static final zct f80924a;
+
+    /* JADX INFO: renamed from: b */
+    public String f80925b = "session_id";
+
+    /* JADX INFO: renamed from: c */
+    public String f80926c = "trigger_index";
+
+    /* JADX INFO: renamed from: d */
+    public String f80927d = "user_draft";
+
+    /* JADX INFO: renamed from: e */
+    public String f80928e = "style";
+
+    /* JADX INFO: renamed from: f */
+    public String f80929f = "candidate_text";
+
+    /* JADX INFO: renamed from: g */
+    public String f80930g = "candidate_index";
+
+    /* JADX INFO: renamed from: h */
+    public String f80931h = "is_reviewed";
+
+    /* JADX INFO: renamed from: i */
+    public String f80932i = "is_accepted";
+
+    /* JADX INFO: renamed from: j */
+    public String f80933j = "ground_truth";
+
+    /* JADX INFO: renamed from: k */
+    private int f80934k;
+
+    static {
+        zct zctVar = new zct();
+        f80924a = zctVar;
+        aaln.m1341L(zct.class, zctVar);
+    }
+
+    private zct() {
+    }
+
+    @Override // p000.aaln
+    /* JADX INFO: renamed from: a */
+    protected final Object mo825a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            return new aanb(f80924a, "\u0004\t\u0000\u0001\u0001\t\t\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007ဈ\u0006\bဈ\u0007\tဈ\b", new Object[]{"k", "b", "c", "d", "e", "f", "g", "h", "i", "j"});
+        }
+        if (i2 == 3) {
+            return new zct();
+        }
+        if (i2 == 4) {
+            return new aali(f80924a);
+        }
+        if (i2 == 5) {
+            return f80924a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return aaln.m1340H(zct.class);
+    }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Spinner
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b28fa"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/APKTOOL_DUMMYVAL_0x7f07089c"
+        android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07089c"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:minHeight="@dimen/APKTOOL_DUMMYVAL_0x7f07089c"
+        android:filterTouchesWhenObscured="false">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b4"/>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06b7"/>
+        <LinearLayout
+            android:gravity="end|center_vertical"
+            android:orientation="vertical"
+            android:id="@android:id/widget_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f0708a5"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+</FrameLayout>

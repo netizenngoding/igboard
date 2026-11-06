@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:tag=".keyboard-header-area" android:background="?APKTOOL_DUMMYVAL_0x7f04002d" android:layout_height="wrap_content" style="@style/APKTOOL_DUMMYVAL_0x7f15035d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner android:layout_width="match_parent" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040890="14.0dp" app:APKTOOL_DUMMYVAL_0x7f040891="14.0dp" style="@style/APKTOOL_DUMMYVAL_0x7f15053a">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04072f="0.0dp" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040730="0.0dp" />
+        <com.google.android.apps.inputmethod.libs.jarvis.prompt.JarvisPromptExtensionView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0453" android:layout_width="0.0dp" android:layout_height="match_parent" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/APKTOOL_DUMMYVAL_0x7f0b03a1" app:APKTOOL_DUMMYVAL_0x7f040740="@id/APKTOOL_DUMMYVAL_0x7f0b03a2" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0455" android:paddingTop="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0199" />
+                    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e019a" />
+                </LinearLayout>
+                <include android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0194" />
+                <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0703a0" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07038c" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0190" />
+                <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b044d" android:paddingTop="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+                    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e019f" />
+                </FrameLayout>
+            </LinearLayout>
+            <include android:layout_gravity="end|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="40.0dp" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e082e" />
+        </com.google.android.apps.inputmethod.libs.jarvis.prompt.JarvisPromptExtensionView>
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

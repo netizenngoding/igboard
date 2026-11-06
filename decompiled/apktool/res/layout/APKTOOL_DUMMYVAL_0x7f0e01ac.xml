@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f15049f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f1504a1" />
+    <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15044f">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_candidates_del" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f15070e" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_candidates_page_up" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f15070e" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_candidates_page_down" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f15070e" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_candidates_ime_action" android:layout_weight="250.0" style="@style/APKTOOL_DUMMYVAL_0x7f1506eb" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.widget.WidgetInnerHolder xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2a54"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="2dp"
+    app:APKTOOL_DUMMYVAL_0x7f040721="true"
+    app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+    app:APKTOOL_DUMMYVAL_0x7f04072e="@+id/APKTOOL_DUMMYVAL_0x7f0b2a50"
+    app:APKTOOL_DUMMYVAL_0x7f040740="@+id/APKTOOL_DUMMYVAL_0x7f0b2a52"
+    app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+    <tag
+        android:value="true"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0214"/>
+    <include
+        android:visibility="gone"
+        app:APKTOOL_DUMMYVAL_0x7f040a13="@+id/softkey_holder_fixed_candidates"
+        layout="@layout/APKTOOL_DUMMYVAL_0x7f0e066d"
+        style="@style/APKTOOL_DUMMYVAL_0x7f151137"/>
+</com.google.android.libraries.inputmethod.companionwidget.widget.WidgetInnerHolder>

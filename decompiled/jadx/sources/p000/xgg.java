@@ -1,0 +1,37 @@
+package p000;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+public enum xgg implements aalr {
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_UNSPECIFIED(0),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_UNKNOWN_ERROR(1),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_GROUP_NOT_FOUND(2),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_LOW_DISK_SPACE(3),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_INSECURE_URL(4),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_NETWORK_ERROR(5),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_HTTP_ERROR(6),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_DOWNLOADER_ERROR(7),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_CHECKSUM_MISMATCH(8),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_VALIDATION_FAILED(9),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_DISK_IO_ERROR(10),
+    PROMPT_GROUP_DOWNLOAD_FAILURE_REASON_OTHER_EXCEPTION(11);
+
+
+    /* JADX INFO: renamed from: m */
+    public final int f74734m;
+
+    xgg(int i) {
+        this.f74734m = i;
+    }
+
+    @Override // p000.aalr
+    /* JADX INFO: renamed from: a */
+    public final int mo1375a() {
+        return this.f74734m;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.f74734m);
+    }
+}

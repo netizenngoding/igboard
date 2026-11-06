@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.BasicPopupView style="@style/APKTOOL_DUMMYVAL_0x7f1501da"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f150769">
+        <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0722" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f15076b" />
+        <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0721" android:visibility="gone" style="@style/APKTOOL_DUMMYVAL_0x7f15076a" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.BasicPopupView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="th" string_id="ime_thai">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bf" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708dc" pk_language_tag="th-Thai-TH" pk_layout_type="extended" support_a11y_keyboard="true" variant="thai" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141623" />
+    </ime>
+</framework>

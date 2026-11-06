@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f150cdd" parent="@style/APKTOOL_DUMMYVAL_0x7f150bcb">
+        <item name="android:defaultFocusHighlightEnabled">false</item>
+        <item name="APKTOOL_DUMMYVAL_0x7f0407bb">@style/APKTOOL_DUMMYVAL_0x7f150ce5</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150ce5" parent="@style/APKTOOL_DUMMYVAL_0x7f15046d">
+        <item name="android:minHeight">65dp</item>
+    </style>
+</resources>

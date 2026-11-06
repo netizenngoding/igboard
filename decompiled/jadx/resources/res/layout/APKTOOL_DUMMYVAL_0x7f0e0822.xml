@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f151152">
+    <TextView
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f1411b2"
+        style="@style/APKTOOL_DUMMYVAL_0x7f151153"/>
+</FrameLayout>

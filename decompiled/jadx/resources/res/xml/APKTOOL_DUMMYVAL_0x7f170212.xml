@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="kaa-XB"
+        string_id="ime_karakalpak_cyrillic">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1706fc"
+            pk_language_tag="ru"
+            support_a11y_keyboard="true"
+            variant="karakalpak"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141507"/>
+    </ime>
+</framework>

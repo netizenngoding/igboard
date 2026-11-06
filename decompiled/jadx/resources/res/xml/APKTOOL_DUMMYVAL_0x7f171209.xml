@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if japanese_use_tri_state_mode="true">
+        <softkeys>
+            <softkey
+                alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175"
+                content_description="@string/APKTOOL_DUMMYVAL_0x7f1402f4"
+                disable_lift_to_tap="true"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b246f"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e072e">
+                <action
+                    data="com.google.android.apps.inputmethod.libs.expression.extension.IEmojiOrGifExtension"
+                    keycode="OPEN_EXTENSION"
+                    type="PRESS"/>
+                <icon
+                    location="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+                    value="@drawable/APKTOOL_DUMMYVAL_0x7f080572"/>
+            </softkey>
+            <softkey
+                a11y_click_action_label="@string/APKTOOL_DUMMYVAL_0x7f14078c"
+                additional_content_description="@string/APKTOOL_DUMMYVAL_0x7f14078d"
+                content_description="@string/APKTOOL_DUMMYVAL_0x7f1402f4"
+                disable_lift_to_tap="true"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b2473"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e072f">
+                <action
+                    data="@string/APKTOOL_DUMMYVAL_0x7f1405f1"
+                    keycode="POLICY_TRANSPARENCY"
+                    type="PRESS"/>
+                <icon
+                    location="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+                    value="@drawable/APKTOOL_DUMMYVAL_0x7f080572"/>
+            </softkey>
+            <softkey
+                content_description="@string/APKTOOL_DUMMYVAL_0x7f1402f4"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b2472"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e072f">
+                <icon
+                    location="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+                    value="@drawable/APKTOOL_DUMMYVAL_0x7f080572"/>
+            </softkey>
+        </softkeys>
+    </if>
+</framework>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ef1" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2682">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0892" long_press_data="&quot;,׳,״" press_data="'" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14f0" long_press_data="־" press_data="-" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1f98" long_press_data="',&quot;,׳,״" press_data="_" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14b5" press_data="ק" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14b6" press_data="ר" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14a2" long_press_data="אָ,אַ" press_data="א" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14bb" press_data="ט" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14bd" long_press_data="ױ,װ,וּ,וֹ" press_data="ו" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14a9" press_data="ן" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14a8" press_data="ם" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14b4" long_press_data="פֿ,פּ" press_data="פ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14b8" long_press_data="שׂ,שׁ" press_data="ש" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14a5" press_data="ד" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14ac" long_press_data="ג׳" press_data="ג" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14af" long_press_data="כּ" press_data="כ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14a3" press_data="ע" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14c0" long_press_data="ײַ,יִ,ײ" press_data="י" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14ae" long_press_data="ח׳" press_data="ח" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14b0" press_data="ל" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14a7" press_data="ך" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14aa" press_data="ף" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14c1" long_press_data="ז׳" press_data="ז" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14b7" press_data="ס" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14a4" long_press_data="בֿ,בּ" press_data="ב" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14ad" press_data="ה" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14b3" press_data="נ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14b2" press_data="מ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14bc" long_press_data="צ׳" press_data="צ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14ba" long_press_data="תּ,ת׳" press_data="ת" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14ab" long_press_data="ץ׳" press_data="ץ" />
+        </softkey_list>
+    </softkeys>
+</framework>

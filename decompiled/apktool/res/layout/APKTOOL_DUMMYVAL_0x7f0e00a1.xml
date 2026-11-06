@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080292" android:padding="1.0dp" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040473="@dimen/APKTOOL_DUMMYVAL_0x7f0700a2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboard.widget.ScrollableCandidatesHolderView android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080291" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f04042b="@layout/APKTOOL_DUMMYVAL_0x7f0e00a0">
+        <tag android:value="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2932" />
+    </com.google.android.libraries.inputmethod.keyboard.widget.ScrollableCandidatesHolderView>
+</com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout>

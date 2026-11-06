@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RectangleWithRoundedArrowDrawable xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:APKTOOL_DUMMYVAL_0x7f0403ed="10dp"
+    app:APKTOOL_DUMMYVAL_0x7f0403ef="2dp"
+    app:APKTOOL_DUMMYVAL_0x7f0403f0="DOWN"
+    app:APKTOOL_DUMMYVAL_0x7f0403f1="3dp"
+    app:APKTOOL_DUMMYVAL_0x7f0403f3="12dp"
+    app:APKTOOL_DUMMYVAL_0x7f0403f4="?attr/APKTOOL_DUMMYVAL_0x7f0404ea"
+    app:APKTOOL_DUMMYVAL_0x7f0403f8="?attr/APKTOOL_DUMMYVAL_0x7f040325"/>

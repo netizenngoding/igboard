@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if language="zz-NEVER">
+        <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1181" view_id="@id/C01" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1252" view_id="@id/C02" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b122d" view_id="@id/C04" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b113b" view_id="@id/C05" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1204" view_id="@id/C06" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1204" view_id="@id/C06_dup" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b125f" view_id="@id/C07" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b121f" view_id="@id/C08" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1269" view_id="@id/C09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126d" view_id="@id/C10" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127d" view_id="@id/C12" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1156" view_id="@id/B01" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1262" view_id="@id/B02" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b113c" view_id="@id/B03" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1180" view_id="@id/B04" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1180" view_id="@id/B04_dup" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126c" view_id="@id/B05" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11e2" view_id="@id/B06" />
+        </merge_key_mapping>
+        <ifnot>
+            <all_of>
+                <cond language="fr-FR" />
+                <cond enable_dynamic_diacritic_key="true" />
+            </all_of>
+            <merge_key_mapping exclude_state="MANUAL_SHIFT,ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1261" view_id="@id/B07" />
+            </merge_key_mapping>
+        </ifnot>
+        <if language="qaa-x-alsatian" />
+        <else>
+            <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+                <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127a" view_id="@id/C11" />
+            </merge_key_mapping>
+        </else>
+    </if>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c18" />
+</framework>

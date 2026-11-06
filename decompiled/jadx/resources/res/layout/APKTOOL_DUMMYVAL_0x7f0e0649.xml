@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="14sp"
+    android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f0404be"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+    android:tag=".popup-status-text.popup-status-text-label"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08031d"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp"/>

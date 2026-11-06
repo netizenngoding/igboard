@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view type="body">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f07"/>
+            <if keyboard_mode="split">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f12"/>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1711fe"/>
+            </if>
+            <else>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f11"/>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1711fd"/>
+            </else>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1711ff"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171232"/>
+        </view>
+    </keyboard>
+</framework>

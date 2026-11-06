@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c3"
+    style="@style/APKTOOL_DUMMYVAL_0x7f15034c">
+    <TextView
+        android:textColor="?attr/APKTOOL_DUMMYVAL_0x7f040099"
+        android:gravity="center"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+        android:tag=".label.for-function-key"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeMaxTextSize="?attr/APKTOOL_DUMMYVAL_0x7f0401d9"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1503a7"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="ba" string_id="ime_bashkir">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f17048e" pk_language_tag="ru" support_a11y_keyboard="true" variant="bashkir" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141432" />
+    </ime>
+</framework>

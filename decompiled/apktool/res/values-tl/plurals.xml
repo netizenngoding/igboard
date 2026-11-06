@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d oras</item>
+        <item quantity="other">%1$d (na) oras</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d minuto</item>
+        <item quantity="other">%1$d (na) minuto</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Malapit ka na sa %1$d minutong limitasyon</item>
+        <item quantity="other">Malapit ka na sa %1$d na minutong limitasyon</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Magsasara sa loob ng %1$d segundo…</item>
+        <item quantity="other">Magsasara sa loob ng %1$d na segundo…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d (na) key ang nakatalaga</item>
+        <item quantity="other">%d (na) key ang nakatalaga</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">Naka-install na ngayon ang %s.</item>
+        <item quantity="other">Naka-install na ngayon ang %s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d oras</item>
+        <item quantity="other">%d na oras</item>
+    </plurals>
+</resources>

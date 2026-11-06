@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="bo-CN" string_id="ime_tibetan_china">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bf" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1704b2" support_a11y_keyboard="false" variant="tibetan" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141624" />
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02d7" value="། " />
+        </extra_values>
+    </ime>
+</framework>

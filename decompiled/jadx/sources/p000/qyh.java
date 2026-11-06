@@ -1,0 +1,48 @@
+package p000;
+
+import android.util.Printer;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public final class qyh implements qlr {
+
+    /* JADX INFO: renamed from: a */
+    public final int f58399a;
+
+    public qyh(int i) {
+        this.f58399a = i;
+    }
+
+    @Override // p000.qlq
+    /* JADX INFO: renamed from: b */
+    public final /* synthetic */ boolean mo15833b() {
+        return false;
+    }
+
+    @Override // p000.oab
+    public final void dump(oaa oaaVar, Printer printer, boolean z) {
+        String str;
+        int i = this.f58399a;
+        if (i != 1) {
+            str = i != 2 ? "HYBRID" : "ON_DEVICE";
+        } else {
+            str = "IMAGEN_SERVER";
+        }
+        printer.println("Current handler: ".concat(str));
+    }
+
+    @Override // p000.oab
+    public final /* synthetic */ String getDumpableTag() {
+        return pgr.m26837u(this);
+    }
+
+    @Override // p000.oab
+    public final /* synthetic */ boolean supportDumpOnWorkerThread() {
+        return false;
+    }
+
+    @Override // p000.oab
+    public final /* synthetic */ void dump(Printer printer, boolean z) {
+        kvp.m22110C(this, printer);
+    }
+}

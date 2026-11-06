@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/APKTOOL_DUMMYVAL_0x7f140b6a"
+    android:key="@string/APKTOOL_DUMMYVAL_0x7f140a6b">
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140b7f"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f14092b"/>
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140b8c"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f140948"/>
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140ba3"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f140967"/>
+    <com.google.android.libraries.inputmethod.preferencewidgets.LabelSummarySliderPreference
+        android:persistent="true"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140b6b"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f140914"
+        android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f03004b"
+        app:APKTOOL_DUMMYVAL_0x7f04056a="0"
+        app:APKTOOL_DUMMYVAL_0x7f04095d="@string/APKTOOL_DUMMYVAL_0x7f1413fb"/>
+</PreferenceScreen>

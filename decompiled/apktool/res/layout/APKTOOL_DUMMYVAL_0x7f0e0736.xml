@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03c3" android:tag=".keytop.for-candidates-expansion-key" android:duplicateParentState="true" style="@style/APKTOOL_DUMMYVAL_0x7f15034e" />
+    <View android:tag=".ja-candidates-expansion-key-highlight" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f0802a7" android:duplicateParentState="true" style="@style/APKTOOL_DUMMYVAL_0x7f15034e" />
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" style="@style/APKTOOL_DUMMYVAL_0x7f15031d" />
+</merge>

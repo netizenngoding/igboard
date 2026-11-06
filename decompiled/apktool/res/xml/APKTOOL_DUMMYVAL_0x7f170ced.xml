@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="SHIFT">
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1f92" view_id="@id/E00" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1c0a" view_id="@id/E01" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b8b" view_id="@id/E02" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e27" view_id="@id/E03" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1c04" view_id="@id/E04" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e5e" view_id="@id/E05" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b89" view_id="@id/E06" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1ae8" view_id="@id/E07" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b2d" view_id="@id/E08" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1d79" view_id="@id/E09" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e69" view_id="@id/E10" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1d94" view_id="@id/E11" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e60" view_id="@id/E12" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1d75" view_id="@id/D11" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e66" view_id="@id/D12" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1f94" view_id="@id/D13" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b58" view_id="@id/C01" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b8a" view_id="@id/C10" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e63" view_id="@id/C11" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1f94" view_id="@id/B00" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b5a" view_id="@id/B06" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1b59" view_id="@id/B07" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1d95" view_id="@id/B08" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1c0d" view_id="@id/B09" />
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1e62" view_id="@id/B10" />
+    </merge_key_mapping>
+</framework>

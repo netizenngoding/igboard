@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard_group
+        supports_split_mode="true"
+        variant="{variant}"
+        variant_label="{variant_label}">
+        <include
+            force_show_number_row="true"
+            href="@xml/APKTOOL_DUMMYVAL_0x7f170002"/>
+        <keyboard
+            def="{main_def}"
+            type="prime"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17090a"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec6"/>
+    </keyboard_group>
+</framework>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard_group>
+        <keyboard
+            def="@xml/APKTOOL_DUMMYVAL_0x7f170873"
+            type="@string/APKTOOL_DUMMYVAL_0x7f1405b4"/>
+        <keyboard
+            def="@xml/APKTOOL_DUMMYVAL_0x7f170872"
+            type="@string/APKTOOL_DUMMYVAL_0x7f1405b6"/>
+    </keyboard_group>
+</framework>

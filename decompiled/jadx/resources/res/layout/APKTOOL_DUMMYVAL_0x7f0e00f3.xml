@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:tag=".sticker-header-item"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080299"
+    android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f040130"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:gravity="center"
+        android:duplicateParentState="true"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04072c="1:1"
+        app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ae"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d sat</item>
+        <item quantity="few">%1$d sata</item>
+        <item quantity="other">%1$d sati</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d minutu</item>
+        <item quantity="few">%1$d minute</item>
+        <item quantity="other">%1$d minuta</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Približavate se ograničenju od %1$d min</item>
+        <item quantity="few">Približavate se ograničenju od %1$d min</item>
+        <item quantity="other">Približavate se ograničenju od %1$d min</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Zatvaranje za %1$d sekundu…</item>
+        <item quantity="few">Zatvaranje za %1$d sekunde…</item>
+        <item quantity="other">Zatvaranje za %1$d sekundi…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d ključ je dodijeljen</item>
+        <item quantity="few">%d ključa su dodijeljena</item>
+        <item quantity="other">%d ključeva je dodijeljeno</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s su sada instalirani.</item>
+        <item quantity="few">%s su sada instalirani.</item>
+        <item quantity="other">%s su sada instalirani.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d sat</item>
+        <item quantity="few">%d sata</item>
+        <item quantity="other">%d sati</item>
+    </plurals>
+</resources>

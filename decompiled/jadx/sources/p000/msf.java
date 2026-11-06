@@ -1,0 +1,58 @@
+package p000;
+
+import android.os.Trace;
+import java.util.concurrent.Executor;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class msf implements qlu {
+
+    /* JADX INFO: renamed from: a */
+    private msg f47058a;
+
+    /* JADX INFO: renamed from: a */
+    public abstract void mo14484a(mqz mqzVar, mqz mqzVar2);
+
+    /* JADX INFO: renamed from: c */
+    public final void m23896c(Executor executor) {
+        this.f47058a = (msg) qlv.m28432b().m28434a(msg.class);
+        qlv.m28432b().m28435c(this, msg.class, executor);
+    }
+
+    /* JADX INFO: renamed from: d */
+    public final void m23897d(Executor executor) {
+        qlv.m28432b().m28436d(this, msg.class, executor);
+    }
+
+    @Override // p000.qlu
+    /* JADX INFO: renamed from: dX */
+    public final /* synthetic */ void mo16055dX(Class cls) {
+        Trace.beginSection("AccessoryInputModeNotification$Listener.onClear");
+        Trace.endSection();
+    }
+
+    @Override // p000.qlu
+    /* JADX INFO: renamed from: dY */
+    public final /* bridge */ /* synthetic */ void mo15296dY(qlq qlqVar) {
+        Trace.beginSection("AccessoryInputModeNotification$Listener.onReceive");
+        try {
+            msg msgVar = (msg) qlqVar;
+            msg msgVar2 = this.f47058a;
+            mqz mqzVarM23926c = msgVar2 == null ? null : msgVar2.m23926c();
+            mqz mqzVarM23926c2 = msgVar.m23926c();
+            msg msgVar3 = this.f47058a;
+            this.f47058a = msgVar;
+            if (msgVar3 == null || mqzVarM23926c != mqzVarM23926c2) {
+                mo14484a(mqzVarM23926c, mqzVarM23926c2);
+            }
+        } finally {
+            Trace.endSection();
+        }
+    }
+
+    /* JADX INFO: renamed from: e */
+    public final void m23898e() {
+        this.f47058a = null;
+        qlv.m28432b().m28437e(this, msg.class);
+    }
+}

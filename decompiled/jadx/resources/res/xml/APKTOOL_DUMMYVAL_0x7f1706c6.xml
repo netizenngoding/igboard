@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework
+    indic_digits="false"
+    non_prime_def="@xml/APKTOOL_DUMMYVAL_0x7f17090f"
+    variant_label="">
+    <keyboard_group
+        pk_language_tag="en"
+        supports_split_mode="true"
+        variant="qwerty"
+        variant_label="{variant_label}"
+        variant_name_mandatory="true">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f170002"
+            support_a11y_keyboard="true"/>
+        <keyboard
+            def="@xml/APKTOOL_DUMMYVAL_0x7f170559"
+            transliterate="true"
+            type="prime">
+            <merge def="@xml/APKTOOL_DUMMYVAL_0x7f1707fa"/>
+        </keyboard>
+        <if true="{indic_digits}">
+            <if enable_number_row="true">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f17090a"/>
+            </if>
+            <else>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170909"/>
+            </else>
+        </if>
+        <else>
+            <include href="{non_prime_def}"/>
+        </else>
+    </keyboard_group>
+</framework>

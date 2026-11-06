@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUMMYVAL_0x7f150255" parent="@style/APKTOOL_DUMMYVAL_0x7f150a25">
+        <item name="APKTOOL_DUMMYVAL_0x7f0404e0">@color/APKTOOL_DUMMYVAL_0x7f06008f</item>
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150433" parent="@style/APKTOOL_DUMMYVAL_0x7f150432">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f1504cc" parent="">
+    </style>
+    <style name="APKTOOL_DUMMYVAL_0x7f150770" parent="@style/DayNightTheme.NoActionBar">
+    </style>
+</resources>

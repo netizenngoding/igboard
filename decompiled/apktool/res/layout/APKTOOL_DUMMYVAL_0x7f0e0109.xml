@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag=".non-linear-scale" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="8.0dp" android:paddingVertical="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02c3" android:scrollbars="none" android:clipToPadding="false" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02ac" android:visibility="gone" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1403ad" style="@style/APKTOOL_DUMMYVAL_0x7f1504a4" />
+</LinearLayout>

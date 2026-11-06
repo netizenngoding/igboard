@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping state="SECONDARY_ACTION_SEND+IME_ACTION_NONE">
+        <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1065" view_id="@id/key_pos_ime_action" />
+    </merge_key_mapping>
+</framework>

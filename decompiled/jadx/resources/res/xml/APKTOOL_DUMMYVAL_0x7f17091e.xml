@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="ALTGR">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cf9"
+            view_id="@+id/E02"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1ff8"
+            view_id="@+id/E04"/>
+    </key_mapping>
+</framework>

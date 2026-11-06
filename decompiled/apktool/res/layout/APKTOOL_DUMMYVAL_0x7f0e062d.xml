@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.BubbleHintView android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f0403ed="@dimen/APKTOOL_DUMMYVAL_0x7f07009a" app:APKTOOL_DUMMYVAL_0x7f0403ef="@dimen/APKTOOL_DUMMYVAL_0x7f07009b" app:APKTOOL_DUMMYVAL_0x7f0403f0="UP" app:APKTOOL_DUMMYVAL_0x7f0403f1="@dimen/APKTOOL_DUMMYVAL_0x7f07009c" app:APKTOOL_DUMMYVAL_0x7f0403f3="@dimen/APKTOOL_DUMMYVAL_0x7f07009d" app:APKTOOL_DUMMYVAL_0x7f0403f4="?APKTOOL_DUMMYVAL_0x7f0404f5" app:APKTOOL_DUMMYVAL_0x7f0403f8="@dimen/APKTOOL_DUMMYVAL_0x7f07009e"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404c8" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" android:tag=".rambler-in-situ-edu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f140ae9" android:paddingHorizontal="16.0dp" android:paddingVertical="12.0dp" />
+</com.google.android.libraries.inputmethod.widgets.BubbleHintView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="6dp"
+    style="@style/APKTOOL_DUMMYVAL_0x7f15033b">
+    <FrameLayout
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080313"
+        android:elevation="2dp"
+        android:backgroundTint="?attr/APKTOOL_DUMMYVAL_0x7f0404e9"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150338">
+        <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+            android:contentDescription="@null"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp"
+            app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1504cd"/>
+        <ImageView
+            android:contentDescription="@null"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150339"/>
+    </FrameLayout>
+</FrameLayout>

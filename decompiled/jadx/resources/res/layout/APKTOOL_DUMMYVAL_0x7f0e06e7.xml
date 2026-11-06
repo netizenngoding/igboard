@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <ImageView
+        android:tag=".icon.access-points-panel-edit-button"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08024d"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"/>
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+        android:tag=".icon.access-points-panel-edit-button.non-linear-scale"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:paddingHorizontal="24dp"/>
+</FrameLayout>

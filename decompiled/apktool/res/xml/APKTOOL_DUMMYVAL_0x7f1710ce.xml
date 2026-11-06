@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ef1" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2658">
+            <softkey hint_label="إ" id="@id/APKTOOL_DUMMYVAL_0x7f0b08b7" long_press_data="إ" long_press_label="إ" press_data="أ" press_label="أ" />
+            <softkey hint_label="آ" id="@id/APKTOOL_DUMMYVAL_0x7f0b08b4" long_press_data="آ" long_press_label="آ" press_data="ا" press_label="ا" />
+            <softkey hint_label="ث" id="@id/APKTOOL_DUMMYVAL_0x7f0b08f1" long_press_data="ث" long_press_label="ث" press_data="س" press_label="س" />
+            <softkey hint_label="ء" id="@id/APKTOOL_DUMMYVAL_0x7f0b090c" long_press_data="ء" long_press_label="ء" press_data="ئ" press_label="ئ" />
+            <softkey hint_label="ظ" id="@id/APKTOOL_DUMMYVAL_0x7f0b08f6" long_press_data="ظ" long_press_label="ظ" press_data="ط" press_label="ط" />
+            <softkey hint_label="ذ" id="@id/APKTOOL_DUMMYVAL_0x7f0b0911" long_press_data="ذ" long_press_label="ذ" press_data="ز" press_label="ز" />
+            <softkey hint_label="ض" id="@id/APKTOOL_DUMMYVAL_0x7f0b08f0" long_press_data="ض" long_press_label="ض" press_data="ص" press_label="ص" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2682">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08e7" press_data="ق" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0904" press_data="و" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08b2" press_data="ع" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08e8" press_data="ر" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08f8" press_data="ت" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0909" press_data="ي" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08b3" long_press_data="غ" press_data="ڠ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0907" press_data="ؤ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08cc" long_press_data="ة" press_data="ه" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0903" press_data="ڤ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08f3" press_data="ش" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08bc" press_data="د" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08c4" press_data="ف" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08d3" press_data="ڬ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08c7" press_data="ح" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08d0" press_data="ج" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08d2" press_data="ك" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08d8" press_data="ل" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08d6" press_data="خ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08f7" press_data="چ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0906" press_data="ۏ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08ba" press_data="ب" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08e1" press_data="ن" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08e4" press_data="ڽ" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b08df" press_data="م" />
+        </softkey_list>
+    </softkeys>
+</framework>

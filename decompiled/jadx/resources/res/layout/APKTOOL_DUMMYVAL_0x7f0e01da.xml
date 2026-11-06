@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05cf"
+    android:splitMotionEvents="false"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150375">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01e5"/>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01de"/>
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01dd"/>
+    </LinearLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01e0"/>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01d8"/>
+</FrameLayout>

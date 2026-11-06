@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.superinsert.impl.SuperInsertKeyboardPanel">
+        <view direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e07b3" scalable="false" type="header" />
+    </keyboard>
+</framework>

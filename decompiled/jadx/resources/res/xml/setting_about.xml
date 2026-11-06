@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/APKTOOL_DUMMYVAL_0x7f140b39"
+    android:key="@string/APKTOOL_DUMMYVAL_0x7f140a69">
+    <Preference
+        android:persistent="false"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140c9e">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/APKTOOL_DUMMYVAL_0x7f1411b6"/>
+    </Preference>
+    <Preference
+        android:persistent="false"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140c4d">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/APKTOOL_DUMMYVAL_0x7f140ad7"/>
+    </Preference>
+    <Preference
+        android:persistent="false"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140c1c"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f140a47"
+        android:summary="@string/APKTOOL_DUMMYVAL_0x7f140c1b">
+        <intent
+            android:targetPackage=""
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.google.android.libraries.social.licenses.LicenseMenuActivity"/>
+    </Preference>
+    <com.google.android.libraries.inputmethod.settings.widget.ExtendedPreference
+        android:persistent="false"
+        android:focusable="false"
+        android:maxLines="100"
+        android:title="@string/APKTOOL_DUMMYVAL_0x7f140b3a"
+        android:selectable="false"
+        android:key="@string/APKTOOL_DUMMYVAL_0x7f140b30"/>
+</PreferenceScreen>

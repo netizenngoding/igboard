@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        indicator_label="한"
+        inline_composing="true"
+        keyevent_interpreter="com.google.android.apps.inputmethod.libs.korean.KoreanKeyEventInterpreter"
+        language="ko"
+        language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f170eb6"
+        string_id="ime_ko_single_vowel"
+        use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty">
+            <attrs language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f170eb7"/>
+        </if>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f170712"
+            pk_language_tag="en"
+            pk_layout_type="qwerty"
+            variant="korean_single_vowel"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f14152b"
+            variant_name_mandatory="true"/>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f5"
+                value=". "/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02da"
+                value="@string/APKTOOL_DUMMYVAL_0x7f14093e"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02fb"
+                value="@string/APKTOOL_DUMMYVAL_0x7f140a16"/>
+        </extra_values>
+        <if enable_korean_composition_mode="true">
+            <extra_values>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f0"
+                    value="SINGLE_VOWEL"/>
+            </extra_values>
+        </if>
+        <else>
+            <attrs class="com.google.android.libraries.inputmethod.ime.processor.AsyncProcessorBasedIme"/>
+            <extra_values>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f4"
+                    value="hmm"/>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02e5"
+                    value="false"/>
+            </extra_values>
+            <processors>
+                <processor class="com.google.android.libraries.inputmethod.ime.processor.ComposingTextProcessor"/>
+                <processor class="com.google.android.apps.inputmethod.libs.hmmvoice.HmmVoiceInputProcessor"/>
+                <processor class="com.google.android.libraries.inputmethod.ime.processor.AppCompletionsProcessor"/>
+                <processor class="com.google.android.apps.inputmethod.libs.korean.HmmKoreanDecodeProcessor"/>
+                <processor class="com.google.android.apps.inputmethod.libs.korean.KoreanDoubleSpaceProcessor"/>
+                <processor class="com.google.android.apps.inputmethod.libs.korean.KoreanAutoSpaceProcessor"/>
+                <processor class="com.google.android.libraries.inputmethod.ime.processor.ScrubMoveProcessor"/>
+                <processor class="com.google.android.libraries.inputmethod.ime.processor.OutputProcessor"/>
+            </processors>
+        </else>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17003b"/>
+    </ime>
+</framework>

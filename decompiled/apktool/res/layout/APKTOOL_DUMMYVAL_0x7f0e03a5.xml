@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView style="@style/APKTOOL_DUMMYVAL_0x7f1501dc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MotionLayoutWorkaround android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0425" app:APKTOOL_DUMMYVAL_0x7f040717="@xml/APKTOOL_DUMMYVAL_0x7f170ec1" style="@style/APKTOOL_DUMMYVAL_0x7f1501f2">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e024e" />
+        <FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f150347">
+            <LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1501ec">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03b0" />
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0258" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MotionLayoutWorkaround>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

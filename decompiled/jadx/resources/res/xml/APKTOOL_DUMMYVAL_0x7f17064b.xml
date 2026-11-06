@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view type="body">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171212"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170cb7"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f01"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c23"/>
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/APKTOOL_DUMMYVAL_0x7f140c0f" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a74"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.ButtonPreference android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f0806a3" android:title="@string/APKTOOL_DUMMYVAL_0x7f140c04" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a6a" app:APKTOOL_DUMMYVAL_0x7f04041f="APKTOOL_DUMMYVAL_0x7f0b061d" app:APKTOOL_DUMMYVAL_0x7f040420="APKTOOL_DUMMYVAL_0x7f0b29c2" />
+</PreferenceScreen>

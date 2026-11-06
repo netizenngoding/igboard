@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05ca"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05cd"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150374"/>
+    <include layout="@attr/APKTOOL_DUMMYVAL_0x7f040209"/>
+</FrameLayout>

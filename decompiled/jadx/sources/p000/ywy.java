@@ -1,0 +1,43 @@
+package p000;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public final class ywy extends aaln implements aams {
+
+    /* JADX INFO: renamed from: a */
+    public static final ywy f80025a;
+
+    /* JADX INFO: renamed from: b */
+    public aamd f80026b = aana.f1330a;
+
+    static {
+        ywy ywyVar = new ywy();
+        f80025a = ywyVar;
+        aaln.m1341L(ywy.class, ywyVar);
+    }
+
+    private ywy() {
+    }
+
+    @Override // p000.aaln
+    /* JADX INFO: renamed from: a */
+    protected final Object mo825a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            return new aanb(f80025a, "\u0004\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"b", ywz.class});
+        }
+        if (i2 == 3) {
+            return new ywy();
+        }
+        if (i2 == 4) {
+            return new aali(f80025a);
+        }
+        if (i2 == 5) {
+            return f80025a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return aaln.m1340H(ywy.class);
+    }
+}

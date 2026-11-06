@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/APKTOOL_DUMMYVAL_0x7f0b2697" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073e" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data="$param_data$" keycode="PLAIN_TEXT" type="PRESS" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2697">
+            <softkey param_data="(" />
+            <softkey param_data=")" />
+            <softkey param_data=":" />
+            <softkey param_data="!" />
+            <softkey param_data="?" />
+            <softkey param_data=";" />
+            <softkey param_data="#" />
+        </softkey_list>
+        <softkey_list splitter=",">
+            <softkey layout="@layout/APKTOOL_DUMMYVAL_0x7f0e073e" multi_touch="false" popup_timing="@string/APKTOOL_DUMMYVAL_0x7f140ae8" slide_sensitivity="NORMAL">
+                <action data="$" keycode="PLAIN_TEXT" type="PRESS" />
+                <action data="¢,£,€,¥,₱,₹" keycode="PLAIN_TEXT" popup_label="¢,£,€,¥,₱,₹" popup_layout="@attr/APKTOOL_DUMMYVAL_0x7f040280" type="LONG_PRESS" />
+                <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" value="$" />
+            </softkey>
+        </softkey_list>
+        <softkey_list template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2697">
+            <softkey param_data="%" />
+        </softkey_list>
+    </softkeys>
+</framework>

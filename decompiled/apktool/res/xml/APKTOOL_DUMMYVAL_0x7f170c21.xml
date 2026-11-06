@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if language="zz-NEVER">
+        <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11f7" view_id="@id/D01" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1220" view_id="@id/D02" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126a" view_id="@id/D03" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b121d" view_id="@id/D04" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1267" view_id="@id/D05" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b122b" view_id="@id/D06" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b122f" view_id="@id/D07" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1183" view_id="@id/D08" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11de" view_id="@id/D09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11e0" view_id="@id/D10" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127d" view_id="@id/D11" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b117f" view_id="@id/D12" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1181" view_id="@id/C01" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1252" view_id="@id/C02" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126f" view_id="@id/C03" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b122d" view_id="@id/C04" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b113b" view_id="@id/C05" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1204" view_id="@id/C06" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b125f" view_id="@id/C07" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b121f" view_id="@id/C08" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1269" view_id="@id/C09" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126d" view_id="@id/C10" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b127a" view_id="@id/C11" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1156" view_id="@id/B01" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1262" view_id="@id/B02" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b113c" view_id="@id/B03" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1180" view_id="@id/B04" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b126c" view_id="@id/B05" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b11e2" view_id="@id/B06" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1260" view_id="@id/B07" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1264" view_id="@id/B08" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b125d" view_id="@id/B09" />
+        </merge_key_mapping>
+    </if>
+</framework>

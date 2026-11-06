@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f080310" android:top="?APKTOOL_DUMMYVAL_0x7f0402b9" android:bottom="?APKTOOL_DUMMYVAL_0x7f0402ae" android:start="?APKTOOL_DUMMYVAL_0x7f0402b5" android:end="?APKTOOL_DUMMYVAL_0x7f0402b5" />
+</layer-list>

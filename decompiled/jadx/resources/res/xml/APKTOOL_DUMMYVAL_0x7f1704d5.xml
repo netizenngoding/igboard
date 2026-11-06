@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.clipboard.ClipboardKeyboard">
+        <view
+            default_show="@attr/APKTOOL_DUMMYVAL_0x7f04008b"
+            direction="locale"
+            layout="@attr/APKTOOL_DUMMYVAL_0x7f04008a"
+            scalable="false"
+            type="header">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170efa"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170aa8"/>
+        </view>
+        <view
+            direction="locale"
+            layout="@attr/APKTOOL_DUMMYVAL_0x7f040088"
+            type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170efa"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170aa8"/>
+        </view>
+    </keyboard>
+</framework>

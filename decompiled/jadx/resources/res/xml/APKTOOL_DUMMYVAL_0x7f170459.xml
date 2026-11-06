@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme"
+        display_app_completions="true"
+        indicator_label="注"
+        inline_composing="false"
+        keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter"
+        language="zh-XD"
+        language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f171247"
+        language_tag="zh-Hant-TW-t-i0-bopomofo"
+        string_id="ime_zh_tw_zhuyin"
+        use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty">
+            <attrs language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f171248"/>
+        </if>
+        <if enable_chinese_inline_composing_tw="true">
+            <attrs inline_composing="true"/>
+        </if>
+        <keyboard_group
+            layout_theme="@style/APKTOOL_DUMMYVAL_0x7f15038d"
+            pk_language_tag="en"
+            pk_layout_type="qwerty"
+            supports_split_mode="true"
+            variant="zhuyin"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141653"
+            variant_name_mandatory="true">
+            <layout_specific_settings resource_id="@xml/APKTOOL_DUMMYVAL_0x7f171249"/>
+            <keyboard
+                def="@xml/APKTOOL_DUMMYVAL_0x7f1706a1"
+                type="prime">
+                <merge def="@xml/APKTOOL_DUMMYVAL_0x7f1704cf"/>
+            </keyboard>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170910"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec6"/>
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02e4"
+                value="true"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f7"
+                value="false"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02fc"
+                value="@string/APKTOOL_DUMMYVAL_0x7f140690"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f5"
+                value="。"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02da"
+                value="@string/APKTOOL_DUMMYVAL_0x7f14093e"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f4"
+                value="hmm"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02d0"
+                res="@xml/APKTOOL_DUMMYVAL_0x7f170904"/>
+        </extra_values>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ecf"/>
+    </ime>
+</framework>

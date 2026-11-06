@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170493" />
+    <keyboard popup="@attr/APKTOOL_DUMMYVAL_0x7f040274">
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0402" type="body" />
+        </if>
+        <else_if keyboard_mode="split">
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0301" type="body" />
+        </else_if>
+        <else>
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e02ff" type="body" />
+        </else>
+        <view type="body">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17119e" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e80" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c05" />
+        </view>
+    </keyboard>
+    <if enable_number_row="true">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170759" />
+    </if>
+</framework>

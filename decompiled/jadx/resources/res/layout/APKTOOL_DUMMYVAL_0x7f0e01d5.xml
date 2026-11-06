@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b019f"
+    android:tag=".keyboard-header-area.panel.v2"
+    android:keyboardNavigationCluster="true"
+    app:APKTOOL_DUMMYVAL_0x7f0405cc="true"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1501dd">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01d4"/>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

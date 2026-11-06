@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03fb"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070349">
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#ff969696"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03fc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

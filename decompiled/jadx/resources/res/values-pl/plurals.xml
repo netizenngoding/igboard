@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d godzina</item>
+        <item quantity="few">%1$d godziny</item>
+        <item quantity="many">%1$d godzin</item>
+        <item quantity="other">%1$d godziny</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="few">%1$d minuty</item>
+        <item quantity="many">%1$d minut</item>
+        <item quantity="other">%1$d minuty</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Zbliżasz się do limitu %1$d minuty</item>
+        <item quantity="few">Zbliżasz się do limitu %1$d minut</item>
+        <item quantity="many">Zbliżasz się do limitu %1$d minut</item>
+        <item quantity="other">Zbliżasz się do limitu %1$d minuty</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Zamykam za %1$d sekundę…</item>
+        <item quantity="few">Zamykam za %1$d sekundy…</item>
+        <item quantity="many">Zamykam za %1$d sekund…</item>
+        <item quantity="other">Zamykam za %1$d sekundy…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">Przypisano %d klawisz</item>
+        <item quantity="few">Przypisano %d klawisze</item>
+        <item quantity="many">Przypisano %d klawiszy</item>
+        <item quantity="other">Przypisano %d klawisza</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">Zainstalowano język %s.</item>
+        <item quantity="few">Zainstalowano języki %s.</item>
+        <item quantity="many">Zainstalowano języki %s.</item>
+        <item quantity="other">Zainstalowano języki %s.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d godzinę</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+        <item quantity="other">%d godziny</item>
+    </plurals>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework force_show_number_row="false" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170555" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707da" no_header_main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707dc" variant="qwerty" variant_label="">
+    <keyboard_group variant="{variant}" variant_label="{variant_label}">
+        <include force_show_number_row="{force_show_number_row}" href="@xml/APKTOOL_DUMMYVAL_0x7f170002" support_a11y_keyboard="true" />
+        <override_keyboard_xml_conditions>
+            <language value="en" />
+        </override_keyboard_xml_conditions>
+        <if enable_pk_simulator="true" enable_pk_simulator_setting="true">
+            <keyboard def="{lang_def}" type="prime">
+                <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170893" />
+            </keyboard>
+        </if>
+        <else>
+            <keyboard def="{lang_def}" type="prime">
+                <if enable_number_row="true">
+                    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170891" />
+                    <merge def="{no_header_main_def}" />
+                </if>
+                <else>
+                    <merge def="{main_def}" />
+                </else>
+            </keyboard>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170911" />
+            <if enable_number_row="true">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec5" />
+            </if>
+            <else>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec7" />
+            </else>
+        </else>
+    </keyboard_group>
+</framework>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.agenticdictation.ui.impl.AgenticDictationOnboardingViewWithArrow android:theme="@style/APKTOOL_DUMMYVAL_0x7f15001d" android:orientation="vertical" android:layout_width="364.0dp" android:layout_height="wrap_content" android:elevation="@dimen/APKTOOL_DUMMYVAL_0x7f070075" app:APKTOOL_DUMMYVAL_0x7f0403ed="10.0dp" app:APKTOOL_DUMMYVAL_0x7f0403ef="1.0dp" app:APKTOOL_DUMMYVAL_0x7f0403f1="1.0dp" app:APKTOOL_DUMMYVAL_0x7f0403f3="@dimen/APKTOOL_DUMMYVAL_0x7f070073" app:APKTOOL_DUMMYVAL_0x7f0403f4="?APKTOOL_DUMMYVAL_0x7f0404ed" app:APKTOOL_DUMMYVAL_0x7f0403f8="@dimen/APKTOOL_DUMMYVAL_0x7f070076"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="20.0dp">
+        <ScrollView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06c6" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="never">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06c4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e003f" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:baselineAligned="false" android:layout_marginHorizontal="20.0dp" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040744="@id/APKTOOL_DUMMYVAL_0x7f0b03f9">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.material.button.MaterialButton android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a69" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404cc" android:layout_gravity="start" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b076e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f140059" android:layout_marginEnd="8.0dp" style="?APKTOOL_DUMMYVAL_0x7f0403fe" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.material.button.MaterialButton android:textColor="?APKTOOL_DUMMYVAL_0x7f0404aa" android:layout_gravity="end" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b290c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f14005a" android:layout_marginStart="8.0dp" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f0404cc" style="?APKTOOL_DUMMYVAL_0x7f0407c6" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.agenticdictation.ui.impl.AgenticDictationOnboardingViewWithArrow>

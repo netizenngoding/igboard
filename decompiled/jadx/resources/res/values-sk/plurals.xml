@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d hodinu</item>
+        <item quantity="few">%1$d hodiny</item>
+        <item quantity="many">%1$d hodiny</item>
+        <item quantity="other">%1$d hodín</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d minútu</item>
+        <item quantity="few">%1$d minúty</item>
+        <item quantity="many">%1$d minúty</item>
+        <item quantity="other">%1$d minút</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Blížite sa k limitu %1$d minúta</item>
+        <item quantity="few">Blížite sa k limitu %1$d minúty</item>
+        <item quantity="many">Blížite sa k limitu %1$d minúty</item>
+        <item quantity="other">Blížite sa k limitu %1$d minút</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Zatvorí sa o %1$d sekundu…</item>
+        <item quantity="few">Zatvorí sa o %1$d sekundy…</item>
+        <item quantity="many">Zatvorí sa o %1$d sekundy…</item>
+        <item quantity="other">Zatvorí sa o %1$d sekúnd…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d pridružený kláves</item>
+        <item quantity="few">%d pridružené klávesy</item>
+        <item quantity="many">%d keys assigned</item>
+        <item quantity="other">%d pridružených klávesov</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">Jazyk %s je nainštalovaný.</item>
+        <item quantity="few">Jazyky %s sú nainštalované.</item>
+        <item quantity="many">%s are now installed.</item>
+        <item quantity="other">Jazyky %s sú nainštalované.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d hodinu</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+        <item quantity="other">%d hodín</item>
+    </plurals>
+</resources>

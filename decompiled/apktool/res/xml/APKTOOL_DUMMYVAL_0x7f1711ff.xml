@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="1" id="@id/APKTOOL_DUMMYVAL_0x7f0b082c" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e074c" multi_touch="false">
+            <action data="1" intention="COMMIT" keycode="KEYCODE_1" type="PRESS" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b0602" value="1" />
+        </softkey>
+        <softkey_template content_description="$press_data$" id="@id/APKTOOL_DUMMYVAL_0x7f0b261a" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06e0" multi_touch="false" popup_timing="ON_GESTURE" slide_sensitivity="LESS">
+            <action data="$press_data$" intention="COMMIT" keycode="$keycode_press$" popup_label="$press_popup_label$" type="PRESS" />
+            <action data="$long_press_data$" intention="COMMIT" keycode="$keycode_long_press$" popup_label="$long_press_data$" popup_layout="@attr/APKTOOL_DUMMYVAL_0x7f040282" type="LONG_PRESS" />
+            <action data="$slideup_data$" intention="COMMIT" keycode="$keycode_slideup$" popup_label="$slideup_data$" type="SLIDE_UP" />
+            <action data="$slidedown_data$" intention="COMMIT" keycode="$keycode_slidedown$" popup_label="$slidedown_data$" type="SLIDE_DOWN" />
+            <action data="$slideleft_data$" intention="COMMIT" keycode="$keycode_slideleft$" popup_label="$slideleft_data$" type="SLIDE_LEFT" />
+            <action data="$slideright_data$" intention="COMMIT" keycode="$keycode_slideright$" popup_label="$slideright_data$" type="SLIDE_RIGHT" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" value="$key_text$" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b0602" value="$long_press_label$" />
+        </softkey_template>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b261a">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b082d" key_text="ABC" keycode_long_press="KEYCODE_2" keycode_press="KEYCODE_2" keycode_slideleft="A" keycode_slideright="C" keycode_slideup="B" long_press_data="2 C A B" long_press_label="2" press_data="2" press_popup_label="ABC" slideleft_data="A" slideright_data="C" slideup_data="B" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b082e" key_text="DEF" keycode_long_press="KEYCODE_3" keycode_press="KEYCODE_3" keycode_slideleft="D" keycode_slideright="F" keycode_slideup="E" long_press_data="3 F D E" long_press_label="3" press_data="3" press_popup_label="DEF" slideleft_data="D" slideright_data="F" slideup_data="E" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b082f" key_text="GHI" keycode_long_press="KEYCODE_4" keycode_press="KEYCODE_4" keycode_slideleft="G" keycode_slideright="I" keycode_slideup="H" long_press_data="4 I G H" long_press_label="4" press_data="4" press_popup_label="GHI" slideleft_data="G" slideright_data="I" slideup_data="H" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0830" key_text="JKL" keycode_long_press="KEYCODE_5" keycode_press="KEYCODE_5" keycode_slideleft="J" keycode_slideright="L" keycode_slideup="K" long_press_data="5 L J K" long_press_label="5" press_data="5" press_popup_label="JKL" slideleft_data="J" slideright_data="L" slideup_data="K" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0831" key_text="MNO" keycode_long_press="KEYCODE_6" keycode_press="KEYCODE_6" keycode_slideleft="M" keycode_slideright="O" keycode_slideup="N" long_press_data="6 O M N" long_press_label="6" press_data="6" press_popup_label="MNO" slideleft_data="M" slideright_data="O" slideup_data="N" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0832" key_text="PQRS" keycode_long_press="KEYCODE_7" keycode_press="KEYCODE_7" keycode_slidedown="R" keycode_slideleft="P" keycode_slideright="S" keycode_slideup="Q" long_press_data="7 S P Q R" long_press_label="7" press_data="7" press_popup_label="PQRS" slidedown_data="R" slideleft_data="P" slideright_data="S" slideup_data="Q" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0833" key_text="TUV" keycode_long_press="KEYCODE_8" keycode_press="KEYCODE_8" keycode_slideleft="T" keycode_slideright="V" keycode_slideup="U" long_press_data="8 V T U" long_press_label="8" press_data="8" press_popup_label="TUV" slideleft_data="T" slideright_data="V" slideup_data="U" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0834" key_text="WXYZ" keycode_long_press="KEYCODE_9" keycode_press="KEYCODE_9" keycode_slidedown="Y" keycode_slideleft="W" keycode_slideright="Z" keycode_slideup="X" long_press_data="9 Z W X Y" long_press_label="9" press_data="9" press_popup_label="WXYZ" slidedown_data="Y" slideleft_data="W" slideright_data="Z" slideup_data="X" />
+        </softkey_list>
+        <softkey content_description="0" id="@id/APKTOOL_DUMMYVAL_0x7f0b0829" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e077a" multi_touch="false" popup_timing="ON_GESTURE">
+            <action data="0" intention="COMMIT" keycode="KEYCODE_0" type="PRESS" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" value="@string/APKTOOL_DUMMYVAL_0x7f140689" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b0602" value="0" />
+        </softkey>
+    </softkeys>
+</framework>

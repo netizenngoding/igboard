@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if language="zz-NEVER">
+        <merge_key_mapping exclude_state="ALT,CTRL,META,ALTGR">
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b11ae"
+                view_id="@+id/D01"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b11ce"
+                view_id="@+id/D02"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b11c6"
+                view_id="@+id/D03"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b119e"
+                view_id="@+id/D04"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1196"
+                view_id="@+id/D05"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1196"
+                view_id="@+id/D05_dup"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b11be"
+                view_id="@+id/D06"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b11b6"
+                view_id="@+id/D07"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b118e"
+                view_id="@+id/D08"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b11a6"
+                view_id="@+id/C09"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b11d6"
+                view_id="@+id/C10"/>
+        </merge_key_mapping>
+    </if>
+</framework>

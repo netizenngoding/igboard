@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.emoji.view.EmojiView android:textSize="32.0dp" android:gravity="center" android:layout_gravity="end" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b027b" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070140" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070140" />
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton android:gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b025a" android:tag=".expression-navigation-del-button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1402fc" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1402f8" app:APKTOOL_DUMMYVAL_0x7f0403fd="0.0dp" app:APKTOOL_DUMMYVAL_0x7f0405b0="0.0dp" app:APKTOOL_DUMMYVAL_0x7f0406aa="0.0dp" app:APKTOOL_DUMMYVAL_0x7f0406ab="@drawable/APKTOOL_DUMMYVAL_0x7f080572" app:APKTOOL_DUMMYVAL_0x7f04093b="0.0dp" style="?APKTOOL_DUMMYVAL_0x7f04060e" />
+</merge>

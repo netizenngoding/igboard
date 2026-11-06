@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.materialswitch.MaterialSwitch android:theme="@style/APKTOOL_DUMMYVAL_0x7f150a99" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b294e" android:thumb="@drawable/lg_thumb" android:filterTouchesWhenObscured="false" app:APKTOOL_DUMMYVAL_0x7f040aae="@null" app:APKTOOL_DUMMYVAL_0x7f040ae5="@drawable/lg_track" app:APKTOOL_DUMMYVAL_0x7f040aeb="@null" app:APKTOOL_DUMMYVAL_0x7f040aec="@null" style="@style/APKTOOL_DUMMYVAL_0x7f150592"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />

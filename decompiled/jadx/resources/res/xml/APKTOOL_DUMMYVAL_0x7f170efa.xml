@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170f06"/>
+    <softkeys>
+        <softkey_list template_id="@+id/APKTOOL_DUMMYVAL_0x7f0b261c">
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140656"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cc4"
+                keycode="SWITCH_KEYBOARD"
+                param_data="prime"
+                param_icon="@drawable/APKTOOL_DUMMYVAL_0x7f08054c"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140656"/>
+        </softkey_list>
+        <softkey_list template_id="@+id/APKTOOL_DUMMYVAL_0x7f0b28e8">
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f14017e"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0844"
+                keycode="CLIPBOARD_ADD"
+                param_icon="@attr/APKTOOL_DUMMYVAL_0x7f040173"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f14003e"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140188"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0fe1"
+                keycode="CLIPBOARD_EDIT"
+                param_icon="@attr/APKTOOL_DUMMYVAL_0x7f04018c"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140189"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140186"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cc5"
+                keycode="CLIPBOARD_CLOSE_EDIT"
+                param_icon="@attr/APKTOOL_DUMMYVAL_0x7f040186"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140187"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140181"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0a5c"
+                keycode="CLIPBOARD_BATCH_DELETE"
+                param_icon="@attr/APKTOOL_DUMMYVAL_0x7f040189"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140181"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140182"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0a5e"
+                keycode="CLIPBOARD_BATCH_PIN"
+                param_icon="@attr/APKTOOL_DUMMYVAL_0x7f040196"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140182"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140195"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b21ed"
+                keycode="CLIPBOARD_OPT_IN_REVERSE"
+                param_icon="@attr/APKTOOL_DUMMYVAL_0x7f0401b9"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140195"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140194"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b21ec"
+                keycode="CLIPBOARD_OPT_IN_REVERSE"
+                param_icon="@attr/APKTOOL_DUMMYVAL_0x7f0401b8"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140194"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140183"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0a60"
+                keycode="CLIPBOARD_BATCH_UNPIN"
+                param_icon="@attr/APKTOOL_DUMMYVAL_0x7f040197"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140183"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140186"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b103f"
+                keycode="CLIPBOARD_CLOSE_ADD"
+                param_icon="@drawable/APKTOOL_DUMMYVAL_0x7f0806a4"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140187"/>
+            <softkey
+                desc="@string/APKTOOL_DUMMYVAL_0x7f140186"
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b0991"
+                keycode="CLIPBOARD_CLOSE_EDIT"
+                param_icon="@drawable/APKTOOL_DUMMYVAL_0x7f0806a4"
+                tooltip_text="@string/APKTOOL_DUMMYVAL_0x7f140187"/>
+        </softkey_list>
+        <softkey_template
+            alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175"
+            disable_lift_to_tap="true"
+            id="@+id/APKTOOL_DUMMYVAL_0x7f0b2625"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06f2"
+            multi_touch="false">
+            <icon
+                location="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+                value="$icon$"/>
+        </softkey_template>
+        <softkey_list template_id="@+id/APKTOOL_DUMMYVAL_0x7f0b2625">
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170efb"/>
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c09"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a85"/>
+    </if>
+    <else>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c07"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a8b"/>
+        <merge_key_mapping
+            exclude_state="INPUT_TYPE_EMAIL_ADDRESS,INPUT_TYPE_URI,SHOW_EMOJI_SWITCH_KEY"
+            state="EMOJI_AVAILABLE">
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b107d"
+                view_id="@+id/A02"/>
+        </merge_key_mapping>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a88"/>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a87"/>
+    </else>
+</framework>

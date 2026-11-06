@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f1501dc">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e051a"/>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

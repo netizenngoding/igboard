@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if keyboard_mode="floating_panel">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706f0" />
+    </if>
+    <else>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706f6" />
+    </else>
+</framework>

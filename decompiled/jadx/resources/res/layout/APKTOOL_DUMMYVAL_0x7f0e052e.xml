@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/APKTOOL_DUMMYVAL_0x7f1501e4">
+    <FrameLayout
+        android:tag=".bg.expression-keyboard-background"
+        android:background="?attr/APKTOOL_DUMMYVAL_0x7f040108"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginBottom="?attr/APKTOOL_DUMMYVAL_0x7f04010b"
+                android:paddingHorizontal="?attr/APKTOOL_DUMMYVAL_0x7f04010d"
+                app:APKTOOL_DUMMYVAL_0x7f04071d="@string/APKTOOL_DUMMYVAL_0x7f140af3"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1502b7">
+                <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+                    android:scrollbarThumbVertical="@drawable/APKTOOL_DUMMYVAL_0x7f08070b"
+                    android:scrollbarTrackVertical="@null"
+                    android:scrollbarStyle="outsideOverlay"
+                    android:id="@+id/expression_recycler_view"
+                    android:scrollbars="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:keyboardNavigationCluster="true"/>
+            </LinearLayout>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f9"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

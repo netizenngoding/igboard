@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if variant="azerty">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170df5" />
+    </if>
+    <else>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170df7" />
+    </else>
+</framework>

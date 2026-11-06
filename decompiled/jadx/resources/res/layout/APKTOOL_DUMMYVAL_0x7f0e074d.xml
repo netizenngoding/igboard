@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+    android:textAppearance="?attr/APKTOOL_DUMMYVAL_0x7f040a4c"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+    android:tag=".label"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080297"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="4dp"
+    app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"/>

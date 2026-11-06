@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05cf" android:splitMotionEvents="false" style="@style/APKTOOL_DUMMYVAL_0x7f150375"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05ce" style="@style/APKTOOL_DUMMYVAL_0x7f150372" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01e5" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01df" />
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01dd" />
+    </LinearLayout>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01d8" />
+</FrameLayout>

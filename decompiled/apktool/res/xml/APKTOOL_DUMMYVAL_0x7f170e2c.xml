@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if variant="korean_two_bulsik|korean_single_vowel">
+        <key_mapping>
+            <if show_comma_key="true">
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0ac5" view_id="@id/A02" />
+            </if>
+            <if show_period_key="true">
+                <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0ae0" view_id="@id/A08" />
+            </if>
+        </key_mapping>
+    </if>
+    <else>
+        <key_mapping>
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0ac5" view_id="@id/A02" />
+            <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b0ae0" view_id="@id/A08" />
+        </key_mapping>
+    </else>
+</framework>

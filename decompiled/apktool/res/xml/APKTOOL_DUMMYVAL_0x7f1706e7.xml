@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinJapanesePrimeKeyboard" popup="@attr/APKTOOL_DUMMYVAL_0x7f040279">
+        <view direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0255" scalable="false" type="header">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f1b" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c60" />
+        </view>
+        <if keyboard_mode="split">
+            <if split_keyboard_handedness_ja="right">
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0239" type="body" />
+            </if>
+            <else_if split_keyboard_handedness_ja="left">
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0238" type="body" />
+            </else_if>
+            <else>
+                <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0237" type="body" />
+            </else>
+            <view type="body">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171044" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f08" />
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17104e" />
+            </view>
+        </if>
+        <else_if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e023a" type="body" />
+        </else_if>
+        <else>
+            <view layout="@layout/APKTOOL_DUMMYVAL_0x7f0e023b" type="body" />
+        </else>
+        <view type="body">
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec0" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f05" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171048" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171047" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef6" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171209" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171043" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170aaa" />
+            <if keyboard_mode="split">
+                <if split_keyboard_handedness_ja="right|left">
+                    <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17104d" />
+                </if>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a5d" />
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a5f" />
+            </if>
+            <else>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a5e" />
+            </else>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a4e" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c34" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c01" />
+        </view>
+    </keyboard>
+</framework>

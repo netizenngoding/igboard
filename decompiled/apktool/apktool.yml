@@ -1,0 +1,94 @@
+version: 3.0.3
+apkFileName: iboard.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 26
+  targetSdkVersion: 37
+versionInfo:
+  versionCode: 176049814
+  versionName: 18.5.6.993608717-release-arm64-v8a
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- dex
+- jpg
+- ogg
+- png
+- so
+- wav
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- assets/empty_asset_generated_by_bazel~
+- assets/phenotype/com_google_android_gms_auth_account_client_package_metadata.binarypb
+- assets/phenotype/com_google_android_gms_icing_mdd_package_metadata.binarypb
+- assets/phenotype/com_google_android_libraries_consentverifier_package_metadata.binarypb
+- assets/phenotype/com_google_android_libraries_performance_primes_package_metadata.binarypb
+- assets/theme/style_sheet_android_xr_dark.binarypb
+- assets/theme/style_sheet_android_xr_dark_border.binarypb
+- assets/theme/style_sheet_android_xr_light.binarypb
+- assets/theme/style_sheet_android_xr_light_border.binarypb
+- assets/theme/style_sheet_android_xr_rules.binarypb
+- assets/theme/style_sheet_color_black_border.binarypb
+- assets/theme/style_sheet_color_blue_border.binarypb
+- assets/theme/style_sheet_color_blue_grey_border.binarypb
+- assets/theme/style_sheet_color_brown_border.binarypb
+- assets/theme/style_sheet_color_cyan_border.binarypb
+- assets/theme/style_sheet_color_deep_purple_border.binarypb
+- assets/theme/style_sheet_color_green_border.binarypb
+- assets/theme/style_sheet_color_light_pink_border.binarypb
+- assets/theme/style_sheet_color_pink_border.binarypb
+- assets/theme/style_sheet_color_red_border.binarypb
+- assets/theme/style_sheet_color_sand_border.binarypb
+- assets/theme/style_sheet_color_teal_border.binarypb
+- assets/theme/style_sheet_dynamic_color_dark_border.binarypb
+- assets/theme/style_sheet_dynamic_color_light_border.binarypb
+- assets/theme/style_sheet_dynamic_compatible_themes_color_rules.binarypb
+- assets/theme/style_sheet_holo_blue_border.binarypb
+- assets/theme/style_sheet_holo_white_border.binarypb
+- assets/theme/style_sheet_landscape_user_image_border_override.binarypb
+- res/raw-ar/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw-ar/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw-ar/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw-de/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw-de/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw-de/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw-es/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw-es/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw-es/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw-fr/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw-fr/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw-fr/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw-ja/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw-ja/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw-ja/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw-ru/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw-ru/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw-ru/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw-zh-rCN/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw-zh-rCN/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw-zh-rCN/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw-zh-rTW/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw-zh-rTW/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw-zh-rTW/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw/APKTOOL_DUMMYVAL_0x7f130003.pb
+- res/raw/APKTOOL_DUMMYVAL_0x7f130006
+- res/raw/APKTOOL_DUMMYVAL_0x7f130007
+- res/raw/APKTOOL_DUMMYVAL_0x7f130008.binarypb
+- res/raw/APKTOOL_DUMMYVAL_0x7f130009
+- res/raw/APKTOOL_DUMMYVAL_0x7f13000b
+- res/raw/APKTOOL_DUMMYVAL_0x7f13000e.binarypb
+- res/raw/APKTOOL_DUMMYVAL_0x7f13000f
+- res/raw/APKTOOL_DUMMYVAL_0x7f130010.binarypb
+- res/raw/APKTOOL_DUMMYVAL_0x7f130011
+- res/raw/APKTOOL_DUMMYVAL_0x7f130035
+- res/raw/APKTOOL_DUMMYVAL_0x7f130036.binarypb
+- res/raw/APKTOOL_DUMMYVAL_0x7f130037
+- res/raw/APKTOOL_DUMMYVAL_0x7f130038.binarypb
+- res/raw/APKTOOL_DUMMYVAL_0x7f13006f
+- res/raw/APKTOOL_DUMMYVAL_0x7f130070
+- res/raw/APKTOOL_DUMMYVAL_0x7f130071
+- res/raw/main_en_us_d3.dict

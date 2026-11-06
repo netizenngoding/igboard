@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" android:paddingBottom="?APKTOOL_DUMMYVAL_0x7f040182" style="@style/APKTOOL_DUMMYVAL_0x7f150317" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?APKTOOL_DUMMYVAL_0x7f040181" android:layout_below="@id/APKTOOL_DUMMYVAL_0x7f0b03c2">
+        <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03c4" style="@style/APKTOOL_DUMMYVAL_0x7f150317" />
+    </FrameLayout>
+</RelativeLayout>

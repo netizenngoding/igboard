@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        ascii_capable="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="hni-CN"
+        string_id="ime_hani">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17058c"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707a1"
+            pk_language_tag="hni-Latn-CN"
+            variant="hani"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414ce"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c4"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17058c"
+            pk_language_tag="hni-Latn-CN"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c7"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17058c"
+            pk_language_tag="hni-Latn-CN"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706b9"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17058c"
+            pk_language_tag="hni-Latn-CN"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bb"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17058c"
+            pk_language_tag="hni-Latn-CN"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706ba"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17058c"
+            pk_language_tag="hni-Latn-CN"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c3"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17058c"
+            pk_language_tag="hni-Latn-CN"/>
+    </ime>
+</framework>

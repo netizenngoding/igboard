@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f1501f3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_switch_to_symbol" android:layout_weight="864.0" style="@style/APKTOOL_DUMMYVAL_0x7f1506e6" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/A02" android:layout_weight="636.0" style="@style/APKTOOL_DUMMYVAL_0x7f1506e8" />
+    <com.google.android.libraries.inputmethod.widgets.SplittableLinearLayout android:orientation="horizontal" android:layout_weight="3816.0" style="@style/APKTOOL_DUMMYVAL_0x7f150768">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_switch_to_next_language" android:visibility="gone" android:layout_weight="636.0" style="@style/APKTOOL_DUMMYVAL_0x7f1506e4" />
+        <com.google.android.libraries.inputmethod.widgets.SplittableLinearLayout android:orientation="horizontal" android:layout_weight="3180.0" style="@style/APKTOOL_DUMMYVAL_0x7f150768">
+            <com.google.android.libraries.inputmethod.widgets.SplittableSoftKeyView android:id="@id/key_pos_space" android:visibility="gone" android:layout_weight="2472.0" style="@style/APKTOOL_DUMMYVAL_0x7f1506f4" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/A06" android:visibility="gone" android:layout_weight="708.0" style="@style/APKTOOL_DUMMYVAL_0x7f1506ef" />
+        </com.google.android.libraries.inputmethod.widgets.SplittableLinearLayout>
+    </com.google.android.libraries.inputmethod.widgets.SplittableLinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="708.0" style="@style/APKTOOL_DUMMYVAL_0x7f1506e5" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="1176.0" style="@style/APKTOOL_DUMMYVAL_0x7f1506ec" />
+</LinearLayout>

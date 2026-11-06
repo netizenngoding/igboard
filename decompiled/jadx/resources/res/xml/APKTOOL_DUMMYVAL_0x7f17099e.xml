@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="ALTGR">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b161d"
+            view_id="@+id/E01"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1621"
+            view_id="@+id/E02"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1620"
+            view_id="@+id/E03"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b161b"
+            view_id="@+id/E04"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b161a"
+            view_id="@+id/E05"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b161f"
+            view_id="@+id/E06"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b161e"
+            view_id="@+id/E07"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1619"
+            view_id="@+id/E08"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b161c"
+            view_id="@+id/E09"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1622"
+            view_id="@+id/E10"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b16c9"
+            view_id="@+id/E12"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1618"
+            view_id="@+id/D02"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1623"
+            view_id="@+id/C02"/>
+    </key_mapping>
+    <key_mapping state="ALTGR+SHIFT">
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b16b5"
+            view_id="@+id/E12"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b16b3"
+            view_id="@+id/D04"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b16b2"
+            view_id="@+id/C04"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1640"
+            view_id="@+id/C06"/>
+    </key_mapping>
+    <merge_key_mapping
+        exclude_state="SHIFT"
+        state="ALTGR">
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1cdd"
+            view_id="@+id/E12"/>
+    </merge_key_mapping>
+</framework>

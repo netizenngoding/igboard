@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.superinsert.impl.SuperInsertExtensionView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2949" android:paddingTop="16.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="16.0dp">
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="-16.0dp" android:layout_marginBottom="-10.0dp" android:layout_marginHorizontal="-16.0dp">
+            <View android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.core.widget.NestedScrollView>
+        <View android:layout_gravity="center|top" android:background="?APKTOOL_DUMMYVAL_0x7f0404ca" android:layout_width="32.0dp" android:layout_height="4.0dp" android:layout_marginTop="16.0dp" />
+        <FrameLayout android:layout_gravity="end|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b293b" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080298" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="16.0dp" android:layout_marginStart="0.0dp" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f0404eb">
+            <ImageView android:layout_gravity="center" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080425" android:tint="?APKTOOL_DUMMYVAL_0x7f0404bd" />
+        </FrameLayout>
+        <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b293d" android:paddingBottom="8.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="36.0dp" android:paddingStart="16.0dp">
+            <FrameLayout android:enabled="true" android:layout_gravity="start|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b293c" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080298" android:clickable="true" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_marginStart="0.0dp" android:backgroundTint="?APKTOOL_DUMMYVAL_0x7f0404ef">
+                <ImageView android:layout_gravity="center" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0803fa" android:tint="?APKTOOL_DUMMYVAL_0x7f0404bd" />
+            </FrameLayout>
+            <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView android:textSize="16.0dp" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404bd" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b293a" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="8.0dp" app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b2946" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="48.0dp" />
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.apps.inputmethod.libs.superinsert.impl.SuperInsertEditText android:textColor="?APKTOOL_DUMMYVAL_0x7f0404bd" android:textColorHint="@color/APKTOOL_DUMMYVAL_0x7f0609f8" android:ellipsize="end" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0754" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080323" android:layout_width="match_parent" android:layout_height="48.0dp" android:minHeight="48.0dp" android:inputType="textNoSuggestions" android:paddingStart="40.0dp" android:paddingEnd="16.0dp" app:APKTOOL_DUMMYVAL_0x7f040665="?APKTOOL_DUMMYVAL_0x7f04015e" />
+            <ImageView android:layout_gravity="start|center" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginLeft="16.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0804cc" android:tint="?APKTOOL_DUMMYVAL_0x7f0404c1" android:importantForAccessibility="no" />
+        </FrameLayout>
+    </com.google.android.apps.inputmethod.libs.superinsert.impl.SuperInsertExtensionView>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

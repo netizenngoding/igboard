@@ -1,0 +1,15 @@
+.class final Lacok;
+.super Lacvj;
+.source "PG"
+
+
+# virtual methods
+.method public final O(Ljava/lang/Throwable;)Z
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return p0
+.end method

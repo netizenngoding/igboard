@@ -1,0 +1,46 @@
+package p000;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public final class xhq extends aaln implements aams {
+
+    /* JADX INFO: renamed from: a */
+    public static final xhq f75142a;
+
+    /* JADX INFO: renamed from: b */
+    public int f75143b;
+
+    /* JADX INFO: renamed from: c */
+    public xdq f75144c;
+
+    static {
+        xhq xhqVar = new xhq();
+        f75142a = xhqVar;
+        aaln.m1341L(xhq.class, xhqVar);
+    }
+
+    private xhq() {
+    }
+
+    @Override // p000.aaln
+    /* JADX INFO: renamed from: a */
+    protected final Object mo825a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            return new aanb(f75142a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"b", "c"});
+        }
+        if (i2 == 3) {
+            return new xhq();
+        }
+        if (i2 == 4) {
+            return new aali(f75142a);
+        }
+        if (i2 == 5) {
+            return f75142a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return aaln.m1340H(xhq.class);
+    }
+}

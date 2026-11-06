@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="ring"
+            android:useLevel="false"
+            android:innerRadius="@dimen/APKTOOL_DUMMYVAL_0x7f07082c"
+            android:thickness="@dimen/APKTOOL_DUMMYVAL_0x7f07082d">
+            <size
+                android:height="@dimen/APKTOOL_DUMMYVAL_0x7f07082b"
+                android:width="@dimen/APKTOOL_DUMMYVAL_0x7f07082e"/>
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060aa7"/>
+        </shape>
+    </item>
+    <item
+        android:left="@dimen/APKTOOL_DUMMYVAL_0x7f070831"
+        android:top="@dimen/APKTOOL_DUMMYVAL_0x7f070831"
+        android:right="@dimen/APKTOOL_DUMMYVAL_0x7f070831"
+        android:bottom="@dimen/APKTOOL_DUMMYVAL_0x7f070831">
+        <shape android:shape="oval">
+            <solid android:color="@color/APKTOOL_DUMMYVAL_0x7f060aa7"/>
+            <size
+                android:height="@dimen/APKTOOL_DUMMYVAL_0x7f07082f"
+                android:width="@dimen/APKTOOL_DUMMYVAL_0x7f070830"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:height="@dimen/APKTOOL_DUMMYVAL_0x7f070827"
+        android:width="@dimen/APKTOOL_DUMMYVAL_0x7f070826"
+        android:drawable="@drawable/APKTOOL_DUMMYVAL_0x7f0803af"/>
+</layer-list>

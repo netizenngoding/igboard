@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d 小時</item>
+        <item quantity="other">%1$d 小時</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d 分鐘</item>
+        <item quantity="other">%1$d 分鐘</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">你即將達到 %1$d 分鐘的限制</item>
+        <item quantity="other">你即將達到 %1$d 分鐘的限制</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">將於 %1$d 秒後關閉…</item>
+        <item quantity="other">將於 %1$d 秒後關閉…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">已分配 %d 個按鍵</item>
+        <item quantity="other">已分配 %d 個按鍵</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">現已安裝%s。</item>
+        <item quantity="other">現已安裝%s。</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d 小時</item>
+        <item quantity="other">%d 小時</item>
+    </plurals>
+</resources>

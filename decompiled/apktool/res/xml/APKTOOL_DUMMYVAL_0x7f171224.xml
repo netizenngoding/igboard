@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170f18" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ef1" />
+    <softkeys>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2682">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1f99" press_data="," press_intent="COMMIT" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b129b" long_press_data="…" press_data="." press_intent="COMMIT" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0cb9" long_press_data="《 ≤ ‹ « ⟨ 〈" press_data="&lt;" press_intent="COMMIT" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0cb8" long_press_data="》 ≥ › » ⟩ 〉" press_data=">" press_intent="COMMIT" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1a73" long_press_data="≤ ‹ « ⟨" press_data="&lt;" press_intent="COMMIT" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2055" long_press_data="≥ › » ⟩" press_data=">" press_intent="COMMIT" />
+            <softkey desc="@string/APKTOOL_DUMMYVAL_0x7f14040a" id="@id/APKTOOL_DUMMYVAL_0x7f0b0cb6" press_data="，" press_intent="COMMIT" />
+            <softkey desc="@string/APKTOOL_DUMMYVAL_0x7f14040e" id="@id/APKTOOL_DUMMYVAL_0x7f0b0cba" press_data="。" press_intent="COMMIT" />
+        </softkey_list>
+    </softkeys>
+</framework>

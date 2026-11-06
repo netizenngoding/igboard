@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_number_row_in_password="false" enable_secondary_digits="true">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17078b" />
+    </if>
+    <else>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17063e" />
+    </else>
+</framework>

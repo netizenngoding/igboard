@@ -1,0 +1,5 @@
+apktool: https://github.com/iBotPeaches/Apktool/releases/download/v3.0.3/apktool_3.0.3.jar
+jadx:    https://github.com/skylot/jadx/releases/download/v1.5.6/jadx-1.5.6.zip
+--- versions ---
+3.0.3
+1.5.6

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="SHIFT_LOCK">
+        <mapping key_id="@id/APKTOOL_DUMMYVAL_0x7f0b082a" view_id="@id/key_pos_space" />
+    </key_mapping>
+</framework>

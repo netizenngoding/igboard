@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+            android:gravity="center"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0602"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1503e2"/>
+        <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+            android:gravity="center"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f6"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1503e2"/>
+    </LinearLayout>
+</merge>

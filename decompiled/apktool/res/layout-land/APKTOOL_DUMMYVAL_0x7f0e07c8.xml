@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="0.0dp" android:paddingRight="0.0dp" android:paddingBottom="0.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/APKTOOL_DUMMYVAL_0x7f150b3e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b299c" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:paddingLeft="24.0dp" android:paddingTop="6.0dp" android:paddingRight="24.0dp" android:paddingBottom="6.0dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView style="@style/APKTOOL_DUMMYVAL_0x7f150b3d">
+                <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b299a" style="@style/APKTOOL_DUMMYVAL_0x7f150b3c" />
+            </com.google.android.material.card.MaterialCardView>
+            <Space android:layout_width="12.0dp" android:layout_height="0.0dp" />
+            <com.google.android.material.card.MaterialCardView style="@style/APKTOOL_DUMMYVAL_0x7f150b3d">
+                <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b299b" style="@style/APKTOOL_DUMMYVAL_0x7f150b3c" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView style="@style/APKTOOL_DUMMYVAL_0x7f150b38" />
+</LinearLayout>

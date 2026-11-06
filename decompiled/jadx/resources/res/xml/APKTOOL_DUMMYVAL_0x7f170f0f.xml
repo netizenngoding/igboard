@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ef1"/>
+    <softkeys>
+        <softkey
+            content_description="@string/APKTOOL_DUMMYVAL_0x7f1410b6"
+            id="@+id/APKTOOL_DUMMYVAL_0x7f0b247f"
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0701">
+            <action
+                action_on_down="true"
+                data="symbol"
+                keycode="SWITCH_TO_NON_PRIME_KEYBOARD"
+                type="PRESS"/>
+            <label
+                location="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+                value="123"/>
+        </softkey>
+        <softkey_list
+            splitter=","
+            template_id="@+id/APKTOOL_DUMMYVAL_0x7f0b2682">
+            <softkey
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b103a"
+                long_press_data="¡"
+                merge_index="-1"
+                press_data="!"/>
+            <softkey
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b2305"
+                long_press_data="¿"
+                press_data="?"/>
+            <softkey
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b12a4"
+                long_press_data="!,¡"
+                long_press_intention="COMMIT"
+                merge_index="-1"
+                press_data="！"
+                press_intention="COMMIT"/>
+            <softkey
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b12ae"
+                long_press_data="?,¿"
+                long_press_intention="COMMIT"
+                press_data="？"
+                press_intention="COMMIT"/>
+        </softkey_list>
+    </softkeys>
+</framework>

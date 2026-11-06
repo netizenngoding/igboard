@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/APKTOOL_DUMMYVAL_0x7f140b78" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a6e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.personaldictionary.preference.PersonalDictionaryPreference android:title="@string/APKTOOL_DUMMYVAL_0x7f140c38" android:key="@string/APKTOOL_DUMMYVAL_0x7f140c36" />
+    <androidx.preference.PreferenceCategory android:title="@string/APKTOOL_DUMMYVAL_0x7f140ca8" android:key="@string/APKTOOL_DUMMYVAL_0x7f140ca7" />
+</PreferenceScreen>

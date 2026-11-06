@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/APKTOOL_DUMMYVAL_0x7f1416b4" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a7d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settingslib.widget.TopIntroPreference android:title="@string/APKTOOL_DUMMYVAL_0x7f140d9f" />
+    <com.google.android.libraries.inputmethod.preferencewidgets.ColoredBackgroundSwitchPreference android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140ba4" android:key="@string/APKTOOL_DUMMYVAL_0x7f140968" android:disableDependentsState="false" />
+    <com.google.android.libraries.inputmethod.stylus.education.StylusEducationPreference />
+    <androidx.preference.PreferenceCategory>
+        <com.google.android.libraries.inputmethod.preferencewidgets.slider.EntryListSliderPreference android:persistent="true" android:entries="@array/APKTOOL_DUMMYVAL_0x7f030037" android:title="@string/APKTOOL_DUMMYVAL_0x7f140bd6" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a68" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f140968" android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f030056" />
+        <com.google.android.libraries.inputmethod.preferencewidgets.slider.EntryListSliderPreference android:persistent="true" android:entries="@array/APKTOOL_DUMMYVAL_0x7f030036" android:title="@string/APKTOOL_DUMMYVAL_0x7f140bd3" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a67" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f140968" android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f030055" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140b48" android:key="@string/APKTOOL_DUMMYVAL_0x7f140929" android:summary="@string/APKTOOL_DUMMYVAL_0x7f140c97" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f140968" android:disableDependentsState="true" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140c73" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a86" android:summary="@string/APKTOOL_DUMMYVAL_0x7f140c71" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f140929">
+            <extra android:name="toolbar_type" android:value="stylus" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140ba6" android:key="@string/APKTOOL_DUMMYVAL_0x7f140969" android:summary="@string/APKTOOL_DUMMYVAL_0x7f140ba5" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f140968" android:disableDependentsState="true" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

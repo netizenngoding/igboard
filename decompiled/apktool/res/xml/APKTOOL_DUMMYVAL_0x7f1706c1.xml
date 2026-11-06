@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework main_def="@xml/APKTOOL_DUMMYVAL_0x7f1706cd" resource_id="@xml/APKTOOL_DUMMYVAL_0x7f17005d" supports_one_handed_mode="true">
+    <keyboard_group supports_one_handed_mode="{supports_one_handed_mode}" variant="handwriting" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414cd">
+        <layout_specific_settings resource_id="{resource_id}" />
+        <keyboard def="{main_def}" type="prime" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17090f" support_drag_to_click="false" />
+    </keyboard_group>
+</framework>

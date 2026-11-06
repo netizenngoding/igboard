@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:APKTOOL_DUMMYVAL_0x7f04074e="?attr/APKTOOL_DUMMYVAL_0x7f0400c7"
+    style="@style/APKTOOL_DUMMYVAL_0x7f1501e4">
+    <FrameLayout
+        android:tag=".bg.expression-keyboard-background"
+        android:background="?attr/APKTOOL_DUMMYVAL_0x7f040108"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginHorizontal="?attr/APKTOOL_DUMMYVAL_0x7f04011f"
+                android:paddingHorizontal="?attr/APKTOOL_DUMMYVAL_0x7f04010d"
+                app:APKTOOL_DUMMYVAL_0x7f04071d="@string/APKTOOL_DUMMYVAL_0x7f140af3"
+                style="@style/APKTOOL_DUMMYVAL_0x7f1502b7">
+                <FrameLayout
+                    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b07c1"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c000b"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="@integer/APKTOOL_DUMMYVAL_0x7f0c000b"
+                    style="@style/APKTOOL_DUMMYVAL_0x7f15033c">
+                    <FrameLayout
+                        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b01e3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerBodyRecyclerView
+                        android:scrollbarThumbVertical="@drawable/APKTOOL_DUMMYVAL_0x7f08070b"
+                        android:scrollbarTrackVertical="@null"
+                        android:scrollbarStyle="outsideOverlay"
+                        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05d9"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:scrollbars="vertical"
+                        android:clipToPadding="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="?attr/APKTOOL_DUMMYVAL_0x7f04010b"
+                        android:importantForAccessibility="yes"/>
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f9"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

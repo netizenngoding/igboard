@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme"
+        display_app_completions="true"
+        indicator_label="倉"
+        inline_composing="false"
+        keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter"
+        language="zh-XE"
+        language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f171242"
+        language_tag="zh-Hant-HK-t-i0-cangjie"
+        string_id="ime_zh_hk_cangjie"
+        use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty">
+            <attrs language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f171243"/>
+        </if>
+        <if enable_chinese_inline_composing_hk="true">
+            <attrs inline_composing="true"/>
+        </if>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c8"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17069d"
+            layout_settings="@xml/APKTOOL_DUMMYVAL_0x7f171241"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1704c7"
+            pk_language_tag="en"
+            pk_layout_type="qwerty"
+            variant="cangjie"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141460"
+            variant_name_mandatory="true"/>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02e4"
+                value="true"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02fc"
+                value="@string/APKTOOL_DUMMYVAL_0x7f140680"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f5"
+                value="。"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02da"
+                value="@string/APKTOOL_DUMMYVAL_0x7f14093e"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02d5"
+                value="cangjie_standard_standard"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f4"
+                value="hmm"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02d0"
+                res="@xml/APKTOOL_DUMMYVAL_0x7f1704c8"/>
+        </extra_values>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ecb"/>
+    </ime>
+</framework>

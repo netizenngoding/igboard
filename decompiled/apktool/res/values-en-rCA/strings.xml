@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APKTOOL_DUMMYVAL_0x7f140007">Navigate up</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140008">More options</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140009">Done</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14000c">OFF</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14000d">ON</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14000f">Alt+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140010">Ctrl+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140011">delete</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140012">enter</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140013">Function+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140014">Meta+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140015">Shift+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140016">space</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140017">Sym+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140018">Menu+</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140019">Search…</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14001a">Clear query</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14001c">Search</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14001d">Submit query</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14001e">Voice search</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140022">Collapse</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14025c">Copy</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140395">Advanced</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140843">Not set</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f140ad0">\"%1$s\" copied to clipboard.</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f14109b">%1$s, %2$s</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f141402">OFF</string>
+    <string name="APKTOOL_DUMMYVAL_0x7f141403">ON</string>
+</resources>

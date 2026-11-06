@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerBodyRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarThumbVertical="@drawable/APKTOOL_DUMMYVAL_0x7f08070b"
+    android:scrollbarTrackVertical="@null"
+    android:scrollbarStyle="outsideOverlay"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0278"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:scrollbars="vertical"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="?attr/APKTOOL_DUMMYVAL_0x7f04010b"
+    android:importantForAccessibility="yes"
+    android:layout_marginHorizontal="?attr/APKTOOL_DUMMYVAL_0x7f04010d"
+    android:paddingHorizontal="?attr/APKTOOL_DUMMYVAL_0x7f0400e7"
+    android:keyboardNavigationCluster="true"
+    app:APKTOOL_DUMMYVAL_0x7f04071d="com.google.android.apps.inputmethod.libs.search.emoji.standard.EmojiPickerViewScrollingBehavior"/>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d ore</item>
+        <item quantity="other">%1$d orësh</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutash</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Po i afrohesh kufirit prej %1$d min.</item>
+        <item quantity="other">Po i afrohesh kufirit prej %1$d min.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Do të mbyllet pas %1$d sekonde…</item>
+        <item quantity="other">Do të mbyllet pas %1$d sekondash…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d tast i caktuar</item>
+        <item quantity="other">%d taste të caktuara</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s është instaluar tani.</item>
+        <item quantity="other">%s janë instaluar tani.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d orë</item>
+        <item quantity="other">%d orë</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b07be" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginBottom="25.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e05df" />
+    <include android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="10.0dp" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0057" />
+</LinearLayout>

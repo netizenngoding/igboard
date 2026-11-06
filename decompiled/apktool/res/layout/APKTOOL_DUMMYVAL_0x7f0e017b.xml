@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f1504f0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05c7" android:tag=".bg-clipboard_item-board-popup.panel" android:visibility="?APKTOOL_DUMMYVAL_0x7f040085" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08023d" android:importantForAccessibility="no" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" />
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner style="@style/APKTOOL_DUMMYVAL_0x7f1504ef">
+        <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0410" android:layout_width="0.0dp" android:layout_height="0.0dp" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/APKTOOL_DUMMYVAL_0x7f0b03a1" app:APKTOOL_DUMMYVAL_0x7f040745="@id/APKTOOL_DUMMYVAL_0x7f0b040f" app:APKTOOL_DUMMYVAL_0x7f04074d="?APKTOOL_DUMMYVAL_0x7f0401c6">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e017a" />
+        </FrameLayout>
+        <ScrollView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b040f" app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef" app:APKTOOL_DUMMYVAL_0x7f04072e="@id/APKTOOL_DUMMYVAL_0x7f0b0410" app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef" style="@style/APKTOOL_DUMMYVAL_0x7f1504e9">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0179" />
+        </ScrollView>
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03a1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUMMYVAL_0x7f040730="0.0dp" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</FrameLayout>

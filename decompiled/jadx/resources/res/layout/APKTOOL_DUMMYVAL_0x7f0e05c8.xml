@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b065a"
+    android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f04024a"
+    android:layout_height="?attr/APKTOOL_DUMMYVAL_0x7f04024a">
+    <ImageView
+        android:tag=".background-icon.for-mic-protection"
+        android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070718"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08028f"
+        android:importantForAccessibility="no"/>
+    <ImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b065d"
+        android:tag=".background-icon.for-sticky-mic"
+        android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070718"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08028f"
+        android:importantForAccessibility="no"/>
+    <ImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b065c"
+        android:tag=".outline.for-dotkit-sticky-mic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080759"
+        android:importantForAccessibility="no"/>
+    <com.google.android.libraries.search.p6glow.AssistantP6GlowView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b065b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070718"
+        app:APKTOOL_DUMMYVAL_0x7f0405d9="180"
+        app:APKTOOL_DUMMYVAL_0x7f04067b="0.45"
+        app:APKTOOL_DUMMYVAL_0x7f04070b="APKTOOL_DUMMYVAL_0x7f0b0071"
+        app:APKTOOL_DUMMYVAL_0x7f040770="@dimen/APKTOOL_DUMMYVAL_0x7f070717"/>
+</FrameLayout>

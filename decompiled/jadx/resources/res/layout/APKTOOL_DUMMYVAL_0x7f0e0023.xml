@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_gravity="center"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b078c"
+        android:tag=".background.ring-animation-view"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080248"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"/>
+    <View
+        android:layout_gravity="center"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b078d"
+        android:tag=".background.ring-animation-view"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080248"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"/>
+</merge>

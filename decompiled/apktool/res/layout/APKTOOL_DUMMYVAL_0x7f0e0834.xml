@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2" android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a81" android:tag=".label.writing-tools-style-item-v2.item-ripple.on-surface" android:layout_height="48.0dp" android:maxWidth="?APKTOOL_DUMMYVAL_0x7f040350" style="@style/APKTOOL_DUMMYVAL_0x7f151161"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

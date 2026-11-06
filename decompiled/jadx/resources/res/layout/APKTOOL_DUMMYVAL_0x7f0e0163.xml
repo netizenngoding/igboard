@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f150775">
+    <FrameLayout
+        android:duplicateParentState="true"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150777">
+        <ImageView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2917"
+            android:tag=".icon.for-category-key.with-circle"
+            android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070902"
+            android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070902"
+            android:scaleType="fitCenter"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150776"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

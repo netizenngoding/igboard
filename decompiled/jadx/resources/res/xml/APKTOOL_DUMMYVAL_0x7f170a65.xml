@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1566"
+            view_id="@+id/B08"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b157b"
+            view_id="@+id/B09"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b158c"
+            view_id="@+id/B10"/>
+    </key_mapping>
+    <if
+        enable_pk_simulator="true"
+        enable_pk_simulator_setting="true">
+        <merge_key_mapping exclude_state="SHIFT">
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1d7e"
+                view_id="@+id/B08"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1c27"
+                view_id="@+id/B09"/>
+            <merge
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e62"
+                view_id="@+id/B10"/>
+        </merge_key_mapping>
+    </if>
+    <else>
+        <key_mapping>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b158c"
+                view_id="@+id/C10"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b232f"
+                view_id="@+id/D11"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1566"
+                view_id="@+id/B08"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b157b"
+                view_id="@+id/B09"/>
+        </key_mapping>
+        <key_mapping state="INPUT_TYPE_EMAIL_ADDRESS,INPUT_TYPE_URI">
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1566"
+                view_id="@+id/B08"/>
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b157b"
+                view_id="@+id/B09"/>
+        </key_mapping>
+        <key_mapping state="SHIFT">
+            <mapping
+                key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b287e"
+                view_id="@+id/D11"/>
+        </key_mapping>
+    </else>
+</framework>

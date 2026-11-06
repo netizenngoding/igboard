@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e11" />
+    <keygroup_mapping group_view_id="@id/APKTOOL_DUMMYVAL_0x7f0b14e5">
+        <keys softkeys_id="@id/APKTOOL_DUMMYVAL_0x7f0b28eb" />
+    </keygroup_mapping>
+    <keygroup_mapping group_view_id="@id/APKTOOL_DUMMYVAL_0x7f0b14e6">
+        <keys softkeys_id="@id/APKTOOL_DUMMYVAL_0x7f0b28ec" />
+    </keygroup_mapping>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ca6" />
+</framework>

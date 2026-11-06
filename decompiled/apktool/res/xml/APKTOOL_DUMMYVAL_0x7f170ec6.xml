@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <override_keyboard_xml_conditions>
+        <bool name="@string/APKTOOL_DUMMYVAL_0x7f140d56" value="true" />
+        <bool name="@string/APKTOOL_DUMMYVAL_0x7f14095d" value="false" />
+        <bool name="@string/APKTOOL_DUMMYVAL_0x7f140d5d" value="true" />
+    </override_keyboard_xml_conditions>
+</framework>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="aii-IQ" string_id="ime_assyrian_iraq">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f170467" non_prime_def="@xml/APKTOOL_DUMMYVAL_0x7f170908" pk_language_tag="aii-Syrc-IQ" variant="assyrian" variant_label="@string/APKTOOL_DUMMYVAL_0x7f14141f" />
+    </ime>
+</framework>

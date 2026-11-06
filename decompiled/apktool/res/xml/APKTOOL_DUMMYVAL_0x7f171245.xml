@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/APKTOOL_DUMMYVAL_0x7f140bd7">
+        <com.google.android.libraries.inputmethod.preferencewidgets.SliderListPreference android:persistent="true" android:entries="@array/APKTOOL_DUMMYVAL_0x7f030037" android:title="@string/APKTOOL_DUMMYVAL_0x7f140bd6" android:key="@string/APKTOOL_DUMMYVAL_0x7f14099c" android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f03004f" slider_text_left="@string/APKTOOL_DUMMYVAL_0x7f140bd4" slider_text_right="@string/APKTOOL_DUMMYVAL_0x7f140bd5" />
+        <com.google.android.libraries.inputmethod.preferencewidgets.SliderListPreference android:persistent="true" android:entries="@array/APKTOOL_DUMMYVAL_0x7f030036" android:title="@string/APKTOOL_DUMMYVAL_0x7f140bd3" android:key="@string/APKTOOL_DUMMYVAL_0x7f14099b" android:entryValues="@array/APKTOOL_DUMMYVAL_0x7f03004e" slider_text_left="@string/APKTOOL_DUMMYVAL_0x7f140bd1" slider_text_right="@string/APKTOOL_DUMMYVAL_0x7f140bd2" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

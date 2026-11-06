@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:APKTOOL_DUMMYVAL_0x7f040666="com.google.android.gms.fonts"
+    app:APKTOOL_DUMMYVAL_0x7f040667="@array/APKTOOL_DUMMYVAL_0x7f03000f"
+    app:APKTOOL_DUMMYVAL_0x7f04066b="com.google.android.gms"
+    app:APKTOOL_DUMMYVAL_0x7f04066d="variable-label-large">
+    <fallback
+        app:APKTOOL_DUMMYVAL_0x7f04066c="Google Sans Flex"
+        app:APKTOOL_DUMMYVAL_0x7f04066d="google-sans-flex"
+        app:APKTOOL_DUMMYVAL_0x7f04066f="&apos;CRSV&apos; 0, &apos;FILL&apos; 0, &apos;GRAD&apos; 0, &apos;HEXP&apos; 0, &apos;ROND&apos; 0, &apos;opsz&apos; 14, &apos;slnt&apos; 0, &apos;wdth&apos; 100, &apos;wght&apos; 500"/>
+    <fallback
+        app:APKTOOL_DUMMYVAL_0x7f04066c="Google Sans Text:500"
+        app:APKTOOL_DUMMYVAL_0x7f04066d="google-sans-text-medium"/>
+</font-family>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.libraries.inputmethod.composingtext.ComposingTextKeyboard" />
+</framework>

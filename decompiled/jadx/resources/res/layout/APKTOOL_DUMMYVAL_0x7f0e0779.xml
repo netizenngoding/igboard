@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="20"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150759">
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0603"
+        android:paddingTop="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1503dc"/>
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f6"
+        android:paddingBottom="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1503dc"/>
+</LinearLayout>

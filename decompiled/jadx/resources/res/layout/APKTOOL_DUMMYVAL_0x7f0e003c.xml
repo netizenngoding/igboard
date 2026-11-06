@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/APKTOOL_DUMMYVAL_0x7f150761">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:tag=".banner-tooltip-background"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="inherit"
+        android:paddingStart="10dp">
+        <TextView
+            android:textSize="14sp"
+            android:gravity="start|center_vertical"
+            android:layout_gravity="start|center_vertical"
+            android:tag=".banner-tooltip-foreground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/APKTOOL_DUMMYVAL_0x7f140846"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"/>
+        <com.google.android.material.button.MaterialButton
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_gravity="end|center_vertical"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b06aa"
+            android:tag=".tooltip.borderless_button"
+            android:paddingLeft="10dp"
+            android:paddingTop="0dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="20dp"
+            android:text="@string/APKTOOL_DUMMYVAL_0x7f1411db"
+            android:maxLines="1"
+            android:layout_weight="0"
+            app:APKTOOL_DUMMYVAL_0x7f0403b0="18sp"
+            app:APKTOOL_DUMMYVAL_0x7f0403b1="12sp"
+            app:APKTOOL_DUMMYVAL_0x7f0403b4="APKTOOL_DUMMYVAL_0x7f0b29f1"
+            app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"
+            style="?attr/APKTOOL_DUMMYVAL_0x7f0403fe"/>
+    </LinearLayout>
+</FrameLayout>

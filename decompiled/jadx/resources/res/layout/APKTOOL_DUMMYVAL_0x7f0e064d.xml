@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag=".access-point-drag-in-area-hint"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08026a"
+    android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f0400a4"
+    android:layout_height="?attr/APKTOOL_DUMMYVAL_0x7f0400a4"/>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView style="@style/APKTOOL_DUMMYVAL_0x7f1502b5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b029b" android:layout_width="match_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f040132" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070165" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070165" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00fc" />
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

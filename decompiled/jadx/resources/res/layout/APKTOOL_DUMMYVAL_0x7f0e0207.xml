@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/APKTOOL_DUMMYVAL_0x7f1501e7">
+    <com.google.android.libraries.inputmethod.keyboard.widget.PageableCandidatesHolderView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b14e8"
+        app:APKTOOL_DUMMYVAL_0x7f04042b="@layout/APKTOOL_DUMMYVAL_0x7f0e06eb"
+        candidate_background="@android:color/transparent"
+        last_column_candidate_background="@android:color/transparent"
+        max_candidates_per_row="@integer/APKTOOL_DUMMYVAL_0x7f0c00a9"
+        row_background="@android:color/transparent"
+        row_count="@integer/APKTOOL_DUMMYVAL_0x7f0c0024"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150305">
+        <tag
+            android:value="true"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2932"/>
+    </com.google.android.libraries.inputmethod.keyboard.widget.PageableCandidatesHolderView>
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0208"/>
+</LinearLayout>

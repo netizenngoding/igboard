@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="mn-MN" string_id="ime_mongolian_mongolia">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" main_def="@xml/APKTOOL_DUMMYVAL_0x7f17084e" support_a11y_keyboard="true" variant="mongolian" variant_label="@string/APKTOOL_DUMMYVAL_0x7f14157f" />
+    </ime>
+</framework>

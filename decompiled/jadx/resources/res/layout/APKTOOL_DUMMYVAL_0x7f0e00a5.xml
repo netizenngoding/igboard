@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag=".access-point-education.keyboard-body-area"
+    android:background="?attr/APKTOOL_DUMMYVAL_0x7f040050"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsEditModeEducationIllustration
+        android:layout_gravity="top|center_horizontal"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0082"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/APKTOOL_DUMMYVAL_0x7f040001"
+        android:scaleType="centerInside"
+        android:layout_marginHorizontal="8dp"
+        app:APKTOOL_DUMMYVAL_0x7f04079c="false"
+        app:APKTOOL_DUMMYVAL_0x7f0407a5="true"
+        app:APKTOOL_DUMMYVAL_0x7f0407a7="true"/>
+    <include layout="@attr/APKTOOL_DUMMYVAL_0x7f040000"/>
+</FrameLayout>

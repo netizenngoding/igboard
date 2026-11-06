@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard candidate_text_size_ratio="1.0" class=".latin.keyboard.LatinPrimeKeyboard" popup="@attr/APKTOOL_DUMMYVAL_0x7f040279" session_states="CAPS_LOCK">
+        <view default_show="true" direction="locale" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0540" scalable="false" type="header">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f1b" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c60" />
+        </view>
+        <view type="body">
+            <motion_event_handler class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <motion_event_handler class=".libs.latin5.handler.LatinPreemptiveDecodeHandler" />
+            <motion_event_handler class=".libs.latin5.handler.LatinGestureMotionEventHandler" preference_key="@string/APKTOOL_DUMMYVAL_0x7f14094e" reverse_preference="false" />
+            <motion_event_handler class=".motioneventhandler.scrubmove.ScrubDeleteMotionEventHandler" preference_key="@string/APKTOOL_DUMMYVAL_0x7f14096a" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebe" />
+            <motion_event_handler class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f17" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f0d" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17122a" />
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f17122b" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170efe" />
+            </if>
+            <else>
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170efd" />
+            </else>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170ef6" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c40" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c49" />
+            <if enable_pk_simulator="true" enable_pk_simulator_setting="true">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c32" />
+            </if>
+            <else>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c31" />
+            </else>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c3c" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e2a" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a4e" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170495" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f1707f3" />
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706a6" />
+    <ifnot enable_pk_simulator="true" enable_pk_simulator_setting="true">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170794" />
+        <if enable_number_row="true">
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f17077d" />
+        </if>
+    </ifnot>
+</framework>

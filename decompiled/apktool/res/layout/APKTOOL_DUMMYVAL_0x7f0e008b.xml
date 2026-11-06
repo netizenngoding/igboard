@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.text.LinkableTextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b28f5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f140d7d" />
+    <RadioGroup android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b07d3" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01ed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f14025f" />
+        <RadioButton android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29f6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f1413f8" />
+    </RadioGroup>
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01ee" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0146" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f140137" />
+        <EditText android:gravity="left|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0145" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="false" android:singleLine="false" android:inputType="textMultiLine" android:focusedByDefault="false" />
+        <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0144" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f140136" />
+        <EditText android:gravity="left|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0143" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="false" android:singleLine="false" android:inputType="textMultiLine" android:focusedByDefault="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29f7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0296" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/APKTOOL_DUMMYVAL_0x7f140138" />
+        <EditText android:gravity="left|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0295" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="false" android:singleLine="false" android:inputType="number" android:focusedByDefault="false" />
+    </LinearLayout>
+</LinearLayout>

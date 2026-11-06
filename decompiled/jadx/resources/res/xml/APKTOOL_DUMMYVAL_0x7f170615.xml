@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinPasswordKeyboard"
+        popup="@attr/APKTOOL_DUMMYVAL_0x7f040279">
+        <if show_suggestion_strip="true">
+            <view
+                default_show="true"
+                direction="locale"
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e053c"
+                override="all"
+                scalable="false"
+                type="header"/>
+        </if>
+        <else>
+            <view
+                direction="locale"
+                override="all"
+                scalable="false"
+                type="header"/>
+        </else>
+        <view
+            override="motion_event_handler"
+            type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler"/>
+            <motion_event_handler
+                class=".motioneventhandler.scrubmove.ScrubDeleteMotionEventHandler"
+                preference_key="@string/APKTOOL_DUMMYVAL_0x7f14096a"
+                reverse_preference="false"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebe"/>
+        </view>
+    </keyboard>
+</framework>

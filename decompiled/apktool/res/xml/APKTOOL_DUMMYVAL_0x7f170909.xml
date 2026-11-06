@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f1707c5" type="digit" />
+    </if>
+    <else>
+        <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f1707c4" type="digit" />
+    </else>
+    <keyboard def="@xml/APKTOOL_DUMMYVAL_0x7f17087c" type="symbol" />
+</framework>

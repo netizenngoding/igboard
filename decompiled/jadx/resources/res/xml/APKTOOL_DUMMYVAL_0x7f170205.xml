@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        href="@xml/APKTOOL_DUMMYVAL_0x7f170002"
+        support_a11y_keyboard="true"/>
+    <keyboard
+        def="@xml/APKTOOL_DUMMYVAL_0x7f1706ed"
+        type="prime"/>
+    <if japanese_use_tri_state_mode="true">
+        <keyboard
+            def="@xml/APKTOOL_DUMMYVAL_0x7f1706ec"
+            type="alphabet">
+            <extra_values>
+                <item
+                    id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ef"
+                    value="QWERTY_ALPHABET"/>
+            </extra_values>
+        </keyboard>
+        <keyboard
+            def="@xml/APKTOOL_DUMMYVAL_0x7f1706ee"
+            type="tri_state_digit"/>
+    </if>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <keyboard
+            def="@xml/APKTOOL_DUMMYVAL_0x7f1707c5"
+            type="digit">
+            <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170666"/>
+        </keyboard>
+    </if>
+    <else>
+        <keyboard
+            def="@xml/APKTOOL_DUMMYVAL_0x7f1707c4"
+            type="digit">
+            <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170666"/>
+        </keyboard>
+    </else>
+    <keyboard
+        def="@xml/APKTOOL_DUMMYVAL_0x7f170878"
+        type="symbol">
+        <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170666"/>
+    </keyboard>
+    <keyboard
+        def="@xml/APKTOOL_DUMMYVAL_0x7f1706ec"
+        type="alphabet_email_oob">
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ef"
+                value="QWERTY_ALPHABET"/>
+        </extra_values>
+    </keyboard>
+</framework>

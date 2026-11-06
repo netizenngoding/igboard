@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsClippableHolderView android:layout_gravity="center_horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b073f" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.CopyImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0744" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070853" app:APKTOOL_DUMMYVAL_0x7f04053f="@id/APKTOOL_DUMMYVAL_0x7f0b01e9" />
+    <ImageView android:layout_gravity="left|center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0741" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04005f" android:contentDescription="@null" android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070853" style="@style/APKTOOL_DUMMYVAL_0x7f15051a" />
+    <ImageView android:layout_gravity="right|center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0742" android:layout_height="?APKTOOL_DUMMYVAL_0x7f04005f" android:contentDescription="@null" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070853" style="@style/APKTOOL_DUMMYVAL_0x7f15051a" />
+    <HorizontalScrollView android:layout_gravity="center_horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0743" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f070853">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0740" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08069e" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </HorizontalScrollView>
+</com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsClippableHolderView>

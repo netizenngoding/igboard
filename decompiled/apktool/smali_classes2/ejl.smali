@@ -1,0 +1,31 @@
+.class public final Lejl;
+.super Leiv;
+.source "PG"
+
+
+# instance fields
+.field public a:Leiz;
+
+.field public b:Leiz;
+
+.field public c:Leiz;
+
+.field public d:Leiz;
+
+.field public f:Leiz;
+
+.field public g:Leiz;
+
+
+# direct methods
+.method protected constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Leiv;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

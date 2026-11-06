@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view type="body">
+            <ifnot
+                enable_pk_simulator="true"
+                enable_pk_simulator_setting="true">
+                <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171212"/>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170cb2"/>
+            </ifnot>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f170f01"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c16"/>
+        </view>
+    </keyboard>
+</framework>

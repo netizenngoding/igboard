@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" class="com.google.android.apps.inputmethod.libs.mozc.ime.SimpleJapaneseIme" display_app_completions="false" inline_composing="true" language="@string/APKTOOL_DUMMYVAL_0x7f14052c" language_specific_settings="@xml/setting_japanese_language_specific" string_id="@string/APKTOOL_DUMMYVAL_0x7f140d98" unacceptable_meta_keys="" use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty|12key">
+            <attrs language_specific_settings="@xml/setting_japanese_language_specific_with_pk" />
+        </if>
+        <if japanese_pk_kana_input="true">
+            <attrs keyevent_interpreter="com.google.android.apps.inputmethod.libs.mozc.ime.JapaneseKanaKeyEventInterpreter" />
+        </if>
+        <keyboard_group pk_language_tag="ja-Latn-JP" pk_layout_type="extended" supports_split_mode="true" variant="japanese_qwerty" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414f5" variant_name_mandatory="true">
+            <layout_specific_settings resource_id="@xml/setting_japanese_softwarekeyboard" />
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170205" />
+        </keyboard_group>
+        <extra_values>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170204" />
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02d0" res="@xml/APKTOOL_DUMMYVAL_0x7f1706ea" />
+        </extra_values>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17003e" />
+    </ime>
+</framework>

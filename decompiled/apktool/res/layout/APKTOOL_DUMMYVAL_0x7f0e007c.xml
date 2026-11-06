@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01e4" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b026a" android:paddingLeft="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.google.android.libraries.inputmethod.contentsuggestion.resource.ContentSuggestionBodyContainer android:id="@id/APKTOOL_DUMMYVAL_0x7f0b025d" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <ViewSwitcher android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0762" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0761" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06da" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700a0" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700a0" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+                    <ImageView android:layout_gravity="end|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06d9" android:tag=".content-suggestion-primary-color.item-ripple.no-background" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080293" android:padding="8.0dp" android:duplicateParentState="true" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f0700e7" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700e7" android:scaleType="centerInside" android:tint="@drawable/APKTOOL_DUMMYVAL_0x7f0803b1" android:importantForAccessibility="no" />
+                </FrameLayout>
+                <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0760" android:tag=".content-suggestion-primary-color" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" android:layout_centerInParent="true" android:alpha="0.4" android:importantForAccessibility="no" />
+                <LinearLayout android:gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0765" android:layout_width="300.0dp" android:layout_height="match_parent" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0766" android:tag=".content-suggestion-primary-color" android:layout_width="35.0dp" android:layout_height="35.0dp" android:scaleType="centerInside" android:importantForAccessibility="no" android:layout_marginEnd="16.0dp" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.google.android.libraries.inputmethod.widgets.text.WrapWidthTextView android:gravity="center" android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0767" android:maxLines="3" android:breakStrategy="balanced" style="?APKTOOL_DUMMYVAL_0x7f0400e5" />
+                        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0769" android:padding="8.0dp" android:visibility="gone" android:text="@string/APKTOOL_DUMMYVAL_0x7f140512" android:maxLines="1" style="?APKTOOL_DUMMYVAL_0x7f0400e4" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e067a" />
+        </ViewSwitcher>
+        <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0137" android:visibility="invisible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+    </com.google.android.libraries.inputmethod.contentsuggestion.resource.ContentSuggestionBodyContainer>
+</LinearLayout>

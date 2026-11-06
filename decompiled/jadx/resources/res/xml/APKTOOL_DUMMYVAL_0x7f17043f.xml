@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        ascii_capable="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="yao-MW"
+        string_id="ime_yao">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170697"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f17082d"
+            variant="yao"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141650"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c4"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170697"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c7"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170697"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706b9"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170697"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bb"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170697"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706ba"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170697"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c3"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170697"/>
+    </ime>
+</framework>

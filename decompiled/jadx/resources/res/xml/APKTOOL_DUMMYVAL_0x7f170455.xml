@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme"
+        display_app_completions="true"
+        indicator_label="繁拼"
+        inline_composing="false"
+        language="zh-TW"
+        language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f171247"
+        string_id="ime_zh_tw"
+        use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty">
+            <attrs language_specific_settings="@xml/APKTOOL_DUMMYVAL_0x7f171248"/>
+        </if>
+        <if enable_chinese_inline_composing_tw="true">
+            <attrs inline_composing="true"/>
+        </if>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c8"
+            lang_def="@xml/APKTOOL_DUMMYVAL_0x7f17069f"
+            layout_settings="@xml/APKTOOL_DUMMYVAL_0x7f171249"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1704c9"
+            pk_language_tag="en"
+            variant="qwerty"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1415c4"
+            variant_name_mandatory="true"/>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02e4"
+                value="true"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02de"
+                value="true"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f5"
+                value="。"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02da"
+                value="@string/APKTOOL_DUMMYVAL_0x7f14093e"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02f4"
+                value="hmm"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02d0"
+                res="@xml/APKTOOL_DUMMYVAL_0x7f1704c8"/>
+        </extra_values>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ece"/>
+    </ime>
+</framework>

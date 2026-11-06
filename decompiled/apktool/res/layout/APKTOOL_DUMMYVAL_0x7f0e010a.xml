@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.expression.expandableheader.ExpressionSearchBar android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02c5" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" style="@style/APKTOOL_DUMMYVAL_0x7f1502bb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02c7" android:tag=".expression-search-entry-icon" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0804cc" style="@style/APKTOOL_DUMMYVAL_0x7f1502bc" />
+    <TextView android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2" android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a4e" android:ellipsize="end" android:gravity="start|center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02c8" android:tag=".expression-search-entry-hint.expression-search-query" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f0806fc" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingStart="6.0dp" />
+    <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02c6" android:tag=".expression-search-entry-icon" android:visibility="gone" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293" style="@style/APKTOOL_DUMMYVAL_0x7f1502be" />
+</com.google.android.apps.inputmethod.libs.expression.expandableheader.ExpressionSearchBar>

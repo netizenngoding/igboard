@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170493"/>
+    <keyboard>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0402"
+                type="body"/>
+        </if>
+        <else_if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03e3"
+                    type="body"/>
+            </if>
+            <else>
+                <view
+                    layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03e4"
+                    type="body"/>
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/APKTOOL_DUMMYVAL_0x7f0e03e2"
+                type="body"/>
+        </else>
+        <view type="body">
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f1710eb"/>
+            <softkeys href="@xml/APKTOOL_DUMMYVAL_0x7f171211"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170e04"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c04"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170cae"/>
+        </view>
+    </keyboard>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170644"/>
+    <if enable_number_row="true">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17076d"/>
+    </if>
+</framework>

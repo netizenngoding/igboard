@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="bfy-IN" string_id="ime_bagheli_dynamic" use_ascii_password_keyboard="true">
+        <include dynamic_layout="bagheli" href="@xml/APKTOOL_DUMMYVAL_0x7f1706bc" main_def="@xml/APKTOOL_DUMMYVAL_0x7f17049e" variant="bagheli" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141426" />
+        <extra_values>
+            <item id="@id/APKTOOL_DUMMYVAL_0x7f0b02d7" value="। " />
+        </extra_values>
+    </ime>
+</framework>

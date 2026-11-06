@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView style="@style/APKTOOL_DUMMYVAL_0x7f1502b3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewSwitcher android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03b0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:gravity="start" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05f0" style="@style/APKTOOL_DUMMYVAL_0x7f15023b">
+                <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f15023c" />
+            </FrameLayout>
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.google.android.apps.inputmethod.libs.expression.header.StartElementRecyclerView android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05f2" android:layout_width="wrap_content" android:layout_height="match_parent" android:overScrollMode="never" app:APKTOOL_DUMMYVAL_0x7f04071d="com.google.android.apps.inputmethod.libs.expression.header.StartElementScrollBehavior" />
+                <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06e6" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="?APKTOOL_DUMMYVAL_0x7f0400a4" android:paddingStart="6.0dp" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0703bc" android:keyboardNavigationCluster="true" app:APKTOOL_DUMMYVAL_0x7f04071d="com.google.android.apps.inputmethod.libs.expression.header.MiddleElementScrollBehavior" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </LinearLayout>
+        <ViewAnimator android:id="@id/APKTOOL_DUMMYVAL_0x7f0b03af" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0795" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e01f2" />
+            <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0681" />
+        </ViewAnimator>
+    </ViewSwitcher>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

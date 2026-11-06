@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080314" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="8.0dp" android:paddingVertical="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <tag android:value="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b06a8" />
+    <com.google.android.libraries.inputmethod.widgets.CheckableImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b031d" android:focusable="true" android:layout_width="28.0dp" android:layout_height="24.0dp" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080310" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080601" android:tint="?APKTOOL_DUMMYVAL_0x7f0404c1" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f141198" android:layout_marginEnd="2.0dp" android:tooltipText="@string/APKTOOL_DUMMYVAL_0x7f141198" android:paddingHorizontal="2.0dp" />
+    <com.google.android.libraries.inputmethod.widgets.CheckableImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b031c" android:focusable="true" android:layout_width="28.0dp" android:layout_height="24.0dp" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080310" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080600" android:tint="?APKTOOL_DUMMYVAL_0x7f0404c1" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f141197" android:layout_marginStart="2.0dp" android:tooltipText="@string/APKTOOL_DUMMYVAL_0x7f141197" android:paddingHorizontal="2.0dp" />
+</LinearLayout>

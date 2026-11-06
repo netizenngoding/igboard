@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f150344"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0543" />
+    <LinearLayout android:weightSum="800.0" style="@style/APKTOOL_DUMMYVAL_0x7f150398">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/D01" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/D02" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/D03" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/D04" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/D05" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/D06" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/D07" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/D08" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+    </LinearLayout>
+    <LinearLayout android:weightSum="800.0" style="@style/APKTOOL_DUMMYVAL_0x7f150398">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/C01" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/C02" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/C03" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/C04" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/C05" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/C06" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/C07" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/C08" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+    </LinearLayout>
+    <LinearLayout android:weightSum="800.0" style="@style/APKTOOL_DUMMYVAL_0x7f150398">
+        <View android:layout_weight="80.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/B00" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/B01" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/B02" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/B03" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/B04" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/B05" android:layout_weight="100.0" style="@style/APKTOOL_DUMMYVAL_0x7f15072f" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="120.0" style="@style/APKTOOL_DUMMYVAL_0x7f150728" />
+    </LinearLayout>
+</LinearLayout>

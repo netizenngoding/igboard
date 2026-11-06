@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="dyu-XF"
+        string_id="ime_jula_nkoo_dynamic"
+        use_ascii_password_keyboard="true">
+        <include
+            dynamic_layout="jula"
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1704e7"
+            variant="jula"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414f8"/>
+    </ime>
+</framework>

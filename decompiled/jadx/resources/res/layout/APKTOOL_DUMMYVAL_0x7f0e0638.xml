@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/APKTOOL_DUMMYVAL_0x7f150cfc"
+    app:APKTOOL_DUMMYVAL_0x7f040473="@dimen/APKTOOL_DUMMYVAL_0x7f0709e8"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150233">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0639"/>
+</com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView>

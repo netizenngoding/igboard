@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ef1" />
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/APKTOOL_DUMMYVAL_0x7f0b2674" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0760" multi_touch="false" popup_timing="@string/APKTOOL_DUMMYVAL_0x7f140ae8" slide_sensitivity="NORMAL">
+            <action intention="COMMIT" keycode="$key_code$" popup_label="$label$" type="PRESS" />
+            <label location="@id/APKTOOL_DUMMYVAL_0x7f0b05f5" value="$label$" />
+        </softkey_template>
+        <softkey_list splitter=" " template_id="@id/APKTOOL_DUMMYVAL_0x7f0b2674">
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1329" key_code="GRAVE" label="`" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0f7e" key_code="1" label="1" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0fae" key_code="2" label="2" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0fa2" key_code="3" label="3" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0f66" key_code="4" label="4" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0f5a" key_code="5" label="5" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0f96" key_code="6" label="6" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0f8a" key_code="7" label="7" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0f4e" key_code="8" label="8" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0f72" key_code="9" label="9" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0fba" key_code="0" label="0" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b14f1" key_code="MINUS" label="-" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0fef" key_code="EQUALS" label="=" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b198f" key_code="Q" label="q" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b19ff" key_code="W" label="w" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1906" key_code="E" label="e" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1994" key_code="R" label="r" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b19ca" key_code="T" label="t" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1a07" key_code="Y" label="y" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b19e8" key_code="U" label="u" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1935" key_code="I" label="i" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1972" key_code="O" label="o" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1988" key_code="P" label="p" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1a34" key_code="LEFT_BRACKET" label="[" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2351" key_code="RIGHT_BRACKET" label="]" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2330" key_code="BACKSLASH" label="@string/APKTOOL_DUMMYVAL_0x7f1413e9" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b18d5" key_code="A" label="a" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b199e" key_code="S" label="s" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b18f8" key_code="D" label="d" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b191c" key_code="F" label="f" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1922" key_code="G" label="g" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b192f" key_code="H" label="h" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1946" key_code="J" label="j" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b194b" key_code="K" label="k" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1953" key_code="L" label="l" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b23a1" key_code="SEMICOLON" label=";" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0894" key_code="APOSTROPHE" label="'" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1a0e" key_code="Z" label="z" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1a04" key_code="X" label="x" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b18ec" key_code="C" label="c" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b19fc" key_code="V" label="v" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b18e5" key_code="B" label="b" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1968" key_code="N" label="n" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b1961" key_code="M" label="m" />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b0cf8" key_code="COMMA" label="," />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b129c" key_code="PERIOD" label="." />
+            <softkey id="@id/APKTOOL_DUMMYVAL_0x7f0b2414" key_code="SLASH" label="/" />
+        </softkey_list>
+    </softkeys>
+</framework>

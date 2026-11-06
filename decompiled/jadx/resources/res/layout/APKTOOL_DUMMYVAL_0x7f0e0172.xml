@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05c5"
+    android:tag=".keyboard-base-area.keyboard-outline"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f0802ec"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/APKTOOL_DUMMYVAL_0x7f0703b2"
+    android:clipToOutline="?attr/APKTOOL_DUMMYVAL_0x7f04007b">
+    <tag
+        android:value="true"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b29cc"/>
+    <com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView style="@style/APKTOOL_DUMMYVAL_0x7f15036c"/>
+    <com.google.android.libraries.inputmethod.widgets.FrameLayoutWithMaxHeight
+        android:layout_gravity="bottom"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05ef"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ViewStub
+            android:layout_gravity="bottom|left"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05ed"
+            android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0526"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1503a0"/>
+        <ViewStub
+            android:layout_gravity="bottom|right"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05ee"
+            android:layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0549"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1503a0"/>
+    </com.google.android.libraries.inputmethod.widgets.FrameLayoutWithMaxHeight>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.libraries.inputmethod.widgets.KeyboardHolder
+            android:orientation="vertical"
+            android:id="@+id/keyboard_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder style="@style/APKTOOL_DUMMYVAL_0x7f1502c6"/>
+            <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder style="@style/APKTOOL_DUMMYVAL_0x7f150381"/>
+            <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder style="@style/APKTOOL_DUMMYVAL_0x7f15036e"/>
+        </com.google.android.libraries.inputmethod.widgets.KeyboardHolder>
+        <FrameLayout
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05c9"
+            style="@style/APKTOOL_DUMMYVAL_0x7f15036f"/>
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f1503a4"/>
+    </com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView>
+</FrameLayout>

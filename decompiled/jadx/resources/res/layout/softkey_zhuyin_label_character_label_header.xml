@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+        android:paddingTop="?attr/APKTOOL_DUMMYVAL_0x7f040221"
+        app:APKTOOL_DUMMYVAL_0x7f0405ca="true"
+        app:APKTOOL_DUMMYVAL_0x7f0405cb="false"
+        app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1503d8"/>
+    <TextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05fc"
+        style="?attr/APKTOOL_DUMMYVAL_0x7f040224"/>
+</merge>

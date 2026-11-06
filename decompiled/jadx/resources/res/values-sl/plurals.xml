@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d uro</item>
+        <item quantity="two">%1$d uri</item>
+        <item quantity="few">%1$d ure</item>
+        <item quantity="other">%1$d ur</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d minuto</item>
+        <item quantity="two">%1$d minuti</item>
+        <item quantity="few">%1$d minute</item>
+        <item quantity="other">%1$d minut</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Kmalu boste dosegli omejitev %1$d minute</item>
+        <item quantity="two">Kmalu boste dosegli omejitev %1$d minut</item>
+        <item quantity="few">Kmalu boste dosegli omejitev %1$d minut</item>
+        <item quantity="other">Kmalu boste dosegli omejitev %1$d minut</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Zapiranje čez %1$d sekundo …</item>
+        <item quantity="two">Zapiranje čez %1$d sekundi …</item>
+        <item quantity="few">Zapiranje čez %1$d sekunde …</item>
+        <item quantity="other">Zapiranje čez %1$d sekund …</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">Dodeljena je %d tipka</item>
+        <item quantity="two">Dodeljeni sta %d tipki</item>
+        <item quantity="few">Dodeljene so %d tipke</item>
+        <item quantity="other">Dodeljenih je %d tipk</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">Jeziki %s so zdaj nameščeni.</item>
+        <item quantity="two">Jezika %s sta zdaj nameščena.</item>
+        <item quantity="few">Jeziki %s so zdaj nameščeni.</item>
+        <item quantity="other">Jeziki %s so zdaj nameščeni.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d uro</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+        <item quantity="other">%d ur</item>
+    </plurals>
+</resources>

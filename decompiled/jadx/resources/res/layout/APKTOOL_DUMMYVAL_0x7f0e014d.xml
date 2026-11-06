@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0386"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070926"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04072e="@+id/APKTOOL_DUMMYVAL_0x7f0b0387"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef">
+        <ImageView
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0385"
+            android:tag=".clipboard-suggestion-paste-icon"
+            android:importantForAccessibility="no"
+            style="@style/APKTOOL_DUMMYVAL_0x7f15077c"/>
+        <ProgressBar
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03f2"
+            android:visibility="gone"
+            android:importantForAccessibility="no"
+            style="@style/APKTOOL_DUMMYVAL_0x7f15077c"/>
+    </FrameLayout>
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0387"
+        android:includeFontPadding="false"
+        android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070927"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040740="@+id/APKTOOL_DUMMYVAL_0x7f0b0386"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+        style="@style/APKTOOL_DUMMYVAL_0x7f15077f"/>
+    <FrameLayout
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2936"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:APKTOOL_DUMMYVAL_0x7f040727="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f04072d="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040741="APKTOOL_DUMMYVAL_0x7f0b06ef"
+        app:APKTOOL_DUMMYVAL_0x7f040745="APKTOOL_DUMMYVAL_0x7f0b06ef"/>
+</merge>

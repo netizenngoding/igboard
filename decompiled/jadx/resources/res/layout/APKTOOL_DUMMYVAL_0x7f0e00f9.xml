@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:tag=".expression-search-box"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08032b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ad"
+        android:tag=".expression-search-entry-icon"
+        android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070902"
+        android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070902"
+        android:scaleType="centerInside"/>
+</FrameLayout>

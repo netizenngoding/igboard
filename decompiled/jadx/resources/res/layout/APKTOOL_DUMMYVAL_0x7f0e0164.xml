@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/APKTOOL_DUMMYVAL_0x7f150775">
+    <FrameLayout
+        android:duplicateParentState="true"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150777">
+        <ImageView
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b2917"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150776"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

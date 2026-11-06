@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2" android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0411" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="inherit"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b041a" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08023f" android:layout_marginTop="0.0dp" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080609" android:layoutDirection="inherit" style="@style/APKTOOL_DUMMYVAL_0x7f1504e8">
+        <ImageView android:tag=".icon.clipboard-keys" android:src="?APKTOOL_DUMMYVAL_0x7f040188" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f1504e6" />
+        <com.google.android.libraries.inputmethod.widgets.text.MarqueeTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f140507" style="@style/APKTOOL_DUMMYVAL_0x7f1504e7" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b041b" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080240" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f08060a" android:layoutDirection="inherit" style="@style/APKTOOL_DUMMYVAL_0x7f1504e8">
+        <ImageView android:tag=".icon.clipboard-keys" android:src="?APKTOOL_DUMMYVAL_0x7f040196" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f1504e6" />
+        <com.google.android.libraries.inputmethod.widgets.text.MarqueeTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f140525" style="@style/APKTOOL_DUMMYVAL_0x7f1504e7" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b041f" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080240" android:visibility="gone" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f08060a" android:layoutDirection="inherit" style="@style/APKTOOL_DUMMYVAL_0x7f1504e8">
+        <ImageView android:tag=".icon.clipboard-keys-pinned" android:src="?APKTOOL_DUMMYVAL_0x7f040197" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f1504e6" />
+        <com.google.android.libraries.inputmethod.widgets.text.MarqueeTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f140526" style="@style/APKTOOL_DUMMYVAL_0x7f1504e7" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0414" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080240" android:visibility="gone" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f08060a" android:layoutDirection="inherit" style="@style/APKTOOL_DUMMYVAL_0x7f1504e8">
+        <ImageView android:tag=".icon.clipboard-keys" android:src="?APKTOOL_DUMMYVAL_0x7f04018c" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f1504e6" />
+        <com.google.android.libraries.inputmethod.widgets.text.MarqueeTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f140523" style="@style/APKTOOL_DUMMYVAL_0x7f1504e7" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0413" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08023e" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080608" android:layoutDirection="inherit" style="@style/APKTOOL_DUMMYVAL_0x7f1504e8">
+        <ImageView android:tag=".icon.clipboard-keys" android:src="?APKTOOL_DUMMYVAL_0x7f040189" android:importantForAccessibility="no" style="@style/APKTOOL_DUMMYVAL_0x7f1504e6" />
+        <com.google.android.libraries.inputmethod.widgets.text.MarqueeTextView android:text="@string/APKTOOL_DUMMYVAL_0x7f1404f9" style="@style/APKTOOL_DUMMYVAL_0x7f1504e7" />
+    </LinearLayout>
+</LinearLayout>

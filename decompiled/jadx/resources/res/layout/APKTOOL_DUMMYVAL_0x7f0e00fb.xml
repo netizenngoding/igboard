@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0779"
+    android:tag=".bg.expression-keyboard-background"
+    android:background="?attr/APKTOOL_DUMMYVAL_0x7f040117"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0776"
+        android:tag=".expression-search-box.expression-search-entry-icon"
+        android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08027a"
+        android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0803fa"
+        android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1403a3"
+        android:layout_marginEnd="10dp"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1502bd"/>
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609f8"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:layout_gravity="center_vertical"
+        android:tag=".label"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/APKTOOL_DUMMYVAL_0x7f140b25"
+        android:maxLines="1"
+        android:layout_weight="1"
+        app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"/>
+</LinearLayout>

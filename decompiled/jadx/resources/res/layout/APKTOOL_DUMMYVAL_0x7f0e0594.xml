@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    style="@style/APKTOOL_DUMMYVAL_0x7f15033c">
+    <com.google.android.libraries.inputmethod.keyboard.widget.FixedSizeSoftKeyViewsPage
+        android:orientation="vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b14e5"
+        android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f0400c2"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="0dp"
+        android:layout_weight="181"
+        app:APKTOOL_DUMMYVAL_0x7f0404fd="3"
+        app:APKTOOL_DUMMYVAL_0x7f04096a="3"
+        app:APKTOOL_DUMMYVAL_0x7f0409c7="@layout/APKTOOL_DUMMYVAL_0x7f0e05a8"/>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="424">
+        <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0591"/>
+    </FrameLayout>
+    <com.google.android.libraries.inputmethod.keyboard.widget.FixedSizeSoftKeyViewsPage
+        android:orientation="vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b14e6"
+        android:layout_width="?attr/APKTOOL_DUMMYVAL_0x7f0400c3"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="0dp"
+        android:layout_weight="116"
+        app:APKTOOL_DUMMYVAL_0x7f0404fd="2"
+        app:APKTOOL_DUMMYVAL_0x7f04096a="3"
+        app:APKTOOL_DUMMYVAL_0x7f0409c7="@layout/APKTOOL_DUMMYVAL_0x7f0e05a8"/>
+    <LinearLayout
+        android:weightSum="300"
+        android:layout_weight="65"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150452">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/key_pos_del"
+            android:layout_weight="100"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506c7"/>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/key_pos_ime_action"
+            android:layout_weight="100"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506d9"/>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@+id/key_pos_shift_right"
+            android:layout_weight="100"
+            style="@style/APKTOOL_DUMMYVAL_0x7f1506c7"/>
+    </LinearLayout>
+</LinearLayout>

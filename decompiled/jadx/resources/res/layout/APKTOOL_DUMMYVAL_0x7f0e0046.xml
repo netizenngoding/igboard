@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0607"
+        android:layout_width="22dp"
+        android:layout_height="15dp"
+        app:APKTOOL_DUMMYVAL_0x7f04079c="false"
+        app:APKTOOL_DUMMYVAL_0x7f0407a7="false"/>
+    <TextView
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0608"
+        android:tag=".language-indicator"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+    <TextView
+        android:textSize="12sp"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0609"
+        android:tag=".language-indicator-text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:APKTOOL_DUMMYVAL_0x7f040665="?attr/APKTOOL_DUMMYVAL_0x7f040160"/>
+</FrameLayout>

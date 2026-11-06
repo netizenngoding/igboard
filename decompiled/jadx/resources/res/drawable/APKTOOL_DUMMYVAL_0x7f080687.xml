@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/APKTOOL_DUMMYVAL_0x7f0707f8"
+    android:width="@dimen/APKTOOL_DUMMYVAL_0x7f0707f9"
+    android:viewportWidth="@integer/APKTOOL_DUMMYVAL_0x7f0c00c2"
+    android:viewportHeight="@integer/APKTOOL_DUMMYVAL_0x7f0c00c1">
+    <path
+        android:name="outline"
+        android:pathData="@string/APKTOOL_DUMMYVAL_0x7f140806"
+        android:strokeColor="?attr/APKTOOL_DUMMYVAL_0x7f0404ca"
+        android:strokeWidth="2"/>
+</vector>

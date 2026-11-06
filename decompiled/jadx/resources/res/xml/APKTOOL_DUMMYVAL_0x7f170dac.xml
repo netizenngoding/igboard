@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="SHIFT">
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e2a"
+            view_id="@+id/D07"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e2b"
+            view_id="@+id/D11"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e2c"
+            view_id="@+id/D12"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e2f"
+            view_id="@+id/C10"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e29"
+            view_id="@+id/B01"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e2e"
+            view_id="@+id/B03"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e2d"
+            view_id="@+id/B05"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e30"
+            view_id="@+id/B08"/>
+        <merge
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b1e31"
+            view_id="@+id/B09"/>
+    </merge_key_mapping>
+</framework>

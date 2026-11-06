@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework variant_name_mandatory="true">
+    <keyboard_group
+        pk_language_tag="en"
+        supports_split_mode="true"
+        variant="qwerty"
+        variant_label="{variant_label}"
+        variant_name_mandatory="{variant_name_mandatory}">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f170002"
+            support_a11y_keyboard="true"/>
+        <keyboard
+            def="@xml/APKTOOL_DUMMYVAL_0x7f170559"
+            transliterate="true"
+            type="prime">
+            <merge def="@xml/APKTOOL_DUMMYVAL_0x7f1707f9"/>
+        </keyboard>
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17090f"/>
+    </keyboard_group>
+</framework>

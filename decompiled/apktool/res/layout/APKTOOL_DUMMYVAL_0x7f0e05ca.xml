@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0664" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080268" style="@style/APKTOOL_DUMMYVAL_0x7f15049a"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0666" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0805f3" android:adjustViewBounds="true" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+    <TextView android:layout_gravity="start" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0665" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f07071d" android:text="@string/APKTOOL_DUMMYVAL_0x7f1407b7" style="@style/APKTOOL_DUMMYVAL_0x7f150498" />
+    <ImageView android:layout_marginTop="16.0dp" style="@style/APKTOOL_DUMMYVAL_0x7f15049c" />
+    <android.support.v7.widget.RecyclerView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0662" style="@style/APKTOOL_DUMMYVAL_0x7f15049b" />
+    <ImageView style="@style/APKTOOL_DUMMYVAL_0x7f15049c" />
+    <com.google.android.libraries.inputmethod.widgets.text.LinkableTextView android:layout_gravity="start" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0663" android:layout_marginTop="14.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f1402c9" style="@style/APKTOOL_DUMMYVAL_0x7f150498" />
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0661" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_marginTop="14.0dp" style="@style/APKTOOL_DUMMYVAL_0x7f15049c" />
+        <com.google.android.libraries.inputmethod.widgets.text.LinkableTextView android:layout_gravity="start" android:layout_marginTop="14.0dp" android:text="@string/APKTOOL_DUMMYVAL_0x7f14052b" style="@style/APKTOOL_DUMMYVAL_0x7f150498" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dp">
+        <Button android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0667" android:text="@string/APKTOOL_DUMMYVAL_0x7f1404fa" style="@style/APKTOOL_DUMMYVAL_0x7f150497" />
+    </LinearLayout>
+</LinearLayout>

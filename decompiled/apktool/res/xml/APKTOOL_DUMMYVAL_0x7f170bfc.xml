@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if>
+        <any_of>
+            <cond language="ab-GE|ady-RU|av-RU|ba|be-BY|bg|bs-Cyrl|bxm-MN|bxr-RU|ce-RU|crh-Cyrl|cu-RU|dar-RU|dng-KG|gag-Cyrl|inh-RU|kbd-RU|koi-RU|krc-RU|kum-RU|kv-RU|ky|lbe-RU|lez-AZ|lez-RU|mdf-RU|mhr-RU|mk|mrj-RU|myv-RU|ru|rue-UA|sah-RU|sr-Cyrl-RS|srp-Cyrl-ME|tab-RU|tg|tyv-RU|udm-RU|uk|uum-GE|uz-Cyrl|xdq-RU|yrk-RU" />
+            <cond language="kk" variant="kazakh|kazakh_pc|handwriting" />
+            <cond language="mn-MN" variant="mongolian|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c2" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c2" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="adx-CN|dz|khg-CN|lep-Tibt" />
+            <cond language="bo-CN" variant="tibetan|tibetan_alphabetical|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1291" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1291" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="kfr-IN|vas-Gujr" />
+            <cond language="bhb-Gujr" variant="bhili" />
+            <cond language="gu-IN" variant="gujarati|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d2" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d2" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="hif-Deva|kxv-Deva-IN|new-NP|xsr-NP" />
+            <cond language="ahr-IN" variant="ahirani" />
+            <cond language="anp-IN" variant="angika" />
+            <cond language="awa-IN" variant="awadhi_dynamic|handwriting" />
+            <cond language="bfy-IN" variant="bagheli|handwriting" />
+            <cond language="bgq-IN" variant="bagri|handwriting" />
+            <cond language="bhb-Deva" variant="bhili|handwriting" />
+            <cond language="bho-IN" variant="bhojpuri|handwriting" />
+            <cond language="brx-Deva" variant="bodo_devanagari_dynamic|handwriting" />
+            <cond language="bns-IN" variant="bundeli_dynamic" />
+            <cond language="hne-IN" variant="chhattisgarhi_dynamic|handwriting" />
+            <cond language="dhd-IN" variant="dhundhari_dynamic|handwriting" />
+            <cond language="doi-Deva" variant="dogri|handwriting" />
+            <cond language="dty-NP" variant="dotyali" />
+            <cond language="gbm-IN" variant="garhwali|handwriting" />
+            <cond language="gdx-IN" variant="godwari|handwriting" />
+            <cond language="gno-IN" variant="gondi" />
+            <cond language="gju-Deva" variant="gujari|handwriting" />
+            <cond language="hlb-IN" variant="halbi" />
+            <cond language="hoj-IN" variant="harauti|handwriting" />
+            <cond language="bgc-IN" variant="haryanvi|handwriting" />
+            <cond language="hi-IN" variant="hindi|hindi_compact|handwriting" />
+            <cond language="xnr-IN" variant="kangri_dynamic|handwriting" />
+            <cond language="bjj-IN" variant="kannauji|handwriting" />
+            <cond language="ks-Deva" variant="kashmiri_devanagari|handwriting" />
+            <cond language="knn-IN|kok-Deva" variant="konkani_devanagari|handwriting" />
+            <cond language="kfq-IN" variant="korku" />
+            <cond language="kfy-IN" variant="kumaoni_dynamic|handwriting" />
+            <cond language="kru-IN" variant="kurukh|handwriting" />
+            <cond language="lmn-Deva" variant="lambadi_devanagari|handwriting" />
+            <cond language="lif-Deva" variant="limbu" />
+            <cond language="mag-IN|mag-NP" variant="magahi|handwriting" />
+            <cond language="bfz-IN" variant="mahasu_pahari|handwriting" />
+            <cond language="mai-IN" variant="maithili|handwriting" />
+            <cond language="mup-IN" variant="malvi|handwriting" />
+            <cond language="mjl-IN" variant="mandeali_dynamic" />
+            <cond language="mr-IN" variant="marathi_india|handwriting" />
+            <cond language="rwr-IN" variant="marwari|handwriting" />
+            <cond language="wry-IN" variant="merwari|handwriting" />
+            <cond language="mtr-IN" variant="mewari|handwriting" />
+            <cond language="unr-IN" variant="mundari|handwriting" />
+            <cond language="ne" variant="nepali_devanagari_dynamic|nepali_nepal_romanized|nepali_nepal_traditional|nepali_nepal_dynamic|handwriting" />
+            <cond language="noe-IN" variant="nimadi|handwriting" />
+            <cond language="rkt-IN" variant="rangpuri|handwriting" />
+            <cond language="sck-IN" variant="sadri_dynamic|handwriting" />
+            <cond language="sa-IN" variant="sanskrit|handwriting" />
+            <cond language="sat-Deva" variant="santali_devanagari|handwriting" />
+            <cond language="swv-IN" variant="shekhawati|handwriting" />
+            <cond language="sd-Deva" variant="sindhi_devanagari_dynamic|handwriting" />
+            <cond language="sgj-IN" variant="surgujia|handwriting" />
+            <cond language="sjp-IN" variant="surjapuri" />
+            <cond language="taj-NP" variant="tamang" />
+            <cond language="vah" variant="varhadi" />
+            <cond language="vas-IN" variant="vasavi" />
+            <cond language="wbr-IN" variant="wagdi|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c7" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c7" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="aii|cld-IQ|syc-IQ">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1281" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1281" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="am|bcq-Ethi|gez|hdy-ET|ktb-Ethi|sgw-ET|stv-ET|ti">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10cc" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10cc" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="gdq-YE|mde-TD|mfa-TH|ms-Arab-BN|ms-Arab-MY|su-Arab" />
+            <cond language="ar" variant="arabic|arabic_two|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1068" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1068" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="rkt-Beng|syl-Beng" />
+            <cond language="as-IN" variant="assamese|handwriting" />
+            <cond language="bn" variant="bengali_bangladesh|bengali_india|handwriting" />
+            <cond language="bpy-IN" variant="bishnupriya_manipuri" />
+            <cond language="brx-Beng" variant="bodo_bengali_dynamic" />
+            <cond language="ctg-BD" variant="chittagonian" />
+            <cond language="grt-Beng" variant="garo" />
+            <cond language="trp-IN" variant="kok_borok" />
+            <cond language="mni-Beng" variant="manipuri_bengali" />
+            <cond language="unr-Beng" variant="mundari_bengali" />
+            <cond language="sat-Beng" variant="santali_bengali" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1071" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1071" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="az-IR|bqi-IR|fa|fay-IR|gjk-PK|glk-IR|gwc-PK|hac-IR|haz-AF|kmz-Arab|ku-IQ|ku-IR|kvx-PK|lki-IR|lrc-IR|lrl-IR|luz-IR|mki-PK|mvy-PK|mzn-IR|plk-PK|prs-AF|psh-AF|psi-AF|qxq-IR|sdh-IR|tks-IR|tly-IR|trw|wne-PK" />
+            <cond language="bgq-PK" variant="bagri_arabic" />
+            <cond language="bal-PK|bcc-PK|bgn-PK|bgp-Arab" variant="balochi|handwriting" />
+            <cond language="bft-PK" variant="balti|handwriting" />
+            <cond language="brh-Arab" variant="brahui|handwriting" />
+            <cond language="dcc-IN" variant="dakhini|handwriting" />
+            <cond language="doi-Arab" variant="dogri_arabic|handwriting" />
+            <cond language="gju-PK" variant="gujari|handwriting" />
+            <cond language="hnd-PK|hno-PK" variant="hindko|handwriting" />
+            <cond language="ks-Arab" variant="kashmiri_arabic|handwriting" />
+            <cond language="khw" variant="khowar|handwriting" />
+            <cond language="mve-PK" variant="marwari_arabic" />
+            <cond language="phr-PK" variant="pahari_pothwari|handwriting" />
+            <cond language="ps" variant="pashto|handwriting" />
+            <cond language="pa-PK" variant="punjabi_pakistan|handwriting" />
+            <cond language="skr" variant="saraiki|handwriting" />
+            <cond language="scl-PK" variant="shina|handwriting" />
+            <cond language="sd-Arab" variant="sindhi_arabic|handwriting" />
+            <cond language="ur" variant="urdu_in|urdu_pakistan|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ce" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ce" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="az-RU|kaa-Cyrl|sty-RU|tly-RU|tt|xal-RU">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1289" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1289" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ban-Bali|sas-Bali">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b106c" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b106c" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="bax-CM">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b106e" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b106e" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ber-Tfng">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1287" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1287" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="bku-PH">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b6" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b6" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="blk-MM|kjp-MM|ksw-MM|mnw-MM|my|rki-MM">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f5" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f5" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="blt-VN">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1286" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1286" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="bm-Nkoo|dyu-Nkoo">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10fb" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10fb" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="btm-Batk|bts-Batk">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1070" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1070" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="mak-Bugi" />
+            <cond language="bug-Bugi" variant="buginese|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b5" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b5" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ccp-BD" variant="chakma|chakma_compact">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b9" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b9" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ch-GU">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10bc" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10bc" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="chr-US|chr-x-dual">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10bd" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10bd" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="cja-KH">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1297" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1297" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="cjm-VN">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10cb" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10cb" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="cop-EG">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c1" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c1" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="cr-Cans-CA|oj-Cans">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b7" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b7" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="cv-RU">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10bf" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10bf" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="dv-MV">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c8" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10c8" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="el-CY|pnt-GR" />
+            <cond language="el-GR" variant="greek|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d1" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d1" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ff-Adlm">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1066" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1066" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="fil-Tglg">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1283" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1283" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="gno-Telu|kxv-Telu-IN" />
+            <cond language="lmn-Telu" variant="lambadi_telugu" />
+            <cond language="te-IN" variant="telugu_india|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b128a" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b128a" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="kxu-IN|kxv-Orya-IN|unr-Orya" />
+            <cond language="hlb-Orya" variant="halbi" />
+            <cond language="or-IN" variant="odia|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10fd" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10fd" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="hnn-PH">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d6" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d6" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="hy-AM" variant="armenian_armenia_phonetic|handwriting">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b106a" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b106a" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ii-CN" variant="yi_dynamic">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1298" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1298" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="iu-Cans-CA">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b8" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10b8" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="ydd-IL" />
+            <cond language="iw-IL" variant="hebrew|handwriting" />
+            <cond language="ji" variant="yiddish" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d7" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d7" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ja-JP">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10df" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10df" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="jv-Java">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e0" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e0" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ka-GE|xmf-GE">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10cf" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10cf" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ka-Geok">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d0" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d0" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="khb-CN">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f9" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f9" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="kjg-LA" />
+            <cond language="lo-LA" variant="lao|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ea" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ea" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="km-KH" variant="khmer_cambodia|khmer_cambodia_native|handwriting">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e8" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e8" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="kn-IN" variant="kannada_india|handwriting" />
+            <cond language="kok-Knda" variant="konkani_kannada" />
+            <cond language="lmn-Knda" variant="lambadi_kannada" />
+            <cond language="tcy-IN" variant="tulu_india" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e3" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e3" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ko">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e9" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e9" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if>
+        <any_of>
+            <cond language="kxm-TH|nod-Thai|sou-TH|tts-TH" />
+            <cond language="th-TH" variant="thai|handwriting" />
+        </any_of>
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1290" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1290" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="kyu-MM">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e5" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10e5" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="lep-IN">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10eb" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10eb" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="lif-Limb">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ed" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ed" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="lis-Lisu">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ef" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ef" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ml-IN" variant="malayalam_india|handwriting">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f0" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f0" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="mni-Mtei" variant="manipuri_meitei">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f1" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f1" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="mul-x-ipa">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10dc" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10dc" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="os-RU">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1102" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1102" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="osa-US">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1101" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1101" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="pa-Guru" variant="punjabi_gurmukhi|handwriting">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d4" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10d4" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="rej-Rjng">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1134" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1134" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="sat-Olck" variant="santali_ol_chiki">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ff" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10ff" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="saz-IN">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1135" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1135" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="shn-MM">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f7" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10f7" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="si-LK" variant="sinhala|handwriting">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1137" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1137" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="su-Sund">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1138" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1138" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="syl-Sylo" variant="sylheti_syloti_nagri_dynamic">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1280" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1280" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ta" variant="tamil|tamil_phonetic|handwriting">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1288" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1288" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="tbw-PH">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1284" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1284" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="tdd-CN">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1285" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1285" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="tk">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1294" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1294" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="ug">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1295" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1295" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="vai-LR">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1296" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b1296" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+    <if language="zh">
+        <merge_key_mapping>
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10be" view_id="@id/key_pos_back_to_prime" />
+            <merge key_id="@id/APKTOOL_DUMMYVAL_0x7f0b10be" view_id="@id/key_pos_back_to_prime2" />
+        </merge_key_mapping>
+    </if>
+</framework>

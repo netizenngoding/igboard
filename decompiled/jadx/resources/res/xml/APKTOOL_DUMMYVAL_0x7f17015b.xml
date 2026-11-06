@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        ascii_capable="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="en-US"
+        string_id="ime_english_united_states_morse">
+        <keyboard_group
+            variant="morse_2"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f141581">
+            <layout_specific_settings resource_id="@xml/APKTOOL_DUMMYVAL_0x7f170041"/>
+            <keyboard
+                def="@xml/APKTOOL_DUMMYVAL_0x7f170852"
+                type="prime"/>
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02fe"
+                value="false"/>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02ff"
+                value="false"/>
+        </extra_values>
+    </ime>
+</framework>

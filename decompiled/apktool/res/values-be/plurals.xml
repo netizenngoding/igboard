@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d гадзіна</item>
+        <item quantity="few">%1$d гадзіны</item>
+        <item quantity="many">%1$d гадзін</item>
+        <item quantity="other">%1$d гадзіны</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d хвіліна</item>
+        <item quantity="few">%1$d хвіліны</item>
+        <item quantity="many">%1$d хвілін</item>
+        <item quantity="other">%1$d хвіліны</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">Вы набліжаецеся да ліміту ў %1$d хв</item>
+        <item quantity="few">Вы набліжаецеся да ліміту ў %1$d хв</item>
+        <item quantity="many">Вы набліжаецеся да ліміту ў %1$d хв</item>
+        <item quantity="other">Вы набліжаецеся да ліміту ў %1$d хв</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">Сеанс будзе закрыты праз %1$d секунду…</item>
+        <item quantity="few">Сеанс будзе закрыты праз %1$d секунды…</item>
+        <item quantity="many">Сеанс будзе закрыты праз %1$d секунд…</item>
+        <item quantity="other">Сеанс будзе закрыты праз %1$d секунды…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">%d клавіша прызначана</item>
+        <item quantity="few">%d клавішы прызначана</item>
+        <item quantity="many">%d клавіш прызначана</item>
+        <item quantity="other">%d клавішы прызначана</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">%s мова ўсталявана.</item>
+        <item quantity="few">%s мовы ўсталяваны.</item>
+        <item quantity="many">%s моў усталяваны.</item>
+        <item quantity="other">%s мовы ўсталяваны.</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d гадзіна</item>
+        <item quantity="few">%d гадзіны</item>
+        <item quantity="many">%d гадзін</item>
+        <item quantity="other">%d гадзіны</item>
+    </plurals>
+</resources>

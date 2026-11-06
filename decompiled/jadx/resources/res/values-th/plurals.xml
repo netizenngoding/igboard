@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120000">
+        <item quantity="one">%1$d ชั่วโมง</item>
+        <item quantity="other">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120001">
+        <item quantity="one">%1$d นาที</item>
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120002">
+        <item quantity="one">คุณใกล้ถึงขีดจำกัด %1$d นาทีแล้ว</item>
+        <item quantity="other">คุณใกล้ถึงขีดจำกัด %1$d นาทีแล้ว</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120003">
+        <item quantity="one">กำลังจะปิดในอีก %1$d วินาที…</item>
+        <item quantity="other">กำลังจะปิดในอีก %1$d วินาที…</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120004">
+        <item quantity="one">กำหนดคีย์แล้ว %d รายการ</item>
+        <item quantity="other">กำหนดคีย์แล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120006">
+        <item quantity="one">ติดตั้ง %s แล้ว</item>
+        <item quantity="other">ติดตั้ง %s แล้ว</item>
+    </plurals>
+    <plurals name="APKTOOL_DUMMYVAL_0x7f120007">
+        <item quantity="one">%d ชั่วโมง</item>
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+</resources>

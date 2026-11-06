@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:duplicateParentState="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView
+        android:layout_gravity="top|center_horizontal"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b05f5"
+        app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798"
+        style="@style/APKTOOL_DUMMYVAL_0x7f1503d9"/>
+    <ImageView
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c4"
+        android:layout_marginTop="5dp"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150312"/>
+</FrameLayout>

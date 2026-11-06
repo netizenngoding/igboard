@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag=".expression-search-box" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08032b" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02cb" android:tag=".expression-search-entry-icon" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080293" android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f07086d" android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f07086d" android:scaleType="centerInside" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07086c" />
+    <com.google.android.libraries.inputmethod.widgets.text.TransformationTextView android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2" android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a81" android:ellipsize="end" android:gravity="start|center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b02b2" android:tag=".expression-search-entry-hint.expression-search-query" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f08070d" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingStart="6.0dp" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07086f" />
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e00f7" />
+</LinearLayout>

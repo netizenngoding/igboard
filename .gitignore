@@ -1,0 +1,11 @@
+# toolchain downloads (scripts/install_tools.sh)
+.tools/
+# local scratch output from scripts/decompile_apk.sh
+decompiled/**/tmp/
+*.log.tmp
+__pycache__/
+*.pyc
+# mod build workspace
+mod/work/
+mod/classes/
+mod/dex/

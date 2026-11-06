@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f150005">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0024" />
+</FrameLayout>

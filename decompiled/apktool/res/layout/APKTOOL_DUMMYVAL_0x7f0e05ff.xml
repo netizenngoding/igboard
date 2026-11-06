@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f15033b"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08029b" android:clipChildren="false" android:layout_margin="@dimen/APKTOOL_DUMMYVAL_0x7f070347" app:APKTOOL_DUMMYVAL_0x7f040473="18.0dp" style="@style/APKTOOL_DUMMYVAL_0x7f150338">
+        <ImageView android:tint="@color/APKTOOL_DUMMYVAL_0x7f060954" android:contentDescription="@null" android:tintMode="multiply" android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f07033e" android:layout_marginVertical="@dimen/APKTOOL_DUMMYVAL_0x7f07033f" style="@style/APKTOOL_DUMMYVAL_0x7f150339" />
+        <com.google.android.libraries.inputmethod.accessory.indicator.BitmapTextView android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060954" android:contentDescription="@null" android:layout_marginHorizontal="@dimen/APKTOOL_DUMMYVAL_0x7f0703e1" android:layout_marginVertical="@dimen/APKTOOL_DUMMYVAL_0x7f0703e2" app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798" style="@style/APKTOOL_DUMMYVAL_0x7f15033a" />
+    </com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout>
+</FrameLayout>

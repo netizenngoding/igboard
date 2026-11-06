@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag=".keytop-popup-dup"
+    android:background="@drawable/APKTOOL_DUMMYVAL_0x7f08026c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

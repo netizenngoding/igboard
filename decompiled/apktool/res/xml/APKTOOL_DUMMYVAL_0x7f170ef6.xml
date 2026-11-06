@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f1404f9" id="@id/APKTOOL_DUMMYVAL_0x7f0b0ba8" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06fd" multi_touch="false">
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@drawable/APKTOOL_DUMMYVAL_0x7f08056e" />
+        </softkey>
+        <softkey alpha="@attr/APKTOOL_DUMMYVAL_0x7f040175" content_description="@string/APKTOOL_DUMMYVAL_0x7f1404f9" disable_lift_to_tap="true" id="@id/APKTOOL_DUMMYVAL_0x7f0b0ba9" layout="@layout/APKTOOL_DUMMYVAL_0x7f0e06fd" multi_touch="false" popup_timing="ON_GESTURE" slide_sensitivity="LESS">
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <action keycode="CLEAR_ALL" popup_label="@string/APKTOOL_DUMMYVAL_0x7f140645" popup_layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0647" type="SLIDE_LEFT" />
+            <icon location="@id/APKTOOL_DUMMYVAL_0x7f0b03c2" value="@drawable/APKTOOL_DUMMYVAL_0x7f08056e" />
+        </softkey>
+    </softkeys>
+</framework>

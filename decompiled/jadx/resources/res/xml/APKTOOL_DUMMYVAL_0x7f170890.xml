@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinPasswordKeyboard"
+        popup="@attr/APKTOOL_DUMMYVAL_0x7f040279"/>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f17088f"/>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f17063e"/>
+</framework>

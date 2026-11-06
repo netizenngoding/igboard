@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01b3" android:text="@string/APKTOOL_DUMMYVAL_0x7f1404f4" style="@style/APKTOOL_DUMMYVAL_0x7f15021a" />
+    <com.google.android.material.button.MaterialButton android:id="@id/APKTOOL_DUMMYVAL_0x7f0b01b4" android:text="@string/APKTOOL_DUMMYVAL_0x7f1404f6" style="@style/APKTOOL_DUMMYVAL_0x7f15021a">
+        <tag android:value="true" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0214" />
+    </com.google.android.material.button.MaterialButton>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@+id/APKTOOL_DUMMYVAL_0x7f0b06ed">
+        <keys softkeys_id="@+id/APKTOOL_DUMMYVAL_0x7f0b28ea"/>
+    </keygroup_mapping>
+</framework>

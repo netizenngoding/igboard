@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework
+    dynamic_layout=""
+    force_show_number_row="false"
+    lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170040"
+    main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707eb"
+    non_prime_def="@xml/APKTOOL_DUMMYVAL_0x7f17090f"
+    pk_language_tag=""
+    pk_layout_type=""
+    support_a11y_keyboard="false"
+    supports_one_handed_mode="true"
+    supports_split_mode="true"
+    variant=""
+    variant_label=""
+    variant_name_mandatory="false">
+    <keyboard_group
+        dynamic_layout="{dynamic_layout}"
+        pk_language_tag="{pk_language_tag}"
+        pk_layout_type="{pk_layout_type}"
+        supports_one_handed_mode="{supports_one_handed_mode}"
+        supports_split_mode="{supports_split_mode}"
+        variant="{variant}"
+        variant_label="{variant_label}"
+        variant_name_mandatory="{variant_name_mandatory}">
+        <if
+            enable_pk_simulator="true"
+            enable_pk_simulator_setting="true"
+            true="{support_a11y_keyboard}">
+            <include
+                href="@xml/APKTOOL_DUMMYVAL_0x7f170002"
+                support_a11y_keyboard="{support_a11y_keyboard}"/>
+            <keyboard
+                def="{lang_def}"
+                type="prime">
+                <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170893"/>
+            </keyboard>
+        </if>
+        <else>
+            <keyboard
+                def="{lang_def}"
+                type="prime">
+                <merge def="{main_def}"/>
+            </keyboard>
+            <include href="{non_prime_def}"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ec4"/>
+        </else>
+    </keyboard_group>
+</framework>

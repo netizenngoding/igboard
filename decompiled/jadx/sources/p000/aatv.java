@@ -1,0 +1,230 @@
+package p000;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+public final class aatv implements yjr {
+
+    /* JADX INFO: renamed from: a */
+    public static final umj f2095a = new umj("speech.s3.S3StubbyClientConnectorService.");
+
+    /* JADX INFO: renamed from: b */
+    public static final umj f2096b = new umj("speech.s3.S3StubbyClientConnectorService/");
+
+    /* JADX INFO: renamed from: c */
+    public static final yjq f2097c = new aatu(1, null);
+
+    /* JADX INFO: renamed from: d */
+    public static final yjq f2098d = new aatu(0);
+
+    /* JADX INFO: renamed from: e */
+    public static final aatv f2099e = new aatv();
+
+    /* JADX INFO: renamed from: f */
+    public static final umj f2100f = new umj("ug-assistant-speechs3proto2-pa.sandbox.googleapis.com");
+
+    /* JADX INFO: renamed from: g */
+    public final wnz f2101g;
+
+    private aatv() {
+        wnn wnnVar = new wnn(4);
+        wnnVar.m34514h("speechs3proto2-pa.googleapis.com");
+        wnnVar.m34514h("bh-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("cb-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ce-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("cf-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("dj-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ej-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("el-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("gc-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("je-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lr-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lu-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ok-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("oz-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("px-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("rg-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sf-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("si-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sl-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sm-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("tm-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("tp-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ue-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("wd-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("yo-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ug-assistant-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("daily-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("staging-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("super-staging-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("staging-assistant-s3-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("phil-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test324-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test478-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test189-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test389-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test393-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test67-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test304-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("khromov-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test136-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test143-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test388-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("parrotron-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("thacht-s3-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test215-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test99-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test203-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test218-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test381-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test10-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test424-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test36-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test80-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test145-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test491-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("universal-sd-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("id-smartedit-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ikowalski-pod-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ckcz-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("matthewtang-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test84-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("mnuhn-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("jiangboy-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test25-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("smart-dictation-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("yf-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("jfmortensen-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("jainmahaveer-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-test81-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("gwstest-s3-able-pri-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("gwstest-s3-baker-pri-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("gwstest-s3-charlie-pri-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("gwstest-s3-dog-pri-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("hanchenj-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("yingyinz-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("seno-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lukechen-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("translate-s3exp-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("translate-fishfood-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("jcol-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("dysarthric-fishfood-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("kannumehta-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("vimitha-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("tttaoyu-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("jonfan-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sripan-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("cmgomes-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("pomaleski-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("devhe-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("devhe-dev2-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lucasaguiar-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("matheusleon-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("andrevcunha-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("matheusfm-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("massuncao-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lucasagra-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("bartel-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lerm-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("geremy-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("jeenayin-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("jobuckley-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("rocharodrigo-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("paulobicalho-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("gargnikhil-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("joestar-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("brunobotelho-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("leekc-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("nengchen-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("paizhu-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("phil-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("spe-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sprod-cmh-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("spe-east-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("spe-south-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("spe-west-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sripan-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("yf-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("msab-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("jfmortensen-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lerm-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("csvillalta-pod-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("autopush-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("autopush-assistant-s3-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("assistant-server-dev-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("damndaniel-autopush-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("pewu-autopush-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("thacht-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("zilongh-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("bkutzman-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("alikidwai-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("asfe-shared-autopush-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("mkleiner-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("tomlenehan-autopush-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("vstashuk-dev-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("bruan-autopush-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("eh-asfe-autopush-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("saratan-autopush-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("speechs3proto2-pa.googleapis.com");
+        wnnVar.m34514h("bh-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("cb-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ce-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("cf-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("dj-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ej-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("el-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("gc-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("je-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lr-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("lu-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ok-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("oz-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("px-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("rg-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sf-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("si-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sl-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("sm-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("tm-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("tp-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ue-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("wd-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("yo-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34514h("ug-assistant-speechs3proto2-pa.sandbox.googleapis.com");
+        wnnVar.m34513g();
+        woy woyVar = new woy();
+        woyVar.mo34498d("https://www.googleapis.com/auth/android_clockwork_search");
+        woyVar.mo34498d("https://www.googleapis.com/auth/androidathome");
+        woyVar.mo34498d("https://www.googleapis.com/auth/assistant");
+        woyVar.mo34498d("https://www.googleapis.com/auth/assistant-sdk-prototype");
+        woyVar.mo34498d("https://www.googleapis.com/auth/calendar");
+        woyVar.mo34498d("https://www.googleapis.com/auth/chirp");
+        woyVar.mo34498d("https://www.googleapis.com/auth/connected-device-registration");
+        woyVar.mo34498d("https://www.googleapis.com/auth/docs");
+        woyVar.mo34498d("https://www.googleapis.com/auth/ender");
+        woyVar.mo34498d("https://www.googleapis.com/auth/gcm");
+        woyVar.mo34498d("https://www.googleapis.com/auth/gmail.send");
+        woyVar.mo34498d("https://www.googleapis.com/auth/googleit");
+        woyVar.mo34498d("https://www.googleapis.com/auth/googlenow");
+        woyVar.mo34498d("https://www.googleapis.com/auth/googleplay");
+        woyVar.mo34498d("https://www.googleapis.com/auth/lens");
+        woyVar.mo34498d("https://www.googleapis.com/auth/mobilemaps.firstparty");
+        woyVar.mo34498d("https://www.googleapis.com/auth/search-actions");
+        woyVar.mo34498d("https://www.googleapis.com/auth/speech/personalization");
+        woyVar.mo34498d("https://www.googleapis.com/auth/translate");
+        woyVar.mo34498d("https://www.googleapis.com/auth/weave.device");
+        woyVar.mo34498d("https://www.googleapis.com/auth/weave.home");
+        woyVar.mo34498d("https://www.googleapis.com/auth/weave.privileged");
+        woyVar.mo34498d("https://www.googleapis.com/auth/webhistory");
+        woyVar.mo34498d("https://www.googleapis.com/auth/youtube");
+        woyVar.mo34590g();
+        yjq yjqVar = f2097c;
+        yjq yjqVar2 = f2098d;
+        wpa.m34621q(yjqVar, yjqVar2);
+        wnv wnvVar = new wnv(4);
+        wnvVar.mo29447a("RunBlocking", yjqVar);
+        wnvVar.mo29447a("S3Bidi", yjqVar2);
+        this.f2101g = wnvVar.m34550f(true);
+        new wnv(4).m34550f(true);
+    }
+}

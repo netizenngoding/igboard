@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.libraries.inputmethod.ime.password.PasswordIme"
+        label="@string/APKTOOL_DUMMYVAL_0x7f140871"
+        language="und-Latn-x-password-ascii"
+        string_id="password_ascii">
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c2"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707da"
+            no_header_main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707dc"
+            variant="qwerty"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c2"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707dd"
+            no_header_main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707df"
+            variant="qwertz"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c2"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707d0"
+            no_header_main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707d2"
+            variant="azerty"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c2"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707d6"
+            no_header_main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707d8"
+            variant="dvorak"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c2"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707d3"
+            no_header_main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707d5"
+            variant="colemak"/>
+        <include
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c2"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707dd"
+            no_header_main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707df"
+            variant="serbian_qwertz"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1415e7"/>
+        <include
+            force_show_number_row="true"
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c2"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707d9"
+            variant="pcqwerty"/>
+        <keyboard_group variant="clariti">
+            <keyboard
+                def="@xml/APKTOOL_DUMMYVAL_0x7f170555"
+                type="prime">
+                <merge def="@xml/APKTOOL_DUMMYVAL_0x7f1704f2"/>
+                <merge def="@xml/APKTOOL_DUMMYVAL_0x7f170615"/>
+            </keyboard>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f17090b"/>
+            <override_keyboard_xml_conditions>
+                <language value="en"/>
+            </override_keyboard_xml_conditions>
+        </keyboard_group>
+    </ime>
+</framework>

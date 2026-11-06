@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" ascii_capable="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="olo-RU" string_id="ime_livvi_karelian">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bd" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170612" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1707cf" pk_language_tag="olo-Latn-RU" variant="livvi_karelian" variant_label="@string/APKTOOL_DUMMYVAL_0x7f141550" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c4" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170612" pk_language_tag="olo-Latn-RU" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c7" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170612" pk_language_tag="olo-Latn-RU" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706b9" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170612" pk_language_tag="olo-Latn-RU" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bb" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170612" pk_language_tag="olo-Latn-RU" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706ba" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170612" pk_language_tag="olo-Latn-RU" />
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706c3" lang_def="@xml/APKTOOL_DUMMYVAL_0x7f170612" pk_language_tag="olo-Latn-RU" />
+    </ime>
+</framework>

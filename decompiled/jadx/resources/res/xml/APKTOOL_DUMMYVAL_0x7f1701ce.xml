@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="hlb-IN"
+        string_id="ime_halbi_dynamic"
+        use_ascii_password_keyboard="true">
+        <include
+            dynamic_layout="halbi_devanagari"
+            href="@xml/APKTOOL_DUMMYVAL_0x7f1706c0"
+            main_def="@xml/APKTOOL_DUMMYVAL_0x7f1706d6"
+            pk_language_tag="hlb-Deva-IN"
+            variant="halbi"
+            variant_label="@string/APKTOOL_DUMMYVAL_0x7f1414cc"/>
+        <extra_values>
+            <item
+                id="@+id/APKTOOL_DUMMYVAL_0x7f0b02d7"
+                value="। "/>
+        </extra_values>
+    </ime>
+</framework>

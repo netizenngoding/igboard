@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/APKTOOL_DUMMYVAL_0x7f15034d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0731" />
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07036b" android:typeface="sans" android:textColor="?APKTOOL_DUMMYVAL_0x7f0404c1" android:layout_gravity="top" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b05f7" android:layout_width="wrap_content" android:layout_height="28.0sp" android:layout_marginTop="7.5dp" android:layout_marginBottom="7.5dp" android:paddingStart="8.0dp" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07036c" app:APKTOOL_DUMMYVAL_0x7f040389="true" app:APKTOOL_DUMMYVAL_0x7f040a96="ja-JP" />
+</LinearLayout>

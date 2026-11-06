@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="skr-XS" string_id="ime_saraiki_sindhi_arabic">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706b8" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1708c0" variant="saraiki" variant_label="@string/APKTOOL_DUMMYVAL_0x7f1415dc" />
+    </ime>
+</framework>

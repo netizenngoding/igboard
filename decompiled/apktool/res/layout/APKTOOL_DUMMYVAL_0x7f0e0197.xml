@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:theme="@style/APKTOOL_DUMMYVAL_0x7f1509d2" android:gravity="center" android:orientation="vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0450" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.apps.inputmethod.libs.jarvis.miscs.ColorfulScrollbarScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0451" android:visibility="gone" android:layout_width="32.0dp" android:layout_height="32.0dp" android:tint="?APKTOOL_DUMMYVAL_0x7f0404cc" android:layout_marginEnd="12.0dp" />
+                <TextView android:textAppearance="?APKTOOL_DUMMYVAL_0x7f040a4c" android:gravity="center_vertical" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0452" android:tag=".label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </com.google.android.apps.inputmethod.libs.jarvis.miscs.ColorfulScrollbarScrollView>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0193"
+    android:visibility="gone"
+    style="@style/APKTOOL_DUMMYVAL_0x7f150201">
+    <ImageView
+        android:tag="?attr/APKTOOL_DUMMYVAL_0x7f040072"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0806b1"
+        android:tint="@android:color/white"/>
+    <ImageView
+        android:tag="?attr/APKTOOL_DUMMYVAL_0x7f040071"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/APKTOOL_DUMMYVAL_0x7f0806ac"
+        android:tint="@color/APKTOOL_DUMMYVAL_0x7f06049d"/>
+</FrameLayout>

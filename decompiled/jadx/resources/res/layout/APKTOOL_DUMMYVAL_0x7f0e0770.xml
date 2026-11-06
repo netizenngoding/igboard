@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duplicateParentState="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700a3">
+    <FrameLayout
+        android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070873"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f070871"
+        android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070870"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b07b4"
+            android:tag=".expression-query-candidate-icon"
+            android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070873"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"/>
+    </FrameLayout>
+    <TextView
+        android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07086b"
+        android:textColor="@color/APKTOOL_DUMMYVAL_0x7f060abf"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b0600"
+        android:tag=".expression-query-candidate-text.expression-search-box-ripple.non-linear-scale"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f0806fc"
+        android:maxLines="1"
+        android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070872"
+        android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070333"
+        android:fontFeatureSettings="calt off"
+        style="@style/APKTOOL_DUMMYVAL_0x7f150cd1"/>
+    <FrameLayout style="@style/APKTOOL_DUMMYVAL_0x7f150cce">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b07b1"
+            android:tag=".expression-query-autofill-icon.expression-search-box-ripple"
+            android:padding="@dimen/APKTOOL_DUMMYVAL_0x7f070331"
+            android:layout_width="@dimen/APKTOOL_DUMMYVAL_0x7f070332"
+            android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f070332"
+            android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293"
+            android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080710"
+            android:importantForAccessibility="no"
+            style="@style/APKTOOL_DUMMYVAL_0x7f150cd1"/>
+    </FrameLayout>
+</RelativeLayout>

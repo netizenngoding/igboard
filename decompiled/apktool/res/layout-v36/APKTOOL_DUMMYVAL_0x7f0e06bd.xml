@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b29ef" android:paddingLeft="?android:listPreferredItemPaddingEnd" android:layout_width="wrap_content" android:layout_height="match_parent" android:filterTouchesWhenObscured="false" android:paddingStart="?android:listPreferredItemPaddingEnd" android:paddingVertical="@dimen/APKTOOL_DUMMYVAL_0x7f070899"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f08071d" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070898" />
+    <View android:background="?android:listDivider" android:layout_width="1.0dp" android:layout_height="40.0dp" />
+</LinearLayout>

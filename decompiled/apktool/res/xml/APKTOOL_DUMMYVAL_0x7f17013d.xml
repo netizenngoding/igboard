@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="doi-XC" string_id="ime_dogri_arabic">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f1706bf" main_def="@xml/APKTOOL_DUMMYVAL_0x7f1704e3" variant="dogri_arabic" variant_label="@string/APKTOOL_DUMMYVAL_0x7f14148b" />
+    </ime>
+</framework>

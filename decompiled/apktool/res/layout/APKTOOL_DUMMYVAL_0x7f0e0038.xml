@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00e8" android:layout_above="@id/APKTOOL_DUMMYVAL_0x7f0b00ea" style="@style/APKTOOL_DUMMYVAL_0x7f150018"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00e7" style="@style/APKTOOL_DUMMYVAL_0x7f150017">
+        <TextView android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00ee" android:text="@string/APKTOOL_DUMMYVAL_0x7f14003e" android:layout_alignParentTop="true" style="@style/APKTOOL_DUMMYVAL_0x7f15001a" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="91.0dp" android:layout_alignParentTop="true">
+            <com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard android:layout_gravity="bottom" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00e9" android:layout_marginBottom="5.0dp" android:layout_weight="1.0" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f140041" style="@style/APKTOOL_DUMMYVAL_0x7f150019" />
+            <LinearLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:layout_weight="0.0">
+                <com.google.android.material.button.MaterialButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07006b" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00e5" android:tag=".keyboard-clipboard-dialog-negative-button.non-linear-scale" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07006a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07006a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070068" android:text="@string/APKTOOL_DUMMYVAL_0x7f1404f4" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070069" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070069" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07006c" style="?APKTOOL_DUMMYVAL_0x7f0403fe" />
+                <com.google.android.material.button.MaterialButton android:textSize="@dimen/APKTOOL_DUMMYVAL_0x7f07006b" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b00e6" android:tag=".non-linear-scale" android:paddingTop="@dimen/APKTOOL_DUMMYVAL_0x7f07006a" android:paddingBottom="@dimen/APKTOOL_DUMMYVAL_0x7f07006a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/APKTOOL_DUMMYVAL_0x7f070068" android:text="@string/APKTOOL_DUMMYVAL_0x7f14050a" android:paddingStart="@dimen/APKTOOL_DUMMYVAL_0x7f070069" android:paddingEnd="@dimen/APKTOOL_DUMMYVAL_0x7f070069" android:layout_marginStart="@dimen/APKTOOL_DUMMYVAL_0x7f07006e" style="?APKTOOL_DUMMYVAL_0x7f0403fe" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

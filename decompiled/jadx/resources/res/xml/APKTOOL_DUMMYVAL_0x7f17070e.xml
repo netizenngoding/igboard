@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170493"/>
+    <keyboard>
+        <view
+            layout="@layout/APKTOOL_DUMMYVAL_0x7f0e0266"
+            override="motion_event_handler"
+            type="body">
+            <motion_event_handler class=".libs.latin5.handler.LatinMotionEventHandler"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170ebf"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170bef"/>
+            <if enable_korean_composition_mode="false">
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a55"/>
+            </if>
+            <else>
+                <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a69"/>
+            </else>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a68"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a88"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170a87"/>
+            <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c3d"/>
+        </view>
+    </keyboard>
+    <if enable_number_row="true">
+        <include href="@xml/APKTOOL_DUMMYVAL_0x7f17070f"/>
+    </if>
+</framework>

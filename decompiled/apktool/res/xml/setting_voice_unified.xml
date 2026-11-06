@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/APKTOOL_DUMMYVAL_0x7f140cae" android:key="@string/APKTOOL_DUMMYVAL_0x7f140a81"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.ColoredBackgroundSwitchPreference android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140bad" android:key="@string/APKTOOL_DUMMYVAL_0x7f14097a" />
+    <PreferenceCategory android:title="@string/APKTOOL_DUMMYVAL_0x7f1402a1" android:dependency="@string/APKTOOL_DUMMYVAL_0x7f14097a">
+        <com.google.android.libraries.inputmethod.preferencewidgets.CustomSelectorWithWidgetPreference android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f080495" android:persistent="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f140b99" android:key="@string/APKTOOL_DUMMYVAL_0x7f140927" android:fragment="com.google.android.apps.inputmethod.latin.preference.JetsonVoiceSettingsFragment" />
+        <com.google.android.libraries.inputmethod.preferencewidgets.CustomSelectorWithWidgetPreference android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f080496" android:persistent="false" android:title="@string/APKTOOL_DUMMYVAL_0x7f1402a3" android:key="@string/APKTOOL_DUMMYVAL_0x7f140928" android:summary="@string/APKTOOL_DUMMYVAL_0x7f1402a2" android:fragment="com.google.android.apps.inputmethod.latin.preference.TraditionalVoiceSettingsFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory android:dependency="@string/APKTOOL_DUMMYVAL_0x7f14097a">
+        <SwitchPreferenceCompat android:icon="@drawable/APKTOOL_DUMMYVAL_0x7f08040c" android:persistent="true" android:title="@string/APKTOOL_DUMMYVAL_0x7f140ca3" android:key="@string/APKTOOL_DUMMYVAL_0x7f140ab0" android:summary="@string/APKTOOL_DUMMYVAL_0x7f140ca2" />
+    </PreferenceCategory>
+</PreferenceScreen>

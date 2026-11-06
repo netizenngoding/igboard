@@ -1,0 +1,68 @@
+package p000;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public enum shg {
+    UNKNOWN(false),
+    TIMEOUT(true),
+    USER_TERMINATED(false),
+    RECOGNITION_ERROR(true),
+    RECOGNITION_NETWORK_ERROR(true),
+    RECOGNITION_SERVER_PROTOCOL_ERROR(true),
+    RECOGNITION_AUDIO_ERROR(true),
+    AUDIO_FOCUS_FAILURE(true),
+    INITIALIZATION_ERROR(true),
+    NGA_DICTATION_STOPPED(false),
+    END_OF_DATA(false),
+    ONLY_ZEROS(false),
+    SYSTEM_SILENCED(false),
+    WEAR_RESTART_VOICE(false),
+    KEYBOARD_CHANGE(false),
+    SELECTION_CHANGE(false),
+    ABORT_COMPOSING(false),
+    FACTORY_CHANGED(false),
+    VOICE_INPUT_HANDLER_CHANGE(false),
+    MIC_TAP(false),
+    UNIVERSAL_DICTATION_FLAG_CHANGE(false),
+    PREVIOUS_SESSION_NOT_CLOSE(false),
+    UI_CLOSED(false),
+    RECEIVED_A11Y_TALKBACK_EVENT(false),
+    SHUTDOWN(false),
+    SHUTDOWN_ON_DEACTIVATE(false),
+    SHUTDOWN_DELAYED(false),
+    SHUTDOWN_LATIN_IME_ON_DEACTIVATE(false),
+    SHUTDOWN_AGENTIC_EXTENSION_ON_DEACTIVATE(false),
+    SHUTDOWN_UNIVERSAL_EXTENSION_ON_DEACTIVATE(false),
+    SHUTDOWN_HMM_PROCESSOR_ON_DEACTIVATE(false),
+    SHUTDOWN_SIMPLE_JAPANESE_IME_ON_DEACTIVATE(false),
+    SHUTDOWN_HANDWRITING_IME_ON_DEACTIVATE(false),
+    SHUTDOWN_SWITCHER_ON_DEACTIVATE(false),
+    SHUTDOWN_SWITCH_TO_FALLBACK(false),
+    SHUTDOWN_RESTORE_PRIMARY(false),
+    SHUTDOWN_NGA_ON_DEACTIVATE(false),
+    SHUTDOWN_NGA_INPUT_CONDITION_CHANGED(false),
+    SHUTDOWN_NGA_ON_CLOSE(false),
+    SHUTDOWN_AGENTIC_WRAPPER_ON_DEACTIVATE(false),
+    SHUTDOWN_VOICE_HANDLER_WRAPPER_ON_DEACTIVATE(false),
+    RESHOW_UI(false),
+    STOP_LISTENING(false),
+    STOP_RECOGNITION(false),
+    UNHANDLED_KEY_CODE(false),
+    EMPTY_RESULT(true),
+    SAFETY_BLOCKAGE(true),
+    SERVER_QUOTA_DRAINED(true),
+    OTHER(false);
+
+
+    /* JADX INFO: renamed from: X */
+    public final boolean f61756X;
+
+    shg(boolean z) {
+        this.f61756X = z;
+    }
+
+    /* JADX INFO: renamed from: a */
+    public final boolean m30260a() {
+        return this == RECOGNITION_NETWORK_ERROR || this == RECOGNITION_SERVER_PROTOCOL_ERROR || this == RECOGNITION_AUDIO_ERROR || this == RECOGNITION_ERROR || this == INITIALIZATION_ERROR;
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0779" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.text.AutoCenterScaleTextView android:textSize="20.0dp" android:textColor="@color/APKTOOL_DUMMYVAL_0x7f0609f8" android:ellipsize="end" android:gravity="start" android:layout_gravity="start" android:tag=".label" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/APKTOOL_DUMMYVAL_0x7f140b25" android:maxLines="1" android:layout_weight="1.0" app:APKTOOL_DUMMYVAL_0x7f040665="?APKTOOL_DUMMYVAL_0x7f040160" app:APKTOOL_DUMMYVAL_0x7f04096d="APKTOOL_DUMMYVAL_0x7f0b0798" />
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/APKTOOL_DUMMYVAL_0x7f0b0776" android:tag=".nav_back_key.tablet" android:background="@drawable/APKTOOL_DUMMYVAL_0x7f080752" android:focusable="true" android:clickable="true" android:layout_width="36.0dp" android:layout_height="36.0dp" android:foreground="@drawable/APKTOOL_DUMMYVAL_0x7f080293" android:contentDescription="@string/APKTOOL_DUMMYVAL_0x7f1403a3">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:tag=".label" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/APKTOOL_DUMMYVAL_0x7f080425" android:scaleType="centerInside" />
+    </FrameLayout>
+</LinearLayout>

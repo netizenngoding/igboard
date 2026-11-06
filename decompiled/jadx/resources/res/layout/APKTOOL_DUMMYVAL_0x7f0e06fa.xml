@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.NonLinearScaleAndAutoMirroredImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/APKTOOL_DUMMYVAL_0x7f0b03c2"
+    android:tag=".expression-text-btn-content"
+    android:layout_width="48dp"
+    android:layout_height="@dimen/APKTOOL_DUMMYVAL_0x7f0700ed"
+    android:scaleType="centerInside"
+    android:layout_marginEnd="@dimen/APKTOOL_DUMMYVAL_0x7f0700ee"/>

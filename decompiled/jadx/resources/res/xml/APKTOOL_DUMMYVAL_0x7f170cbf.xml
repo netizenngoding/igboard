@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c30"/>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c37"/>
+    <include href="@xml/APKTOOL_DUMMYVAL_0x7f170c38"/>
+    <key_mapping>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f44"
+            view_id="@+id/key_pos_number_line1_1"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f45"
+            view_id="@+id/key_pos_number_line1_2"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f46"
+            view_id="@+id/key_pos_number_line1_3"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b2031"
+            view_id="@+id/key_pos_number_line1_4"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f47"
+            view_id="@+id/key_pos_number_line2_1"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f48"
+            view_id="@+id/key_pos_number_line2_2"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f49"
+            view_id="@+id/key_pos_number_line2_3"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b241f"
+            view_id="@+id/key_pos_number_line2_4"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f4a"
+            view_id="@+id/key_pos_number_line3_1"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f4b"
+            view_id="@+id/key_pos_number_line3_2"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f4c"
+            view_id="@+id/key_pos_number_line3_3"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0e10"
+            view_id="@+id/key_pos_number_line3_4"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0cf4"
+            view_id="@+id/key_pos_number_line4_1"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b0f43"
+            view_id="@+id/key_pos_number_line4_2"/>
+        <mapping
+            key_id="@+id/APKTOOL_DUMMYVAL_0x7f0b23a3"
+            view_id="@+id/key_pos_number_line4_3"/>
+    </key_mapping>
+</framework>
