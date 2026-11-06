@@ -6,6 +6,7 @@ import android.content.Context;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
@@ -30,6 +31,7 @@ import java.lang.reflect.Method;
  * crashing the keyboard.
  */
 public final class TogHook {
+    private static final String LOG = "iBoardGlass";
     private static final int TAG_KEY = 0x7f0f0001;
     private static final int TAG_BUTTON = 0x7f0f0002;
     private static final int TAG_SEEK = 0x7f0f0003;
@@ -42,6 +44,7 @@ public final class TogHook {
 
     public static void app(final Application application) {
         try {
+            Log.i(LOG, "app() on " + application.getClass().getName());
             application.registerActivityLifecycleCallbacks(new Application.ActivityLifecycleCallbacks() {
                 @Override
                 public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
@@ -80,6 +83,7 @@ public final class TogHook {
 
     static void hook(final Activity activity) {
         try {
+            Log.i(LOG, "hook() " + activity.getClass().getName());
             final View decor = activity.getWindow().getDecorView();
             if (decor == null) {
                 return;
@@ -145,6 +149,7 @@ public final class TogHook {
             if (button == null || button.getTag(TAG_BUTTON) != null) {
                 return;
             }
+            Log.i(LOG, "sw() " + button.getClass().getName());
             CompoundButton parent = button;
             int accent = Glass.accent(button);
             GlassTrack track = new GlassTrack(button);
@@ -170,8 +175,10 @@ public final class TogHook {
                 }
             } else {
                 boolean ok = call(parent, "setThumbDrawable", new Class<?>[]{Drawable.class}, thumb);
-                ok &= call(parent, "setTrackDrawable", new Class<?>[]{Drawable.class}, track);
-                if (!ok) {
+                boolean okTrack = call(parent, "setTrackDrawable", new Class<?>[]{Drawable.class}, track);
+                Log.i(LOG, "sw() reflective on " + parent.getClass().getName()
+                        + " thumb=" + ok + " track=" + okTrack);
+                if (!ok || !okTrack) {
                     return;
                 }
                 call(parent, "setThumbTintList", new Class<?>[]{android.content.res.ColorStateList.class},
@@ -190,7 +197,8 @@ public final class TogHook {
             button.setTag(TAG_BUTTON, Boolean.TRUE);
             button.requestLayout();
             button.invalidate();
-        } catch (Throwable ignored) {
+        } catch (Throwable error) {
+            Log.w(LOG, "sw() failed: " + error);
         }
     }
 
@@ -212,7 +220,9 @@ public final class TogHook {
             seekBar.setTag(TAG_SEEK, Boolean.TRUE);
             seekBar.requestLayout();
             seekBar.invalidate();
-        } catch (Throwable ignored) {
+            Log.i(LOG, "seek() " + seekBar.getClass().getName());
+        } catch (Throwable error) {
+            Log.w(LOG, "seek() failed: " + error);
         }
     }
 
@@ -237,7 +247,8 @@ public final class TogHook {
             method.setAccessible(true);
             method.invoke(target, args);
             return true;
-        } catch (Throwable ignored) {
+        } catch (Throwable error) {
+            Log.w(LOG, "call " + name + " failed: " + error);
             return false;
         }
     }
